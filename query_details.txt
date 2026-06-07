@@ -1,0 +1,1092 @@
+================ ID 102 =================
+{
+  "id": 102,
+  "data": {
+    "type": "EssentialElements\\Text",
+    "properties": {
+      "content": {
+        "content": {
+          "text": ""
+        }
+      },
+      "design": {
+        "typography": {
+          "typography": {
+            "custom": {
+              "customTypography": {
+                "fontSize": null,
+                "fontWeight": {
+                  "breakpoint_base": "600"
+                },
+                "advanced": null
+              }
+            }
+          },
+          "color": {
+            "breakpoint_base": "var(--bde-palette-color-1-560f7d04-3440-46c0-956b-93c1bb5d7a7a)"
+          }
+        }
+      },
+      "settings": {
+        "advanced": {
+          "tag": "span"
+        }
+      }
+    }
+  },
+  "children": [],
+  "_parentId": 101
+}
+================ ID 103 =================
+{
+  "id": 103,
+  "data": {
+    "type": "EssentialElements\\Heading",
+    "properties": {
+      "content": {
+        "content": {
+          "text": "",
+          "tags": "h1"
+        }
+      },
+      "design": {
+        "size": {
+          "width": {
+            "breakpoint_base": {
+              "number": 56.25,
+              "unit": "rem",
+              "style": "56.25rem"
+            }
+          }
+        },
+        "spacing": {
+          "margin_top": {
+            "breakpoint_base": {
+              "number": "var(--hsp-xs)",
+              "unit": "custom",
+              "style": "var(--hsp-xs)"
+            }
+          },
+          "margin_bottom": {
+            "breakpoint_base": {
+              "number": "var(--hsp-s)",
+              "unit": "custom",
+              "style": "var(--hsp-s)"
+            }
+          }
+        },
+        "typography": {
+          "color": {
+            "breakpoint_base": "var(--bde-background-color)"
+          }
+        }
+      }
+    }
+  },
+  "children": [],
+  "_parentId": 101
+}
+================ ID 104 =================
+{
+  "id": 104,
+  "data": {
+    "type": "EssentialElements\\Text",
+    "properties": {
+      "content": {
+        "content": {
+          "text": ""
+        }
+      },
+      "design": {
+        "size": {
+          "width": {
+            "breakpoint_base": {
+              "number": 37.5,
+              "unit": "rem",
+              "style": "37.5rem"
+            }
+          }
+        },
+        "typography": {
+          "color": {
+            "breakpoint_base": "var(--bde-background-color)"
+          }
+        }
+      },
+      "settings": {
+        "advanced": {
+          "tag": "p"
+        }
+      }
+    }
+  },
+  "children": [],
+  "_parentId": 101
+}
+================ ID 320 =================
+{
+  "id": 320,
+  "data": {
+    "type": "EssentialElements\\CheckmarkList",
+    "properties": {
+      "content": {
+        "content": {
+          "list": [
+            {
+              "icon": "yes",
+              "text": "<strong>Driven by collaboration</strong><br>Strong collaboration and open communication are at the core of how we work, creating a relaxed and professional atmosphere that leads to better, more authentic results."
+            },
+            {
+              "icon": "yes",
+              "text": "<strong>Speed without compromise</strong> <br>Fast delivery, clear communication and dependable execution without sacrificing quality."
+            },
+            {
+              "icon": "yes",
+              "text": "<strong>One point of contact</strong><br>From briefing to final delivery, we manage the entire production process so your team can stay focused on the event or project itself."
+            },
+            {
+              "text": "<strong>Trusted professional network</strong><br>We collaborate with a carefully selected network of photographers, videographers and production specialists, ensuring consistent quality across projects and locations.",
+              "icon": "yes"
+            }
+          ],
+          "positive_icon": {
+            "id": 410,
+            "slug": "icon-check.",
+            "name": "check",
+            "svgCode": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. --><path d=\"M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z\"/></svg>",
+            "iconSetSlug": "FontAwesome 6 Free - Solid"
+          },
+          "negative_icon": []
+        }
+      },
+      "design": {
+        "icon": {
+          "background": null,
+          "size": {
+            "breakpoint_base": {
+              "number": 24,
+              "unit": "px",
+              "style": "24px"
+            }
+          },
+          "radius": {
+            "breakpoint_base": {
+              "number": 50,
+              "unit": "%",
+              "style": "50%"
+            }
+          },
+          "padding": {
+            "breakpoint_base": {
+              "number": 1,
+              "unit": "px",
+              "style": "1px"
+            }
+          },
+          "positive_color": "var(--bde-background-color)",
+          "negative_color": "var(--hcl-neutral-6)"
+        },
+        "layout": {
+          "alignment_when_vertical": null,
+          "horizontal": false,
+          "force_vertical_stacking": null,
+          "text_indent": {
+            "breakpoint_base": {
+              "number": 8,
+              "unit": "px",
+              "style": "8px"
+            }
+          },
+          "space_between_items": {
+            "breakpoint_base": {
+              "number": 13,
+              "unit": "px",
+              "style": "13px"
+            }
+          }
+        },
+        "typography": {
+          "typography": {
+            "custom": {
+              "customTypography": {
+                "fontSize": null,
+                "advanced": null,
+                "fontWeight": null
+              }
+            }
+          },
+          "color": {
+            "breakpoint_base": "var(--bde-background-color)"
+          }
+        }
+      }
+    }
+  },
+  "children": [],
+  "_parentId": 242
+}
+================ ID 623 =================
+{
+  "id": 623,
+  "data": {
+    "type": "EssentialElements\\LogoList",
+    "properties": {
+      "content": {
+        "setting": {
+          "type_of_logo_bar": "un-static-image-grid",
+          "logos": [
+            {
+              "image": {
+                "id": 565,
+                "filename": "abn-amro-logo-new-colors-1.png",
+                "url": "https://fastelevatemedia.com/wp-content/uploads/2026/03/abn-amro-logo-new-colors-1.png",
+                "alt": "",
+                "caption": "",
+                "mime": "image/png",
+                "type": "image",
+                "sizes": {
+                  "medium": {
+                    "height": 84,
+                    "width": 300,
+                    "url": "https://fastelevatemedia.com/wp-content/uploads/2026/03/abn-amro-logo-new-colors-1-300x84.png",
+                    "orientation": "landscape"
+                  },
+                  "large": {
+                    "height": 286,
+                    "width": 1024,
+                    "url": "https://fastelevatemedia.com/wp-content/uploads/2026/03/abn-amro-logo-new-colors-1-1024x286.png",
+                    "orientation": "landscape"
+                  },
+                  "medium_large": {
+                    "height": 214,
+                    "width": 768,
+                    "url": "https://fastelevatemedia.com/wp-content/uploads/2026/03/abn-amro-logo-new-colors-1-768x214.png",
+                    "orientation": "landscape"
+                  },
+                  "1536x1536": {
+                    "height": 429,
+                    "width": 1536,
+                    "url": "https://fastelevatemedia.com/wp-content/uploads/2026/03/abn-amro-logo-new-colors-1-1536x429.png",
+                    "orientation": "landscape"
+                  },
+                  "full": {
+                    "url": "https://fastelevatemedia.com/wp-content/uploads/2026/03/abn-amro-logo-new-colors-1.png",
+                    "height": 536,
+                    "width": 1920,
+                    "orientation": "landscape"
+                  }
+                },
+                "attributes": {
+                  "srcset": "https://fastelevatemedia.com/wp-content/uploads/2026/03/abn-amro-logo-new-colors-1.png 1920w, https://fastelevatemedia.com/wp-content/uploads/2026/03/abn-amro-logo-new-colors-1-300x84.png 300w, https://fastelevatemedia.com/wp-content/uploads/2026/03/abn-amro-logo-new-colors-1-1024x286.png 1024w, https://fastelevatemedia.com/wp-content/uploads/2026/03/abn-amro-logo-new-colors-1-768x214.png 768w, https://fastelevatemedia.com/wp-content/uploads/2026/03/abn-amro-logo-new-colors-1-1536x429.png 1536w",
+                  "sizes": "(max-width: 1920px) 100vw, 1920px"
+                }
+              }
+            },
+            {
+              "image": {
+                "id": 567,
+                "filename": "postnl-3.png",
+                "url": "https://fastelevatemedia.com/wp-content/uploads/2026/03/postnl-3.png",
+                "alt": "",
+                "caption": "",
+                "mime": "image/png",
+                "type": "image",
+                "sizes": {
+                  "medium": {
+                    "height": 275,
+                    "width": 300,
+                    "url": "https://fastelevatemedia.com/wp-content/uploads/2026/03/postnl-3-300x275.png",
+                    "orientation": "landscape"
+                  },
+                  "large": {
+                    "height": 938,
+                    "width": 1024,
+                    "url": "https://fastelevatemedia.com/wp-content/uploads/2026/03/postnl-3-1024x938.png",
+                    "orientation": "landscape"
+                  },
+                  "medium_large": {
+                    "height": 703,
+                    "width": 768,
+                    "url": "https://fastelevatemedia.com/wp-content/uploads/2026/03/postnl-3-768x703.png",
+                    "orientation": "landscape"
+                  },
+                  "full": {
+                    "url": "https://fastelevatemedia.com/wp-content/uploads/2026/03/postnl-3.png",
+                    "height": 1011,
+                    "width": 1104,
+                    "orientation": "landscape"
+                  }
+                },
+                "attributes": {
+                  "srcset": "https://fastelevatemedia.com/wp-content/uploads/2026/03/postnl-3.png 1104w, https://fastelevatemedia.com/wp-content/uploads/2026/03/postnl-3-300x275.png 300w, https://fastelevatemedia.com/wp-content/uploads/2026/03/postnl-3-1024x938.png 1024w, https://fastelevatemedia.com/wp-content/uploads/2026/03/postnl-3-768x703.png 768w",
+                  "sizes": "(max-width: 1104px) 100vw, 1104px"
+                }
+              }
+            },
+            {
+              "image": {
+                "id": 569,
+                "filename": "klarna.jpg",
+                "url": "https://fastelevatemedia.com/wp-content/uploads/2026/03/klarna.jpg",
+                "alt": "",
+                "caption": "",
+                "mime": "image/jpeg",
+                "type": "image",
+                "sizes": {
+                  "medium": {
+                    "height": 167,
+                    "width": 300,
+                    "url": "https://fastelevatemedia.com/wp-content/uploads/2026/03/klarna-300x167.jpg",
+                    "orientation": "landscape"
+                  },
+                  "large": {
+                    "height": 569,
+                    "width": 1024,
+                    "url": "https://fastelevatemedia.com/wp-content/uploads/2026/03/klarna-1024x569.jpg",
+                    "orientation": "landscape"
+                  },
+                  "medium_large": {
+                    "height": 427,
+                    "width": 768,
+                    "url": "https://fastelevatemedia.com/wp-content/uploads/2026/03/klarna-768x427.jpg",
+                    "orientation": "landscape"
+                  },
+                  "1536x1536": {
+                    "height": 854,
+                    "width": 1536,
+                    "url": "https://fastelevatemedia.com/wp-content/uploads/2026/03/klarna-1536x854.jpg",
+                    "orientation": "landscape"
+                  },
+                  "full": {
+                    "url": "https://fastelevatemedia.com/wp-content/uploads/2026/03/klarna.jpg",
+                    "height": 1067,
+                    "width": 1920,
+                    "orientation": "landscape"
+                  }
+                },
+                "attributes": {
+                  "srcset": "https://fastelevatemedia.com/wp-content/uploads/2026/03/klarna.jpg 1920w, https://fastelevatemedia.com/wp-content/uploads/2026/03/klarna-300x167.jpg 300w, https://fastelevatemedia.com/wp-content/uploads/2026/03/klarna-1024x569.jpg 1024w, https://fastelevatemedia.com/wp-content/uploads/2026/03/klarna-768x427.jpg 768w, https://fastelevatemedia.com/wp-content/uploads/2026/03/klarna-1536x854.jpg 1536w",
+                  "sizes": "(max-width: 1920px) 100vw, 1920px"
+                }
+              }
+            },
+            {
+              "image": {
+                "id": 571,
+                "filename": "vattenfall_logo.png",
+                "url": "https://fastelevatemedia.com/wp-content/uploads/2026/03/vattenfall_logo.png",
+                "alt": "",
+                "caption": "",
+                "mime": "image/png",
+                "type": "image",
+                "sizes": {
+                  "medium": {
+                    "height": 48,
+                    "width": 300,
+                    "url": "https://fastelevatemedia.com/wp-content/uploads/2026/03/vattenfall_logo-300x48.png",
+                    "orientation": "landscape"
+                  },
+                  "large": {
+                    "height": 163,
+                    "width": 1024,
+                    "url": "https://fastelevatemedia.com/wp-content/uploads/2026/03/vattenfall_logo-1024x163.png",
+                    "orientation": "landscape"
+                  },
+                  "medium_large": {
+                    "height": 122,
+                    "width": 768,
+                    "url": "https://fastelevatemedia.com/wp-content/uploads/2026/03/vattenfall_logo-768x122.png",
+                    "orientation": "landscape"
+                  },
+                  "1536x1536": {
+                    "height": 245,
+                    "width": 1536,
+                    "url": "https://fastelevatemedia.com/wp-content/uploads/2026/03/vattenfall_logo-1536x245.png",
+                    "orientation": "landscape"
+                  },
+                  "full": {
+                    "url": "https://fastelevatemedia.com/wp-content/uploads/2026/03/vattenfall_logo.png",
+                    "height": 306,
+                    "width": 1920,
+                    "orientation": "landscape"
+                  }
+                },
+                "attributes": {
+                  "srcset": "https://fastelevatemedia.com/wp-content/uploads/2026/03/vattenfall_logo.png 1920w, https://fastelevatemedia.com/wp-content/uploads/2026/03/vattenfall_logo-300x48.png 300w, https://fastelevatemedia.com/wp-content/uploads/2026/03/vattenfall_logo-1024x163.png 1024w, https://fastelevatemedia.com/wp-content/uploads/2026/03/vattenfall_logo-768x122.png 768w, https://fastelevatemedia.com/wp-content/uploads/2026/03/vattenfall_logo-1536x245.png 1536w",
+                  "sizes": "(max-width: 1920px) 100vw, 1920px"
+                }
+              }
+            },
+            {
+              "image": {
+                "id": 573,
+                "filename": "velux-1.jpg",
+                "url": "https://fastelevatemedia.com/wp-content/uploads/2026/03/velux-1.jpg",
+                "alt": "",
+                "caption": "",
+                "mime": "image/jpeg",
+                "type": "image",
+                "sizes": {
+                  "full": {
+                    "url": "https://fastelevatemedia.com/wp-content/uploads/2026/03/velux-1.jpg",
+                    "height": 10417,
+                    "width": 10417,
+                    "orientation": "landscape"
+                  }
+                },
+                "attributes": {
+                  "srcset": "",
+                  "sizes": "(max-width: 10417px) 100vw, 10417px"
+                }
+              },
+              "size": "full"
+            }
+          ],
+          "logos_dynamic_meta": null
+        }
+      },
+      "design": {
+        "container": {
+          "max_width": "null",
+          "top_margin": "null",
+          "bottom_margin": "null",
+          "scrollable": false,
+          "gradient_overlay": "both",
+          "gradient": [],
+          "gradient_color": "null",
+          "gradient_width": "null",
+          "end_outside_the_viewport": true,
+          "margin": {
+            "base": {
+              "right": {
+                "number": "auto",
+                "unit": "custom",
+                "style": "auto"
+              },
+              "left": {
+                "number": "auto",
+                "unit": "custom",
+                "style": "auto"
+              },
+              "top": {
+                "number": 20,
+                "unit": "px",
+                "style": "20px"
+              },
+              "bottom": {
+                "number": 20,
+                "unit": "px",
+                "style": "20px"
+              }
+            }
+          }
+        },
+        "image_grid_setting": {
+          "horizontal_spacing": {
+            "base": {
+              "number": "null",
+              "unit": "px",
+              "style": ""
+            }
+          },
+          "vertical_spacing": {
+            "base": {
+              "number": "null",
+              "unit": "px",
+              "style": ""
+            }
+          },
+          "alignment": {
+            "tablet_landscape": "flex-start",
+            "base": "flex-start",
+            "tablet_portait": "flex-start"
+          },
+          "item_per_row": {
+            "base": "6",
+            "phone_portrait": "2",
+            "tablet_portait": "4"
+          },
+          "gap": null,
+          "image_padding": {
+            "breakpoint_base": {
+              "number": 10,
+              "unit": "px",
+              "style": "10px"
+            }
+          },
+          "item_bg_color": "#f4f4f4",
+          "item_alignment": {
+            "base": "center"
+          },
+          "items_alignment": null,
+          "items_per_row": null
+        },
+        "carousel_setting": {
+          "animation_type": "stop-on-hover",
+          "gap_between_logos": "null",
+          "item_width": null,
+          "item_height": "null",
+          "animation_duration_sec": null,
+          "gap": {
+            "breakpoint_base": {
+              "number": 25,
+              "unit": "px",
+              "style": "25px"
+            }
+          },
+          "gradient_overlay": "both",
+          "gradient_color": "#FFFFFFFF",
+          "gradient_width": {
+            "breakpoint_base": {
+              "number": 50,
+              "unit": "px",
+              "style": "50px"
+            }
+          },
+          "end_outside_the_viewport": true,
+          "full_width_right": null,
+          "animation_duration": {
+            "number": 40,
+            "unit": "s",
+            "style": "40s"
+          }
+        },
+        "scrollable_row_setting": {
+          "item_per_row": {
+            "base": "5"
+          },
+          "items_per_view": {
+            "breakpoint_base": 5
+          },
+          "gap": null
+        },
+        "spacing": {
+          "space_above": null,
+          "space_below": null,
+          "between_logos": {
+            "breakpoint_base": {
+              "number": "var(--hsp-xxl)",
+              "unit": "custom",
+              "style": "var(--hsp-xxl)"
+            },
+            "breakpoint_phone_portrait": {
+              "number": 2,
+              "unit": "rem",
+              "style": "2rem"
+            }
+          },
+          "container": {
+            "margin_bottom": null
+          }
+        },
+        "images": {
+          "item_bg_color": "#F8F8F8FF",
+          "item_bg_color_hover": null,
+          "image_padding": {
+            "breakpoint_base": {
+              "number": 10,
+              "unit": "px",
+              "style": "10px"
+            }
+          },
+          "gap": {
+            "breakpoint_base": {
+              "number": 5,
+              "unit": "px",
+              "style": "5px"
+            }
+          }
+        },
+        "list": {
+          "type": "animated",
+          "width": {
+            "breakpoint_base": {
+              "number": "100%",
+              "unit": "custom",
+              "style": "100%"
+            }
+          },
+          "alignment": null,
+          "gradient_overlay": {
+            "type": "both",
+            "color": "var(--bde-palette-color-2-46b7ea4c-e856-4b3a-96d7-ae8c8721a4bf)",
+            "width": {
+              "breakpoint_base": {
+                "number": 50,
+                "unit": "px",
+                "style": "50px"
+              }
+            }
+          },
+          "animation": {
+            "animation_type": "stop-on-hover",
+            "animation_duration": {
+              "number": 15,
+              "unit": "s",
+              "style": "15s"
+            },
+            "direction": "to-left"
+          },
+          "vertical_gap": {
+            "breakpoint_base": {
+              "number": 32,
+              "unit": "px",
+              "style": "32px"
+            }
+          }
+        },
+        "logo": {
+          "max_width": null,
+          "width": {
+            "breakpoint_base": {
+              "number": 190,
+              "unit": "px",
+              "style": "190px"
+            }
+          },
+          "max_height": {
+            "breakpoint_base": {
+              "number": 90,
+              "unit": "px",
+              "style": "90px"
+            }
+          },
+          "height": {
+            "breakpoint_base": {
+              "number": "var(--hsp-m)",
+              "unit": "custom",
+              "style": "var(--hsp-m)"
+            }
+          }
+        }
+      }
+    }
+  },
+  "children": [],
+  "_parentId": 621
+}
+================ ID 375 =================
+{
+  "id": 375,
+  "data": {
+    "type": "EssentialElements\\IconBox",
+    "properties": {
+      "design": {
+        "container": {
+          "width": null,
+          "background": null,
+          "shadow": null,
+          "borders": null,
+          "alignment": {
+            "breakpoint_base": "left"
+          },
+          "padding": {
+            "breakpoint_base": {
+              "left": {
+                "number": 0,
+                "unit": "px",
+                "style": "0px"
+              },
+              "right": {
+                "number": 0,
+                "unit": "px",
+                "style": "0px"
+              },
+              "top": {
+                "number": 0,
+                "unit": "px",
+                "style": "0px"
+              },
+              "bottom": {
+                "number": 0,
+                "unit": "px",
+                "style": "0px"
+              }
+            }
+          }
+        },
+        "spacing": {
+          "above_button": null,
+          "below_title": {
+            "breakpoint_base": {
+              "number": 0,
+              "unit": "rem",
+              "style": "0rem"
+            }
+          },
+          "after_icon": {
+            "breakpoint_base": {
+              "number": "var(--hsp-xxs)",
+              "unit": "custom",
+              "style": "var(--hsp-xxs)"
+            }
+          }
+        },
+        "icon": {
+          "style": {
+            "style": "none",
+            "padding": {
+              "breakpoint_base": {
+                "number": 8,
+                "unit": "px",
+                "style": "8px"
+              }
+            },
+            "outline_width": {
+              "breakpoint_base": {
+                "number": 3,
+                "unit": "px",
+                "style": "3px"
+              }
+            },
+            "corners": "round",
+            "radius": {
+              "number": 4,
+              "unit": "px",
+              "style": "4px"
+            },
+            "size": {
+              "breakpoint_base": {
+                "number": 24,
+                "unit": "px",
+                "style": "24px"
+              }
+            },
+            "nudge": {
+              "x": null
+            },
+            "color": "var(--hcl-neutral-12)",
+            "background": null
+          },
+          "position": "left",
+          "vertical_alignment": null,
+          "top_at": null
+        },
+        "typography": {
+          "title": {
+            "typography": {
+              "custom": {
+                "customTypography": {
+                  "fontSize": {
+                    "breakpoint_base": {
+                      "number": "var(--hfs-text-m)",
+                      "unit": "custom",
+                      "style": "var(--hfs-text-m)"
+                    }
+                  },
+                  "fontWeight": null,
+                  "advanced": null
+                }
+              }
+            },
+            "color": null
+          },
+          "text": {
+            "typography": {
+              "custom": {
+                "customTypography": {
+                  "fontSize": {
+                    "breakpoint_base": {
+                      "number": "var(--hfs-text-s)",
+                      "unit": "custom",
+                      "style": "var(--hfs-text-s)"
+                    }
+                  },
+                  "advanced": null,
+                  "fontWeight": null
+                }
+              }
+            },
+            "color": null
+          }
+        }
+      },
+      "content": {
+        "content": {
+          "title": "Tell us about your project ",
+          "text": "and we'll get back to you quickly!",
+          "button": null,
+          "icon": {
+            "id": 202,
+            "slug": "icon-bell.",
+            "name": "bell",
+            "svgCode": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. --><path d=\"M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v25.4c0 45.4-15.5 89.5-43.8 124.9L5.3 377c-5.8 7.2-6.9 17.1-2.9 25.4S14.8 416 24 416H424c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C399.5 322.9 384 278.8 384 233.4V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm0 96c61.9 0 112 50.1 112 112v25.4c0 47.9 13.9 94.6 39.7 134.6H72.3C98.1 328 112 281.3 112 233.4V208c0-61.9 50.1-112 112-112zm64 352H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z\"/></svg>",
+            "iconSetSlug": "FontAwesome 6 Free - Regular"
+          },
+          "rotate": 0,
+          "title_tag": null
+        }
+      },
+      "settings": {
+        "advanced": {
+          "css": {
+            "breakpoint_base": null
+          }
+        }
+      }
+    }
+  },
+  "children": [],
+  "_parentId": 368
+}
+================ ID 260 =================
+{
+  "id": 260,
+  "data": {
+    "type": "EssentialElements\\SimpleCounter",
+    "properties": {
+      "content": {
+        "counter": {
+          "title": null,
+          "duration": {
+            "number": 1000,
+            "unit": "ms",
+            "style": "1000ms"
+          },
+          "start": 69,
+          "end": 420,
+          "ease_count": true,
+          "format_number": false,
+          "suffix": "clients"
+        }
+      },
+      "design": {
+        "wrapper": {
+          "background": null,
+          "content_alignment": {
+            "breakpoint_base": "left"
+          },
+          "width": null,
+          "padding": null
+        },
+        "typography": {
+          "number": {
+            "color": {
+              "breakpoint_base": "#FFFFFFFF"
+            },
+            "typography": {
+              "custom": {
+                "customTypography": {
+                  "fontSize": {
+                    "breakpoint_tablet_landscape": {
+                      "number": 36,
+                      "unit": "px",
+                      "style": "36px"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "title": {
+            "color": {
+              "breakpoint_base": "#FFFFFFFF"
+            }
+          }
+        },
+        "spacing": {
+          "below_number": null,
+          "around_number": {
+            "breakpoint_base": {
+              "number": 10,
+              "unit": "px",
+              "style": "10px"
+            }
+          },
+          "wrapper": {
+            "margin_top": {
+              "breakpoint_base": {
+                "number": 20,
+                "unit": "px",
+                "style": "20px"
+              }
+            },
+            "margin_bottom": {
+              "breakpoint_base": {
+                "number": 20,
+                "unit": "px",
+                "style": "20px"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "children": [],
+  "_parentId": 251
+}
+================ ID 263 =================
+{
+  "id": 263,
+  "data": {
+    "type": "EssentialElements\\SimpleCounter",
+    "properties": {
+      "content": {
+        "counter": {
+          "title": null,
+          "duration": {
+            "number": 1000,
+            "unit": "ms",
+            "style": "1000ms"
+          },
+          "start": 0,
+          "end": 15,
+          "ease_count": true,
+          "format_number": false,
+          "suffix": "M"
+        }
+      },
+      "design": {
+        "wrapper": {
+          "background": null,
+          "content_alignment": {
+            "breakpoint_base": "left"
+          },
+          "width": null,
+          "padding": null
+        },
+        "typography": {
+          "number": {
+            "color": {
+              "breakpoint_base": "#FFFFFFFF"
+            },
+            "typography": {
+              "custom": {
+                "customTypography": {
+                  "fontSize": {
+                    "breakpoint_tablet_landscape": {
+                      "number": 36,
+                      "unit": "px",
+                      "style": "36px"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "title": {
+            "color": {
+              "breakpoint_base": "#FFFFFFFF"
+            }
+          }
+        },
+        "spacing": {
+          "below_number": null,
+          "around_number": {
+            "breakpoint_base": {
+              "number": 10,
+              "unit": "px",
+              "style": "10px"
+            }
+          },
+          "wrapper": {
+            "margin_top": {
+              "breakpoint_base": {
+                "number": 20,
+                "unit": "px",
+                "style": "20px"
+              }
+            },
+            "margin_bottom": {
+              "breakpoint_base": {
+                "number": 20,
+                "unit": "px",
+                "style": "20px"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "children": [],
+  "_parentId": 254
+}
+================ ID 264 =================
+{
+  "id": 264,
+  "data": {
+    "type": "EssentialElements\\SimpleCounter",
+    "properties": {
+      "content": {
+        "counter": {
+          "title": null,
+          "duration": {
+            "number": 1000,
+            "unit": "ms",
+            "style": "1000ms"
+          },
+          "start": 2,
+          "end": 16,
+          "ease_count": true,
+          "format_number": false,
+          "suffix": "K"
+        }
+      },
+      "design": {
+        "wrapper": {
+          "background": null,
+          "content_alignment": {
+            "breakpoint_base": "left"
+          },
+          "width": null,
+          "padding": null
+        },
+        "typography": {
+          "number": {
+            "color": {
+              "breakpoint_base": "#FFFFFFFF"
+            },
+            "typography": {
+              "custom": {
+                "customTypography": {
+                  "fontSize": {
+                    "breakpoint_tablet_landscape": {
+                      "number": 36,
+                      "unit": "px",
+                      "style": "36px"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "title": {
+            "color": {
+              "breakpoint_base": "#FFFFFFFF"
+            }
+          }
+        },
+        "spacing": {
+          "below_number": null,
+          "around_number": {
+            "breakpoint_base": {
+              "number": 10,
+              "unit": "px",
+              "style": "10px"
+            }
+          },
+          "wrapper": {
+            "margin_top": {
+              "breakpoint_base": {
+                "number": 20,
+                "unit": "px",
+                "style": "20px"
+              }
+            },
+            "margin_bottom": {
+              "breakpoint_base": {
+                "number": 20,
+                "unit": "px",
+                "style": "20px"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "children": [],
+  "_parentId": 257
+}

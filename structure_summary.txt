@@ -1,0 +1,294 @@
+================================================================================
+- ID: 100 | Type: Section | Name: Hero | Text: '' | Link: 
+  - ID: 101 | Type: Div | Name: Main container | Text: '' | Link: 
+    - ID: 102 | Type: Text | Name:  | Text: '' | Link: 
+    - ID: 103 | Type: Heading | Name:  | Text: '' | Link: 
+    - ID: 104 | Type: Text | Name:  | Text: '' | Link: 
+  - ID: 105 | Type: Div | Name: Buttons | Text: '' | Link: 
+    - ID: 385 | Type: Button | Name:  | Text: 'Elevate your project' | Link: https://fastelevatemedia.com/en/services/elevate-your-event/
+    - ID: 107 | Type: Button | Name:  | Text: 'Contact us' | Link: https://fastelevatemedia.com/en/contact/
+================================================================================
+- ID: 404 | Type: Section | Name:  | Text: '' | Link: 
+  - ID: 406 | Type: Heading | Name:  | Text: 'Fast Elevate Media is a corporate-focused media agency' | Link: 
+  - ID: 405 | Type: Text | Name:  | Text: 'Fast, high-quality corporate photography and video production for companies across Europe. We specialize in corporate events, conferences, executive interviews and professional portraits; executed with speed, clarity and consistent visual standards.' | Link: 
+================================================================================
+- ID: 113 | Type: Section | Name: Services | Text: '' | Link: 
+  - ID: 116 | Type: Heading | Name:  | Text: 'Media Solutions' | Link: 
+  - ID: 304 | Type: Grid | Name:  | Text: '' | Link: 
+    - ID: 305 | Type: Div | Name: Column | Text: '' | Link: 
+      - ID: 407 | Type: ImageHoverCard | Name:  | Text: '' | Link: 
+      - ID: 307 | Type: Heading | Name:  | Text: 'Photography' | Link: 
+      - ID: 308 | Type: Text | Name:  | Text: "Professional corporate event photography for conferences, business events and corporate gatherings. We capture keynote speakers, audience interaction, networking moments and brand presence with a consistent visual style that aligns with your company's identity." | Link: 
+      - ID: 627 | Type: Div | Name:  | Text: '' | Link: 
+        - ID: 309 | Type: Button | Name:  | Text: 'Read more' | Link: https://fastelevatemedia.com/en/services/corporate-event-photography/
+    - ID: 310 | Type: Div | Name: Column | Text: '' | Link: 
+      - ID: 408 | Type: ImageHoverCard | Name:  | Text: '' | Link: 
+      - ID: 312 | Type: Heading | Name:  | Text: 'Corporate Video Production<br>' | Link: 
+      - ID: 313 | Type: Text | Name:  | Text: 'High-quality corporate video production for events, conferences, aftermovies and branded content. Our productions help companies communicate clearly through powerful visual storytelling designed for internal communication, marketing and LinkedIn.' | Link: 
+      - ID: 629 | Type: Div | Name:  | Text: '' | Link: 
+        - ID: 413 | Type: Button | Name:  | Text: 'Read more' | Link: https://fastelevatemedia.com/en/services/corporate-video-production/
+    - ID: 315 | Type: Div | Name: Column | Text: '' | Link: 
+      - ID: 409 | Type: ImageHoverCard | Name:  | Text: '' | Link: 
+      - ID: 317 | Type: Heading | Name:  | Text: 'Professional Headshots & Corporate Portraits' | Link: 
+      - ID: 318 | Type: Text | Name:  | Text: 'Consistent, high-end professional headshots and corporate portraits for executives, leadership teams and employees. Strengthen your companys visual identity across websites, press releases, LinkedIn and internal platforms.' | Link: 
+      - ID: 628 | Type: Div | Name:  | Text: '' | Link: 
+        - ID: 414 | Type: Button | Name:  | Text: 'Read more' | Link: https://fastelevatemedia.com/en/services/professional-headshots-corporate-portraits/
+    - ID: 386 | Type: Div | Name: Column | Text: '' | Link: 
+      - ID: 410 | Type: ImageHoverCard | Name:  | Text: '' | Link: 
+      - ID: 388 | Type: Heading | Name:  | Text: 'Corporate Interviews & Testimonials' | Link: 
+      - ID: 389 | Type: Text | Name:  | Text: 'Professional corporate interview and testimonial video production for executives, employees and partners. Clean visuals, professional audio and structured storytelling optimized for internal communication, employer branding and LinkedIn visibility.' | Link: 
+      - ID: 631 | Type: Div | Name:  | Text: '' | Link: 
+        - ID: 415 | Type: Button | Name:  | Text: 'Read more' | Link: https://fastelevatemedia.com/en/services/corporate-interviews-testimonials/
+    - ID: 391 | Type: Div | Name: Column | Text: '' | Link: 
+      - ID: 411 | Type: ImageHoverCard | Name:  | Text: '' | Link: 
+      - ID: 393 | Type: Heading | Name:  | Text: 'Drone Video & Aerial Photography' | Link: 
+      - ID: 394 | Type: Text | Name:  | Text: 'Certified drone video production and aerial photography for corporate events, company locations and large-scale productions.<br>Dynamic aerial perspectives that elevate storytelling and create visually impactful content for corporate communication.' | Link: 
+      - ID: 630 | Type: Div | Name:  | Text: '' | Link: 
+        - ID: 416 | Type: Button | Name:  | Text: 'Read more' | Link: https://fastelevatemedia.com/en/services/drone-video-aerial-photography/
+    - ID: 396 | Type: Div | Name: Column | Text: '' | Link: 
+      - ID: 412 | Type: ImageHoverCard | Name:  | Text: '' | Link: 
+      - ID: 398 | Type: Heading | Name:  | Text: 'Elevate your event' | Link: 
+      - ID: 399 | Type: Text | Name:  | Text: 'Comprehensive corporate event coverage combining photography, video production, interviews and drone services. A tailored production approach designed to deliver seamless, efficient and scalable coverage aligned with your event objectives and brand communication.' | Link: 
+      - ID: 632 | Type: Div | Name:  | Text: '' | Link: 
+        - ID: 417 | Type: Button | Name:  | Text: 'Read more' | Link: https://fastelevatemedia.com/en/services/elevate-your-event/
+================================================================================
+- ID: 240 | Type: Section | Name: Who we are | Text: '' | Link: 
+  - ID: 241 | Type: Grid | Name:  | Text: '' | Link: 
+    - ID: 242 | Type: Div | Name: Column | Text: '' | Link: 
+      - ID: 243 | Type: Heading | Name:  | Text: 'Powerful content<br>Global Reach' | Link: 
+      - ID: 244 | Type: Text | Name:  | Text: 'At Fast Elevate Media, we believe the best results come from strong collaboration. We focus on building a genuine connection with our clients, taking the time to understand your vision, your story and what truly matters to your brand.<br><br>Clear and open communication is at the core of how we work. We create a positive and collaborative atmosphere throughout the entire process, from first contact to final delivery. Together with our network of experienced creative freelancers, we ensure that this energy carries through into every production.<br><br>We work fast and efficiently, without compromising on quality or experience. Our goal is simple: to bring your ideas to life and deliver high-quality visual content that truly reflects your vision, delivered with speed and precision.' | Link: 
+      - ID: 320 | Type: CheckmarkList | Name:  | Text: '' | Link: 
+    - ID: 245 | Type: Grid | Name:  | Text: '' | Link: 
+      - ID: 246 | Type: Image | Name:  | Text: '' | Link: 
+      - ID: 247 | Type: Image | Name:  | Text: '' | Link: 
+================================================================================
+- ID: 321 | Type: Section | Name: Timeline 1 | Text: '' | Link: 
+  - ID: 322 | Type: Div | Name: Container | Text: '' | Link: 
+    - ID: 323 | Type: Heading | Name:  | Text: 'How we work' | Link: 
+    - ID: 324 | Type: Text | Name:  | Text: 'We follow a structured and transparent production workflow to deliver corporate photography and video production across Europe; ensuring clarity, efficiency and reliable results at every stage.' | Link: 
+  - ID: 325 | Type: Div | Name: Timeline | Text: '' | Link: 
+    - ID: 326 | Type: Grid | Name: Item | Text: '' | Link: 
+      - ID: 327 | Type: Div | Name: Number and dot | Text: '' | Link: 
+        - ID: 328 | Type: Text | Name:  | Text: '' | Link: 
+        - ID: 329 | Type: Div | Name: Line | Text: '' | Link: 
+        - ID: 330 | Type: Div | Name: Line Active | Text: '' | Link: 
+      - ID: 331 | Type: Div | Name: Content wrapper | Text: '' | Link: 
+        - ID: 332 | Type: Div | Name:  | Text: '' | Link: 
+          - ID: 333 | Type: Div | Name: Icon wrapper | Text: '' | Link: 
+            - ID: 334 | Type: Icon | Name:  | Text: '' | Link: 
+        - ID: 335 | Type: Div | Name:  | Text: '' | Link: 
+          - ID: 336 | Type: Text | Name:  | Text: 'Discovery' | Link: 
+          - ID: 337 | Type: Heading | Name:  | Text: 'Project Introduction' | Link: 
+          - ID: 338 | Type: Text | Name:  | Text: 'Once we receive your project inquiry, we organise a short discovery call or an in-person meeting to define the scope, objectives and production requirements. If preferred, a proposal can also be prepared based on your written brief via email.' | Link: 
+    - ID: 339 | Type: Grid | Name: Item | Text: '' | Link: 
+      - ID: 340 | Type: Div | Name: Number and dot | Text: '' | Link: 
+        - ID: 341 | Type: Text | Name:  | Text: '' | Link: 
+        - ID: 342 | Type: Div | Name: Line | Text: '' | Link: 
+        - ID: 343 | Type: Div | Name: Line Active | Text: '' | Link: 
+      - ID: 344 | Type: Div | Name: Content wrapper | Text: '' | Link: 
+        - ID: 345 | Type: Div | Name:  | Text: '' | Link: 
+          - ID: 346 | Type: Div | Name: Icon wrapper | Text: '' | Link: 
+            - ID: 347 | Type: Icon | Name:  | Text: '' | Link: 
+        - ID: 348 | Type: Div | Name:  | Text: '' | Link: 
+          - ID: 349 | Type: Text | Name:  | Text: 'Confirmation' | Link: 
+          - ID: 350 | Type: Heading | Name:  | Text: 'Booking & Deposit' | Link: 
+          - ID: 351 | Type: Text | Name:  | Text: 'We review your project request for corporate photography, video production or event coverage and define the scope, objectives and initial requirements.' | Link: 
+    - ID: 418 | Type: Grid | Name: Item | Text: '' | Link: 
+      - ID: 419 | Type: Div | Name: Number and dot | Text: '' | Link: 
+        - ID: 420 | Type: Text | Name:  | Text: '' | Link: 
+        - ID: 421 | Type: Div | Name: Line | Text: '' | Link: 
+        - ID: 422 | Type: Div | Name: Line Active | Text: '' | Link: 
+      - ID: 423 | Type: Div | Name: Content wrapper | Text: '' | Link: 
+        - ID: 424 | Type: Div | Name:  | Text: '' | Link: 
+          - ID: 425 | Type: Div | Name: Icon wrapper | Text: '' | Link: 
+            - ID: 426 | Type: Icon | Name:  | Text: '' | Link: 
+        - ID: 427 | Type: Div | Name:  | Text: '' | Link: 
+          - ID: 428 | Type: Text | Name:  | Text: 'Strategy & Planning' | Link: 
+          - ID: 429 | Type: Heading | Name:  | Text: 'Project Alignment' | Link: 
+          - ID: 430 | Type: Text | Name:  | Text: 'Once the proposal is reviewed, we arrange a comprehensive alignment call or in-person meeting to finalise all strategic, creative and logistical details. Following approval, your corporate event, interview or video production moves forward fully aligned with expectations and objectives.' | Link: 
+    - ID: 431 | Type: Grid | Name: Item | Text: '' | Link: 
+      - ID: 432 | Type: Div | Name: Number and dot | Text: '' | Link: 
+        - ID: 433 | Type: Text | Name:  | Text: '' | Link: 
+        - ID: 434 | Type: Div | Name: Line | Text: '' | Link: 
+        - ID: 435 | Type: Div | Name: Line Active | Text: '' | Link: 
+      - ID: 436 | Type: Div | Name: Content wrapper | Text: '' | Link: 
+        - ID: 437 | Type: Div | Name:  | Text: '' | Link: 
+          - ID: 438 | Type: Div | Name: Icon wrapper | Text: '' | Link: 
+            - ID: 439 | Type: Icon | Name:  | Text: '' | Link: 
+        - ID: 440 | Type: Div | Name:  | Text: '' | Link: 
+          - ID: 441 | Type: Text | Name:  | Text: 'Preparation' | Link: 
+          - ID: 442 | Type: Heading | Name:  | Text: 'Team & Production Planning' | Link: 
+          - ID: 443 | Type: Text | Name:  | Text: 'Based on your requirements, we assign the right photographers, videographers and equipment. A detailed production plan ensures efficient execution on location. If desired, clients can schedule a short introduction call with the production team assigned to their project.' | Link: 
+    - ID: 444 | Type: Grid | Name: Item | Text: '' | Link: 
+      - ID: 445 | Type: Div | Name: Number and dot | Text: '' | Link: 
+        - ID: 446 | Type: Text | Name:  | Text: '' | Link: 
+        - ID: 447 | Type: Div | Name: Line | Text: '' | Link: 
+        - ID: 448 | Type: Div | Name: Line Active | Text: '' | Link: 
+      - ID: 449 | Type: Div | Name: Content wrapper | Text: '' | Link: 
+        - ID: 450 | Type: Div | Name:  | Text: '' | Link: 
+          - ID: 451 | Type: Div | Name: Icon wrapper | Text: '' | Link: 
+            - ID: 452 | Type: Icon | Name:  | Text: '' | Link: 
+        - ID: 453 | Type: Div | Name:  | Text: '' | Link: 
+          - ID: 454 | Type: Text | Name:  | Text: 'Production' | Link: 
+          - ID: 455 | Type: Heading | Name:  | Text: 'Execution' | Link: 
+          - ID: 456 | Type: Text | Name:  | Text: 'Professional, discreet and efficient on-site production for corporate events, interviews and brand content, ensuring smooth coordination and high-quality visual capture.' | Link: 
+    - ID: 457 | Type: Grid | Name: Item | Text: '' | Link: 
+      - ID: 458 | Type: Div | Name: Number and dot | Text: '' | Link: 
+        - ID: 459 | Type: Text | Name:  | Text: '' | Link: 
+        - ID: 460 | Type: Div | Name: Line | Text: '' | Link: 
+        - ID: 461 | Type: Div | Name: Line Active | Text: '' | Link: 
+      - ID: 462 | Type: Div | Name: Content wrapper | Text: '' | Link: 
+        - ID: 463 | Type: Div | Name:  | Text: '' | Link: 
+          - ID: 464 | Type: Div | Name: Icon wrapper | Text: '' | Link: 
+            - ID: 465 | Type: Icon | Name:  | Text: '' | Link: 
+        - ID: 466 | Type: Div | Name:  | Text: '' | Link: 
+          - ID: 467 | Type: Text | Name:  | Text: 'Initial Delivery' | Link: 
+          - ID: 468 | Type: Heading | Name:  | Text: 'First Delivery' | Link: 
+          - ID: 469 | Type: Text | Name:  | Text: 'We provide fast, structured delivery of professionally edited photography and video content, optimised for internal and external corporate communication. The first delivery is provided within four working days. Priority same-day delivery during your event is available at an additional investment. All media is securely delivered via a private online gallery link or download link.' | Link: 
+    - ID: 470 | Type: Grid | Name: Item | Text: '' | Link: 
+      - ID: 471 | Type: Div | Name: Number and dot | Text: '' | Link: 
+        - ID: 472 | Type: Text | Name:  | Text: '' | Link: 
+        - ID: 473 | Type: Div | Name: Line | Text: '' | Link: 
+        - ID: 474 | Type: Div | Name: Line Active | Text: '' | Link: 
+      - ID: 475 | Type: Div | Name: Content wrapper | Text: '' | Link: 
+        - ID: 476 | Type: Div | Name:  | Text: '' | Link: 
+          - ID: 477 | Type: Div | Name: Icon wrapper | Text: '' | Link: 
+            - ID: 478 | Type: Icon | Name:  | Text: '' | Link: 
+        - ID: 479 | Type: Div | Name:  | Text: '' | Link: 
+          - ID: 480 | Type: Text | Name:  | Text: 'Refinement' | Link: 
+          - ID: 481 | Type: Heading | Name:  | Text: 'Revision Round' | Link: 
+          - ID: 482 | Type: Text | Name:  | Text: 'We carefully review your feedback and implement agreed refinements through two included revision rounds to ensure full alignment. Additional revisions can be accommodated upon request at an additional investment.' | Link: 
+    - ID: 483 | Type: Grid | Name: Item | Text: '' | Link: 
+      - ID: 484 | Type: Div | Name: Number and dot | Text: '' | Link: 
+        - ID: 485 | Type: Text | Name:  | Text: '' | Link: 
+        - ID: 486 | Type: Div | Name: Line | Text: '' | Link: 
+        - ID: 487 | Type: Div | Name: Line Active | Text: '' | Link: 
+      - ID: 488 | Type: Div | Name: Content wrapper | Text: '' | Link: 
+        - ID: 489 | Type: Div | Name:  | Text: '' | Link: 
+          - ID: 490 | Type: Div | Name: Icon wrapper | Text: '' | Link: 
+            - ID: 491 | Type: Icon | Name:  | Text: '' | Link: 
+        - ID: 492 | Type: Div | Name:  | Text: '' | Link: 
+          - ID: 493 | Type: Text | Name:  | Text: 'Completion' | Link: 
+          - ID: 494 | Type: Heading | Name:  | Text: 'Final Delivery' | Link: 
+          - ID: 495 | Type: Text | Name:  | Text: 'Upon final approval, the completed corporate photography and video content is delivered in ready-to-use formats, optimised for web, social media and internal platforms. The remaining investment is invoiced at the time of final delivery.' | Link: 
+    - ID: 352 | Type: Grid | Name: LAST Item | Text: '' | Link: 
+      - ID: 353 | Type: Div | Name: Number and dot | Text: '' | Link: 
+        - ID: 354 | Type: Text | Name:  | Text: '' | Link: 
+        - ID: 355 | Type: Div | Name: Line | Text: '' | Link: 
+        - ID: 356 | Type: Div | Name: Line Active | Text: '' | Link: 
+      - ID: 357 | Type: Div | Name: Content wrapper | Text: '' | Link: 
+        - ID: 358 | Type: Div | Name:  | Text: '' | Link: 
+          - ID: 359 | Type: Div | Name: Icon wrapper | Text: '' | Link: 
+            - ID: 360 | Type: Icon | Name:  | Text: '' | Link: 
+        - ID: 361 | Type: Div | Name:  | Text: '' | Link: 
+          - ID: 362 | Type: Text | Name:  | Text: 'Evaluation' | Link: 
+          - ID: 363 | Type: Heading | Name:  | Text: 'Feedback & Follow-Up' | Link: 
+          - ID: 364 | Type: Text | Name:  | Text: 'We remain open to feedback to continuously improve our production process. After delivery, we follow up to ensure everything meets expectations and explore future collaboration opportunities.' | Link: 
+  - ID: 365 | Type: CodeBlock | Name: Timeline code | Text: '' | Link: 
+================================================================================
+- ID: 366 | Type: Section | Name: Divider | Text: '' | Link: 
+  - ID: 621 | Type: Div | Name: Logo slider | Text: '' | Link: 
+    - ID: 624 | Type: Heading | Name:  | Text: 'Companies that trusted our services' | Link: 
+    - ID: 623 | Type: LogoList | Name:  | Text: '' | Link: 
+================================================================================
+- ID: 193 | Type: Section | Name: Testimonials | Text: '' | Link: 
+  - ID: 163 | Type: Text | Name:  | Text: 'Adoring Client Notes' | Link: 
+  - ID: 164 | Type: Heading | Name:  | Text: 'Testimonials That Say It All' | Link: 
+  - ID: 165 | Type: Advancedslider | Name:  | Text: '' | Link: 
+    - ID: 166 | Type: Advancedslide | Name:  | Text: '' | Link: 
+      - ID: 167 | Type: Div | Name: Wrapper | Text: '' | Link: 
+        - ID: 169 | Type: Div | Name: Content | Text: '' | Link: 
+          - ID: 170 | Type: Icon | Name:  | Text: '' | Link: 
+          - ID: 171 | Type: Text | Name:  | Text: "I have been a customer of this business for several years now, and I can honestly say that the management team is the best I've ever encountered. They are dedicated to providing outstanding service and delivering" | Link: 
+          - ID: 562 | Type: Div | Name:  | Text: '' | Link: 
+            - ID: 561 | Type: Icon | Name:  | Text: '' | Link: 
+          - ID: 515 | Type: Div | Name:  | Text: '' | Link: 
+            - ID: 168 | Type: Image | Name:  | Text: '' | Link: 
+            - ID: 516 | Type: Div | Name:  | Text: '' | Link: 
+              - ID: 173 | Type: Text | Name:  | Text: 'John Doe' | Link: 
+              - ID: 174 | Type: Text | Name:  | Text: 'CEO at CompanyName' | Link: 
+              - ID: 563 | Type: Div | Name:  | Text: '' | Link: 
+                - ID: 172 | Type: StarRating | Name:  | Text: '' | Link: 
+    - ID: 564 | Type: Advancedslide | Name:  | Text: '' | Link: 
+      - ID: 565 | Type: Div | Name: Wrapper | Text: '' | Link: 
+        - ID: 566 | Type: Div | Name: Content | Text: '' | Link: 
+          - ID: 567 | Type: Icon | Name:  | Text: '' | Link: 
+          - ID: 568 | Type: Text | Name:  | Text: "I have been a customer of this business for several years now, and I can honestly say that the management team is the best I've ever encountered. They are dedicated to providing outstanding service and delivering" | Link: 
+          - ID: 569 | Type: Div | Name:  | Text: '' | Link: 
+            - ID: 570 | Type: Icon | Name:  | Text: '' | Link: 
+          - ID: 571 | Type: Div | Name:  | Text: '' | Link: 
+            - ID: 572 | Type: Image | Name:  | Text: '' | Link: 
+            - ID: 573 | Type: Div | Name:  | Text: '' | Link: 
+              - ID: 574 | Type: Text | Name:  | Text: 'John Doe' | Link: 
+              - ID: 575 | Type: Text | Name:  | Text: 'CEO at CompanyName' | Link: 
+              - ID: 576 | Type: Div | Name:  | Text: '' | Link: 
+                - ID: 577 | Type: StarRating | Name:  | Text: '' | Link: 
+    - ID: 578 | Type: Advancedslide | Name:  | Text: '' | Link: 
+      - ID: 579 | Type: Div | Name: Wrapper | Text: '' | Link: 
+        - ID: 580 | Type: Div | Name: Content | Text: '' | Link: 
+          - ID: 581 | Type: Icon | Name:  | Text: '' | Link: 
+          - ID: 582 | Type: Text | Name:  | Text: "I have been a customer of this business for several years now, and I can honestly say that the management team is the best I've ever encountered. They are dedicated to providing outstanding service and delivering" | Link: 
+          - ID: 583 | Type: Div | Name:  | Text: '' | Link: 
+            - ID: 584 | Type: Icon | Name:  | Text: '' | Link: 
+          - ID: 585 | Type: Div | Name:  | Text: '' | Link: 
+            - ID: 586 | Type: Image | Name:  | Text: '' | Link: 
+            - ID: 587 | Type: Div | Name:  | Text: '' | Link: 
+              - ID: 588 | Type: Text | Name:  | Text: 'John Doe' | Link: 
+              - ID: 589 | Type: Text | Name:  | Text: 'CEO at CompanyName' | Link: 
+              - ID: 590 | Type: Div | Name:  | Text: '' | Link: 
+                - ID: 591 | Type: StarRating | Name:  | Text: '' | Link: 
+    - ID: 592 | Type: Advancedslide | Name:  | Text: '' | Link: 
+      - ID: 593 | Type: Div | Name: Wrapper | Text: '' | Link: 
+        - ID: 594 | Type: Div | Name: Content | Text: '' | Link: 
+          - ID: 595 | Type: Icon | Name:  | Text: '' | Link: 
+          - ID: 596 | Type: Text | Name:  | Text: "I have been a customer of this business for several years now, and I can honestly say that the management team is the best I've ever encountered. They are dedicated to providing outstanding service and delivering" | Link: 
+          - ID: 597 | Type: Div | Name:  | Text: '' | Link: 
+            - ID: 598 | Type: Icon | Name:  | Text: '' | Link: 
+          - ID: 599 | Type: Div | Name:  | Text: '' | Link: 
+            - ID: 600 | Type: Image | Name:  | Text: '' | Link: 
+            - ID: 601 | Type: Div | Name:  | Text: '' | Link: 
+              - ID: 602 | Type: Text | Name:  | Text: 'John Doe' | Link: 
+              - ID: 603 | Type: Text | Name:  | Text: 'CEO at CompanyName' | Link: 
+              - ID: 604 | Type: Div | Name:  | Text: '' | Link: 
+                - ID: 605 | Type: StarRating | Name:  | Text: '' | Link: 
+    - ID: 606 | Type: Advancedslide | Name:  | Text: '' | Link: 
+      - ID: 607 | Type: Div | Name: Wrapper | Text: '' | Link: 
+        - ID: 608 | Type: Div | Name: Content | Text: '' | Link: 
+          - ID: 609 | Type: Icon | Name:  | Text: '' | Link: 
+          - ID: 610 | Type: Text | Name:  | Text: "I have been a customer of this business for several years now, and I can honestly say that the management team is the best I've ever encountered. They are dedicated to providing outstanding service and delivering" | Link: 
+          - ID: 611 | Type: Div | Name:  | Text: '' | Link: 
+            - ID: 612 | Type: Icon | Name:  | Text: '' | Link: 
+          - ID: 613 | Type: Div | Name:  | Text: '' | Link: 
+            - ID: 614 | Type: Image | Name:  | Text: '' | Link: 
+            - ID: 615 | Type: Div | Name:  | Text: '' | Link: 
+              - ID: 616 | Type: Text | Name:  | Text: 'John Doe' | Link: 
+              - ID: 617 | Type: Text | Name:  | Text: 'CEO at CompanyName' | Link: 
+              - ID: 618 | Type: Div | Name:  | Text: '' | Link: 
+                - ID: 619 | Type: StarRating | Name:  | Text: '' | Link: 
+================================================================================
+- ID: 162 | Type: Section | Name: Content | Text: '' | Link: 
+  - ID: 367 | Type: Grid | Name:  | Text: '' | Link: 
+    - ID: 368 | Type: Div | Name: Column | Text: '' | Link: 
+      - ID: 369 | Type: Text | Name:  | Text: 'Services that drive results' | Link: 
+      - ID: 370 | Type: Heading | Name:  | Text: 'Fast, reliable delivery for corporate environments' | Link: 
+      - ID: 371 | Type: Text | Name:  | Text: 'We work seamlessly within corporate environments, adapting quickly to internal teams, agencies and event organizers. Our focus is on speed, reliability, discretion and delivering high -quality visual content that strengthens your brand communication and supports your companys strategic objectives.' | Link: 
+      - ID: 372 | Type: Button | Name:  | Text: 'Elevate your project' | Link: https://fastelevatemedia.com/start/
+      - ID: 375 | Type: IconBox | Name:  | Text: "and we'll get back to you quickly!" | Link: 
+    - ID: 376 | Type: Div | Name: Column | Text: '' | Link: 
+      - ID: 377 | Type: Image | Name:  | Text: '' | Link: 
+      - ID: 378 | Type: Div | Name: Floating box | Text: '' | Link: 
+        - ID: 379 | Type: Div | Name: Header | Text: '' | Link: 
+          - ID: 380 | Type: Text | Name:  | Text: 'Coporate ' | Link: 
+================================================================================
+- ID: 248 | Type: Section | Name: Results | Text: '' | Link: 
+  - ID: 249 | Type: Heading | Name:  | Text: 'We get results' | Link: 
+  - ID: 250 | Type: Grid | Name:  | Text: '' | Link: 
+    - ID: 251 | Type: Div | Name: Column | Text: '' | Link: 
+      - ID: 260 | Type: SimpleCounter | Name:  | Text: '' | Link: 
+      - ID: 253 | Type: Text | Name:  | Text: 'Lorem ipsum dolor sit amet,  elit ut aliquam, purus sit amet luctus venenatis elit ut aliquam, purus sit amet luctus' | Link: 
+    - ID: 254 | Type: Div | Name: Column | Text: '' | Link: 
+      - ID: 263 | Type: SimpleCounter | Name:  | Text: '' | Link: 
+      - ID: 256 | Type: Text | Name:  | Text: 'Lorem ipsum dolor sit amet,  elit ut aliquam, purus sit amet luctus venenatis elit ut aliquam, purus sit amet luctus' | Link: 
+    - ID: 257 | Type: Div | Name: Column | Text: '' | Link: 
+      - ID: 264 | Type: SimpleCounter | Name:  | Text: '' | Link: 
+      - ID: 259 | Type: Text | Name:  | Text: 'Lorem ipsum dolor sit amet,  elit ut aliquam, purus sit amet luctus venenatis elit ut aliquam, purus sit amet luctus' | Link: 
