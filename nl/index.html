@@ -123,7 +123,7 @@
       font-family: 'Lexend', sans-serif;
     }
     .video-docker video {
-      top: 50%;
+      top: 40%;
       left: 50%;
       transform: translate(-50%, -50%);
       min-width: 100%;
@@ -131,6 +131,11 @@
       width: auto;
       height: auto;
       object-fit: cover;
+    }
+    @media (min-width: 640px) {
+      .video-docker video {
+        top: 50%;
+      }
     }
     .logo-carousel-container {
       display: flex;
@@ -525,7 +530,7 @@
 
 
   <!-- 1. Hero Section -->
-  <section class="relative h-[65vh] min-h-[480px] overflow-hidden video-docker" id="hero-section">
+  <section class="relative h-[48vh] min-h-[340px] sm:h-[65vh] sm:min-h-[480px] overflow-hidden video-docker" id="hero-section">
     <video id="hero-video" autoplay="" class="absolute z-0" loop="" muted="" playsinline="" poster="../images/3.jpg">
       <source src="../banner-video-fem-v2.mp4" type="video/mp4"/>
     </video>
@@ -571,10 +576,10 @@
         }
       })();
     </script>
-    <div class="relative z-30 flex flex-col items-center justify-end h-full text-center px-4 pb-14 md:pb-20">
-      <div class="flex flex-col sm:flex-row gap-8 items-center">
+    <div class="relative z-30 flex flex-col items-center justify-end h-full text-center px-4 pb-4 sm:pb-14 md:pb-20">
+      <div class="flex flex-col sm:flex-row gap-3 sm:gap-8 items-center">
         <a href="./start.html" class="bg-primary text-white hover:bg-primary/90 px-10 py-3 rounded-full font-bold text-base shadow-2xl hover:scale-105 transition-transform">
-          Til uw project naar een hoger niveau
+          Breng uw project naar een hoger niveau
         </a>
         <a href="./contact.html" class="fancy-underline-btn text-white font-bold text-base py-2">
           Neem contact op
@@ -610,93 +615,93 @@
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       <!-- 1. Photography -->
-      <a href="./corporate-event-photography.html" class="flex flex-col justify-between h-full group block text-left bg-white border border-gray-200/80 rounded-[24px] p-5 hover:shadow-lg hover:border-gray-300 transition-all duration-300">
+      <a href="./corporate-event-photography.html" class="flex flex-col justify-between h-full group block text-left bg-white border border-gray-200/80 rounded-[20px] p-4 hover:shadow-lg hover:border-gray-300 transition-all duration-300">
         <div>
-          <div class="image-hover-card-container aspect-[3/2] w-full mb-4">
+          <div class="image-hover-card-container aspect-[3/2] w-full mb-3">
             <div class="overlay"><span class="overlay-label">Fotografie</span></div>
             <img alt="Fotografie" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[600ms]" src="../images/Joshua_Statie12.jpg"/>
           </div>
-          <div class="py-1">
-            <h3 class="text-lg font-bold mb-2 text-[#121111] group-hover:text-primary transition-colors">Fotografie</h3>
-            <p class="text-[#4a4a4a] text-sm leading-relaxed mb-4">Professionele zakelijke evenementenfotografie voor congressen, zakelijke bijeenkomsten and bedrijfsbijeenkomsten. Wij leggen keynote sprekers, interactie met het publiek, netwerkmomenten en merkidentiteit vast met een consistente visuele stijl die aansluit bij de identiteit van uw bedrijf.</p>
+          <div class="pt-1 pb-0">
+            <h3 class="text-base font-bold mb-1 text-[#121111] group-hover:text-primary transition-colors">Fotografie</h3>
+            <p class="text-[#4a4a4a] text-sm leading-relaxed mb-1">Professionele zakelijke evenementenfotografie voor congressen, zakelijke bijeenkomsten and bedrijfsbijeenkomsten. Wij leggen keynote sprekers, interactie met het publiek, netwerkmomenten en merkidentiteit vast met een consistente visuele stijl die aansluit bij de identiteit van uw bedrijf.</p>
           </div>
         </div>
-        <div class="pt-2"><span class="text-primary font-bold inline-flex items-center gap-2">Lees meer <span class="group-hover:translate-x-1 transition-transform">&gt;</span></span></div></a>
+        <div class="pt-0"><span class="text-primary font-bold inline-flex items-center gap-2">Lees meer <span class="group-hover:translate-x-1 transition-transform">&gt;</span></span></div></a>
 
       <!-- 2. Corporate Video Production -->
-      <a href="./corporate-video-production.html" class="flex flex-col justify-between h-full group block text-left bg-white border border-gray-200/80 rounded-[24px] p-5 hover:shadow-lg hover:border-gray-300 transition-all duration-300">
+      <a href="./corporate-video-production.html" class="flex flex-col justify-between h-full group block text-left bg-white border border-gray-200/80 rounded-[20px] p-4 hover:shadow-lg hover:border-gray-300 transition-all duration-300">
         <div>
-          <div class="image-hover-card-container aspect-[3/2] w-full mb-4">
+          <div class="image-hover-card-container aspect-[3/2] w-full mb-3">
             <div class="overlay"><span class="overlay-label">Zakelijke Videoproductie</span></div>
             <img alt="Videoproductie" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[600ms]" src="../images/Videography-Website-FEM.jpg"/>
           </div>
-          <div class="py-1">
-            <h3 class="text-lg font-bold mb-2 text-[#121111] group-hover:text-primary transition-colors">Zakelijke Videoproductie</h3>
-            <p class="text-[#4a4a4a] text-sm leading-relaxed mb-4">Hoogwaardige zakelijke videoproductie voor evenementen, congressen, aftermovies and branded content. Onze producties helpen bedrijven helder te communiceren via krachtige visuele storytelling die is ontworpen voor interne communicatie, marketing en LinkedIn.</p>
+          <div class="pt-1 pb-0">
+            <h3 class="text-base font-bold mb-1 text-[#121111] group-hover:text-primary transition-colors">Zakelijke Videoproductie</h3>
+            <p class="text-[#4a4a4a] text-sm leading-relaxed mb-1">Hoogwaardige zakelijke videoproductie voor evenementen, congressen, aftermovies and branded content. Onze producties helpen bedrijven helder te communiceren via krachtige visuele storytelling die is ontworpen voor interne communicatie, marketing en LinkedIn.</p>
           </div>
         </div>
-        <div class="pt-2"><span class="text-primary font-bold inline-flex items-center gap-2">Lees meer <span class="group-hover:translate-x-1 transition-transform">&gt;</span></span></div></a>
+        <div class="pt-0"><span class="text-primary font-bold inline-flex items-center gap-2">Lees meer <span class="group-hover:translate-x-1 transition-transform">&gt;</span></span></div></a>
 
       <!-- 3. Professional Headshots -->
-      <a href="./professional-headshots-corporate-portraits.html" class="flex flex-col justify-between h-full group block text-left bg-white border border-gray-200/80 rounded-[24px] p-5 hover:shadow-lg hover:border-gray-300 transition-all duration-300">
+      <a href="./professional-headshots-corporate-portraits.html" class="flex flex-col justify-between h-full group block text-left bg-white border border-gray-200/80 rounded-[20px] p-4 hover:shadow-lg hover:border-gray-300 transition-all duration-300">
         <div>
-          <div class="image-hover-card-container aspect-[3/2] w-full mb-4">
+          <div class="image-hover-card-container aspect-[3/2] w-full mb-3">
             <div class="overlay"><span class="overlay-label">Professionele Portretten</span></div>
             <img alt="Professionele Portretten" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[600ms]" src="../images/Corporate-Website-FEM-grijs.jpg"/>
           </div>
-          <div class="py-1">
-            <h3 class="text-lg font-bold mb-2 text-[#121111] group-hover:text-primary transition-colors">Professionele Portretfoto's &amp; Zakelijke Portretten</h3>
-            <p class="text-[#4a4a4a] text-sm leading-relaxed mb-4">Consistente, hoogwaardige professionele portretfoto's en zakelijke portretten voor directieleden, managementteams en medewerkers. Versterk de visuele identiteit van uw bedrijf op websites, persberichten, LinkedIn en interne platforms.</p>
+          <div class="pt-1 pb-0">
+            <h3 class="text-base font-bold mb-1 text-[#121111] group-hover:text-primary transition-colors">Professionele Portretfoto's &amp; Zakelijke Portretten</h3>
+            <p class="text-[#4a4a4a] text-sm leading-relaxed mb-1">Consistente, hoogwaardige professionele portretfoto's en zakelijke portretten voor directieleden, managementteams en medewerkers. Versterk de visuele identiteit van uw bedrijf op websites, persberichten, LinkedIn en interne platforms.</p>
           </div>
         </div>
-        <div class="pt-2"><span class="text-primary font-bold inline-flex items-center gap-2">Lees meer <span class="group-hover:translate-x-1 transition-transform">&gt;</span></span></div></a>
+        <div class="pt-0"><span class="text-primary font-bold inline-flex items-center gap-2">Lees meer <span class="group-hover:translate-x-1 transition-transform">&gt;</span></span></div></a>
 
       <!-- 4. Corporate Interviews & Testimonials -->
-      <a href="./corporate-interviews-testimonials.html" class="flex flex-col justify-between h-full group block text-left bg-white border border-gray-200/80 rounded-[24px] p-5 hover:shadow-lg hover:border-gray-300 transition-all duration-300">
+      <a href="./corporate-interviews-testimonials.html" class="flex flex-col justify-between h-full group block text-left bg-white border border-gray-200/80 rounded-[20px] p-4 hover:shadow-lg hover:border-gray-300 transition-all duration-300">
         <div>
-          <div class="image-hover-card-container aspect-[3/2] w-full mb-4">
+          <div class="image-hover-card-container aspect-[3/2] w-full mb-3">
             <div class="overlay"><span class="overlay-label">Zakelijke Interviews &amp; Testimonials</span></div>
             <img alt="Zakelijke Interviews &amp; Testimonials" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[600ms]" src="../images/Interview-Website-FEM.jpg"/>
           </div>
-          <div class="py-1">
-            <h3 class="text-lg font-bold mb-2 text-[#121111] group-hover:text-primary transition-colors">Zakelijke Interviews &amp; Testimonials</h3>
-            <p class="text-[#4a4a4a] text-sm leading-relaxed mb-4">Professionele videoproductie van zakelijke interviews en testimonials voor directieleden, medewerkers en partners. Strakke beelden, professionele audio en gestructureerde storytelling, geoptimaliseerd voor interne communicatie, employer branding en zichtbaarheid op LinkedIn.</p>
+          <div class="pt-1 pb-0">
+            <h3 class="text-base font-bold mb-1 text-[#121111] group-hover:text-primary transition-colors">Zakelijke Interviews &amp; Testimonials</h3>
+            <p class="text-[#4a4a4a] text-sm leading-relaxed mb-1">Professionele videoproductie van zakelijke interviews en testimonials voor directieleden, medewerkers en partners. Strakke beelden, professionele audio en gestructureerde storytelling, geoptimaliseerd voor interne communicatie, employer branding en zichtbaarheid op LinkedIn.</p>
           </div>
         </div>
-        <div class="pt-2"><span class="text-primary font-bold inline-flex items-center gap-2">Lees meer <span class="group-hover:translate-x-1 transition-transform">&gt;</span></span></div></a>
+        <div class="pt-0"><span class="text-primary font-bold inline-flex items-center gap-2">Lees meer <span class="group-hover:translate-x-1 transition-transform">&gt;</span></span></div></a>
 
       <!-- 5. Drone Video & Aerial Photography -->
-      <a href="./drone-video-aerial-photography.html" class="flex flex-col justify-between h-full group block text-left bg-white border border-gray-200/80 rounded-[24px] p-5 hover:shadow-lg hover:border-gray-300 transition-all duration-300">
+      <a href="./drone-video-aerial-photography.html" class="flex flex-col justify-between h-full group block text-left bg-white border border-gray-200/80 rounded-[20px] p-4 hover:shadow-lg hover:border-gray-300 transition-all duration-300">
         <div>
-          <div class="image-hover-card-container aspect-[3/2] w-full mb-4">
+          <div class="image-hover-card-container aspect-[3/2] w-full mb-3">
             <div class="overlay"><span class="overlay-label">Dronevideo &amp; Luchtfotografie</span></div>
             <img alt="Dronevideo" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[600ms]" src="../images/Drone-Website-FEM.jpg"/>
           </div>
-          <div class="py-1">
-            <h3 class="text-lg font-bold mb-2 text-[#121111] group-hover:text-primary transition-colors">Dronevideo &amp; Luchtfotografie</h3>
-            <p class="text-[#4a4a4a] text-sm leading-relaxed mb-4">Gecertificeerde drone-videoproductie en luchtfotografie voor zakelijke evenementen, bedrijfslocaties en grootschalige producties. Dynamische perspectieven vanuit de lucht die de storytelling versterken en visueel indrukwekkende content creëren voor zakelijke communicatie.</p>
+          <div class="pt-1 pb-0">
+            <h3 class="text-base font-bold mb-1 text-[#121111] group-hover:text-primary transition-colors">Dronevideo &amp; Luchtfotografie</h3>
+            <p class="text-[#4a4a4a] text-sm leading-relaxed mb-1">Gecertificeerde drone-videoproductie en luchtfotografie voor zakelijke evenementen, bedrijfslocaties en grootschalige producties. Dynamische perspectieven vanuit de lucht die de storytelling versterken en visueel indrukwekkende content creëren voor zakelijke communicatie.</p>
           </div>
         </div>
-        <div class="pt-2"><span class="text-primary font-bold inline-flex items-center gap-2">Lees meer <span class="group-hover:translate-x-1 transition-transform">&gt;</span></span></div></a>
+        <div class="pt-0"><span class="text-primary font-bold inline-flex items-center gap-2">Lees meer <span class="group-hover:translate-x-1 transition-transform">&gt;</span></span></div></a>
 
       <!-- 6. Elevate your event -->
-      <a href="./elevate-your-event.html" class="flex flex-col justify-between h-full group block text-left bg-white border border-gray-200/80 rounded-[24px] p-5 hover:shadow-lg hover:border-gray-300 transition-all duration-300">
+      <a href="./elevate-your-event.html" class="flex flex-col justify-between h-full group block text-left bg-white border border-gray-200/80 rounded-[20px] p-4 hover:shadow-lg hover:border-gray-300 transition-all duration-300">
         <div>
-          <div class="image-hover-card-container aspect-[3/2] w-full mb-4">
-            <div class="overlay"><span class="overlay-label">Til Uw Evenement naar een Hoger Niveau</span></div>
-            <img alt="Til Uw Evenement naar een Hoger Niveau" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[600ms]" src="../images/Elevate-Website-FEM.jpg"/>
+          <div class="image-hover-card-container aspect-[3/2] w-full mb-3">
+            <div class="overlay"><span class="overlay-label">Breng uw evenement naar een hoger niveau</span></div>
+            <img alt="Breng uw evenement naar een hoger niveau" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[600ms]" src="../images/Elevate-Website-FEM.jpg"/>
           </div>
-          <div class="py-1">
-            <h3 class="text-lg font-bold mb-2 text-[#121111] group-hover:text-primary transition-colors">Til Uw Evenement naar een Hoger Niveau</h3>
-            <p class="text-[#4a4a4a] text-sm leading-relaxed mb-4">Volledige verslaglegging van zakelijke evenementen waarin fotografie, videoproductie, interviews and droneservices worden gecombineerd. Een op maat gemaakte productieaanpak die is ontworpen om naadloze, efficiënte en schaalbare verslaglegging te leveren, afgestemd op uw evenementdoelstellingen en merkcommunicatie.</p>
+          <div class="pt-1 pb-0">
+            <h3 class="text-base font-bold mb-1 text-[#121111] group-hover:text-primary transition-colors">Breng uw evenement naar een hoger niveau</h3>
+            <p class="text-[#4a4a4a] text-sm leading-relaxed mb-1">Volledige verslaglegging van zakelijke evenementen waarin fotografie, videoproductie, interviews and droneservices worden gecombineerd. Een op maat gemaakte productieaanpak die is ontworpen om naadloze, efficiënte en schaalbare verslaglegging te leveren, afgestemd op uw evenementdoelstellingen en merkcommunicatie.</p>
           </div>
         </div>
-        <div class="pt-2"><span class="text-primary font-bold inline-flex items-center gap-2">Lees meer <span class="group-hover:translate-x-1 transition-transform">&gt;</span></span></div></a>
+        <div class="pt-0"><span class="text-primary font-bold inline-flex items-center gap-2">Lees meer <span class="group-hover:translate-x-1 transition-transform">&gt;</span></span></div></a>
     </div>
   </section>
 
   <!-- 4. Who We Are Section -->
-  <section id="about" class="bg-[#121111] text-white relative pt-40 pb-48 overflow-hidden">
+  <section id="about" class="bg-[#121111] text-white relative pt-40 pb-64 md:pb-48 overflow-hidden">
     <!-- Top Shape Divider (transitions from white Services section) -->
     <div class="absolute top-0 left-0 w-full overflow-hidden leading-[0] z-20">
       <svg class="relative block w-full h-[100px]" viewBox="0 0 1440 320" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
@@ -869,45 +874,65 @@
   </section>
 
   <!-- 6. Logo Slider Section (Divider ID 366 / LogoList 623) -->
-  <section class="py-24 relative bg-white overflow-hidden pb-48">
+  <section class="pt-16 pb-12 relative bg-white overflow-hidden">
     <div class="text-center mb-16 px-6 relative z-10">
       <h2 class="text-3xl font-bold text-[#121111]">Bedrijven die hun vertrouwen in ons hebben gesteld</h2>
     </div>
-    <div class="logo-carousel-container grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-500 relative z-10">
+    <div class="logo-carousel-container relative z-10">
       <!-- Set 1 -->
       <div class="logo-carousel">
-        <div class="h-20 w-44 bg-gray-50 border border-gray-100 rounded-xl flex items-center justify-center p-4">
-          <img alt="ABN AMRO" class="max-h-full max-w-full object-contain" src="../images/abn-amro-logo-new-colors-1.png"/>
+        <div class="h-20 w-44 bg-gray-50 border border-gray-100 rounded-xl flex items-center justify-center p-4 hover:shadow-md transition-shadow">
+          <a href="https://www.abnamro.nl" target="_blank" rel="noopener noreferrer" class="w-full h-full flex items-center justify-center">
+            <img alt="ABN AMRO" class="max-h-full max-w-full object-contain" src="../images/abn-amro-logo-new-colors-1.png"/>
+          </a>
         </div>
-        <div class="h-20 w-44 bg-gray-50 border border-gray-100 rounded-xl flex items-center justify-center p-4">
-          <img alt="PostNL" class="max-h-full max-w-full object-contain" src="../images/postnl-3.png"/>
+        <div class="h-20 w-44 bg-gray-50 border border-gray-100 rounded-xl flex items-center justify-center p-4 hover:shadow-md transition-shadow">
+          <a href="https://www.postnl.nl" target="_blank" rel="noopener noreferrer" class="w-full h-full flex items-center justify-center">
+            <img alt="PostNL" class="max-h-full max-w-full object-contain" src="../images/postnl-3.png"/>
+          </a>
         </div>
-        <div class="h-20 w-44 bg-gray-50 border border-gray-100 rounded-xl flex items-center justify-center p-4">
-          <img alt="Klarna" class="max-h-full max-w-full object-contain" src="../images/klarna.jpg"/>
+        <div class="h-20 w-44 bg-gray-50 border border-gray-100 rounded-xl flex items-center justify-center p-4 hover:shadow-md transition-shadow">
+          <a href="https://www.klarna.com" target="_blank" rel="noopener noreferrer" class="w-full h-full flex items-center justify-center">
+            <img alt="Klarna" class="max-h-full max-w-full object-contain" src="../images/klarna.jpg"/>
+          </a>
         </div>
-        <div class="h-20 w-44 bg-gray-50 border border-gray-100 rounded-xl flex items-center justify-center p-4">
-          <img alt="Vattenfall" class="max-h-full max-w-full object-contain" src="../images/vattenfall_logo.png"/>
+        <div class="h-20 w-44 bg-gray-50 border border-gray-100 rounded-xl flex items-center justify-center p-4 hover:shadow-md transition-shadow">
+          <a href="https://www.vattenfall.nl" target="_blank" rel="noopener noreferrer" class="w-full h-full flex items-center justify-center">
+            <img alt="Vattenfall" class="max-h-full max-w-full object-contain" src="../images/vattenfall_logo.png"/>
+          </a>
         </div>
-        <div class="h-20 w-44 bg-gray-50 border border-gray-100 rounded-xl flex items-center justify-center p-4">
-          <img alt="Velux" class="max-h-full max-w-full object-contain" src="../images/velux-1.jpg"/>
+        <div class="h-20 w-44 bg-gray-50 border border-gray-100 rounded-xl flex items-center justify-center p-4 hover:shadow-md transition-shadow">
+          <a href="https://www.velux.nl" target="_blank" rel="noopener noreferrer" class="w-full h-full flex items-center justify-center">
+            <img alt="Velux" class="max-h-full max-w-full object-contain" src="../images/velux-1.jpg"/>
+          </a>
         </div>
       </div>
       <!-- Set 2 (Clone) -->
       <div class="logo-carousel" aria-hidden="true">
-        <div class="h-20 w-44 bg-gray-50 border border-gray-100 rounded-xl flex items-center justify-center p-4">
-          <img alt="ABN AMRO" class="max-h-full max-w-full object-contain" src="../images/abn-amro-logo-new-colors-1.png"/>
+        <div class="h-20 w-44 bg-gray-50 border border-gray-100 rounded-xl flex items-center justify-center p-4 hover:shadow-md transition-shadow">
+          <a href="https://www.abnamro.nl" target="_blank" rel="noopener noreferrer" class="w-full h-full flex items-center justify-center">
+            <img alt="ABN AMRO" class="max-h-full max-w-full object-contain" src="../images/abn-amro-logo-new-colors-1.png"/>
+          </a>
         </div>
-        <div class="h-20 w-44 bg-gray-50 border border-gray-100 rounded-xl flex items-center justify-center p-4">
-          <img alt="PostNL" class="max-h-full max-w-full object-contain" src="../images/postnl-3.png"/>
+        <div class="h-20 w-44 bg-gray-50 border border-gray-100 rounded-xl flex items-center justify-center p-4 hover:shadow-md transition-shadow">
+          <a href="https://www.postnl.nl" target="_blank" rel="noopener noreferrer" class="w-full h-full flex items-center justify-center">
+            <img alt="PostNL" class="max-h-full max-w-full object-contain" src="../images/postnl-3.png"/>
+          </a>
         </div>
-        <div class="h-20 w-44 bg-gray-50 border border-gray-100 rounded-xl flex items-center justify-center p-4">
-          <img alt="Klarna" class="max-h-full max-w-full object-contain" src="../images/klarna.jpg"/>
+        <div class="h-20 w-44 bg-gray-50 border border-gray-100 rounded-xl flex items-center justify-center p-4 hover:shadow-md transition-shadow">
+          <a href="https://www.klarna.com" target="_blank" rel="noopener noreferrer" class="w-full h-full flex items-center justify-center">
+            <img alt="Klarna" class="max-h-full max-w-full object-contain" src="../images/klarna.jpg"/>
+          </a>
         </div>
-        <div class="h-20 w-44 bg-gray-50 border border-gray-100 rounded-xl flex items-center justify-center p-4">
-          <img alt="Vattenfall" class="max-h-full max-w-full object-contain" src="../images/vattenfall_logo.png"/>
+        <div class="h-20 w-44 bg-gray-50 border border-gray-100 rounded-xl flex items-center justify-center p-4 hover:shadow-md transition-shadow">
+          <a href="https://www.vattenfall.nl" target="_blank" rel="noopener noreferrer" class="w-full h-full flex items-center justify-center">
+            <img alt="Vattenfall" class="max-h-full max-w-full object-contain" src="../images/vattenfall_logo.png"/>
+          </a>
         </div>
-        <div class="h-20 w-44 bg-gray-50 border border-gray-100 rounded-xl flex items-center justify-center p-4">
-          <img alt="Velux" class="max-h-full max-w-full object-contain" src="../images/velux-1.jpg"/>
+        <div class="h-20 w-44 bg-gray-50 border border-gray-100 rounded-xl flex items-center justify-center p-4 hover:shadow-md transition-shadow">
+          <a href="https://www.velux.nl" target="_blank" rel="noopener noreferrer" class="w-full h-full flex items-center justify-center">
+            <img alt="Velux" class="max-h-full max-w-full object-contain" src="../images/velux-1.jpg"/>
+          </a>
         </div>
       </div>
     </div>
@@ -917,9 +942,9 @@
   
 
   <!-- 8. Content Section -->
-  <section class="py-32 relative bg-white px-6 md:px-12 lg:px-24">
+  <section class="pt-16 pb-24 relative bg-white px-6 md:px-12 lg:px-24">
     
-    <div class="container mx-auto pt-24 grid grid-cols-1 lg:grid-cols-2 gap-20 items-center relative z-10">
+    <div class="container mx-auto pt-0 grid grid-cols-1 lg:grid-cols-2 gap-20 items-center relative z-10">
       <div class="space-y-6">
         <p class="text-primary tracking-widest font-bold text-xs uppercase">Diensten die resultaat opleveren</p>
         <h2 class="text-4xl md:text-5xl font-black text-[#121111] leading-tight">Snelle, betrouwbare levering voor zakelijke omgevingen</h2>
@@ -941,15 +966,15 @@
         </div>
 
         <div class="pt-4">
-          <a href="./start.html" class="bg-primary text-on-primary-container px-10 py-4 rounded-full font-bold text-lg hover:shadow-primary/20 hover:shadow-2xl transition-all">
-            Til uw project naar een hoger niveau
+          <a href="./start.html" class="bg-white text-primary border border-gray-200/80 px-10 py-4 rounded-full font-bold text-lg hover:shadow-primary/10 hover:shadow-2xl transition-all">
+            Breng uw project naar een hoger niveau
           </a>
         </div>
       </div>
       <!-- Right image column with overlapping floating badge -->
       <div class="relative rounded-3xl overflow-hidden shadow-2xl group">
         <img alt="Kantoorindeling Briddge" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-700 rounded-3xl" src="../images/Briddge-kantoor.jpg"/>
-        <div class="absolute top-6 left-6 bg-primary text-on-primary-container px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-widest shadow-2xl z-20">
+        <div class="absolute top-6 left-6 bg-white text-primary px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-widest shadow-2xl z-20">
           Zakelijk
         </div>
       </div>
@@ -994,7 +1019,7 @@
               <li><a href="./corporate-video-production.html" class="hover:text-primary transition-colors">Zakelijke Videoproductie</a></li>
               <li><a href="./professional-headshots-corporate-portraits.html" class="hover:text-primary transition-colors">Professionele Portretfoto's &amp; Portretten</a></li>
               <li><a href="./drone-video-aerial-photography.html" class="hover:text-primary transition-colors">Dronevideo &amp; Luchtfotografie</a></li>
-              <li><a href="./elevate-your-event.html" class="hover:text-primary transition-colors">Til Uw Evenement naar een Hoger Niveau</a></li>
+              <li><a href="./elevate-your-event.html" class="hover:text-primary transition-colors">Breng uw evenement naar een hoger niveau</a></li>
             </ul>
           </div>
           

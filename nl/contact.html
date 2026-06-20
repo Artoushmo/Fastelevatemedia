@@ -424,6 +424,13 @@
                   </svg>
                   <span class="underline underline-offset-2">info@fastelevatemedia.com</span>
                 </a>
+                <!-- Pricing Link -->
+                <a href="./pricing.html" class="flex items-center gap-2 text-sm text-gray-700 hover:text-primary transition-colors">
+                  <svg class="w-4 h-4 text-primary fill-current flex-shrink-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm1 15.93V19h-2v-1.07c-2.438-.137-4-.794-4-.794l.432-1.921s1.396.488 3.568.488c1.398 0 2-.454 2-1.129 0-1.854-6-1.503-6-5.114 0-1.65 1.157-2.833 3-3.23V5h2v1.076c1.684.083 3 .562 3 .562l-.365 1.896s-1.157-.406-2.635-.406c-1.258 0-2 .412-2 1.033 0 1.95 6 1.42 6 5.179 0 1.835-1.272 2.925-3 3.59z"/>
+                  </svg>
+                  <span class="underline underline-offset-2 font-semibold">Bekijk onze tarieven</span>
+                </a>
               </div>
             </div>
 
@@ -434,7 +441,8 @@
         <div class="w-full lg:w-[40%] bg-white rounded-2xl border border-[#DEDEDE] shadow-[0px_24px_48px_-12px_rgba(0,0,0,0.10)] p-8 flex flex-col gap-6 flex-shrink-0">
           <h3 class="text-2xl font-extrabold text-[#121111] leading-tight">Neem contact op</h3>
 
-          <form id="contact-form" class="flex flex-col gap-[10px]" novalidate>
+          <form id="contact-form" name="contact" data-netlify="true" class="flex flex-col gap-[10px]" novalidate>
+            <input type="hidden" name="form-name" value="contact" />
             <!-- Name -->
             <input
               type="text"
@@ -607,17 +615,51 @@
   </div>
 
   <script>
-    // Simple form handler
+    // Contact formulier handler (Netlify Forms integratie)
     const form = document.getElementById('contact-form');
     const successMsg = document.getElementById('form-success');
     const errorMsg = document.getElementById('form-error');
 
     form.addEventListener('submit', function(e) {
       e.preventDefault();
-      successMsg.classList.remove('hidden');
+      
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const message = document.getElementById('message').value.trim();
+
+      if (!name || !email || !message) {
+        errorMsg.textContent = "Vul alstublieft alle velden in.";
+        errorMsg.classList.remove('hidden');
+        successMsg.classList.add('hidden');
+        return;
+      }
+
       errorMsg.classList.add('hidden');
-      form.reset();
-      setTimeout(() => successMsg.classList.add('hidden'), 5000);
+      
+      const formData = new FormData(form);
+      
+      // Verzend gegevens geruisloos naar Netlify via AJAX
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formData).toString()
+      })
+      .then(response => {
+        if (response.ok) {
+          successMsg.classList.remove('hidden');
+          form.reset();
+          setTimeout(() => {
+            successMsg.classList.add('hidden');
+          }, 8000);
+        } else {
+          throw new Error("Formulier verzending mislukt");
+        }
+      })
+      .catch(error => {
+        errorMsg.textContent = "Er is iets misgegaan. Probeer het opnieuw.";
+        errorMsg.classList.remove('hidden');
+        successMsg.classList.add('hidden');
+      });
     });
   </script>
 

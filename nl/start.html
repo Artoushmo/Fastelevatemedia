@@ -378,28 +378,29 @@
         <h3 class="text-2xl font-black text-[#121111] mb-2 text-center">Stuur uw gegevens in</h3>
         <p class="text-sm text-gray-500 mb-8 text-center">Vul het formulier in en we nemen contact op met een voorstel op maat.</p>
         
-        <form class="space-y-6" onsubmit="event.preventDefault(); alert('Bedankt voor de details! We nemen zo snel mogelijk contact op om uw project te bespreken.');">
+        <form id="intake-form" name="intake" data-netlify="true" enctype="multipart/form-data" class="space-y-6" novalidate>
+          <input type="hidden" name="form-name" value="intake" />
           
           <!-- Form Inputs -->
           <div>
-            <input type="text" placeholder="Naam" class="w-full input-field rounded-xl px-5 py-4 text-sm text-[#121111] border-gray-200 placeholder-gray-400" required />
+            <input type="text" id="name" name="name" placeholder="Naam" class="w-full input-field rounded-xl px-5 py-4 text-sm text-[#121111] border-gray-200 placeholder-gray-400" required />
           </div>
           
           <div>
-            <input type="email" placeholder="E-mailadres" class="w-full input-field rounded-xl px-5 py-4 text-sm text-[#121111] border-gray-200 placeholder-gray-400" required />
+            <input type="email" id="email" name="email" placeholder="E-mailadres" class="w-full input-field rounded-xl px-5 py-4 text-sm text-[#121111] border-gray-200 placeholder-gray-400" required />
           </div>
           
           <div>
-            <input type="tel" placeholder="Telefoonnummer" class="w-full input-field rounded-xl px-5 py-4 text-sm text-[#121111] border-gray-200 placeholder-gray-400" required />
+            <input type="tel" id="phone" name="phone" placeholder="Telefoonnummer" class="w-full input-field rounded-xl px-5 py-4 text-sm text-[#121111] border-gray-200 placeholder-gray-400" required />
           </div>
           
           <div>
-            <input type="text" placeholder="Bedrijfsnaam" class="w-full input-field rounded-xl px-5 py-4 text-sm text-[#121111] border-gray-200 placeholder-gray-400" required />
+            <input type="text" id="company" name="company" placeholder="Bedrijfsnaam" class="w-full input-field rounded-xl px-5 py-4 text-sm text-[#121111] border-gray-200 placeholder-gray-400" required />
           </div>
           
           <!-- Date Picker with Calendar Icon -->
           <div class="relative">
-            <input type="text" placeholder="dd-mm-jjjj" onfocus="(this.type='date')" onblur="if(!this.value) this.type='text'" class="w-full input-field rounded-xl px-5 py-4 text-sm text-[#121111] border-gray-200 placeholder-gray-400" required />
+            <input type="text" id="date" name="date" placeholder="dd-mm-jjjj" onfocus="(this.type='date')" onblur="if(!this.value) this.type='text'" class="w-full input-field rounded-xl px-5 py-4 text-sm text-[#121111] border-gray-200 placeholder-gray-400" required />
             <span class="absolute right-5 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none">
               <svg class="w-5 h-5 stroke-current" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z" />
@@ -408,44 +409,45 @@
           </div>
           
           <div>
-            <input type="text" placeholder="Locatie" class="w-full input-field rounded-xl px-5 py-4 text-sm text-[#121111] border-gray-200 placeholder-gray-400" required />
+            <input type="text" id="place" name="place" placeholder="Locatie" class="w-full input-field rounded-xl px-5 py-4 text-sm text-[#121111] border-gray-200 placeholder-gray-400" required />
           </div>
           
           <div>
-            <textarea placeholder="Typ uw bericht..." rows="5" class="w-full input-field rounded-xl px-5 py-4 text-sm text-[#121111] border-gray-200 placeholder-gray-400" required></textarea>
+            <textarea id="message" name="message" placeholder="Typ uw bericht..." rows="5" class="w-full input-field rounded-xl px-5 py-4 text-sm text-[#121111] border-gray-200 placeholder-gray-400" required></textarea>
           </div>
           
           <!-- Checkboxes -->
           <div class="space-y-4 pt-4 border-t border-gray-100">
             <label class="flex items-center gap-3.5 cursor-pointer">
-              <input type="checkbox" class="rounded border-gray-300 text-primary focus:ring-primary h-5 w-5" />
+              <input type="checkbox" name="services" value="Corporate Event Fotografie" class="rounded border-gray-300 text-primary focus:ring-primary h-5 w-5" />
               <span class="text-sm font-medium text-gray-700 select-none">Corporate Event Fotografie</span>
             </label>
             <label class="flex items-center gap-3.5 cursor-pointer">
-              <input type="checkbox" class="rounded border-gray-300 text-primary focus:ring-primary h-5 w-5" />
+              <input type="checkbox" name="services" value="Bedrijfsvideoproductie" class="rounded border-gray-300 text-primary focus:ring-primary h-5 w-5" />
               <span class="text-sm font-medium text-gray-700 select-none">Bedrijfsvideoproductie</span>
             </label>
             <label class="flex items-center gap-3.5 cursor-pointer">
-              <input type="checkbox" class="rounded border-gray-300 text-primary focus:ring-primary h-5 w-5" />
+              <input type="checkbox" name="services" value="Professionele Portretten & Headshots" class="rounded border-gray-300 text-primary focus:ring-primary h-5 w-5" />
               <span class="text-sm font-medium text-gray-700 select-none">Professionele Portretten &amp; Headshots</span>
             </label>
             <label class="flex items-center gap-3.5 cursor-pointer">
-              <input type="checkbox" class="rounded border-gray-300 text-primary focus:ring-primary h-5 w-5" />
+              <input type="checkbox" name="services" value="Zakelijke Interviews & Testimonials" class="rounded border-gray-300 text-primary focus:ring-primary h-5 w-5" />
               <span class="text-sm font-medium text-gray-700 select-none">Zakelijke Interviews &amp; Testimonials</span>
             </label>
             <label class="flex items-center gap-3.5 cursor-pointer">
-              <input type="checkbox" class="rounded border-gray-300 text-primary focus:ring-primary h-5 w-5" />
+              <input type="checkbox" name="services" value="Drone Video & Luchtfotografie" class="rounded border-gray-300 text-primary focus:ring-primary h-5 w-5" />
               <span class="text-sm font-medium text-gray-700 select-none">Drone Video &amp; Luchtfotografie</span>
             </label>
             <label class="flex items-center gap-3.5 cursor-pointer">
-              <input type="checkbox" class="rounded border-gray-300 text-primary focus:ring-primary h-5 w-5" />
+              <input type="checkbox" name="services" value="Volledig op maat gemaakte verslaglegging van bedrijfsevenementen" class="rounded border-gray-300 text-primary focus:ring-primary h-5 w-5" />
               <span class="text-sm font-medium text-gray-700 select-none">Volledig op maat gemaakte verslaglegging van bedrijfsevenementen</span>
             </label>
           </div>
 
           <!-- File Upload Box -->
           <div class="pt-4">
-            <div class="upload-box rounded-xl p-8 flex flex-col items-center justify-center text-center cursor-pointer border-2">
+            <div id="upload-zone" class="upload-box rounded-xl p-8 flex flex-col items-center justify-center text-center cursor-pointer border-2">
+              <input type="file" id="file-input" name="file" class="hidden" accept=".jpg,.jpeg,.png,.pdf" />
               <svg class="w-10 h-10 text-gray-400 mb-3" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v12a1.5 1.5 0 001.5 1.5zm10.5-11.25h.008v.008h-.008V8.25zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
               </svg>
@@ -453,15 +455,16 @@
                 <span class="text-primary font-bold hover:underline">Upload een bestand</span> of sleep het hierheen
               </p>
               <p class="text-xs text-gray-400 mt-1.5">
-                jpg, jpeg, jpe, png, pdf tot 10MB
+                jpg, jpeg, png, pdf tot 10MB
               </p>
+              <span id="file-name-display" class="hidden text-xs text-primary font-semibold mt-2"></span>
             </div>
           </div>
 
           <!-- Privacy Checkbox -->
           <div class="pt-2">
             <label class="flex items-center gap-3 cursor-pointer">
-              <input type="checkbox" class="rounded border-gray-300 text-primary focus:ring-primary h-5 w-5" required />
+              <input type="checkbox" id="privacy-policy" class="rounded border-gray-300 text-primary focus:ring-primary h-5 w-5" required />
               <span class="text-sm text-gray-600 select-none">Ik ga akkoord met het privacybeleid en de mailings.</span>
             </label>
           </div>
@@ -472,7 +475,14 @@
               Versturen
             </button>
           </div>
-          
+
+          <!-- Success / Error messages -->
+          <div id="form-success" class="hidden text-center py-3 px-4 rounded-lg bg-green-50 border border-green-200 text-green-700 text-sm font-medium mt-4">
+            Bedankt! Uw standaard e-mailprogramma is geopend om uw aanvraag te verzenden.
+          </div>
+          <div id="form-error" class="hidden text-center py-3 px-4 rounded-lg bg-red-50 border border-red-200 text-red-700 text-sm font-medium mt-4">
+            Er is iets misgegaan. Controleer de velden en probeer het opnieuw.
+          </div>
         </form>
       </div>
     </div>
@@ -595,6 +605,130 @@
       </svg>
     </a>
   </div>
+  <!-- Intake Form and File Upload Scripts -->
+  <script>
+    (function() {
+      const form = document.getElementById('intake-form');
+      const successMsg = document.getElementById('form-success');
+      const errorMsg = document.getElementById('form-error');
+      const fileInput = document.getElementById('file-input');
+      const uploadZone = document.getElementById('upload-zone');
+      const fileNameDisplay = document.getElementById('file-name-display');
+
+      let selectedFileName = '';
+
+      // Trigger file dialog on zone click
+      if (uploadZone && fileInput) {
+        uploadZone.addEventListener('click', () => {
+          fileInput.click();
+        });
+
+        // Prevent default drag behaviors
+        ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+          uploadZone.addEventListener(eventName, e => {
+            e.preventDefault();
+            e.stopPropagation();
+          }, false);
+        });
+
+        // Highlight/unhighlight on drag over/leave
+        ['dragenter', 'dragover'].forEach(eventName => {
+          uploadZone.addEventListener(eventName, () => {
+            uploadZone.classList.add('border-primary', 'bg-blue-50/20');
+          }, false);
+        });
+
+        ['dragleave', 'drop'].forEach(eventName => {
+          uploadZone.addEventListener(eventName, () => {
+            uploadZone.classList.remove('border-primary', 'bg-blue-50/20');
+          }, false);
+        });
+
+        // Handle dropped files
+        uploadZone.addEventListener('drop', e => {
+          const dt = e.dataTransfer;
+          const files = dt.files;
+          if (files && files.length > 0) {
+            fileInput.files = files;
+            updateFileNameDisplay(files[0]);
+          }
+        });
+
+        // Handle selected file via input change
+        fileInput.addEventListener('change', () => {
+          if (fileInput.files && fileInput.files.length > 0) {
+            updateFileNameDisplay(fileInput.files[0]);
+          } else {
+            fileNameDisplay.textContent = '';
+            fileNameDisplay.classList.add('hidden');
+            selectedFileName = '';
+          }
+        });
+      }
+
+      function updateFileNameDisplay(file) {
+        if (!file) return;
+        const sizeMb = (file.size / (1024 * 1024)).toFixed(2);
+        selectedFileName = file.name;
+        
+        if (file.size > 10 * 1024 * 1024) {
+          fileNameDisplay.textContent = `Bestand overschrijdt de limiet van 10MB (${sizeMb}MB)`;
+          fileNameDisplay.classList.remove('text-primary');
+          fileNameDisplay.classList.add('text-red-600');
+          fileNameDisplay.classList.remove('hidden');
+          fileInput.value = ''; // Reset input
+          selectedFileName = '';
+        } else {
+          fileNameDisplay.textContent = `Geselecteerd bestand: ${file.name} (${sizeMb}MB)`;
+          fileNameDisplay.classList.remove('text-red-600');
+          fileNameDisplay.classList.add('text-primary');
+          fileNameDisplay.classList.remove('hidden');
+        }
+      }
+
+      if (form) {
+        form.addEventListener('submit', function(e) {
+          e.preventDefault();
+
+          // HTML5 standard validation check
+          if (!form.checkValidity()) {
+            form.reportValidity();
+            return;
+          }
+
+          const formData = new FormData(form);
+
+          // Verzend gegevens naar Netlify via AJAX (handelt automatisch multipart/form-data af voor bestanden)
+          fetch("/", {
+            method: "POST",
+            body: formData
+          })
+          .then(response => {
+            if (response.ok) {
+              errorMsg.classList.add('hidden');
+              successMsg.classList.remove('hidden');
+              form.reset();
+              if (fileNameDisplay) {
+                fileNameDisplay.textContent = '';
+                fileNameDisplay.classList.add('hidden');
+              }
+              selectedFileName = '';
+
+              setTimeout(() => {
+                successMsg.classList.add('hidden');
+              }, 10000);
+            } else {
+              throw new Error("Formulier verzending mislukt");
+            }
+          })
+          .catch(error => {
+            errorMsg.classList.remove('hidden');
+            successMsg.classList.add('hidden');
+          });
+        });
+      }
+    })();
+  </script>
 
   <!-- Mobile Menu Toggle Scripts -->
   <script>
