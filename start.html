@@ -717,7 +717,7 @@
           const formData = new FormData(form);
 
           // Send data to Netlify via AJAX (automatically handles multipart/form-data for file upload)
-          fetch("/", {
+          fetch(window.location.pathname, {
             method: "POST",
             body: formData
           })

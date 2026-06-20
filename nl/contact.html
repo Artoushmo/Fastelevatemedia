@@ -639,7 +639,7 @@
       const formData = new FormData(form);
       
       // Verzend gegevens geruisloos naar Netlify via AJAX
-      fetch("/", {
+      fetch(window.location.pathname, {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: new URLSearchParams(formData).toString()
