@@ -184,6 +184,12 @@
       transform: scaleX(1);
       transform-origin: bottom left;
     }
+    .line-clamp-2 {
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
     /* Services ImageHoverCard Exact Design Styling */
     .image-hover-card-container {
       border: 4px solid #ffffff;
@@ -196,13 +202,32 @@
     .image-hover-card-container .overlay {
       position: absolute;
       inset: 0;
-      background: linear-gradient(135deg, var(--color-card-overlay-1) 0%, var(--color-card-overlay-2) 100%);
-      opacity: 0.3;
+      background: rgba(76, 114, 169, 0.72);
+      opacity: 0;
       z-index: 10;
-      transition: opacity 600ms ease;
+      transition: opacity 400ms ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
     .image-hover-card-container:hover .overlay {
-      opacity: 0.5;
+      opacity: 1;
+    }
+    .image-hover-card-container .overlay-label {
+      color: #fff;
+      font-weight: 800;
+      font-size: 0.875rem;
+      text-align: center;
+      padding: 0 0.75rem;
+      opacity: 0;
+      transform: translateY(6px);
+      transition: opacity 350ms ease, transform 350ms ease;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+      letter-spacing: 0.01em;
+    }
+    .image-hover-card-container:hover .overlay-label {
+      opacity: 1;
+      transform: translateY(0);
     }
   
     /* ── NEW TIMELINE STYLE ───────────────────────────────────── */
@@ -502,17 +527,50 @@
   <!-- 1. Hero Section -->
   <section class="relative h-[65vh] min-h-[480px] overflow-hidden video-docker" id="hero-section">
     <video id="hero-video" autoplay="" class="absolute z-0" loop="" muted="" playsinline="" poster="../images/3.jpg">
-      <source src="../Banner Video FEM.MP4" type="video/mp4"/>
+      <source src="../banner-video-fem-v2.mp4" type="video/mp4"/>
     </video>
     <!-- Dark Gradient Overlay -->
     <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-black/30 z-[1]"></div>
     <!-- Mute/Unmute Toggle Button -->
-    <button id="hero-mute-btn" onclick="(function(){var v=document.getElementById('hero-video');v.muted=!v.muted;var btn=document.getElementById('hero-mute-btn');btn.innerHTML=v.muted?'<svg xmlns=\'http://www.w3.org/2000/svg\' class=\'w-4 h-4\' fill=\'none\' viewBox=\'0 0 24 24\' stroke=\'currentColor\' stroke-width=\'2\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' d=\'M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z\' /><path stroke-linecap=\'round\' stroke-linejoin=\'round\' d=\'M17 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2\' /></svg>':'<svg xmlns=\'http://www.w3.org/2000/svg\' class=\'w-4 h-4\' fill=\'none\' viewBox=\'0 0 24 24\' stroke=\'currentColor\' stroke-width=\'2\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' d=\'M15.536 8.464a5 5 0 010 7.072M12 6v12M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z\' /><path stroke-linecap=\'round\' stroke-linejoin=\'round\' d=\'M17.657 16.657L19.071 18.07M19.071 5.929l-1.414 1.414\' /></svg>';})()\" aria-label="Geluid aan/uit" class="absolute top-4 right-4 z-30 bg-black/40 hover:bg-black/60 text-white rounded-full p-2.5 backdrop-blur-sm transition-all duration-200 hover:scale-110 border border-white/20">
-      <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <button id="hero-mute-btn" aria-label="Geluid aan/uit" class="absolute top-4 right-4 z-50 bg-black/40 hover:bg-black/60 text-white rounded-full p-2.5 backdrop-blur-sm transition-all duration-200 hover:scale-110 border border-white/20">
+      <!-- Muted icon (shown by default) -->
+      <svg id="icon-muted" xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
         <path stroke-linecap="round" stroke-linejoin="round" d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
         <path stroke-linecap="round" stroke-linejoin="round" d="M17 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2" />
       </svg>
+      <!-- Unmuted icon (hidden by default) -->
+      <svg id="icon-unmuted" xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15.536 8.464a5 5 0 010 7.072M12 6v12M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
+      </svg>
     </button>
+    <script>
+      (function() {
+        var heroVid = document.getElementById('hero-video');
+        var heroBtn = document.getElementById('hero-mute-btn');
+        var heroIconM = document.getElementById('icon-muted');
+        var heroIconU = document.getElementById('icon-unmuted');
+        if (heroVid && heroBtn) {
+          heroBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            heroVid.muted = !heroVid.muted;
+            if (!heroVid.muted) {
+              heroVid.volume = 1.0;
+              var playPromise = heroVid.play();
+              if (playPromise !== undefined) {
+                playPromise.catch(function(error) {
+                  console.log("Play interrupted: ", error);
+                });
+              }
+            }
+            if (heroIconM && heroIconU) {
+              heroIconM.classList.toggle('hidden', !heroVid.muted);
+              heroIconU.classList.toggle('hidden', heroVid.muted);
+            }
+          });
+        }
+      })();
+    </script>
     <div class="relative z-30 flex flex-col items-center justify-end h-full text-center px-4 pb-14 md:pb-20">
       <div class="flex flex-col sm:flex-row gap-8 items-center">
         <a href="./start.html" class="bg-primary text-white hover:bg-primary/90 px-10 py-3 rounded-full font-bold text-base shadow-2xl hover:scale-105 transition-transform">
@@ -545,22 +603,22 @@
   </section>
 
   <!-- 3. Media Solutions Section -->
-  <section class="py-24 bg-white px-6 md:px-12 lg:px-24 border-t border-gray-200">
-    <div class="text-center mb-16 max-w-3xl mx-auto">
+  <section class="py-8 bg-white px-6 md:px-12 lg:px-24 border-t border-gray-200">
+    <div class="text-center mb-6 max-w-3xl mx-auto">
       <h2 class="text-3xl md:text-5xl font-extrabold text-[#121111] leading-tight">Mediaoplossingen</h2>
       <p class="text-primary tracking-widest font-bold mt-2 uppercase text-sm">Onze Diensten</p>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       <!-- 1. Photography -->
       <a href="./corporate-event-photography.html" class="flex flex-col justify-between h-full group block text-left">
         <div>
-          <div class="image-hover-card-container aspect-[3/2]">
-            <div class="overlay"></div>
+          <div class="image-hover-card-container aspect-square w-32 md:w-36 mb-2">
+            <div class="overlay"><span class="overlay-label">Fotografie</span></div>
             <img alt="Fotografie" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[600ms]" src="../images/Joshua_Statie12.jpg"/>
           </div>
-          <div class="py-6">
-            <h3 class="text-headline-md mb-3 text-[#121111] font-bold group-hover:text-primary transition-colors">Fotografie</h3>
-            <p class="text-[#4a4a4a] text-sm leading-relaxed">Professionele zakelijke evenementenfotografie voor congressen, zakelijke bijeenkomsten en bedrijfsbijeenkomsten. Wij leggen keynote sprekers, interactie met het publiek, netwerkmomenten en merkidentiteit vast met een consistente visuele stijl die aansluit bij de identiteit van uw bedrijf.</p>
+          <div class="py-2">
+            <h3 class="text-sm font-bold mb-0.5 text-[#121111] font-bold group-hover:text-primary transition-colors">Fotografie</h3>
+            <p class="text-[#4a4a4a] text-xs leading-snug line-clamp-2">Professionele zakelijke evenementenfotografie voor congressen, zakelijke bijeenkomsten en bedrijfsbijeenkomsten. Wij leggen keynote sprekers, interactie met het publiek, netwerkmomenten en merkidentiteit vast met een consistente visuele stijl die aansluit bij de identiteit van uw bedrijf.</p>
           </div>
         </div>
         <div class="pt-2"><span class="text-primary font-bold inline-flex items-center gap-2">Lees meer <span class="group-hover:translate-x-2 transition-transform">→</span></span></div></a>
@@ -568,13 +626,13 @@
       <!-- 2. Corporate Video Production -->
       <a href="./corporate-video-production.html" class="flex flex-col justify-between h-full group block text-left">
         <div>
-          <div class="image-hover-card-container aspect-[3/2]">
-            <div class="overlay"></div>
+          <div class="image-hover-card-container aspect-square w-32 md:w-36 mb-2">
+            <div class="overlay"><span class="overlay-label">Zakelijke Videoproductie</span></div>
             <img alt="Videoproductie" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[600ms]" src="../images/Videography-Website-FEM.jpg"/>
           </div>
-          <div class="py-6">
-            <h3 class="text-headline-md mb-3 text-[#121111] font-bold group-hover:text-primary transition-colors">Zakelijke Videoproductie</h3>
-            <p class="text-[#4a4a4a] text-sm leading-relaxed">Hoogwaardige zakelijke videoproductie voor evenementen, congressen, aftermovies and branded content. Onze producties helpen bedrijven helder te communiceren via krachtige visuele storytelling die is ontworpen voor interne communicatie, marketing en LinkedIn.</p>
+          <div class="py-2">
+            <h3 class="text-sm font-bold mb-0.5 text-[#121111] font-bold group-hover:text-primary transition-colors">Zakelijke Videoproductie</h3>
+            <p class="text-[#4a4a4a] text-xs leading-snug line-clamp-2">Hoogwaardige zakelijke videoproductie voor evenementen, congressen, aftermovies and branded content. Onze producties helpen bedrijven helder te communiceren via krachtige visuele storytelling die is ontworpen voor interne communicatie, marketing en LinkedIn.</p>
           </div>
         </div>
         <div class="pt-2"><span class="text-primary font-bold inline-flex items-center gap-2">Lees meer <span class="group-hover:translate-x-2 transition-transform">→</span></span></div></a>
@@ -582,13 +640,13 @@
       <!-- 3. Professional Headshots -->
       <a href="./professional-headshots-corporate-portraits.html" class="flex flex-col justify-between h-full group block text-left">
         <div>
-          <div class="image-hover-card-container aspect-[3/2]">
-            <div class="overlay"></div>
+          <div class="image-hover-card-container aspect-square w-32 md:w-36 mb-2">
+            <div class="overlay"><span class="overlay-label">Professionele Portretten</span></div>
             <img alt="Professionele Portretten" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[600ms]" src="../images/Corporate-Website-FEM-grijs.jpg"/>
           </div>
-          <div class="py-6">
-            <h3 class="text-headline-md mb-3 text-[#121111] font-bold group-hover:text-primary transition-colors">Professionele Portretfoto's &amp; Zakelijke Portretten</h3>
-            <p class="text-[#4a4a4a] text-sm leading-relaxed">Consistente, hoogwaardige professionele portretfoto's en zakelijke portretten voor directieleden, managementteams en medewerkers. Versterk de visuele identiteit van uw bedrijf op websites, persberichten, LinkedIn en interne platforms.</p>
+          <div class="py-2">
+            <h3 class="text-sm font-bold mb-0.5 text-[#121111] font-bold group-hover:text-primary transition-colors">Professionele Portretfoto's &amp; Zakelijke Portretten</h3>
+            <p class="text-[#4a4a4a] text-xs leading-snug line-clamp-2">Consistente, hoogwaardige professionele portretfoto's en zakelijke portretten voor directieleden, managementteams en medewerkers. Versterk de visuele identiteit van uw bedrijf op websites, persberichten, LinkedIn en interne platforms.</p>
           </div>
         </div>
         <div class="pt-2"><span class="text-primary font-bold inline-flex items-center gap-2">Lees meer <span class="group-hover:translate-x-2 transition-transform">→</span></span></div></a>
@@ -596,13 +654,13 @@
       <!-- 4. Corporate Interviews & Testimonials -->
       <a href="./corporate-interviews-testimonials.html" class="flex flex-col justify-between h-full group block text-left">
         <div>
-          <div class="image-hover-card-container aspect-[3/2]">
-            <div class="overlay"></div>
+          <div class="image-hover-card-container aspect-square w-32 md:w-36 mb-2">
+            <div class="overlay"><span class="overlay-label">Zakelijke Interviews &amp; Testimonials</span></div>
             <img alt="Zakelijke Interviews &amp; Testimonials" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[600ms]" src="../images/Interview-Website-FEM.jpg"/>
           </div>
-          <div class="py-6">
-            <h3 class="text-headline-md mb-3 text-[#121111] font-bold group-hover:text-primary transition-colors">Zakelijke Interviews &amp; Testimonials</h3>
-            <p class="text-[#4a4a4a] text-sm leading-relaxed">Professionele videoproductie van zakelijke interviews en testimonials voor directieleden, medewerkers en partners. Strakke beelden, professionele audio en gestructureerde storytelling, geoptimaliseerd voor interne communicatie, employer branding en zichtbaarheid op LinkedIn.</p>
+          <div class="py-2">
+            <h3 class="text-sm font-bold mb-0.5 text-[#121111] font-bold group-hover:text-primary transition-colors">Zakelijke Interviews &amp; Testimonials</h3>
+            <p class="text-[#4a4a4a] text-xs leading-snug line-clamp-2">Professionele videoproductie van zakelijke interviews en testimonials voor directieleden, medewerkers en partners. Strakke beelden, professionele audio en gestructureerde storytelling, geoptimaliseerd voor interne communicatie, employer branding en zichtbaarheid op LinkedIn.</p>
           </div>
         </div>
         <div class="pt-2"><span class="text-primary font-bold inline-flex items-center gap-2">Lees meer <span class="group-hover:translate-x-2 transition-transform">→</span></span></div></a>
@@ -610,13 +668,13 @@
       <!-- 5. Drone Video & Aerial Photography -->
       <a href="./drone-video-aerial-photography.html" class="flex flex-col justify-between h-full group block text-left">
         <div>
-          <div class="image-hover-card-container aspect-[3/2]">
-            <div class="overlay"></div>
+          <div class="image-hover-card-container aspect-square w-32 md:w-36 mb-2">
+            <div class="overlay"><span class="overlay-label">Dronevideo &amp; Luchtfotografie</span></div>
             <img alt="Dronevideo" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[600ms]" src="../images/Drone-Website-FEM.jpg"/>
           </div>
-          <div class="py-6">
-            <h3 class="text-headline-md mb-3 text-[#121111] font-bold group-hover:text-primary transition-colors">Dronevideo &amp; Luchtfotografie</h3>
-            <p class="text-[#4a4a4a] text-sm leading-relaxed">Gecertificeerde drone-videoproductie en luchtfotografie voor zakelijke evenementen, bedrijfslocaties en grootschalige producties. Dynamische perspectieven vanuit de lucht die de storytelling versterken en visueel indrukwekkende content creëren voor zakelijke communicatie.</p>
+          <div class="py-2">
+            <h3 class="text-sm font-bold mb-0.5 text-[#121111] font-bold group-hover:text-primary transition-colors">Dronevideo &amp; Luchtfotografie</h3>
+            <p class="text-[#4a4a4a] text-xs leading-snug line-clamp-2">Gecertificeerde drone-videoproductie en luchtfotografie voor zakelijke evenementen, bedrijfslocaties en grootschalige producties. Dynamische perspectieven vanuit de lucht die de storytelling versterken en visueel indrukwekkende content creëren voor zakelijke communicatie.</p>
           </div>
         </div>
         <div class="pt-2"><span class="text-primary font-bold inline-flex items-center gap-2">Lees meer <span class="group-hover:translate-x-2 transition-transform">→</span></span></div></a>
@@ -624,13 +682,13 @@
       <!-- 6. Elevate your event -->
       <a href="./elevate-your-event.html" class="flex flex-col justify-between h-full group block text-left">
         <div>
-          <div class="image-hover-card-container aspect-[3/2]">
-            <div class="overlay"></div>
+          <div class="image-hover-card-container aspect-square w-32 md:w-36 mb-2">
+            <div class="overlay"><span class="overlay-label">Til Uw Evenement naar een Hoger Niveau</span></div>
             <img alt="Til Uw Evenement naar een Hoger Niveau" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[600ms]" src="../images/Elevate-Website-FEM.jpg"/>
           </div>
-          <div class="py-6">
-            <h3 class="text-headline-md mb-3 text-[#121111] font-bold group-hover:text-primary transition-colors">Til Uw Evenement naar een Hoger Niveau</h3>
-            <p class="text-[#4a4a4a] text-sm leading-relaxed">Volledige verslaglegging van zakelijke evenementen waarin fotografie, videoproductie, interviews en droneservices worden gecombineerd. Een op maat gemaakte productieaanpak die is ontworpen om naadloze, efficiënte en schaalbare verslaglegging te leveren, afgestemd op uw evenementdoelstellingen en merkcommunicatie.</p>
+          <div class="py-2">
+            <h3 class="text-sm font-bold mb-0.5 text-[#121111] font-bold group-hover:text-primary transition-colors">Til Uw Evenement naar een Hoger Niveau</h3>
+            <p class="text-[#4a4a4a] text-xs leading-snug line-clamp-2">Volledige verslaglegging van zakelijke evenementen waarin fotografie, videoproductie, interviews en droneservices worden gecombineerd. Een op maat gemaakte productieaanpak die is ontworpen om naadloze, efficiënte en schaalbare verslaglegging te leveren, afgestemd op uw evenementdoelstellingen en merkcommunicatie.</p>
           </div>
         </div>
         <div class="pt-2"><span class="text-primary font-bold inline-flex items-center gap-2">Lees meer <span class="group-hover:translate-x-2 transition-transform">→</span></span></div></a>
