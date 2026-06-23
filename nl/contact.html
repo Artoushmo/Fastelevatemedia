@@ -619,6 +619,7 @@
     const form = document.getElementById('contact-form');
     const successMsg = document.getElementById('form-success');
     const errorMsg = document.getElementById('form-error');
+    const submitBtn = document.getElementById('contact-submit');
 
     form.addEventListener('submit', function(e) {
       e.preventDefault();
@@ -636,6 +637,11 @@
 
       errorMsg.classList.add('hidden');
       
+      // Knop uitschakelen om dubbele inzendingen te voorkomen
+      submitBtn.disabled = true;
+      const originalText = submitBtn.textContent;
+      submitBtn.textContent = "Verzenden...";
+      
       const formData = new FormData(form);
       
       // Verzend gegevens geruisloos naar Netlify via AJAX
@@ -652,13 +658,19 @@
             successMsg.classList.add('hidden');
           }, 8000);
         } else {
-          throw new Error("Formulier verzending mislukt");
+          throw new Error(`Server responded with status ${response.status}`);
         }
       })
       .catch(error => {
+        console.error("Form submission error:", error);
         errorMsg.textContent = "Er is iets misgegaan. Probeer het opnieuw.";
         errorMsg.classList.remove('hidden');
         successMsg.classList.add('hidden');
+      })
+      .finally(() => {
+        // Knop weer inschakelen
+        submitBtn.disabled = false;
+        submitBtn.textContent = originalText;
       });
     });
   </script>

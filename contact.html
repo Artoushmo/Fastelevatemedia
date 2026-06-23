@@ -637,6 +637,7 @@
     const form = document.getElementById('contact-form');
     const successMsg = document.getElementById('form-success');
     const errorMsg = document.getElementById('form-error');
+    const submitBtn = document.getElementById('contact-submit');
 
     form.addEventListener('submit', function(e) {
       e.preventDefault();
@@ -654,6 +655,11 @@
 
       errorMsg.classList.add('hidden');
       
+      // Disable button to prevent duplicate submissions
+      submitBtn.disabled = true;
+      const originalText = submitBtn.textContent;
+      submitBtn.textContent = "Sending...";
+      
       const formData = new FormData(form);
       
       // Send data to Netlify via AJAX
@@ -670,13 +676,19 @@
             successMsg.classList.add('hidden');
           }, 8000);
         } else {
-          throw new Error("Form submission failed");
+          throw new Error(`Server responded with status ${response.status}`);
         }
       })
       .catch(error => {
+        console.error("Form submission error:", error);
         errorMsg.textContent = "Something went wrong. Please try again.";
         errorMsg.classList.remove('hidden');
         successMsg.classList.add('hidden');
+      })
+      .finally(() => {
+        // Re-enable button
+        submitBtn.disabled = false;
+        submitBtn.textContent = originalText;
       });
     });
   </script>

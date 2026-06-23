@@ -482,21 +482,21 @@
           <!-- Privacy Checkbox -->
           <div class="pt-2">
             <label class="flex items-center gap-3 cursor-pointer">
-              <input type="checkbox" id="privacy-policy" class="rounded border-gray-300 text-primary focus:ring-primary h-5 w-5" required />
+              <input type="checkbox" id="privacy-policy" name="privacy_agreement" class="rounded border-gray-300 text-primary focus:ring-primary h-5 w-5" required />
               <span class="text-sm text-gray-600 select-none">I agree to the privacy policy and mailings.</span>
             </label>
           </div>
 
           <!-- Submit -->
           <div class="pt-4">
-            <button type="submit" class="w-full bg-primary hover:bg-primary/95 text-white font-bold py-4 rounded-xl transition-all shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/30">
+            <button type="submit" id="intake-submit" class="w-full bg-primary hover:bg-primary/95 text-white font-bold py-4 rounded-xl transition-all shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/30">
               Send it in
             </button>
           </div>
 
           <!-- Success / Error messages -->
           <div id="form-success" class="hidden text-center py-3 px-4 rounded-lg bg-green-50 border border-green-200 text-green-700 text-sm font-medium mt-4">
-            Thank you! Your default mail client has been opened to send your request.
+            Thank you! Your request has been successfully submitted. We will contact you as soon as possible.
           </div>
           <div id="form-error" class="hidden text-center py-3 px-4 rounded-lg bg-red-50 border border-red-200 text-red-700 text-sm font-medium mt-4">
             Something went wrong. Please check the fields and try again.
@@ -632,6 +632,7 @@
       const fileInput = document.getElementById('file-input');
       const uploadZone = document.getElementById('upload-zone');
       const fileNameDisplay = document.getElementById('file-name-display');
+      const submitBtn = document.getElementById('intake-submit');
 
       let selectedFileName = '';
 
@@ -714,6 +715,13 @@
             return;
           }
 
+          // Disable button to prevent duplicate submissions
+          if (submitBtn) {
+            submitBtn.disabled = true;
+            submitBtn.dataset.originalText = submitBtn.textContent;
+            submitBtn.textContent = "Sending...";
+          }
+
           const formData = new FormData(form);
 
           // Send data to Netlify via AJAX (automatically handles multipart/form-data for file upload)
@@ -736,12 +744,20 @@
                 successMsg.classList.add('hidden');
               }, 10000);
             } else {
-              throw new Error("Form submission failed");
+              throw new Error(`Server responded with status ${response.status}`);
             }
           })
           .catch(error => {
+            console.error("Form submission error:", error);
             errorMsg.classList.remove('hidden');
             successMsg.classList.add('hidden');
+          })
+          .finally(() => {
+            // Re-enable button
+            if (submitBtn) {
+              submitBtn.disabled = false;
+              submitBtn.textContent = submitBtn.dataset.originalText || "Send it in";
+            }
           });
         });
       }
