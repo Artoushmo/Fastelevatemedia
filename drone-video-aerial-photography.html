@@ -576,7 +576,7 @@
           </div>
         </div>
 
-        <div class="gallery-item relative group overflow-hidden rounded-2xl border-4 border-white shadow-md cursor-pointer aspect-[3/2] md:aspect-auto md:h-[26rem]" data-video-url="./images/05-02-25_-SolarPanels-3000_CEBO-HOLLAND.mp4" data-caption="Solar Panels - Cebo Holland">
+        <div class="gallery-item relative group overflow-hidden rounded-2xl border-4 border-white shadow-md cursor-pointer aspect-[3/2] md:aspect-auto md:h-[26rem]" data-video-url="https://vimeo.com/1203179006" data-caption="Solar Panels - Cebo Holland">
           <video class="gallery-video w-full h-full object-cover pointer-events-none" muted loop playsinline preload="auto">
             <source src="./images/05-02-25_-SolarPanels-3000_CEBO-HOLLAND.mp4#t=5" type="video/mp4" />
           </video>
@@ -600,7 +600,7 @@
           </div>
         </div>
 
-        <div class="gallery-item relative group overflow-hidden rounded-2xl border-4 border-white shadow-md cursor-pointer aspect-[3/2]" data-video-url="./images/Utrecht-Woningen-shot-2.mp4" data-caption="Utrecht Residential Drone Coverage">
+        <div class="gallery-item relative group overflow-hidden rounded-2xl border-4 border-white shadow-md cursor-pointer aspect-[3/2]" data-video-url="https://vimeo.com/1203179080" data-caption="Utrecht Residential Drone Coverage">
           <video class="gallery-video w-full h-full object-cover pointer-events-none" muted loop playsinline preload="auto">
             <source src="./images/Utrecht-Woningen-shot-2.mp4#t=5" type="video/mp4" />
           </video>
@@ -613,7 +613,7 @@
           </div>
         </div>
 
-        <div class="gallery-item relative group overflow-hidden rounded-2xl border-4 border-white shadow-md cursor-pointer aspect-[3/2]" data-video-url="./images/drone-olympisch-stadion-1.mp4" data-caption="Olympisch Stadion Amsterdam">
+        <div class="gallery-item relative group overflow-hidden rounded-2xl border-4 border-white shadow-md cursor-pointer aspect-[3/2]" data-video-url="https://vimeo.com/1203179051" data-caption="Olympisch Stadion Amsterdam">
           <video class="gallery-video w-full h-full object-cover pointer-events-none" muted loop playsinline preload="auto">
             <source src="./images/drone-olympisch-stadion-1.mp4#t=5" type="video/mp4" />
           </video>
@@ -1062,6 +1062,7 @@
       <video id="lightbox-video" class="max-w-full max-h-[80vh] w-full object-contain rounded-lg border-2 border-white/10 shadow-2xl transition-all duration-300" controls autoplay>
         <source src="" type="video/mp4"/>
       </video>
+      <iframe id="lightbox-iframe" class="max-w-full max-h-[80vh] w-full aspect-video rounded-lg border-2 border-white/10 shadow-2xl hidden" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
       <p id="lightbox-caption" class="text-white/60 text-xs mt-4 uppercase tracking-widest font-semibold"></p>
     </div>
   </div>
@@ -1125,6 +1126,7 @@
   // Lightbox Video Gallery Functionality
   const lightboxModal = document.getElementById('lightbox-modal');
   const lightboxVideo = document.getElementById('lightbox-video');
+  const lightboxIframe = document.getElementById('lightbox-iframe');
   const lightboxCaption = document.getElementById('lightbox-caption');
   const lightboxClose = document.getElementById('lightbox-close');
   const lightboxPrev = document.getElementById('lightbox-prev');
@@ -1132,10 +1134,13 @@
 
   let currentGalleryIndex = 0;
   const videosData = Array.from(galleryItems).map(item => {
-    const isVideo = item.getAttribute('data-video-url') && item.getAttribute('data-video-url').endsWith('.mp4');
+    const videoUrl = item.getAttribute('data-video-url') || '';
+    const isVideo = !!videoUrl;
+    const isVimeo = videoUrl.includes('vimeo.com');
     return {
       isVideo: isVideo,
-      url: item.getAttribute('data-video-url') || item.querySelector('img').getAttribute('src'),
+      isVimeo: isVimeo,
+      url: videoUrl || item.querySelector('img').getAttribute('src'),
       caption: item.getAttribute('data-caption')
     };
   });
@@ -1144,14 +1149,38 @@
     currentGalleryIndex = index;
     const data = videosData[index];
     
+    // Hide static image if any
+    const existingImg = lightboxModal.querySelector('#lightbox-image');
+    if (existingImg) existingImg.classList.add('hidden');
+    
+    if (lightboxIframe) {
+      lightboxIframe.src = '';
+      lightboxIframe.classList.add('hidden');
+    }
+
     if (data.isVideo) {
-      lightboxVideo.src = data.url;
-      lightboxVideo.classList.remove('hidden');
-      lightboxVideo.load();
-      lightboxVideo.play().catch(err => {});
-      // Hide static image if any
-      const existingImg = lightboxModal.querySelector('#lightbox-image');
-      if (existingImg) existingImg.classList.add('hidden');
+      if (data.isVimeo) {
+        lightboxVideo.pause();
+        lightboxVideo.src = '';
+        lightboxVideo.classList.add('hidden');
+        
+        let embedUrl = data.url;
+        if (!embedUrl.includes('player.vimeo.com')) {
+          const match = embedUrl.match(/vimeo\.com\/(\d+)/);
+          if (match) {
+            embedUrl = `https://player.vimeo.com/video/${match[1]}?autoplay=1&loop=1&autopause=0`;
+          }
+        }
+        if (lightboxIframe) {
+          lightboxIframe.src = embedUrl;
+          lightboxIframe.classList.remove('hidden');
+        }
+      } else {
+        lightboxVideo.src = data.url;
+        lightboxVideo.classList.remove('hidden');
+        lightboxVideo.load();
+        lightboxVideo.play().catch(err => {});
+      }
     } else {
       lightboxVideo.pause();
       lightboxVideo.src = '';
@@ -1177,6 +1206,10 @@
   function closeLightbox() {
     lightboxVideo.pause();
     lightboxVideo.src = '';
+    if (lightboxIframe) {
+      lightboxIframe.src = '';
+      lightboxIframe.classList.add('hidden');
+    }
     lightboxModal.classList.add('hidden');
     document.body.style.overflow = '';
   }

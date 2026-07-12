@@ -549,7 +549,7 @@
       <!-- Gallery Grid -->
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6" id="gallery-grid">
         <!-- 5 Portfolio Videos -->
-        <div class="gallery-item md:col-span-2 relative group overflow-hidden rounded-2xl border-4 border-white shadow-md cursor-pointer aspect-[3/2] md:aspect-auto md:h-[26rem]" data-video-url="../images/GBg-2020.mp4" data-caption="Productie van zakelijke aftermovies">
+        <div class="gallery-item md:col-span-2 relative group overflow-hidden rounded-2xl border-4 border-white shadow-md cursor-pointer aspect-[3/2] md:aspect-auto md:h-[26rem]" data-video-url="https://vimeo.com/1203179059" data-caption="Productie van zakelijke aftermovies">
           <video class="gallery-video w-full h-full object-cover pointer-events-none" muted loop playsinline preload="auto">
             <source src="../images/GBg-2020.mp4#t=5" type="video/mp4" />
           </video>
@@ -563,7 +563,7 @@
           </div>
         </div>
         
-        <div class="gallery-item relative group overflow-hidden rounded-2xl border-4 border-white shadow-md cursor-pointer aspect-[3/2] md:aspect-auto md:h-[26rem]" data-video-url="../images/Example-Edited-Footage-GGG.mp4" data-caption="Dynamische evenementenhoogtepunten">
+        <div class="gallery-item relative group overflow-hidden rounded-2xl border-4 border-white shadow-md cursor-pointer aspect-[3/2] md:aspect-auto md:h-[26rem]" data-video-url="https://vimeo.com/1203179052" data-caption="Dynamische evenementenhoogtepunten">
           <video class="gallery-video w-full h-full object-cover pointer-events-none" muted loop playsinline preload="auto">
             <source src="../images/Example-Edited-Footage-GGG.mp4#t=5" type="video/mp4" />
           </video>
@@ -576,7 +576,7 @@
           </div>
         </div>
 
-        <div class="gallery-item relative group overflow-hidden rounded-2xl border-4 border-white shadow-md cursor-pointer aspect-[3/2]" data-video-url="../images/Cebo.mp4" data-caption="Wervings- &amp; employer brandingvideo">
+        <div class="gallery-item relative group overflow-hidden rounded-2xl border-4 border-white shadow-md cursor-pointer aspect-[3/2]" data-video-url="https://vimeo.com/1203179007" data-caption="Wervings- & employer brandingvideo">
           <video class="gallery-video w-full h-full object-cover pointer-events-none" muted loop playsinline preload="auto">
             <source src="../images/Cebo.mp4#t=5" type="video/mp4" />
           </video>
@@ -589,7 +589,7 @@
           </div>
         </div>
 
-        <div class="gallery-item relative group overflow-hidden rounded-2xl border-4 border-white shadow-md cursor-pointer aspect-[3/2]" data-video-url="../images/Cabaia-1.mp4" data-caption="Commerciële merkactivatievideo">
+        <div class="gallery-item relative group overflow-hidden rounded-2xl border-4 border-white shadow-md cursor-pointer aspect-[3/2]" data-video-url="https://vimeo.com/1203179004" data-caption="Commerciële merkactivatievideo">
           <video class="gallery-video w-full h-full object-cover pointer-events-none" muted loop playsinline preload="auto">
             <source src="../images/Cabaia-1.mp4#t=5" type="video/mp4" />
           </video>
@@ -602,7 +602,7 @@
           </div>
         </div>
 
-        <div class="gallery-item relative group overflow-hidden rounded-2xl border-4 border-white shadow-md cursor-pointer aspect-[3/2]" data-video-url="../images/Planten-Kas.mp4" data-caption="Rondleiding op zakelijke locaties &amp; faciliteiten">
+        <div class="gallery-item relative group overflow-hidden rounded-2xl border-4 border-white shadow-md cursor-pointer aspect-[3/2]" data-video-url="https://vimeo.com/1203179075" data-caption="Rondleiding op zakelijke locaties & faciliteiten">
           <video class="gallery-video w-full h-full object-cover pointer-events-none" muted loop playsinline preload="auto">
             <source src="../images/Planten-Kas.mp4#t=5" type="video/mp4" />
           </video>
@@ -1283,6 +1283,7 @@
       <video id="lightbox-video" class="max-w-full max-h-[80vh] w-full object-contain rounded-lg border-2 border-white/10 shadow-2xl transition-all duration-300" controls autoplay>
         <source src="" type="video/mp4"/>
       </video>
+      <iframe id="lightbox-iframe" class="max-w-full max-h-[80vh] w-full aspect-video rounded-lg border-2 border-white/10 shadow-2xl hidden" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
       <p id="lightbox-caption" class="text-white/60 text-xs mt-4 uppercase tracking-widest font-semibold"></p>
     </div>
   </div>
@@ -1346,23 +1347,79 @@
     // Lightbox Video Gallery Functionality
     const lightboxModal = document.getElementById('lightbox-modal');
     const lightboxVideo = document.getElementById('lightbox-video');
+    const lightboxIframe = document.getElementById('lightbox-iframe');
     const lightboxCaption = document.getElementById('lightbox-caption');
     const lightboxClose = document.getElementById('lightbox-close');
     const lightboxPrev = document.getElementById('lightbox-prev');
     const lightboxNext = document.getElementById('lightbox-next');
 
     let currentGalleryIndex = 0;
-    const videosData = Array.from(galleryItems).map(item => ({
-      url: item.getAttribute('data-video-url'),
-      caption: item.getAttribute('data-caption')
-    }));
+    const videosData = Array.from(galleryItems).map(item => {
+      const videoUrl = item.getAttribute('data-video-url') || '';
+      const isVideo = !!videoUrl;
+      const isVimeo = videoUrl.includes('vimeo.com');
+      return {
+        isVideo: isVideo,
+        isVimeo: isVimeo,
+        url: videoUrl || item.querySelector('img').getAttribute('src'),
+        caption: item.getAttribute('data-caption')
+      };
+    });
 
     function openLightbox(index) {
       currentGalleryIndex = index;
-      lightboxVideo.src = videosData[index].url;
-      lightboxCaption.innerText = videosData[index].caption;
-      lightboxVideo.load();
-      lightboxVideo.play().catch(err => {});
+      const data = videosData[index];
+      
+      // Hide static image if any
+      const existingImg = lightboxModal.querySelector('#lightbox-image');
+      if (existingImg) existingImg.classList.add('hidden');
+      
+      if (lightboxIframe) {
+        lightboxIframe.src = '';
+        lightboxIframe.classList.add('hidden');
+      }
+
+      if (data.isVideo) {
+        if (data.isVimeo) {
+          lightboxVideo.pause();
+          lightboxVideo.src = '';
+          lightboxVideo.classList.add('hidden');
+          
+          let embedUrl = data.url;
+          if (!embedUrl.includes('player.vimeo.com')) {
+            const match = embedUrl.match(/vimeo\.com\/(\d+)/);
+            if (match) {
+              embedUrl = `https://player.vimeo.com/video/${match[1]}?autoplay=1&loop=1&autopause=0`;
+            }
+          }
+          if (lightboxIframe) {
+            lightboxIframe.src = embedUrl;
+            lightboxIframe.classList.remove('hidden');
+          }
+        } else {
+          lightboxVideo.src = data.url;
+          lightboxVideo.classList.remove('hidden');
+          lightboxVideo.load();
+          lightboxVideo.play().catch(err => {});
+        }
+      } else {
+        lightboxVideo.pause();
+        lightboxVideo.src = '';
+        lightboxVideo.classList.add('hidden');
+        
+        // Show static image
+        let img = lightboxModal.querySelector('#lightbox-image');
+        if (!img) {
+          img = document.createElement('img');
+          img.id = 'lightbox-image';
+          img.className = 'max-w-full max-h-[80vh] w-full object-contain rounded-lg border-2 border-white/10 shadow-2xl';
+          lightboxVideo.parentNode.insertBefore(img, lightboxVideo);
+        }
+        img.src = data.url;
+        img.classList.remove('hidden');
+      }
+      
+      lightboxCaption.innerText = data.caption;
       lightboxModal.classList.remove('hidden');
       document.body.style.overflow = 'hidden';
     }
@@ -1370,6 +1427,10 @@
     function closeLightbox() {
       lightboxVideo.pause();
       lightboxVideo.src = '';
+      if (lightboxIframe) {
+        lightboxIframe.src = '';
+        lightboxIframe.classList.add('hidden');
+      }
       lightboxModal.classList.add('hidden');
       document.body.style.overflow = '';
     }
