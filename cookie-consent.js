@@ -276,14 +276,11 @@
     }
     .fem-btn-save-all:hover { border-color: #4C72A9; transform: scale(1.02); }
 
-    /* Floating reopener button */
-    #fem-cookie-reopen {
-
-    @media (max-width: 600px) {
-      #fem-cookie-banner { padding: 20px 18px 24px; }
-      #fem-cookie-banner .fem-btn-row { gap: 8px; }
-      .fem-btn-accept, .fem-btn-reject { width: 100%; text-align: center; }
-      #fem-cookie-settings-box { padding: 24px 16px 18px; }
+    @media (max-width: 640px) {
+      #fem-cookie-banner { padding: 12px 16px; gap: 10px; }
+      #fem-cookie-banner .fem-btn-row { flex-wrap: wrap; width: 100%; }
+      .fem-btn-accept, .fem-btn-reject { flex: 1; text-align: center; }
+      #fem-cookie-settings-box { padding: 20px 14px 16px; }
     }
   `;
 
@@ -302,7 +299,6 @@
       overlay.style.transition = 'opacity 0.2s';
       setTimeout(function () { if (overlay.parentNode) overlay.parentNode.removeChild(overlay); }, 210);
     }
-    showReopener();
   }
 
   function removeSettingsPanel() {
@@ -314,22 +310,7 @@
     }
   }
 
-  // ─── Floating reopener button ─────────────────────────────────────────────────
-  function showReopener() {
-    if (document.getElementById('fem-cookie-reopen')) return;
-    var btn = document.createElement('button');
-    btn.id = 'fem-cookie-reopen';
-    btn.setAttribute('aria-label', isNL ? 'Cookie-instellingen' : 'Cookie Settings');
-    btn.innerHTML = `
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <circle cx="12" cy="12" r="10"/>
-        <path d="M12 8v4l3 3"/>
-      </svg>
-      ${isNL ? 'Cookies' : 'Cookies'}
-    `;
-    btn.addEventListener('click', openCookieSettings);
-    document.body.appendChild(btn);
-  }
+
 
   // ─── Settings panel ───────────────────────────────────────────────────────────
   function buildSettingsPanel(fromBanner) {
@@ -400,7 +381,7 @@
         if (fromBanner && !getConsent()) {
           // reshow banner if they close without saving and no prior consent
         } else {
-          if (!document.getElementById('fem-cookie-overlay')) showReopener();
+
         }
       }
     });
@@ -475,7 +456,7 @@
     if (saved) {
       // Consent already given — apply and show reopener
       applyConsent(saved);
-      showReopener();
+
     } else {
       // No consent yet — show banner
       buildBanner();
