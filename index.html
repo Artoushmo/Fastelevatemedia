@@ -718,8 +718,7 @@
     </div>
   </section>
 
-  <!-- 4. Who We Are Section -->
-  <section id="about" class="bg-[#121111] text-white relative pt-40 pb-64 md:pb-48 overflow-x-hidden">
+  <section id="about" class="bg-[#121111] text-white relative pt-40 pb-80 md:pb-64">
     <!-- Top Shape Divider (transitions from white Services section) -->
     <div class="absolute top-0 left-0 w-full overflow-hidden leading-[0] z-20">
       <svg class="relative block w-full h-[100px]" viewBox="0 0 1440 320" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
@@ -767,13 +766,13 @@
         </div>
       </div>
       <!-- Overlapping Images -->
-      <div class="relative h-[540px] sm:h-[600px] lg:h-[620px] w-full mt-12 lg:mt-0 flex items-center justify-center">
+      <div class="relative h-[480px] sm:h-[560px] lg:h-[590px] w-full mt-12 lg:mt-0 flex items-center justify-center">
         <!-- Left / Back Image -->
-        <div class="absolute left-0 top-0 w-[47%] aspect-[3/4] rounded-[2rem] overflow-hidden shadow-2xl animate-float-1" style="max-height: calc(100% - 3rem);">
+        <div class="absolute left-0 top-0 w-[47%] aspect-[3/4] rounded-[2rem] overflow-hidden shadow-2xl animate-float-1">
           <img alt="Corporate event room" class="w-full h-full object-cover transition-transform duration-[800ms] ease-out hover:scale-110 cursor-pointer" src="./images/zaal.jpg"/>
         </div>
-        <!-- Right / Front Image (Offset Downward, clamped within container) -->
-        <div class="absolute right-0 top-[3rem] bottom-0 w-[47%] rounded-[2rem] overflow-hidden shadow-2xl z-10 animate-float-2">
+        <!-- Right / Front Image (No Overlap, Offset Downward) -->
+        <div class="absolute right-0 bottom-0 translate-y-12 w-[47%] aspect-[3/4] rounded-[2rem] overflow-hidden shadow-2xl z-10 animate-float-2">
           <img alt="Drone skyline" class="w-full h-full object-cover transition-transform duration-[800ms] ease-out hover:scale-110 cursor-pointer" src="./images/drone-skyline.jpg"/>
         </div>
       </div>
