@@ -430,12 +430,9 @@
             <input type="text" id="place" name="place" placeholder="Place" class="w-full input-field rounded-xl px-5 py-4 text-sm text-[#121111] border-gray-200 placeholder-gray-400" required />
           </div>
           
-          <div>
-            <textarea id="message" name="message" placeholder="Type your message..." rows="5" class="w-full input-field rounded-xl px-5 py-4 text-sm text-[#121111] border-gray-200 placeholder-gray-400" required></textarea>
-          </div>
-          
           <!-- Checkboxes -->
           <div class="space-y-4 pt-4 border-t border-gray-100">
+            <p class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">Which services do you need?</p>
             <label class="flex items-center gap-3.5 cursor-pointer">
               <input type="checkbox" name="services" value="Corporate Event Photography" class="rounded border-gray-300 text-primary focus:ring-primary h-5 w-5" />
               <span class="text-sm font-medium text-gray-700 select-none">Corporate Event Photography</span>
@@ -462,6 +459,18 @@
             </label>
           </div>
 
+          <div>
+            <textarea id="message" name="message" placeholder="Type your message..." rows="5" class="w-full input-field rounded-xl px-5 py-4 text-sm text-[#121111] border-gray-200 placeholder-gray-400" required></textarea>
+          </div>
+
+          <!-- Fast Delivery Checkbox -->
+          <div class="pt-2">
+            <label class="flex items-center gap-3 cursor-pointer">
+              <input type="checkbox" id="fast-delivery" name="fast_delivery" class="rounded border-gray-300 text-primary focus:ring-primary h-5 w-5" />
+              <span class="text-sm text-gray-600 select-none">I would like to request Fast Delivery (less than 3 days).</span>
+            </label>
+          </div>
+
           <!-- File Upload Box -->
           <div class="pt-4">
             <div id="upload-zone" class="upload-box rounded-xl p-8 flex flex-col items-center justify-center text-center cursor-pointer border-2">
@@ -483,7 +492,7 @@
           <div class="pt-2">
             <label class="flex items-center gap-3 cursor-pointer">
               <input type="checkbox" id="privacy-policy" name="privacy_agreement" class="rounded border-gray-300 text-primary focus:ring-primary h-5 w-5" required />
-              <span class="text-sm text-gray-600 select-none">I agree to the privacy policy and mailings.</span>
+              <span class="text-sm text-gray-600 select-none">I've read and agree to the <a href="./privacy.html" class="text-primary hover:underline">privacy policy</a>.</span>
             </label>
           </div>
 

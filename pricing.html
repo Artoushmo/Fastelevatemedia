@@ -141,13 +141,13 @@
       box-shadow: 0 20px 40px rgba(76, 114, 169, 0.2);
       border-color: rgba(76, 114, 169, 0.5) !important;
     }
-    /* Staggered entry animation delays using CSS */
     .pricing-card:nth-child(1) { animation-delay: 0.1s; }
     .pricing-card:nth-child(2) { animation-delay: 0.2s; }
     .pricing-card:nth-child(3) { animation-delay: 0.3s; }
     .pricing-card:nth-child(4) { animation-delay: 0.4s; }
     .pricing-card:nth-child(5) { animation-delay: 0.5s; }
     .pricing-card:nth-child(6) { animation-delay: 0.6s; }
+    .pricing-card:nth-child(7) { animation-delay: 0.7s; }
 
     #pricing-title {
       animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
@@ -443,8 +443,29 @@
   </section>
 
   <!-- Pricing Cards Section -->
-  <section class="pb-32 bg-[#121111] px-6 md:px-12 lg:px-24 relative z-10">
+  <section class="pb-32 bg-[#121111] px-6 md:px-12 lg:px-24 relative z-10 animate-fade-in">
     <div class="max-w-7xl mx-auto">
+      
+      <!-- Fast Delivery Highlights Bar -->
+      <div class="mb-12 p-6 md:p-8 rounded-2xl border border-primary/30 bg-primary/10 backdrop-blur-md flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-6 relative overflow-hidden">
+        <div class="absolute -right-20 -top-20 w-48 h-48 bg-primary/20 rounded-full blur-[60px] pointer-events-none"></div>
+        <div class="flex-shrink-0 w-12 h-12 rounded-xl bg-primary/20 border border-primary/30 flex items-center justify-center text-primary mt-1 shadow-lg">
+          <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11 21h-1l1-7H5l7-11h1l-1 7h6z"/>
+          </svg>
+        </div>
+        <div class="space-y-2 text-center md:text-left">
+          <h3 class="text-lg font-black text-white flex flex-col sm:flex-row items-center gap-2">
+            <span>Fast Delivery</span>
+            <span class="hidden sm:inline text-white/40">|</span>
+            <span class="text-primary-container text-sm sm:text-base font-semibold">Your content shouldn't have to wait.</span>
+          </h3>
+          <p class="text-sm text-gray-300 max-w-4xl leading-relaxed">
+            Our standard delivery for the first draft is within 72 hours for most projects. Need it sooner? Choose our 48-hour, 24-hour, or Same Day Delivery options (subject to project scope and availability).
+          </p>
+        </div>
+      </div>
+
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-6">
         
         <!-- Package 1: Corporate Event Photography -->
@@ -460,15 +481,15 @@
               Professional event photography for conferences, business events, seminars, and networking gatherings.
             </p>
             <div class="flex items-baseline mb-6 pt-4 border-t border-white/10">
-              <span class="text-4xl font-extrabold text-white">€750</span>
+              <span class="text-4xl font-extrabold text-white">€850</span>
               <span class="text-xs text-gray-400 ml-2 uppercase tracking-wider font-semibold">starting price</span>
             </div>
             
-            <a href="./contact.html" class="w-full mb-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/15 text-white font-bold text-center block transition-all hover:scale-[1.02] border border-white/10">
+            <a href="./start.html" class="w-full mb-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/15 text-white font-bold text-center block transition-all hover:scale-[1.02] border border-white/10">
               Get your quote
             </a>
 
-            <!-- Features list (details to be filled later, populated with template placeholders) -->
+            <!-- Features list -->
             <div class="space-y-4 pt-6 border-t border-white/10">
               <h4 class="text-xs font-bold uppercase tracking-wider text-gray-400">Included features:</h4>
               <ul class="space-y-3">
@@ -486,7 +507,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Professionally edited high-res images</span>
+                  <span class="text-sm text-gray-300">100+ Professionally edited high-resolution images</span>
                 </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
@@ -494,7 +515,23 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Online gallery with secure download link</span>
+                  <span class="text-sm text-gray-300">10 priority-edited images delivered same day for social media</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Secure online gallery</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Full gallery delivered within 3 business days</span>
                 </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
@@ -505,6 +542,12 @@
                   <span class="text-sm text-gray-300">Commercial usage rights included</span>
                 </li>
               </ul>
+              <div class="mt-6 pt-4 border-t border-white/5 flex items-start gap-2.5 text-xs text-[#f3bf51]">
+                <svg class="w-4 h-4 shrink-0 fill-current mt-0.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11 21h-1l1-7H5l7-11h1l-1 7h6z"/>
+                </svg>
+                <span>⚡ Need it sooner? Ask about our Express Delivery service.</span>
+              </div>
             </div>
           </div>
         </div>
@@ -526,7 +569,7 @@
               <span class="text-xs text-gray-400 ml-2 uppercase tracking-wider font-semibold">starting price</span>
             </div>
             
-            <a href="./contact.html" class="w-full mb-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/15 text-white font-bold text-center block transition-all hover:scale-[1.02] border border-white/10">
+            <a href="./start.html" class="w-full mb-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/15 text-white font-bold text-center block transition-all hover:scale-[1.02] border border-white/10">
               Get your quote
             </a>
 
@@ -534,6 +577,14 @@
             <div class="space-y-4 pt-6 border-t border-white/10">
               <h4 class="text-xs font-bold uppercase tracking-wider text-gray-400">Included features:</h4>
               <ul class="space-y-3">
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Up to 4 hours of on-site filming</span>
+                </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
                     <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
@@ -548,7 +599,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Professional camera &amp; sound capture</span>
+                  <span class="text-sm text-gray-300">1 professionally edited highlight video (up to 2 minutes)</span>
                 </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
@@ -556,7 +607,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Editing, color correction &amp; grading</span>
+                  <span class="text-sm text-gray-300">Brand-focused editing &amp; licensed royalty-free music</span>
                 </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
@@ -566,12 +617,145 @@
                   </span>
                   <span class="text-sm text-gray-300">First draft delivered within 5 days</span>
                 </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Delivered via secure download link</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Commercial usage rights included</span>
+                </li>
               </ul>
+              <div class="mt-6 pt-4 border-t border-white/5 flex items-start gap-2.5 text-xs text-[#f3bf51]">
+                <svg class="w-4 h-4 shrink-0 fill-current mt-0.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11 21h-1l1-7H5l7-11h1l-1 7h6z"/>
+                </svg>
+                <span>⚡ Need it sooner? Ask about our Express Delivery service.</span>
+              </div>
             </div>
           </div>
         </div>
 
-        <!-- Package 3: Professional Headshots & Portraits -->
+        <!-- Package 3: Event Photography & Video (New Combo) -->
+        <div class="pricing-card relative border-2 border-primary bg-[#201f1f] rounded-2xl p-8 flex flex-col justify-between ring-1 ring-primary/30">
+          <div class="absolute -top-4 right-6 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider shadow-md">
+            Best Value
+          </div>
+          <div>
+            <div class="flex justify-between items-start mb-4">
+              <div>
+                <span class="text-xs font-bold text-primary uppercase tracking-widest">Photography & Video</span>
+                <h3 class="text-2xl font-black text-white mt-1">Event Photography &amp; Video</h3>
+              </div>
+            </div>
+            <p class="text-sm text-gray-400 mb-6 leading-relaxed">
+              Complete media coverage combining on-site photography and videography for full coverage.
+            </p>
+            <div class="flex items-baseline mb-6 pt-4 border-t border-white/10">
+              <span class="text-4xl font-extrabold text-white">€1,950</span>
+              <span class="text-xs text-gray-400 ml-2 uppercase tracking-wider font-semibold">starting price</span>
+            </div>
+            
+            <a href="./start.html" class="w-full mb-6 py-3.5 rounded-xl bg-gradient-to-r from-primary to-[#6292d7] text-white font-bold text-center block transition-all hover:scale-[1.02] shadow-lg shadow-primary/30 border border-primary/20">
+              Get your quote
+            </a>
+
+            <!-- Features list -->
+            <div class="space-y-4 pt-6 border-t border-white/10">
+              <h4 class="text-xs font-bold uppercase tracking-wider text-gray-400">Included features:</h4>
+              <ul class="space-y-3">
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Up to 4 hours of on-site photography &amp; videography</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Dedicated photographer &amp; videographer</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">100+ professionally edited high-resolution images</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">1 professionally edited highlight video (up to 2 minutes)</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">15 priority-edited images delivered same day</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Secure online gallery &amp; video delivery</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Full gallery delivered within 3 business days</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">First video draft delivered within 5 business days</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Commercial usage rights included</span>
+                </li>
+              </ul>
+              <div class="mt-6 pt-4 border-t border-white/5 flex items-start gap-2.5 text-xs text-[#f3bf51]">
+                <svg class="w-4 h-4 shrink-0 fill-current mt-0.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11 21h-1l1-7H5l7-11h1l-1 7h6z"/>
+                </svg>
+                <span>⚡ Need it sooner? Ask us about our Express Delivery options.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Package 4: Professional Headshots & Portraits -->
         <div class="pricing-card relative border border-white/10 bg-[#1c1b1b] rounded-2xl p-8 flex flex-col justify-between">
           <div>
             <div class="flex justify-between items-start mb-4">
@@ -584,11 +768,11 @@
               Cohesive, high-end corporate headshots and team portraits on location or in studio.
             </p>
             <div class="flex items-baseline mb-6 pt-4 border-t border-white/10">
-              <span class="text-4xl font-extrabold text-white">€450</span>
+              <span class="text-4xl font-extrabold text-white">€650</span>
               <span class="text-xs text-gray-400 ml-2 uppercase tracking-wider font-semibold">starting price</span>
             </div>
             
-            <a href="./contact.html" class="w-full mb-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/15 text-white font-bold text-center block transition-all hover:scale-[1.02] border border-white/10">
+            <a href="./start.html" class="w-full mb-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/15 text-white font-bold text-center block transition-all hover:scale-[1.02] border border-white/10">
               Get your quote
             </a>
 
@@ -602,7 +786,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">On-site setup at your company office</span>
+                  <span class="text-sm text-gray-300">Up to 2 hours of on-site photography</span>
                 </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
@@ -610,7 +794,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Cohesive look aligned with your brand</span>
+                  <span class="text-sm text-gray-300">Professional mobile studio setup</span>
                 </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
@@ -618,7 +802,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Instant photo selection on-site</span>
+                  <span class="text-sm text-gray-300">1 professionally retouched headshot per person</span>
                 </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
@@ -626,14 +810,44 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Professional editing &amp; retouches</span>
+                  <span class="text-sm text-gray-300">Brand-consistent lighting &amp; background</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Secure online gallery</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Final images delivered within 3 business days</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Commercial usage rights included</span>
                 </li>
               </ul>
+              <div class="mt-6 pt-4 border-t border-white/5 flex items-start gap-2.5 text-xs text-[#f3bf51]">
+                <svg class="w-4 h-4 shrink-0 fill-current mt-0.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11 21h-1l1-7H5l7-11h1l-1 7h6z"/>
+                </svg>
+                <span>⚡ Need it sooner? Ask about our Express Delivery service.</span>
+              </div>
             </div>
           </div>
         </div>
 
-        <!-- Package 4: Corporate Interviews & Testimonials -->
+        <!-- Package 5: Corporate Interviews & Testimonials -->
         <div class="pricing-card relative border border-white/10 bg-[#1c1b1b] rounded-2xl p-8 flex flex-col justify-between">
           <div>
             <div class="flex justify-between items-start mb-4">
@@ -646,11 +860,11 @@
               Executive interviews, customer stories, and client testimonial video production.
             </p>
             <div class="flex items-baseline mb-6 pt-4 border-t border-white/10">
-              <span class="text-4xl font-extrabold text-white">€950</span>
+              <span class="text-4xl font-extrabold text-white">€1,650</span>
               <span class="text-xs text-gray-400 ml-2 uppercase tracking-wider font-semibold">starting price</span>
             </div>
             
-            <a href="./contact.html" class="w-full mb-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/15 text-white font-bold text-center block transition-all hover:scale-[1.02] border border-white/10">
+            <a href="./start.html" class="w-full mb-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/15 text-white font-bold text-center block transition-all hover:scale-[1.02] border border-white/10">
               Get your quote
             </a>
 
@@ -658,6 +872,14 @@
             <div class="space-y-4 pt-6 border-t border-white/10">
               <h4 class="text-xs font-bold uppercase tracking-wider text-gray-400">Included features:</h4>
               <ul class="space-y-3">
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Up to 4 hours of on-site production</span>
+                </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
                     <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
@@ -672,7 +894,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Studio-grade audio recording</span>
+                  <span class="text-sm text-gray-300">Professional lighting &amp; audio recording</span>
                 </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
@@ -680,7 +902,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Professional lighting setup on-site</span>
+                  <span class="text-sm text-gray-300">Up to 3 professionally edited interview videos</span>
                 </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
@@ -688,14 +910,52 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Full editing, captions &amp; social cuts</span>
+                  <span class="text-sm text-gray-300">Brand-focused editing with captions</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Licensed royalty-free music included</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Delivered via secure download link</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">First draft delivered within 3 business days</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Commercial usage rights included</span>
                 </li>
               </ul>
+              <div class="mt-6 pt-4 border-t border-white/5 flex items-start gap-2.5 text-xs text-[#f3bf51]">
+                <svg class="w-4 h-4 shrink-0 fill-current mt-0.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11 21h-1l1-7H5l7-11h1l-1 7h6z"/>
+                </svg>
+                <span>⚡ Need it sooner? Ask us about our Express Delivery options.</span>
+              </div>
             </div>
           </div>
         </div>
 
-        <!-- Package 5: Drone Video & Aerial Photography -->
+        <!-- Package 6: Drone Video & Aerial Photography -->
         <div class="pricing-card relative border border-white/10 bg-[#1c1b1b] rounded-2xl p-8 flex flex-col justify-between">
           <div>
             <div class="flex justify-between items-start mb-4">
@@ -708,11 +968,11 @@
               Certified and safe drone videography and photography for company venues and events.
             </p>
             <div class="flex items-baseline mb-6 pt-4 border-t border-white/10">
-              <span class="text-4xl font-extrabold text-white">€650</span>
+              <span class="text-4xl font-extrabold text-white">€850</span>
               <span class="text-xs text-gray-400 ml-2 uppercase tracking-wider font-semibold">starting price</span>
             </div>
             
-            <a href="./contact.html" class="w-full mb-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/15 text-white font-bold text-center block transition-all hover:scale-[1.02] border border-white/10">
+            <a href="./start.html" class="w-full mb-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/15 text-white font-bold text-center block transition-all hover:scale-[1.02] border border-white/10">
               Get your quote
             </a>
 
@@ -726,7 +986,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Licensed drone pilots (EASA certified)</span>
+                  <span class="text-sm text-gray-300">Up to 2 hours of on-site drone operation</span>
                 </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
@@ -734,7 +994,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">4K high-definition video capture</span>
+                  <span class="text-sm text-gray-300">EASA-certified drone pilot</span>
                 </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
@@ -742,7 +1002,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Airspace approvals &amp; planning</span>
+                  <span class="text-sm text-gray-300">Professionally edited aerial video (up to 1 minute)</span>
                 </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
@@ -750,17 +1010,63 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Both aerial photos &amp; raw video clips</span>
+                  <span class="text-sm text-gray-300">15+ professionally edited aerial photographs</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">4K aerial video &amp; high-resolution photography</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Airspace planning &amp; flight assessment</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300 font-semibold text-white">Professionally edited aerial content</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Delivered via secure download link</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Commercial usage rights included</span>
                 </li>
               </ul>
+              <div class="mt-6 pt-4 border-t border-white/5 flex items-start gap-2.5 text-xs text-[#f3bf51]">
+                <svg class="w-4 h-4 shrink-0 fill-current mt-0.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11 21h-1l1-7H5l7-11h1l-1 7h6z"/>
+                </svg>
+                <span>⚡ Need it sooner? Ask us about our Express Delivery options.</span>
+              </div>
             </div>
           </div>
         </div>
 
-        <!-- Package 6: Elevate Your Event (Popular Card) -->
+        <!-- Package 7: Elevate Your Event -->
         <div class="pricing-card relative border-2 border-primary bg-[#201f1f] rounded-2xl p-8 flex flex-col justify-between ring-1 ring-primary/30">
           <div class="absolute -top-4 right-6 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider shadow-md">
-            Most Popular
+            Custom Production
           </div>
           <div>
             <div class="flex justify-between items-start mb-4">
@@ -770,14 +1076,14 @@
               </div>
             </div>
             <p class="text-sm text-gray-400 mb-6 leading-relaxed">
-              Complete, comprehensive media coverage combining event photography, videography, and highlight reels.
+              Tailor-made project production for custom corporate needs, event photography &amp; videography.
             </p>
             <div class="flex items-baseline mb-6 pt-4 border-t border-white/10">
               <span class="text-2xl font-black text-white">Custom Quote</span>
               <span class="text-xs text-gray-400 ml-2 uppercase tracking-wider font-semibold">upon request</span>
             </div>
             
-            <a href="./contact.html" class="w-full mb-6 py-3.5 rounded-xl bg-gradient-to-r from-primary to-[#6292d7] text-white font-bold text-center block transition-all hover:scale-[1.02] shadow-lg shadow-primary/30 border border-primary/20">
+            <a href="./start.html" class="w-full mb-6 py-3.5 rounded-xl bg-gradient-to-r from-primary to-[#6292d7] text-white font-bold text-center block transition-all hover:scale-[1.02] shadow-lg shadow-primary/30 border border-primary/20">
               Get your quote
             </a>
 
@@ -791,7 +1097,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300 font-semibold text-white">Full-day photography &amp; videography</span>
+                  <span class="text-sm text-gray-300 font-semibold text-white">Single point of contact &amp; project management</span>
                 </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
@@ -799,7 +1105,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Edited aftermovie highlights video (1-2 min)</span>
+                  <span class="text-sm text-gray-300 font-semibold text-white">Tailor-made coverage for events of any size</span>
                 </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
@@ -807,7 +1113,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Next-day quick-delivery highlight shots</span>
+                  <span class="text-sm text-gray-300">Dedicated project management &amp; creative direction</span>
                 </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
@@ -815,9 +1121,42 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Dedicated creative director &amp; coordination</span>
+                  <span class="text-sm text-gray-300">Multiple photographers &amp; videographers available</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Interviews, drone &amp; livestream options available</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Content optimized for web, social media &amp; marketing</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300 font-semibold text-white">Commercial usage rights included</span>
                 </li>
               </ul>
+              <div class="mt-6 pt-4 border-t border-white/5 flex flex-col gap-3">
+                <div class="flex items-start gap-2.5 text-xs text-[#f3bf51]">
+                  <svg class="w-4 h-4 shrink-0 fill-current mt-0.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11 21h-1l1-7H5l7-11h1l-1 7h6z"/>
+                  </svg>
+                  <span>⚡ Need it sooner? Ask us about our Express Delivery options.</span>
+                </div>
+                <p class="text-xs text-primary font-bold uppercase tracking-wider text-center mt-2">Let's build your coverage!</p>
+              </div>
             </div>
           </div>
         </div>

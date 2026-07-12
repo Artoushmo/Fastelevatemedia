@@ -142,13 +142,13 @@
       box-shadow: 0 20px 40px rgba(76, 114, 169, 0.2);
       border-color: rgba(76, 114, 169, 0.5) !important;
     }
-    /* Staggered entry animation delays using CSS */
     .pricing-card:nth-child(1) { animation-delay: 0.1s; }
     .pricing-card:nth-child(2) { animation-delay: 0.2s; }
     .pricing-card:nth-child(3) { animation-delay: 0.3s; }
     .pricing-card:nth-child(4) { animation-delay: 0.4s; }
     .pricing-card:nth-child(5) { animation-delay: 0.5s; }
     .pricing-card:nth-child(6) { animation-delay: 0.6s; }
+    .pricing-card:nth-child(7) { animation-delay: 0.7s; }
 
     #pricing-title {
       animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
@@ -425,9 +425,31 @@
     <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-primary/10 rounded-full blur-[120px] pointer-events-none z-0"></div>
   </section>
 
+
   <!-- Pricing Cards Section -->
-  <section class="pb-32 bg-[#121111] px-6 md:px-12 lg:px-24 relative z-10">
+  <section class="pb-32 bg-[#121111] px-6 md:px-12 lg:px-24 relative z-10 animate-fade-in">
     <div class="max-w-7xl mx-auto">
+      
+      <!-- Fast Delivery Highlights Bar -->
+      <div class="mb-12 p-6 md:p-8 rounded-2xl border border-primary/30 bg-primary/10 backdrop-blur-md flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-6 relative overflow-hidden">
+        <div class="absolute -right-20 -top-20 w-48 h-48 bg-primary/20 rounded-full blur-[60px] pointer-events-none"></div>
+        <div class="flex-shrink-0 w-12 h-12 rounded-xl bg-primary/20 border border-primary/30 flex items-center justify-center text-primary mt-1 shadow-lg">
+          <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11 21h-1l1-7H5l7-11h1l-1 7h6z"/>
+          </svg>
+        </div>
+        <div class="space-y-2 text-center md:text-left">
+          <h3 class="text-lg font-black text-white flex flex-col sm:flex-row items-center gap-2">
+            <span>Snelle levering</span>
+            <span class="hidden sm:inline text-white/40">|</span>
+            <span class="text-primary-container text-sm sm:text-base font-semibold">Uw content hoeft niet te wachten.</span>
+          </h3>
+          <p class="text-sm text-gray-300 max-w-4xl leading-relaxed">
+            Onze standaardlevering voor de eerste versie is binnen 72 uur voor de meeste projecten. Sneller nodig? Kies voor onze 48-uurs, 24-uurs of Same Day Delivery opties (afhankelijk van de omvang en beschikbaarheid van het project).
+          </p>
+        </div>
+      </div>
+
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-6">
         
         <!-- Package 1: Corporate Event Photography -->
@@ -440,14 +462,14 @@
               </div>
             </div>
             <p class="text-sm text-gray-400 mb-6 leading-relaxed">
-              Professionele evenementenfotografie voor congressen, zakelijke evenementen, seminars en netwerkbijeenkomsten.
+              Professionele evenementenfotografie voor congressen, zakelijke bijeenkomsten, seminars en netwerkevenementen.
             </p>
             <div class="flex items-baseline mb-6 pt-4 border-t border-white/10">
-              <span class="text-4xl font-extrabold text-white">€750</span>
+              <span class="text-4xl font-extrabold text-white">€850</span>
               <span class="text-xs text-gray-400 ml-2 uppercase tracking-wider font-semibold">vanafprijs</span>
             </div>
             
-            <a href="./contact.html" class="w-full mb-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/15 text-white font-bold text-center block transition-all hover:scale-[1.02] border border-white/10">
+            <a href="./start.html" class="w-full mb-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/15 text-white font-bold text-center block transition-all hover:scale-[1.02] border border-white/10">
               Vraag een offerte aan
             </a>
 
@@ -469,7 +491,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Professioneel bewerkte foto's in hoge resolutie</span>
+                  <span class="text-sm text-gray-300">100+ Professioneel bewerkte foto's in hoge resolutie</span>
                 </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
@@ -477,7 +499,23 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Online galerij met beveiligde downloadlink</span>
+                  <span class="text-sm text-gray-300">10 priority-edited foto's geleverd op dezelfde dag voor social media</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Beveiligde online galerij</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Volledige galerij geleverd binnen 3 werkdagen</span>
                 </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
@@ -488,6 +526,12 @@
                   <span class="text-sm text-gray-300">Commerciële gebruiksrechten inbegrepen</span>
                 </li>
               </ul>
+              <div class="mt-6 pt-4 border-t border-white/5 flex items-start gap-2.5 text-xs text-[#f3bf51]">
+                <svg class="w-4 h-4 shrink-0 fill-current mt-0.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11 21h-1l1-7H5l7-11h1l-1 7h6z"/>
+                </svg>
+                <span>⚡ Sneller nodig? Vraag naar onze Express Delivery service.</span>
+              </div>
             </div>
           </div>
         </div>
@@ -502,14 +546,14 @@
               </div>
             </div>
             <p class="text-sm text-gray-400 mb-6 leading-relaxed">
-              Hoogwaardige videoproductie voor zakelijke aftermovies, bedrijfspromo's en merkcommunicatie.
+              Hoogwaardige videoproductie voor zakelijke aftermovies, bedrijfspromoties en merkcommunicatie.
             </p>
             <div class="flex items-baseline mb-6 pt-4 border-t border-white/10">
-              <span class="text-4xl font-extrabold text-white">€1,450</span>
+              <span class="text-4xl font-extrabold text-white">€1.450</span>
               <span class="text-xs text-gray-400 ml-2 uppercase tracking-wider font-semibold">vanafprijs</span>
             </div>
             
-            <a href="./contact.html" class="w-full mb-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/15 text-white font-bold text-center block transition-all hover:scale-[1.02] border border-white/10">
+            <a href="./start.html" class="w-full mb-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/15 text-white font-bold text-center block transition-all hover:scale-[1.02] border border-white/10">
               Vraag een offerte aan
             </a>
 
@@ -517,6 +561,14 @@
             <div class="space-y-4 pt-6 border-t border-white/10">
               <h4 class="text-xs font-bold uppercase tracking-wider text-gray-400">Inbegrepen functies:</h4>
               <ul class="space-y-3">
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Tot 4 uur filmen op locatie</span>
+                </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
                     <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
@@ -531,7 +583,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Professionele camera- &amp; geluidsopnamen</span>
+                  <span class="text-sm text-gray-300">1 professioneel bewerkte highlight-video (tot 2 minuten)</span>
                 </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
@@ -539,7 +591,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Montage, kleurcorrectie &amp; grading</span>
+                  <span class="text-sm text-gray-300">Merkgerichte montage &amp; gelicentieerde royaltyvrije muziek</span>
                 </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
@@ -549,12 +601,145 @@
                   </span>
                   <span class="text-sm text-gray-300">Eerste versie geleverd binnen 5 dagen</span>
                 </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Geleverd via beveiligde downloadlink</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Commerciële gebruiksrechten inbegrepen</span>
+                </li>
               </ul>
+              <div class="mt-6 pt-4 border-t border-white/5 flex items-start gap-2.5 text-xs text-[#f3bf51]">
+                <svg class="w-4 h-4 shrink-0 fill-current mt-0.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11 21h-1l1-7H5l7-11h1l-1 7h6z"/>
+                </svg>
+                <span>⚡ Sneller nodig? Vraag naar onze Express Delivery service.</span>
+              </div>
             </div>
           </div>
         </div>
 
-        <!-- Package 3: Professional Headshots & Portraits -->
+        <!-- Package 3: Event Photography & Video (New Combo) -->
+        <div class="pricing-card relative border-2 border-primary bg-[#201f1f] rounded-2xl p-8 flex flex-col justify-between ring-1 ring-primary/30">
+          <div class="absolute -top-4 right-6 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider shadow-md">
+            Beste Keuze
+          </div>
+          <div>
+            <div class="flex justify-between items-start mb-4">
+              <div>
+                <span class="text-xs font-bold text-primary uppercase tracking-widest">Fotografie & Video</span>
+                <h3 class="text-2xl font-black text-white mt-1">Evenementenfotografie &amp; Video</h3>
+              </div>
+            </div>
+            <p class="text-sm text-gray-400 mb-6 leading-relaxed">
+              Complete mediaverslaglegging die evenementenfotografie en videografie combineert op locatie.
+            </p>
+            <div class="flex items-baseline mb-6 pt-4 border-t border-white/10">
+              <span class="text-4xl font-extrabold text-white">€1.950</span>
+              <span class="text-xs text-gray-400 ml-2 uppercase tracking-wider font-semibold">vanafprijs</span>
+            </div>
+            
+            <a href="./start.html" class="w-full mb-6 py-3.5 rounded-xl bg-gradient-to-r from-primary to-[#6292d7] text-white font-bold text-center block transition-all hover:scale-[1.02] shadow-lg shadow-primary/30 border border-primary/20">
+              Vraag een offerte aan
+            </a>
+
+            <!-- Features list -->
+            <div class="space-y-4 pt-6 border-t border-white/10">
+              <h4 class="text-xs font-bold uppercase tracking-wider text-gray-400">Inbegrepen functies:</h4>
+              <ul class="space-y-3">
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Tot 4 uur fotografie &amp; videografie op locatie</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Toegewijde fotograaf &amp; videograaf</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">100+ professioneel bewerkte hoge-resolutie foto's</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">1 professioneel bewerkte highlight-video (tot 2 minuten)</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">15 priority-edited foto's geleverd op dezelfde dag</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Beveiligde online galerij &amp; video-oplevering</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Volledige galerij geleverd binnen 3 werkdagen</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Eerste videoversie geleverd binnen 5 werkdagen</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Commerciële gebruiksrechten inbegrepen</span>
+                </li>
+              </ul>
+              <div class="mt-6 pt-4 border-t border-white/5 flex items-start gap-2.5 text-xs text-[#f3bf51]">
+                <svg class="w-4 h-4 shrink-0 fill-current mt-0.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11 21h-1l1-7H5l7-11h1l-1 7h6z"/>
+                </svg>
+                <span>⚡ Sneller nodig? Vraag ons naar onze Express Delivery opties.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Package 4: Professional Headshots & Portraits -->
         <div class="pricing-card relative border border-white/10 bg-[#1c1b1b] rounded-2xl p-8 flex flex-col justify-between">
           <div>
             <div class="flex justify-between items-start mb-4">
@@ -567,11 +752,11 @@
               Consistente, hoogwaardige zakelijke portretfoto's en teamportretten op locatie of in de studio.
             </p>
             <div class="flex items-baseline mb-6 pt-4 border-t border-white/10">
-              <span class="text-4xl font-extrabold text-white">€450</span>
+              <span class="text-4xl font-extrabold text-white">€650</span>
               <span class="text-xs text-gray-400 ml-2 uppercase tracking-wider font-semibold">vanafprijs</span>
             </div>
             
-            <a href="./contact.html" class="w-full mb-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/15 text-white font-bold text-center block transition-all hover:scale-[1.02] border border-white/10">
+            <a href="./start.html" class="w-full mb-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/15 text-white font-bold text-center block transition-all hover:scale-[1.02] border border-white/10">
               Vraag een offerte aan
             </a>
 
@@ -585,7 +770,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Opstelling op locatie bij uw bedrijfskantoor</span>
+                  <span class="text-sm text-gray-300">Tot 2 uur fotografie op locatie</span>
                 </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
@@ -593,7 +778,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Consistente uitstraling afgestemd op uw merk</span>
+                  <span class="text-sm text-gray-300">Professionele mobiele studio-opstelling</span>
                 </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
@@ -601,7 +786,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Directe fotoselectie op locatie</span>
+                  <span class="text-sm text-gray-300">1 professioneel geretoucheerde portretfoto per persoon</span>
                 </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
@@ -609,14 +794,44 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Professionele bewerking &amp; retouches</span>
+                  <span class="text-sm text-gray-300">Merkconsistente belichting &amp; achtergrond</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Beveiligde online galerij</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Uiteindelijke foto's geleverd binnen 3 werkdagen</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Commerciële gebruiksrechten inbegrepen</span>
                 </li>
               </ul>
+              <div class="mt-6 pt-4 border-t border-white/5 flex items-start gap-2.5 text-xs text-[#f3bf51]">
+                <svg class="w-4 h-4 shrink-0 fill-current mt-0.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11 21h-1l1-7H5l7-11h1l-1 7h6z"/>
+                </svg>
+                <span>⚡ Sneller nodig? Vraag naar onze Express Delivery service.</span>
+              </div>
             </div>
           </div>
         </div>
 
-        <!-- Package 4: Corporate Interviews & Testimonials -->
+        <!-- Package 5: Corporate Interviews & Testimonials -->
         <div class="pricing-card relative border border-white/10 bg-[#1c1b1b] rounded-2xl p-8 flex flex-col justify-between">
           <div>
             <div class="flex justify-between items-start mb-4">
@@ -629,11 +844,11 @@
               Videoproductie voor executive interviews, klantverhalen en testimonials.
             </p>
             <div class="flex items-baseline mb-6 pt-4 border-t border-white/10">
-              <span class="text-4xl font-extrabold text-white">€950</span>
+              <span class="text-4xl font-extrabold text-white">€1.650</span>
               <span class="text-xs text-gray-400 ml-2 uppercase tracking-wider font-semibold">vanafprijs</span>
             </div>
             
-            <a href="./contact.html" class="w-full mb-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/15 text-white font-bold text-center block transition-all hover:scale-[1.02] border border-white/10">
+            <a href="./start.html" class="w-full mb-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/15 text-white font-bold text-center block transition-all hover:scale-[1.02] border border-white/10">
               Vraag een offerte aan
             </a>
 
@@ -641,6 +856,14 @@
             <div class="space-y-4 pt-6 border-t border-white/10">
               <h4 class="text-xs font-bold uppercase tracking-wider text-gray-400">Inbegrepen functies:</h4>
               <ul class="space-y-3">
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Tot 4 uur productie op locatie</span>
+                </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
                     <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
@@ -655,7 +878,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Geluidsopnamen van studiokwaliteit</span>
+                  <span class="text-sm text-gray-300">Professionele belichting &amp; geluidsopname</span>
                 </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
@@ -663,7 +886,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Professionele lichtopstelling op locatie</span>
+                  <span class="text-sm text-gray-300">Tot 3 professioneel bewerkte interviewvideo's</span>
                 </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
@@ -671,31 +894,69 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Volledige montage, ondertiteling &amp; social media-versies</span>
+                  <span class="text-sm text-gray-300">Merkgerichte montage met ondertiteling</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Gelicenseerde royaltyvrije muziek inbegrepen</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Geleverd via beveiligde downloadlink</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Eerste versie geleverd binnen 3 werkdagen</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Commerciële gebruiksrechten inbegrepen</span>
                 </li>
               </ul>
+              <div class="mt-6 pt-4 border-t border-white/5 flex items-start gap-2.5 text-xs text-[#f3bf51]">
+                <svg class="w-4 h-4 shrink-0 fill-current mt-0.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11 21h-1l1-7H5l7-11h1l-1 7h6z"/>
+                </svg>
+                <span>⚡ Sneller nodig? Vraag ons naar onze Express Delivery opties.</span>
+              </div>
             </div>
           </div>
         </div>
 
-        <!-- Package 5: Drone Video & Aerial Photography -->
+        <!-- Package 6: Drone Video & Aerial Photography -->
         <div class="pricing-card relative border border-white/10 bg-[#1c1b1b] rounded-2xl p-8 flex flex-col justify-between">
           <div>
             <div class="flex justify-between items-start mb-4">
               <div>
                 <span class="text-xs font-bold text-primary uppercase tracking-widest">Drone / Lucht</span>
-                <h3 class="text-2xl font-black text-white mt-1">Dronevideo &amp; luchtfoto's</h3>
+                <h3 class="text-2xl font-black text-white mt-1">Dronevideo &amp; Luchtfoto's</h3>
               </div>
             </div>
             <p class="text-sm text-gray-400 mb-6 leading-relaxed">
               Gecertificeerde en veilige dronevideografie en -fotografie voor bedrijfslocaties en evenementen.
             </p>
             <div class="flex items-baseline mb-6 pt-4 border-t border-white/10">
-              <span class="text-4xl font-extrabold text-white">€650</span>
+              <span class="text-4xl font-extrabold text-white">€850</span>
               <span class="text-xs text-gray-400 ml-2 uppercase tracking-wider font-semibold">vanafprijs</span>
             </div>
             
-            <a href="./contact.html" class="w-full mb-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/15 text-white font-bold text-center block transition-all hover:scale-[1.02] border border-white/10">
+            <a href="./start.html" class="w-full mb-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/15 text-white font-bold text-center block transition-all hover:scale-[1.02] border border-white/10">
               Vraag een offerte aan
             </a>
 
@@ -709,7 +970,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Gelicenseerde dronepiloten (EASA gecertificeerd)</span>
+                  <span class="text-sm text-gray-300">Tot 2 uur drone-operatie op locatie</span>
                 </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
@@ -717,7 +978,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">4K high-definition video-opnamen</span>
+                  <span class="text-sm text-gray-300">EASA-gecertificeerde dronepiloot</span>
                 </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
@@ -725,7 +986,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Goedkeuringen voor het luchtruim &amp; planning</span>
+                  <span class="text-sm text-gray-300">Professioneel bewerkte luchtvideo (tot 1 minuut)</span>
                 </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
@@ -733,34 +994,80 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Zowel luchtfoto's als ruwe videoclips</span>
+                  <span class="text-sm text-gray-300">15+ professioneel bewerkte luchtfoto's</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">4K luchtvideo &amp; hoge-resolutie fotografie</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Luchtruimplanning &amp; vluchtbeoordeling</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300 font-semibold text-white">Professioneel bewerkte luchtcontent</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Geleverd via beveiligde downloadlink</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Commerciële gebruiksrechten inbegrepen</span>
                 </li>
               </ul>
+              <div class="mt-6 pt-4 border-t border-white/5 flex items-start gap-2.5 text-xs text-[#f3bf51]">
+                <svg class="w-4 h-4 shrink-0 fill-current mt-0.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11 21h-1l1-7H5l7-11h1l-1 7h6z"/>
+                </svg>
+                <span>⚡ Sneller nodig? Vraag ons naar onze Express Delivery opties.</span>
+              </div>
             </div>
           </div>
         </div>
 
-        <!-- Package 6: Elevate Your Event (Popular Card) -->
+        <!-- Package 7: Elevate Your Event -->
         <div class="pricing-card relative border-2 border-primary bg-[#201f1f] rounded-2xl p-8 flex flex-col justify-between ring-1 ring-primary/30">
           <div class="absolute -top-4 right-6 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider shadow-md">
-            Meest populair
+            Maatwerk Productie
           </div>
           <div>
             <div class="flex justify-between items-start mb-4">
               <div>
-                <span class="text-xs font-bold text-primary uppercase tracking-widest">Volledige dekking</span>
+                <span class="text-xs font-bold text-primary uppercase tracking-widest">Volledige Dekking</span>
                 <h3 class="text-2xl font-black text-white mt-1">Breng uw evenement naar een hoger niveau</h3>
               </div>
             </div>
             <p class="text-sm text-gray-400 mb-6 leading-relaxed">
-              Volledige, uitgebreide mediaverslaglegging die evenementenfotografie, videografie en highlight-reels combineert.
+              Projectproductie op maat voor specifieke zakelijke behoeften, eventfotografie &amp; videografie.
             </p>
             <div class="flex items-baseline mb-6 pt-4 border-t border-white/10">
               <span class="text-2xl font-black text-white">Offerte op maat</span>
               <span class="text-xs text-gray-400 ml-2 uppercase tracking-wider font-semibold">op aanvraag</span>
             </div>
             
-            <a href="./contact.html" class="w-full mb-6 py-3.5 rounded-xl bg-gradient-to-r from-primary to-[#6292d7] text-white font-bold text-center block transition-all hover:scale-[1.02] shadow-lg shadow-primary/30 border border-primary/20">
+            <a href="./start.html" class="w-full mb-6 py-3.5 rounded-xl bg-gradient-to-r from-primary to-[#6292d7] text-white font-bold text-center block transition-all hover:scale-[1.02] shadow-lg shadow-primary/30 border border-primary/20">
               Vraag een offerte aan
             </a>
 
@@ -774,7 +1081,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300 font-semibold text-white">Fotografie &amp; videografie voor een hele dag</span>
+                  <span class="text-sm text-gray-300 font-semibold text-white">Eén aanspreekpunt &amp; projectbeheer</span>
                 </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
@@ -782,7 +1089,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Bewerkte aftermovie highlights video (1-2 min)</span>
+                  <span class="text-sm text-gray-300 font-semibold text-white">Dekking op maat voor evenementen van elke omvang</span>
                 </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
@@ -790,7 +1097,7 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Snelle levering van highlight-foto's de volgende dag</span>
+                  <span class="text-sm text-gray-300 font-semibold text-white">Toegewijd projectbeheer &amp; creatieve directie</span>
                 </li>
                 <li class="flex items-start">
                   <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
@@ -798,9 +1105,42 @@
                       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </span>
-                  <span class="text-sm text-gray-300">Toegewijde creatief directeur &amp; coördinatie</span>
+                  <span class="text-sm text-gray-300">Meerdere fotografen &amp; videografen beschikbaar</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300">Interviews, drone &amp; livestream opties beschikbaar</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300 font-semibold text-white">Content geoptimaliseerd voor web, social media &amp; marketing</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-5 w-5 rounded-full bg-primary/10 border border-primary/30 flex items-center justify-center mt-0.5 mr-3 shrink-0">
+                    <svg class="h-3 w-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </span>
+                  <span class="text-sm text-gray-300 font-semibold text-white">Commerciële gebruiksrechten inbegrepen</span>
                 </li>
               </ul>
+              <div class="mt-6 pt-4 border-t border-white/5 flex flex-col gap-3">
+                <div class="flex items-start gap-2.5 text-xs text-[#f3bf51]">
+                  <svg class="w-4 h-4 shrink-0 fill-current mt-0.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11 21h-1l1-7H5l7-11h1l-1 7h6z"/>
+                  </svg>
+                  <span>⚡ Sneller nodig? Vraag ons naar onze Express Delivery opties.</span>
+                </div>
+                <p class="text-xs text-primary font-bold uppercase tracking-wider text-center mt-2">Laten we uw dekking samenstellen!</p>
+              </div>
             </div>
           </div>
         </div>
