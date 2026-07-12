@@ -121,73 +121,74 @@
   var css = `
     #fem-cookie-overlay {
       position: fixed; inset: 0; z-index: 99998;
-      background: rgba(0,0,0,0.45);
+      background: rgba(0,0,0,0.25);
       display: flex; align-items: flex-end; justify-content: center;
       padding: 0;
       font-family: 'Lexend', 'Inter', sans-serif;
-      animation: fem-fade-in 0.25s ease;
+      animation: fem-fade-in 0.2s ease;
     }
     @keyframes fem-fade-in { from { opacity: 0; } to { opacity: 1; } }
 
     #fem-cookie-banner {
-      background: #ffffff;
+      background: #1c1c1e;
       width: 100%;
       max-width: 100%;
-      border-radius: 20px 20px 0 0;
-      padding: 28px 32px 28px 32px;
-      box-shadow: 0 -8px 48px rgba(0,0,0,0.18);
+      border-radius: 0;
+      padding: 14px 28px;
+      box-shadow: 0 -4px 24px rgba(0,0,0,0.3);
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
+      align-items: center;
       gap: 16px;
-      animation: fem-slide-up 0.3s cubic-bezier(0.34,1.56,0.64,1);
+      flex-wrap: wrap;
+      animation: fem-slide-up 0.25s cubic-bezier(0.25,0.46,0.45,0.94);
     }
     @keyframes fem-slide-up { from { transform: translateY(100%); } to { transform: translateY(0); } }
 
-    #fem-cookie-banner .fem-banner-header {
-      display: flex; align-items: center; gap: 14px;
+    #fem-cookie-banner .fem-banner-text {
+      flex: 1; min-width: 220px;
     }
-    #fem-cookie-banner .fem-banner-icon {
-      width: 40px; height: 40px; background: #4C72A9; border-radius: 10px;
-      display: flex; align-items: center; justify-content: center; flex-shrink: 0;
-    }
-    #fem-cookie-banner .fem-banner-icon svg { width: 22px; height: 22px; color: white; }
     #fem-cookie-banner h2 {
-      font-size: 1.05rem; font-weight: 800; color: #121111; margin: 0;
+      font-size: 0.78rem; font-weight: 800; color: #ffffff; margin: 0 0 2px;
+      letter-spacing: 0.01em;
     }
     #fem-cookie-banner p {
-      font-size: 0.75rem; color: #555; line-height: 1.6; margin: 0;
+      font-size: 0.68rem; color: rgba(255,255,255,0.65); line-height: 1.5; margin: 0;
     }
     #fem-cookie-banner .fem-policy-link {
-      color: #4C72A9; text-decoration: underline; font-size: 0.75rem;
+      color: #7da8e0; text-decoration: underline; font-size: 0.68rem;
     }
     #fem-cookie-banner .fem-btn-row {
-      display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+      display: flex; flex-wrap: nowrap; gap: 8px; align-items: center; flex-shrink: 0;
     }
     .fem-btn-accept {
       background: #4C72A9; color: white; border: none; cursor: pointer;
-      font-family: inherit; font-weight: 700; font-size: 0.72rem;
-      text-transform: uppercase; letter-spacing: 0.07em;
-      padding: 11px 22px; border-radius: 999px;
+      font-family: inherit; font-weight: 700; font-size: 0.68rem;
+      text-transform: uppercase; letter-spacing: 0.06em;
+      padding: 8px 18px; border-radius: 999px;
       transition: background 0.2s, transform 0.15s;
+      white-space: nowrap;
     }
     .fem-btn-accept:hover { background: #3b5c8f; transform: scale(1.03); }
     .fem-btn-reject {
-      background: transparent; color: #121111;
-      border: 1.5px solid #d1d5db; cursor: pointer;
-      font-family: inherit; font-weight: 700; font-size: 0.72rem;
-      text-transform: uppercase; letter-spacing: 0.07em;
-      padding: 11px 22px; border-radius: 999px;
+      background: transparent; color: rgba(255,255,255,0.8);
+      border: 1.5px solid rgba(255,255,255,0.25); cursor: pointer;
+      font-family: inherit; font-weight: 700; font-size: 0.68rem;
+      text-transform: uppercase; letter-spacing: 0.06em;
+      padding: 8px 18px; border-radius: 999px;
       transition: border-color 0.2s, transform 0.15s;
+      white-space: nowrap;
     }
-    .fem-btn-reject:hover { border-color: #4C72A9; transform: scale(1.02); }
+    .fem-btn-reject:hover { border-color: rgba(255,255,255,0.6); transform: scale(1.02); }
     .fem-btn-settings {
-      background: transparent; color: #4C72A9;
+      background: transparent; color: rgba(255,255,255,0.5);
       border: none; cursor: pointer;
-      font-family: inherit; font-weight: 600; font-size: 0.72rem;
-      text-decoration: underline; padding: 8px 4px;
+      font-family: inherit; font-weight: 600; font-size: 0.65rem;
+      text-decoration: underline; padding: 6px 2px;
       transition: color 0.2s;
+      white-space: nowrap;
     }
-    .fem-btn-settings:hover { color: #3b5c8f; }
+    .fem-btn-settings:hover { color: rgba(255,255,255,0.9); }
 
     /* Settings panel */
     #fem-cookie-settings-panel {
@@ -200,43 +201,43 @@
     }
     #fem-cookie-settings-box {
       background: #fff; border-radius: 20px;
-      width: 100%; max-width: 520px;
+      width: 100%; max-width: 500px;
       max-height: 90vh; overflow-y: auto;
-      padding: 32px 28px 24px;
+      padding: 28px 24px 20px;
       box-shadow: 0 20px 60px rgba(0,0,0,0.25);
       animation: fem-scale-in 0.25s cubic-bezier(0.34,1.56,0.64,1);
     }
     @keyframes fem-scale-in { from { transform: scale(0.93); opacity: 0; } to { transform: scale(1); opacity: 1; } }
     #fem-cookie-settings-box h2 {
-      font-size: 1.15rem; font-weight: 800; color: #121111; margin: 0 0 8px;
+      font-size: 1.05rem; font-weight: 800; color: #121111; margin: 0 0 6px;
     }
     #fem-cookie-settings-box p.fem-intro {
-      font-size: 0.75rem; color: #555; line-height: 1.6; margin: 0 0 20px;
+      font-size: 0.73rem; color: #555; line-height: 1.6; margin: 0 0 16px;
     }
     .fem-cookie-row {
-      border: 1.5px solid #e5e7eb; border-radius: 14px;
-      padding: 16px 18px; margin-bottom: 12px;
+      border: 1.5px solid #e5e7eb; border-radius: 12px;
+      padding: 13px 15px; margin-bottom: 10px;
     }
     .fem-cookie-row-header {
       display: flex; align-items: center; justify-content: space-between; gap: 12px;
-      margin-bottom: 8px;
+      margin-bottom: 6px;
     }
     .fem-cookie-row-header strong {
-      font-size: 0.82rem; font-weight: 700; color: #121111;
+      font-size: 0.80rem; font-weight: 700; color: #121111;
     }
     .fem-cookie-row p {
-      font-size: 0.73rem; color: #666; line-height: 1.55; margin: 0 0 4px;
+      font-size: 0.71rem; color: #666; line-height: 1.5; margin: 0 0 3px;
     }
     .fem-cookie-row .fem-example {
-      font-size: 0.68rem; color: #9ca3af; margin: 0;
+      font-size: 0.66rem; color: #9ca3af; margin: 0;
     }
     .fem-badge-always {
-      font-size: 0.65rem; font-weight: 700; color: #4C72A9;
-      background: #e8eef8; padding: 3px 10px; border-radius: 999px;
+      font-size: 0.62rem; font-weight: 700; color: #4C72A9;
+      background: #e8eef8; padding: 3px 9px; border-radius: 999px;
       white-space: nowrap;
     }
     /* Toggle switch */
-    .fem-toggle { position: relative; display: inline-block; width: 44px; height: 24px; flex-shrink: 0; }
+    .fem-toggle { position: relative; display: inline-block; width: 40px; height: 22px; flex-shrink: 0; }
     .fem-toggle input { opacity: 0; width: 0; height: 0; }
     .fem-toggle-slider {
       position: absolute; cursor: pointer; inset: 0;
@@ -245,49 +246,38 @@
     }
     .fem-toggle-slider:before {
       content: ''; position: absolute;
-      height: 18px; width: 18px; left: 3px; bottom: 3px;
+      height: 16px; width: 16px; left: 3px; bottom: 3px;
       background: white; border-radius: 50%;
       transition: transform 0.25s;
       box-shadow: 0 1px 4px rgba(0,0,0,0.2);
     }
     .fem-toggle input:checked + .fem-toggle-slider { background: #4C72A9; }
-    .fem-toggle input:checked + .fem-toggle-slider:before { transform: translateX(20px); }
+    .fem-toggle input:checked + .fem-toggle-slider:before { transform: translateX(18px); }
     .fem-settings-footer {
-      display: flex; flex-wrap: wrap; gap: 10px; justify-content: flex-end;
-      margin-top: 20px; padding-top: 16px;
+      display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end;
+      margin-top: 16px; padding-top: 14px;
       border-top: 1px solid #e5e7eb;
     }
     .fem-btn-save {
       background: #4C72A9; color: white; border: none; cursor: pointer;
-      font-family: inherit; font-weight: 700; font-size: 0.72rem;
-      text-transform: uppercase; letter-spacing: 0.07em;
-      padding: 11px 22px; border-radius: 999px;
+      font-family: inherit; font-weight: 700; font-size: 0.68rem;
+      text-transform: uppercase; letter-spacing: 0.06em;
+      padding: 9px 20px; border-radius: 999px;
       transition: background 0.2s, transform 0.15s;
     }
     .fem-btn-save:hover { background: #3b5c8f; transform: scale(1.03); }
     .fem-btn-save-all {
       background: transparent; color: #121111;
       border: 1.5px solid #d1d5db; cursor: pointer;
-      font-family: inherit; font-weight: 700; font-size: 0.72rem;
-      text-transform: uppercase; letter-spacing: 0.07em;
-      padding: 11px 22px; border-radius: 999px;
+      font-family: inherit; font-weight: 700; font-size: 0.68rem;
+      text-transform: uppercase; letter-spacing: 0.06em;
+      padding: 9px 20px; border-radius: 999px;
       transition: border-color 0.2s, transform 0.15s;
     }
     .fem-btn-save-all:hover { border-color: #4C72A9; transform: scale(1.02); }
 
     /* Floating reopener button */
     #fem-cookie-reopen {
-      position: fixed; bottom: 20px; left: 20px; z-index: 9000;
-      background: #4C72A9; color: white; border: none; cursor: pointer;
-      font-family: 'Lexend', 'Inter', sans-serif;
-      font-size: 0.65rem; font-weight: 700; letter-spacing: 0.05em;
-      text-transform: uppercase; padding: 9px 15px 9px 11px;
-      border-radius: 999px; box-shadow: 0 4px 16px rgba(76,114,169,0.45);
-      display: flex; align-items: center; gap: 7px;
-      transition: background 0.2s, transform 0.15s;
-    }
-    #fem-cookie-reopen:hover { background: #3b5c8f; transform: scale(1.05); }
-    #fem-cookie-reopen svg { width: 15px; height: 15px; }
 
     @media (max-width: 600px) {
       #fem-cookie-banner { padding: 20px 18px 24px; }
@@ -442,20 +432,10 @@
 
     overlay.innerHTML = `
       <div id="fem-cookie-banner">
-        <div class="fem-banner-header">
-          <div class="fem-banner-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="10"/>
-              <path d="M12 8v4l3 3"/>
-            </svg>
-          </div>
+        <div class="fem-banner-text">
           <h2>${t.bannerTitle}</h2>
+          <p>${t.bannerText} <a href="${COOKIE_POLICY_URL}" class="fem-policy-link">${t.policyLink}</a></p>
         </div>
-        <p>
-          ${t.bannerText}
-          <br/>
-          <a href="${COOKIE_POLICY_URL}" class="fem-policy-link">${t.policyLink}</a>
-        </p>
         <div class="fem-btn-row">
           <button class="fem-btn-accept" id="fem-btn-accept-all">${t.acceptAll}</button>
           <button class="fem-btn-reject" id="fem-btn-reject">${t.rejectNon}</button>
