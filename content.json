@@ -1,0 +1,249 @@
+{
+  "__config": {
+    "analytics": {
+      "ga4MeasurementId": "",
+      "gtmId": "",
+      "metaPixelId": "",
+      "linkedInPartnerId": "",
+      "plausibleDomain": ""
+    }
+  },
+  "en": {
+    "home": {
+      "Intro": {
+        "title": "Fast Elevate Media is a<br class=\"hidden sm:inline\" /> <span class=\"text-primary\">Corporate Focused Media Agency</span>",
+        "description": "Fast, high-quality corporate photography and video production for companies across Europe. We specialize in corporate events, conferences, executive interviews and professional portraits; executed with speed, clarity and consistent visual standards."
+      }
+    },
+    "cookies": {
+      "Hero": {
+        "title": "Cookies"
+      },
+      "Intro": {
+        "title": "Cookie Policy",
+        "description": "This Cookie Policy explains how Fast Elevate Media (\"we\", \"us\", or \"our\") uses cookies and similar technologies when you visit our website. This policy should be read together with our <a href=\"./privacy.html\" class=\"text-primary underline hover:text-primary/80 transition-colors\">Privacy Policy</a>. By continuing to use our website, you may be asked to provide consent for certain categories of cookies through our cookie consent banner."
+      }
+    }
+  },
+  "nl": {
+    "home": {
+      "Intro": {
+        "title": "Fast Elevate Media is een<br class=\"hidden sm:inline\" /> <span class=\"text-primary\">Zakelijk Mediabureau</span>",
+        "description": "Snelle, hoogwaardige bedrijfsfotografie en videoproductie voor bedrijven in heel Europa. Wij zijn gespecialiseerd in bedrijfsevenementen, congressen, executive interviews en professionele portretten; uitgevoerd met snelheid, helderheid en consistente visuele standaarden.",
+        "auto_text_div_0_h2_0_span_0": "Zakelijk Mediabureau"
+      },
+      "HeroSection": {
+        "button_1": "",
+        "auto_text_div_1_div_0_a_0": "Breng uw project naar een hoger niveau",
+        "auto_text_div_1_div_0_a_1": "Neem contact op"
+      },
+      "Mediaoplossingen": {
+        "title": "Mediaoplossingen",
+        "description": "Onze Diensten",
+        "auto_text_div_1_a_0": "Fotografie Fotografie Professionele zakelijke evenementenfotografie voor congressen, zakelijke bijeenkomsten and bedrijfsbijeenkomsten. Wij leggen keynote sprekers, interactie met het publiek, netwerkmomenten en merkidentiteit vast met een consistente visuele stijl die aansluit bij de identiteit van uw bedrijf. Lees meer >",
+        "auto_text_div_1_a_0_div_0_div_0_div_0_span_0": "Fotografie",
+        "image": "",
+        "subtitle_1": "Fotografie",
+        "text_1": "Professionele zakelijke evenementenfotografie voor congressen, zakelijke bijeenkomsten and bedrijfsbijeenkomsten. Wij leggen keynote sprekers, interactie met het publiek, netwerkmomenten en merkidentiteit vast met een consistente visuele stijl die aansluit bij de identiteit van uw bedrijf.",
+        "auto_text_div_1_a_1": "Zakelijke Videoproductie Zakelijke Videoproductie Hoogwaardige zakelijke videoproductie voor evenementen, congressen, aftermovies and branded content. Onze producties helpen bedrijven helder te communiceren via krachtige visuele storytelling die is ontworpen voor interne communicatie, marketing en LinkedIn. Lees meer >",
+        "auto_text_div_1_a_1_div_0_div_0_div_0_span_0": "Zakelijke Videoproductie",
+        "image_1": "",
+        "subtitle_2": "Zakelijke Videoproductie",
+        "text_2": "Hoogwaardige zakelijke videoproductie voor evenementen, congressen, aftermovies and branded content. Onze producties helpen bedrijven helder te communiceren via krachtige visuele storytelling die is ontworpen voor interne communicatie, marketing en LinkedIn.",
+        "auto_text_div_1_a_2": "Professionele Portretten Professionele Portretfoto's & Zakelijke Portretten Consistente, hoogwaardige professionele portretfoto's en zakelijke portretten voor directieleden, managementteams en medewerkers. Versterk de visuele identiteit van uw bedrijf op websites, persberichten, LinkedIn en interne platforms. Lees meer >",
+        "auto_text_div_1_a_2_div_0_div_0_div_0_span_0": "Professionele Portretten",
+        "image_2": "",
+        "subtitle_3": "Professionele Portretfoto's & Zakelijke Portretten",
+        "text_3": "Consistente, hoogwaardige professionele portretfoto's en zakelijke portretten voor directieleden, managementteams en medewerkers. Versterk de visuele identiteit van uw bedrijf op websites, persberichten, LinkedIn en interne platforms.",
+        "auto_text_div_1_a_3": "Zakelijke Interviews & Testimonials Zakelijke Interviews & Testimonials Professionele videoproductie van zakelijke interviews en testimonials voor directieleden, medewerkers en partners. Strakke beelden, professionele audio en gestructureerde storytelling, geoptimaliseerd voor interne communicatie, employer branding en zichtbaarheid op LinkedIn. Lees meer >",
+        "auto_text_div_1_a_3_div_0_div_0_div_0_span_0": "Zakelijke Interviews & Testimonials",
+        "image_3": "",
+        "subtitle_4": "Zakelijke Interviews & Testimonials",
+        "text_4": "Professionele videoproductie van zakelijke interviews en testimonials voor directieleden, medewerkers en partners. Strakke beelden, professionele audio en gestructureerde storytelling, geoptimaliseerd voor interne communicatie, employer branding en zichtbaarheid op LinkedIn.",
+        "auto_text_div_1_a_4": "Dronevideo & Luchtfotografie Dronevideo & Luchtfotografie Gecertificeerde drone-videoproductie en luchtfotografie voor zakelijke evenementen, bedrijfslocaties en grootschalige producties. Dynamische perspectieven vanuit de lucht die de storytelling versterken en visueel indrukwekkende content creëren voor zakelijke communicatie. Lees meer >",
+        "auto_text_div_1_a_4_div_0_div_0_div_0_span_0": "Dronevideo & Luchtfotografie",
+        "image_4": "",
+        "subtitle_5": "Dronevideo & Luchtfotografie",
+        "text_5": "Gecertificeerde drone-videoproductie en luchtfotografie voor zakelijke evenementen, bedrijfslocaties en grootschalige producties. Dynamische perspectieven vanuit de lucht die de storytelling versterken en visueel indrukwekkende content creëren voor zakelijke communicatie.",
+        "auto_text_div_1_a_5": "Breng uw evenement naar een hoger niveau Breng uw evenement naar een hoger niveau Volledige verslaglegging van zakelijke evenementen waarin fotografie, videoproductie, interviews and droneservices worden gecombineerd. Een op maat gemaakte productieaanpak die is ontworpen om naadloze, efficiënte en schaalbare verslaglegging te leveren, afgestemd op uw evenementdoelstellingen en merkcommunicatie. Lees meer >",
+        "auto_text_div_1_a_5_div_0_div_0_div_0_span_0": "Breng uw evenement naar een hoger niveau",
+        "image_5": "",
+        "subtitle_6": "Breng uw evenement naar een hoger niveau",
+        "text_6": "Volledige verslaglegging van zakelijke evenementen waarin fotografie, videoproductie, interviews and droneservices worden gecombineerd. Een op maat gemaakte productieaanpak die is ontworpen om naadloze, efficiënte en schaalbare verslaglegging te leveren, afgestemd op uw evenementdoelstellingen en merkcommunicatie.",
+        "auto_image_div_1_a_0_div_0_div_0_img_0": "http://localhost:3002/images/Joshua_Statie12.jpg",
+        "auto_image_div_1_a_1_div_0_div_0_img_0": "http://localhost:3002/images/Videography-Website-FEM.jpg",
+        "auto_image_div_1_a_2_div_0_div_0_img_0": "http://localhost:3002/images/Corporate-Website-FEM-grijs.jpg",
+        "auto_image_div_1_a_3_div_0_div_0_img_0": "http://localhost:3002/images/Interview-Website-FEM.jpg",
+        "auto_image_div_1_a_4_div_0_div_0_img_0": "http://localhost:3002/images/Drone-Website-FEM.jpg",
+        "auto_image_div_1_a_5_div_0_div_0_img_0": "http://localhost:3002/images/Elevate-Website-FEM.jpg"
+      },
+      "About": {
+        "title": "Krachtige contentWereldwijd Bereik",
+        "auto_text_div_1_div_0_h2_0_span_0": "Wereldwijd Bereik",
+        "description": "Bij Fast Elevate Media geloven we dat de beste resultaten voortkomen uit een sterke samenwerking. We richten ons op het opbouwen van een oprechte band met onze klanten en nemen de tijd om uw visie, uw verhaal en wat echt belangrijk is voor uw merk te begrijpen.",
+        "text_1": "Duidelijke en open communicatie vormt de kern van onze werkwijze. We creëren een positieve en collegiale sfeer gedurende het hele proces, van het eerste contact tot de uiteindelijke oplevering. Samen met ons netwerk van ervaren creatieve freelancers zorgen we ervoor dat deze energie in elke productie voelbaar is.",
+        "text_2": "We werken snel en efficiënt, zonder concessies te doen aan kwaliteit of beleving. Ons doel is simpel: uw ideeën tot leven brengen en hoogwaardige visuele content leveren die uw visie weerspiegelt, geleverd met snelheid en precisie. Bekijk ook onze transparante tarieven en pakketten.",
+        "auto_text_div_1_div_0_div_0_p_2_a_0": "tarieven en pakketten",
+        "subtitle_1": "Gedreven door samenwerking",
+        "text_3": "Sterke samenwerking en open communicatie vormen de kern van onze werkwijze, waardoor een ontspannen en professionele sfeer ontstaat die leidt tot betere en authentiekere resultaten.",
+        "subtitle_2": "Snelheid zonder compromissen",
+        "text_4": "Snelle levering, duidelijke communicatie en betrouwbare uitvoering zonder in te leveren op kwaliteit.",
+        "subtitle_3": "Eén aanspreekpunt",
+        "text_5": "Van briefing tot uiteindelijke oplevering beheren wij het gehele productieproces, zodat uw team zich kan blijven richten op het evenement of het project zelf.",
+        "subtitle_4": "Vertrouwd professioneel netwerk",
+        "text_6": "Wij werken samen met een zorgvuldig geselecteerd netwerk van fotografen, videografen en productiespecialisten, wat zorgt voor een consistente kwaliteit over verschillende projecten en locaties.",
+        "image": "",
+        "image_1": "",
+        "auto_image_div_1_div_1_div_0_img_0": "http://localhost:3002/images/zaal.jpg",
+        "auto_image_div_1_div_1_div_1_img_0": "http://localhost:3002/images/drone-skyline.jpg"
+      },
+      "TimelineSection": {
+        "title": "Hoe Wij Werken",
+        "description": "Ons Productieproces",
+        "text_1": "We volgen een gestructureerde en transparante productieworkflow om zakelijke fotografie en videoproductie in heel Europa te leveren; dit garandeert helderheid, efficiëntie en betrouwbare resultaten in elke fase.",
+        "auto_text_div_1_div_2_div_0_div_1_div_0_p_0": "ONTDEKKING",
+        "subtitle_1": "Projectintroductie",
+        "text_3": "Zodra we uw projectaanvraag hebben ontvangen, organiseren we een kort kennismakingsgesprek of een persoonlijke ontmoeting om de omvang, doelstellingen en productie-eisen te bepalen. Indien gewenst kan er ook een voorstel worden opgesteld op basis van uw schriftelijke briefing per e-mail.",
+        "text_4": "BEVESTIGING",
+        "subtitle_2": "Boeking & Aanbetaling",
+        "text_5": "We beoordelen uw projectaanvraag voor zakelijke fotografie, videoproductie of evenementenverslaglegging en bepalen de omvang, doelstellingen en eerste vereisten.",
+        "text_6": "STRATEGIE & PLANNING",
+        "subtitle_3": "Projectafstemming",
+        "text_7": "Zodra het voorstel is beoordeeld, plannen we een uitgebreid afstemmingsgesprek of een persoonlijke ontmoeting om alle strategische, creatieve en logistieke details te finaliseren. Na goedkeuring gaat uw zakelijke evenement, interview of videoproductie van start, volledig afgestemd op de verwachtingen en doelstellingen.",
+        "text_8": "VOORBEREIDING",
+        "subtitle_4": "Team- & Productieplanning",
+        "text_9": "Op basis van uw wensen wijzen we de juiste fotografen, videografen en apparatuur toe. Een gedetailleerd productieplan zorgt voor een efficiënte uitvoering op locatie. Indien gewenst kunnen klanten een kort kennismakingsgesprek inplannen met het productieteam dat aan hun project is toegewezen.",
+        "auto_text_div_1_div_2_div_4_div_1_div_0_p_0": "PRODUCTIE",
+        "subtitle_5": "Uitvoering",
+        "text_11": "Professionele, discrete en efficiënte productie op locatie voor zakelijke evenementen, interviews en merkcontent, wat zorgt voor een soepele coördinatie en hoogwaardige visuele opnamen.",
+        "text_12": "EERSTE OPLEVERING",
+        "subtitle_6": "Eerste oplevering",
+        "text_13": "We zorgen voor een snelle, gestructureerde levering van professioneel bewerkte foto- en videocontent, geoptimaliseerd voor interne en externe zakelijke communicatie. De eerste oplevering vindt plaats binnen vier werkdagen. Prioritaire levering op dezelfde dag tijdens uw evenement is beschikbaar tegen een extra investering. Alle media worden veilig geleverd via een besloten online galerijlink of downloadlink.",
+        "auto_text_div_1_div_2_div_6_div_1_div_0_p_0": "VERFIJNING",
+        "subtitle_7": "Revisieronde",
+        "text_15": "We beoordelen uw feedback zorgvuldig en voeren de overeengekomen verfijningen door via twee inbegrepen revisierondes om volledige afstemming te garanderen. Extra revisies kunnen op aanvraag worden uitgevoerd tegen een extra investering.",
+        "auto_text_div_1_div_2_div_7_div_1_div_0_p_0": "AFRONDING",
+        "subtitle_8": "Uiteindelijke oplevering",
+        "text_17": "Na definitieve goedkeuring worden de voltooide zakelijke foto's en videocontent geleverd in gebruiksklare formaten, geoptimaliseerd voor internet, sociale media en interne platforms. De resterende investering wordt gefactureerd op het moment van de uiteindelijke oplevering.",
+        "auto_text_div_1_div_2_div_8_div_1_div_0_p_0": "EVALUATIE",
+        "subtitle_9": "Feedback & Opvolging",
+        "text_19": "We staan open voor feedback om ons productieproces continu te verbeteren. Na oplevering nemen we contact op om te controleren of alles aan de verwachtingen voldoet en om toekomstige samenwerkingsmogelijkheden te bespreken."
+      },
+      "BedrijvenDieHun": {
+        "title": "Bedrijven die hun vertrouwen in ons hebben gesteld",
+        "image": "",
+        "image_1": "",
+        "image_2": "",
+        "image_3": "",
+        "image_4": "",
+        "image_5": "",
+        "image_6": "",
+        "image_7": "",
+        "image_8": "",
+        "image_9": "",
+        "auto_image_div_1_div_0_div_0_a_0_img_0": "http://localhost:3002/images/abn-amro-logo-new-colors-1.png",
+        "auto_image_div_1_div_0_div_1_a_0_img_0": "http://localhost:3002/images/postnl-3.png",
+        "auto_image_div_1_div_0_div_2_a_0_img_0": "http://localhost:3002/images/klarna.jpg",
+        "auto_image_div_1_div_0_div_3_a_0_img_0": "http://localhost:3002/images/vattenfall_logo.png",
+        "auto_image_div_1_div_0_div_4_a_0_img_0": "http://localhost:3002/images/velux-1.jpg",
+        "auto_image_div_1_div_1_div_0_a_0_img_0": "http://localhost:3002/images/abn-amro-logo-new-colors-1.png",
+        "auto_image_div_1_div_1_div_1_a_0_img_0": "http://localhost:3002/images/postnl-3.png",
+        "auto_image_div_1_div_1_div_2_a_0_img_0": "http://localhost:3002/images/klarna.jpg",
+        "auto_image_div_1_div_1_div_3_a_0_img_0": "http://localhost:3002/images/vattenfall_logo.png",
+        "auto_image_div_1_div_1_div_4_a_0_img_0": "http://localhost:3002/images/velux-1.jpg"
+      },
+      "SnelleBetrouwbareLevering": {
+        "description": "Diensten die resultaat opleveren",
+        "title": "Snelle, betrouwbare levering voor zakelijke omgevingen",
+        "text_1": "We werken naadloos binnen zakelijke omgevingen en passen ons snel aan interne teams, bureaus en evenementenorganisatoren aan. Onze focus ligt op snelheid, betrouwbaarheid, discretie en het leveren van hoogwaardige visuele content die uw merkcommunicatie versterkt en de strategische doelstellingen van uw bedrijf ondersteunt.",
+        "subtitle_1": "Vertel ons over uw project",
+        "text_2": "en we nemen snel contact met u op!",
+        "auto_text_div_0_div_0_div_1_a_0": "Breng uw project naar een hoger niveau",
+        "image": "",
+        "auto_image_div_0_div_1_img_0": "http://localhost:3002/images/Briddge-kantoor.jpg"
+      },
+      "MediaSolutions": {
+        "title": "Media Solutions",
+        "description": "Our Core Services",
+        "auto_text_div_1_a_0": "Photography Photography Professional corporate event photography for conferences, business events and corporate gatherings. We capture keynote speakers, audience interaction, networking moments and brand presence with a consistent visual style that aligns with your company's identity. Read more >",
+        "auto_text_div_1_a_0_div_0_div_0_div_0_span_0": "Photography",
+        "image": "",
+        "subtitle_1": "Photography",
+        "text_1": "Professional corporate event photography for conferences, business events and corporate gatherings. We capture keynote speakers, audience interaction, networking moments and brand presence with a consistent visual style that aligns with your company's identity.",
+        "auto_text_div_1_a_1": "Corporate Video Production Corporate Video Production High-quality corporate video production for events, conferences, aftermovies and branded content. Our productions help companies communicate clearly through powerful visual storytelling designed for internal communication, marketing and LinkedIn. Read more >",
+        "auto_text_div_1_a_1_div_0_div_0_div_0_span_0": "Corporate Video Production",
+        "image_1": "",
+        "subtitle_2": "Corporate Video Production",
+        "text_2": "High-quality corporate video production for events, conferences, aftermovies and branded content. Our productions help companies communicate clearly through powerful visual storytelling designed for internal communication, marketing and LinkedIn.",
+        "auto_text_div_1_a_2": "Professional Headshots & Corporate Portraits Professional Headshots & Corporate Portraits Consistent, high-end professional headshots and corporate portraits for executives, leadership teams and employees. Strengthen your company's visual identity across websites, press releases, LinkedIn and internal platforms. Read more >",
+        "auto_text_div_1_a_2_div_0_div_0_div_0_span_0": "Professional Headshots & Corporate Portraits",
+        "image_2": "",
+        "subtitle_3": "Professional Headshots & Corporate Portraits",
+        "text_3": "Consistent, high-end professional headshots and corporate portraits for executives, leadership teams and employees. Strengthen your company's visual identity across websites, press releases, LinkedIn and internal platforms.",
+        "auto_text_div_1_a_3": "Corporate Interviews & Testimonials Corporate Interviews & Testimonials Professional corporate interview and testimonial video production for executives, employees and partners. Clean visuals, professional audio and structured storytelling optimized for internal communication, employer branding and LinkedIn visibility. Read more >",
+        "auto_text_div_1_a_3_div_0_div_0_div_0_span_0": "Corporate Interviews & Testimonials",
+        "image_3": "",
+        "subtitle_4": "Corporate Interviews & Testimonials",
+        "text_4": "Professional corporate interview and testimonial video production for executives, employees and partners. Clean visuals, professional audio and structured storytelling optimized for internal communication, employer branding and LinkedIn visibility.",
+        "auto_text_div_1_a_4": "Drone Video & Aerial Photography Drone Video & Aerial Photography Certified drone video production and aerial photography for corporate events, company locations and large-scale productions. Dynamic aerial perspectives that elevate storytelling and create visually impactful content for corporate communication. Read more >",
+        "auto_text_div_1_a_4_div_0_div_0_div_0_span_0": "Drone Video & Aerial Photography",
+        "image_4": "",
+        "subtitle_5": "Drone Video & Aerial Photography",
+        "text_5": "Certified drone video production and aerial photography for corporate events, company locations and large-scale productions. Dynamic aerial perspectives that elevate storytelling and create visually impactful content for corporate communication.",
+        "auto_text_div_1_a_5": "Elevate Your Event Elevate Your Event Comprehensive corporate event coverage combining photography, video production, interviews and drone services. A tailored production approach designed to deliver seamless, efficient and scalable coverage aligned with your event objectives and brand communication. Read more >",
+        "auto_text_div_1_a_5_div_0_div_0_div_0_span_0": "Elevate Your Event",
+        "image_5": "",
+        "subtitle_6": "Elevate Your Event",
+        "text_6": "Comprehensive corporate event coverage combining photography, video production, interviews and drone services. A tailored production approach designed to deliver seamless, efficient and scalable coverage aligned with your event objectives and brand communication.",
+        "auto_image_div_1_a_0_div_0_div_0_img_0": "http://localhost:3002/images/Joshua_Statie12.jpg",
+        "auto_image_div_1_a_1_div_0_div_0_img_0": "http://localhost:3002/images/Videography-Website-FEM.jpg",
+        "auto_image_div_1_a_2_div_0_div_0_img_0": "http://localhost:3002/images/Corporate-Website-FEM-grijs.jpg",
+        "auto_image_div_1_a_3_div_0_div_0_img_0": "http://localhost:3002/images/Interview-Website-FEM.jpg",
+        "auto_image_div_1_a_4_div_0_div_0_img_0": "http://localhost:3002/images/Drone-Website-FEM.jpg",
+        "auto_image_div_1_a_5_div_0_div_0_img_0": "http://localhost:3002/images/Elevate-Website-FEM.jpg"
+      },
+      "CompaniesThatTrusted": {
+        "title": "Companies that trusted our services",
+        "image": "",
+        "image_1": "",
+        "image_2": "",
+        "image_3": "",
+        "image_4": "",
+        "image_5": "",
+        "image_6": "",
+        "image_7": "",
+        "image_8": "",
+        "image_9": "",
+        "auto_image_div_1_div_0_div_0_a_0_img_0": "http://localhost:3002/images/abn-amro-logo-new-colors-1.png",
+        "auto_image_div_1_div_0_div_1_a_0_img_0": "http://localhost:3002/images/postnl-3.png",
+        "auto_image_div_1_div_0_div_2_a_0_img_0": "http://localhost:3002/images/klarna.jpg",
+        "auto_image_div_1_div_0_div_3_a_0_img_0": "http://localhost:3002/images/vattenfall_logo.png",
+        "auto_image_div_1_div_0_div_4_a_0_img_0": "http://localhost:3002/images/velux-1.jpg",
+        "auto_image_div_1_div_1_div_0_a_0_img_0": "http://localhost:3002/images/abn-amro-logo-new-colors-1.png",
+        "auto_image_div_1_div_1_div_1_a_0_img_0": "http://localhost:3002/images/postnl-3.png",
+        "auto_image_div_1_div_1_div_2_a_0_img_0": "http://localhost:3002/images/klarna.jpg",
+        "auto_image_div_1_div_1_div_3_a_0_img_0": "http://localhost:3002/images/vattenfall_logo.png",
+        "auto_image_div_1_div_1_div_4_a_0_img_0": "http://localhost:3002/images/velux-1.jpg"
+      },
+      "FastReliableDelivery": {
+        "description": "Services that drive results",
+        "title": "Fast, reliable delivery for corporate environments",
+        "text_1": "We work seamlessly within corporate environments, adapting quickly to internal teams, agencies and event organizers. Our focus is on speed, reliability, discretion and delivering high-quality visual content that strengthens your brand communication and supports your company's strategic objectives.",
+        "subtitle_1": "Tell us about your project",
+        "text_2": "and we'll get back to you quickly!",
+        "auto_text_div_0_div_0_div_1_a_0": "Elevate your project",
+        "image": "",
+        "auto_image_div_0_div_1_img_0": "http://localhost:3002/images/Briddge-kantoor.jpg"
+      }
+    },
+    "cookies": {
+      "Hero": {
+        "title": "Cookies"
+      },
+      "Intro": {
+        "title": "Cookiebeleid",
+        "description": "Dit Cookiebeleid legt uit hoe Fast Elevate Media (\"we\", \"ons\" of \"onze\") cookies en vergelijkbare technologieën gebruikt wanneer u onze website bezoekt. Dit beleid moet in samenhang met ons <a href=\"./privacy.html\" class=\"text-primary underline hover:text-primary/80 transition-colors\">Privacybeleid</a> worden gelezen. Door onze website te blijven gebruiken, kan u worden gevraagd om toestemming te geven voor bepaalde categorieën cookies via onze cookie-toestemmingsbanner."
+      }
+    }
+  }
+}
