@@ -3,8 +3,7 @@
     "about": {
       "PowerfulContentGlobalReach": {
         "title": "Powerful content.<br>Global reach.",
-        "description": "Fast Elevate Media is a corporate photography and video production agency based in Amsterdam. We help companies capture conferences, business events and corporate communication through high quality visual media.<br><br>Our team works with organizations across the Netherlands and Europe, producing corporate event photography, executive interviews, video production and professional headshots tailored to modern business communication.<br><br>By combining creative expertise with a structured production workflow, we ensure reliable execution, fast delivery and visual content ready for corporate websites, internal communication and global marketing teams. lets go test",
-        "button_1": "<svg class=\"w-4 h-4 fill-current\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path d=\"M8 5v14l11-7z\"></path>\n            </svg>\n            View showreel"
+        "description": "Fast Elevate Media is a corporate photography and video production agency based in Amsterdam. We help companies capture conferences, business events and corporate communication through high quality visual media.<br><br>Our team works with organizations across the Netherlands and Europe, producing corporate event photography, executive interviews, video production and professional headshots tailored to modern business communication.<br><br>By combining creative expertise with a structured production workflow, we ensure reliable execution, fast delivery and visual content ready for corporate websites, internal communication and global marketing teams. lets go test"
       },
       "ExpertCorporateMedia": {
         "title": "Expert corporate media production for modern organizations",
@@ -259,13 +258,9 @@
       },
       "FaqSection": {
         "title": "FAQ – Corporate Event Photography",
-        "button_1": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">How long does corporate event photography take?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "description": "Standard delivery of edited high-resolution photos is within four working days. Priority same-day or next-day delivery options are available upon request.",
-        "button_2": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Do you offer multi-photographer event coverage?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_1": "Yes. We scale our team from a single photographer to a coordinated multi-photographer crew to cover large-scale conferences or cover multiple locations simultaneously.",
-        "button_3": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Can photography be combined with video production?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_2": "Yes. We offer integrated event coverage combining video, photography and drone services.",
-        "button_4": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Do you work outside Amsterdam?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_3": "Yes. Based in Amsterdam, we capture corporate events and business conferences across the Netherlands and throughout Europe."
       }
     },
@@ -374,12 +369,7 @@
       },
       "FaqSection": {
         "title": "Frequently Asked Questions",
-        "description": "Interviews &amp; Testimonials FAQs",
-        "button_1": "<span>Where do we shoot corporate interviews and testimonials?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
-        "button_2": "<span>How long does a typical interview session take?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
-        "button_3": "<span>How do you handle audio quality in noisy environments?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
-        "button_4": "<span>Can we supply our own questions or do you help structure them?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
-        "button_5": "<span>How are the final interview videos delivered?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>"
+        "description": "Interviews &amp; Testimonials FAQs"
       }
     },
     "corporate-video-production": {
@@ -488,13 +478,9 @@
       },
       "FaqSection": {
         "title": "FAQ – Corporate Video Production",
-        "button_1": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">How long does corporate video production take?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "description": "Standard delivery is within four working days. Expedited delivery options are available upon request.",
-        "button_2": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Do you offer multi-camera conference filming?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_1": "Yes. We scale from single-camera setups to multi-camera productions depending on event complexity.",
-        "button_3": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Can video production be combined with photography?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_2": "Yes. We offer integrated event coverage combining video, photography and drone services.",
-        "button_4": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Do you work outside Amsterdam?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_3": "Yes. Based in Amsterdam, we support corporate video productions across Europe."
       }
     },
@@ -566,12 +552,7 @@
       },
       "FaqSection": {
         "title": "Frequently Asked Questions",
-        "description": "Drone Video &amp; Aerial Photography FAQs",
-        "button_1": "<span>Do you have certified drone pilots?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
-        "button_2": "<span>What regulations and permits are required?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
-        "button_3": "<span>Can drone operations be done in bad weather?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
-        "button_4": "<span>Can drone footage be integrated into event videos?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
-        "button_5": "<span>How quickly can you deliver the final footage?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>"
+        "description": "Drone Video &amp; Aerial Photography FAQs"
       }
     },
     "elevate-your-event": {
@@ -645,11 +626,7 @@
       },
       "FaqSection": {
         "title": "Frequently Asked Questions",
-        "description": "Elevate Your Event FAQs",
-        "button_1": "<span>What event production services do you provide?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
-        "button_2": "<span>Do we have a dedicated point of contact?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
-        "button_3": "<span>Can you support large-scale conferences with multiple stages?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
-        "button_4": "<span>Do you offer express delivery of media during the event?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>"
+        "description": "Elevate Your Event FAQs"
       }
     },
     "faq": {
@@ -658,60 +635,37 @@
       },
       "GeneralQuestions": {
         "title": "General Questions",
-        "button_1": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">How do I book a project?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "description": "You can start by filling out our project intake form on the <a href=\"./start.html\" class=\"text-primary hover:underline font-semibold\">Get Started</a> page. We will review your requirements and schedule an alignment call to finalize the scope and logistics.",
-        "button_2": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Do you work outside of Amsterdam?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_1": "Yes. While we are based in Amsterdam, we provide corporate event photography and video production services across the Netherlands and throughout Europe.",
-        "button_3": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">What is your standard turnaround time?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_2": "Standard delivery of edited photography and video productions is within four working days. Expedited same-day or next-day delivery options can be arranged during pre-production.",
         "subtitle_1": "Corporate Video Production",
-        "button_4": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">How long does corporate video production take?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_3": "Standard delivery is within four working days. Expedited delivery options are available upon request.",
-        "button_5": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Do you offer multi-camera conference filming?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_4": "Yes. We scale from single-camera setups to multi-camera productions depending on event complexity.",
-        "button_6": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Can video production be combined with photography?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_5": "Yes. We offer integrated event coverage combining video, photography and drone services.",
         "subtitle_2": "Corporate Event Photography",
-        "button_7": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">How long does corporate event photography take?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_6": "Standard delivery of edited high-resolution photos is within four working days. Priority same-day or next-day delivery options are available upon request.",
-        "button_8": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Do you offer multi-photographer event coverage?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_7": "Yes. We scale our team from a single photographer to a coordinated multi-photographer crew to cover large-scale conferences or cover multiple locations simultaneously.",
         "subtitle_3": "Professional Headshots &amp; Corporate Portraits",
-        "button_9": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">How long does a headshot session take?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_8": "A standard individual headshot session takes approximately 20–30 minutes per person. For larger team sessions or full-day bookings, we plan and schedule efficiently to minimize disruption to your workday.",
-        "button_10": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Can you photograph an entire team in one day?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_9": "Yes. We regularly organize full-day headshot sessions at your office location and can photograph 20–50+ employees in a single day using a structured scheduling system.",
-        "button_11": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">What background styles are available?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_10": "We offer plain studio-style backgrounds (white, grey, dark), natural office environment backgrounds, and branded environmental setups. We will advise on the best option to match your company's visual identity.",
         "subtitle_4": "Corporate Interviews &amp; Testimonials",
-        "button_12": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Can interviews be recorded at our office?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_11": "Yes. We bring all required equipment and set up a professional interview studio at your location. We work discreetly within your office environment so daily operations are not disrupted.",
-        "button_13": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">How many interviews can be recorded in one day?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_12": "Typically 6–10 interviews per day depending on the length and complexity of each session. We plan a clear schedule in advance to ensure the day runs efficiently.",
-        "button_14": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Are subtitles or captions included?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_13": "Subtitles and captions can be added upon request. This is particularly useful for LinkedIn and social media content where videos often autoplay without sound.",
         "subtitle_5": "Drone Video &amp; Aerial Photography",
-        "button_15": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Are your drone operators certified?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_14": "Yes. All our drone pilots hold the required EU A2 CofC and EASA certifications and operate fully in compliance with Dutch and European aviation regulations.",
-        "button_16": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Can drone footage be combined with ground-level filming?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_15": "Yes. We regularly combine aerial drone footage with ground-level video and photography to create a complete, cinematic production package.",
-        "button_17": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Are there location restrictions for drone flights?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_16": "Certain restricted zones (near airports or densely populated areas) require special permits. We handle all necessary permit applications as part of our pre-production process.",
         "subtitle_6": "Elevate Your Event",
-        "button_18": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">What does the Elevate Your Event package include?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_17": "Elevate Your Event is our complete event media solution combining corporate photography, video production, and optionally drone coverage under a single coordinated package. It is designed for conferences, summits and multi-session events where consistent and complete coverage is essential.",
-        "button_19": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Can same-day delivery be arranged for event content?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_18": "Yes. Priority same-day delivery of selected edited photos is available, allowing you to publish event coverage on LinkedIn or press channels the same day as your event.",
-        "button_20": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Is the Elevate Your Event package suitable for multi-day events?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_19": "Absolutely. We regularly provide coverage for multi-day conferences and summits. Our team scales accordingly and we coordinate a dedicated production schedule in advance to ensure complete, consistent coverage across all days and sessions.",
         "subtitle_7": "Still have a question?",
         "text_20": "Leave the questions here, we will answer you soon."
       }
     },
     "home": {
-      "HeroSection": {
-        "button_1": "<!-- Muted icon (shown by default since video starts muted) -->\n      <svg id=\"icon-muted\" xmlns=\"http://www.w3.org/2000/svg\" class=\"w-4 h-4\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\">\n        <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z\"></path>\n        <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M17 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2\"></path>\n      </svg>\n      <!-- Unmuted icon (hidden by default) -->\n      <svg id=\"icon-unmuted\" xmlns=\"http://www.w3.org/2000/svg\" class=\"w-4 h-4 hidden\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\">\n        <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15.536 8.464a5 5 0 010 7.072M12 6v12M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z\"></path>\n      </svg>"
-      },
       "Intro": {
         "title": "Fast Elevate Media is a<br class=\"hidden sm:inline\" /> <span class=\"text-primary\">Corporate Focused Media Agency</span>",
         "description": "Fast, high-quality corporate photography and video production for companies across Europe. We specialize in corporate events, conferences, executive interviews and professional portraits; executed with speed, clarity and consistent visual standards."
@@ -1117,13 +1071,9 @@
       },
       "FaqSection": {
         "title": "FAQ – Corporate Headshots",
-        "button_1": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">How long does it take to get the headshots?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "description": "Standard delivery of edited headshots is within four working days. Priority options are available upon request.",
-        "button_2": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Can the session be organized on-site at our office?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_1": "Yes. We can bring a mobile studio setup including background and lighting equipment directly to your office.",
-        "button_3": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">How much time is required per employee?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_2": "Typically, a clean headshot session takes 5 to 10 minutes per person. This allows us to cover dozens of employees per day without significant workflow disruption.",
-        "button_4": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Do you provide professional retouching?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_3": "Yes. All selected portraits receive professional color correction, exposure adjustments, and subtle retouching (skin smoothing, blemish removal, etc.) for a polished look."
       }
     },
@@ -1395,8 +1345,7 @@
     "about": {
       "KrachtigeContentWereldwijdBereik": {
         "title": "Krachtige content.<br>Wereldwijd bereik.",
-        "description": "Fast Elevate Media is een zakelijk fotografie- en videoproductiebureau gevestigd in Amsterdam. We helpen bedrijven bij het vastleggen van congressen, zakelijke evenementen en zakelijke communicatie door middel van hoogwaardige visuele media.<br><br>Ons team werkt met organisaties in heel Nederland en Europa aan zakelijke evenementenfotografie, executive interviews, videoproductie en professionele portretfoto's op maat voor moderne zakelijke communicatie.<br><br>Door creatieve expertise te combineren met een gestructureerde productiewerkstroom, zorgen we voor een betrouwbare uitvoering, snelle levering en visuele content die direct klaar is voor bedrijfswebsites, interne communicatie en wereldwijde marketingteams.",
-        "button_1": "<svg class=\"w-4 h-4 fill-current\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path d=\"M8 5v14l11-7z\"></path>\n            </svg>\n            Bekijk showreel"
+        "description": "Fast Elevate Media is een zakelijk fotografie- en videoproductiebureau gevestigd in Amsterdam. We helpen bedrijven bij het vastleggen van congressen, zakelijke evenementen en zakelijke communicatie door middel van hoogwaardige visuele media.<br><br>Ons team werkt met organisaties in heel Nederland en Europa aan zakelijke evenementenfotografie, executive interviews, videoproductie en professionele portretfoto's op maat voor moderne zakelijke communicatie.<br><br>Door creatieve expertise te combineren met een gestructureerde productiewerkstroom, zorgen we voor een betrouwbare uitvoering, snelle levering en visuele content die direct klaar is voor bedrijfswebsites, interne communicatie en wereldwijde marketingteams."
       },
       "DeskundigeZakelijkeMediaproductie": {
         "title": "Deskundige zakelijke mediaproductie voor moderne organisaties",
@@ -1653,13 +1602,9 @@
       },
       "FaqSection": {
         "title": "FAQ – Corporate Event Fotografie",
-        "button_1": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Hoe lang duurt de oplevering van corporate event fotografie?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "description": "De standaardlevering van bewerkte foto's in hoge resolutie is binnen vier werkdagen. Prioritaire opties voor levering op dezelfde of de volgende dag zijn beschikbaar op aanvraag.",
-        "button_2": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Bieden jullie eventverslaglegging met meerdere fotografen aan?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_1": "Ja. We schalen ons team op van een enkele fotograaf naar een gecoördineerde crew met meerdere fotografen om grootschalige conferenties te verslaan of meerdere locaties tegelijkertijd te bestrijken.",
-        "button_3": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Kan fotografie worden gecombineerd met videoproductie?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_2": "Ja. We bieden geïntegreerde eventverslaglegging aan waarbij we video, fotografie en drone-diensten combineren.",
-        "button_4": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Werken jullie ook buiten Amsterdam?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_3": "Ja. Gevestigd in Amsterdam leggen we bedrijfsevenementen en zakelijke conferenties vast in heel Nederland en door heel Europa."
       }
     },
@@ -1768,12 +1713,7 @@
       },
       "FaqSection": {
         "title": "Veelgestelde Vragen",
-        "description": "FAQ – Interviews &amp; Testimonials",
-        "button_1": "<span>Waar nemen we zakelijke interviews en testimonials op?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
-        "button_2": "<span>Hoe lang duurt een typische interviewsessie?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
-        "button_3": "<span>Hoe gaan jullie om met de audiokwaliteit in luidruchtige omgevingen?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
-        "button_4": "<span>Kunnen we onze eigen vragen aanleveren of helpen jullie deze te structureren?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
-        "button_5": "<span>Hoe worden de definitieve interviewvideo's geleverd?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>"
+        "description": "FAQ – Interviews &amp; Testimonials"
       }
     },
     "corporate-video-production": {
@@ -1883,13 +1823,9 @@
       },
       "FaqSection": {
         "title": "FAQ – Bedrijfsvideoproductie",
-        "button_1": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Hoe lang duurt de productie van een bedrijfsvideo?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "description": "De standaardlevering is binnen vier werkdagen. Versnelde oplevering is mogelijk op aanvraag.",
-        "button_2": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Bieden jullie multicamera-opnames voor conferenties aan?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_1": "Ja. We schalen op van opstellingen met één camera naar multicamera-producties, afhankelijk van de complexiteit van het evenement.",
-        "button_3": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Kan videoproductie worden gecombineerd met fotografie?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_2": "Ja. We bieden geïntegreerde evenementenverslaggeving waarbij video, fotografie en drone-diensten worden gecombineerd.",
-        "button_4": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Werken jullie ook buiten Amsterdam?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_3": "Ja. Gevestigd in Amsterdam ondersteunen we bedrijfsvideoproducties in heel Europa."
       }
     },
@@ -1962,12 +1898,7 @@
       },
       "FaqSection": {
         "title": "Veelgestelde Vragen",
-        "description": "FAQ – Drone Video &amp; Luchtfotografie",
-        "button_1": "<span>Beschikken jullie over gecertificeerde dronepiloten?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
-        "button_2": "<span>Welke regels en vergunningen zijn vereist?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
-        "button_3": "<span>Kunnen er drone-vluchten plaatsvinden bij slecht weer?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
-        "button_4": "<span>Kunnen drone-beelden worden geïntegreerd in evenementenvideo's?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
-        "button_5": "<span>Hoe snel kunnen jullie de definitieve beelden leveren?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>"
+        "description": "FAQ – Drone Video &amp; Luchtfotografie"
       }
     },
     "elevate-your-event": {
@@ -2042,11 +1973,7 @@
       },
       "FaqSection": {
         "title": "Veelgestelde Vragen",
-        "description": "FAQ – Breng uw evenement naar een hoger niveau",
-        "button_1": "<span>Welke diensten voor evenementenproductie leveren jullie?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
-        "button_2": "<span>Hebben we een vast aanspreekpunt?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
-        "button_3": "<span>Kunnen jullie grootschalige conferenties met meerdere podia ondersteunen?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
-        "button_4": "<span>Bieden jullie snelle levering van media aan tijdens het evenement?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>"
+        "description": "FAQ – Breng uw evenement naar een hoger niveau"
       }
     },
     "faq": {
@@ -2055,34 +1982,21 @@
       },
       "AlgemeneVragen": {
         "title": "Algemene vragen",
-        "button_1": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Hoe boek ik een project?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "description": "U kunt beginnen door ons projectintakeformulier in te vullen op de <a href=\"./start.html\" class=\"text-primary hover:underline font-semibold\">Aan de slag</a>-pagina. We zullen uw wensen beoordelen en een afstemmingsgesprek inplannen om de omvang en logistiek te finaliseren.",
-        "button_2": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Werkt u ook buiten Amsterdam?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_1": "Ja. Hoewel we gevestigd zijn in Amsterdam, leveren we zakelijke evenementenfotografie en videoproductiediensten in heel Nederland en door heel Europa.",
-        "button_3": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Wat is uw standaard levertijd?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_2": "De standaardlevering van bewerkte fotografie- en videoproducties is binnen vier werkdagen. Versnelde leveringsopties op dezelfde dag of de volgende dag kunnen worden geregeld tijdens de pre-productie.",
         "subtitle_1": "Zakelijke videoproductie",
-        "button_4": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Hoe lang duurt een zakelijke videoproductie?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_3": "De standaardlevering is binnen werkdagen. Versnelde leveringsopties zijn op aanvraag beschikbaar.",
-        "button_5": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Biedt u opnamen met meerdere camera's voor congressen aan?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_4": "Ja. We schalen op van opstellingen met één camera tot producties met meerdere camera's, afhankelijk van de complexiteit van het evenement.",
-        "button_6": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Kan videoproductie worden gecombineerd met fotografie?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_5": "Ja. We bieden geïntegreerde evenementenverslaglegging waarbij video, fotografie en dronediensten worden gecombineerd.",
         "subtitle_2": "Zakelijke evenementenfotografie",
-        "button_7": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Hoe lang duurt het opleveren van zakelijke evenementenfotografie?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_6": "De standaardlevering van bewerkte foto's in hoge resolutie is binnen vier werkdagen. Prioritaire opties voor levering op dezelfde dag of de volgende dag zijn op aanvraag beschikbaar.",
-        "button_8": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Biedt u verslaglegging van evenementen met meerdere fotografen aan?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_7": "Ja. We schalen ons team op van een enkele fotograaf naar een gecoördineerd team met meerdere fotografen om grootschalige congressen te verslaan of meerdere locaties tegelijkertijd vast te leggen.",
         "subtitle_3": "Heeft u nog vragen?",
         "text_8": "Stel uw vragen hier, we beantwoorden ze zo snel mogelijk."
       }
     },
     "home": {
-      "HeroSection": {
-        "button_1": "",
-        "auto_text_div_1_div_0_a_0": "Breng uw project naar een hoger niveau",
-        "auto_text_div_1_div_0_a_1": "Neem contact op"
-      },
       "Intro": {
         "title": "Fast Elevate Media is een<br class=\"hidden sm:inline\" /> <span class=\"text-primary\">Zakelijk Mediabureau</span>",
         "description": "Snelle, hoogwaardige bedrijfsfotografie en videoproductie voor bedrijven in heel Europa. Wij zijn gespecialiseerd in bedrijfsevenementen, congressen, executive interviews en professionele portretten; uitgevoerd met snelheid, helderheid en consistente visuele standaarden.",
@@ -2120,13 +2034,7 @@
         "auto_text_div_1_a_4": "Dronevideo & Luchtfotografie Dronevideo & Luchtfotografie Gecertificeerde drone-videoproductie en luchtfotografie voor zakelijke evenementen, bedrijfslocaties en grootschalige producties. Dynamische perspectieven vanuit de lucht die de storytelling versterken en visueel indrukwekkende content creëren voor zakelijke communicatie. Lees meer >",
         "auto_text_div_1_a_4_div_0_div_0_div_0_span_0": "Dronevideo & Luchtfotografie",
         "auto_text_div_1_a_5": "Breng uw evenement naar een hoger niveau Breng uw evenement naar een hoger niveau Volledige verslaglegging van zakelijke evenementen waarin fotografie, videoproductie, interviews and droneservices worden gecombineerd. Een op maat gemaakte productieaanpak die is ontworpen om naadloze, efficiënte en schaalbare verslaglegging te leveren, afgestemd op uw evenementdoelstellingen en merkcommunicatie. Lees meer >",
-        "auto_text_div_1_a_5_div_0_div_0_div_0_span_0": "Breng uw evenement naar een hoger niveau",
-        "auto_image_div_1_a_0_div_0_div_0_img_0": "http://localhost:3002/images/Joshua_Statie12.jpg",
-        "auto_image_div_1_a_1_div_0_div_0_img_0": "http://localhost:3002/images/Videography-Website-FEM.jpg",
-        "auto_image_div_1_a_2_div_0_div_0_img_0": "http://localhost:3002/images/Corporate-Website-FEM-grijs.jpg",
-        "auto_image_div_1_a_3_div_0_div_0_img_0": "http://localhost:3002/images/Interview-Website-FEM.jpg",
-        "auto_image_div_1_a_4_div_0_div_0_img_0": "http://localhost:3002/images/Drone-Website-FEM.jpg",
-        "auto_image_div_1_a_5_div_0_div_0_img_0": "http://localhost:3002/images/Elevate-Website-FEM.jpg"
+        "auto_text_div_1_a_5_div_0_div_0_div_0_span_0": "Breng uw evenement naar een hoger niveau"
       },
       "About": {
         "title": "Krachtige contentWereldwijd Bereik",
@@ -2144,9 +2052,7 @@
         "image": "",
         "image_1": "",
         "auto_text_div_1_div_0_h2_0_span_0": "Wereldwijd Bereik",
-        "auto_text_div_1_div_0_div_0_p_2_a_0": "tarieven en pakketten",
-        "auto_image_div_1_div_1_div_0_img_0": "http://localhost:3002/images/zaal.jpg",
-        "auto_image_div_1_div_1_div_1_img_0": "http://localhost:3002/images/drone-skyline.jpg"
+        "auto_text_div_1_div_0_div_0_p_2_a_0": "tarieven en pakketten"
       },
       "TimelineSection": {
         "title": "Hoe Wij Werken",
@@ -2191,17 +2097,7 @@
         "image_6": "",
         "image_7": "",
         "image_8": "",
-        "image_9": "",
-        "auto_image_div_1_div_0_div_0_a_0_img_0": "http://localhost:3002/images/abn-amro-logo-new-colors-1.png",
-        "auto_image_div_1_div_0_div_1_a_0_img_0": "http://localhost:3002/images/postnl-3.png",
-        "auto_image_div_1_div_0_div_2_a_0_img_0": "http://localhost:3002/images/klarna.jpg",
-        "auto_image_div_1_div_0_div_3_a_0_img_0": "http://localhost:3002/images/vattenfall_logo.png",
-        "auto_image_div_1_div_0_div_4_a_0_img_0": "http://localhost:3002/images/velux-1.jpg",
-        "auto_image_div_1_div_1_div_0_a_0_img_0": "http://localhost:3002/images/abn-amro-logo-new-colors-1.png",
-        "auto_image_div_1_div_1_div_1_a_0_img_0": "http://localhost:3002/images/postnl-3.png",
-        "auto_image_div_1_div_1_div_2_a_0_img_0": "http://localhost:3002/images/klarna.jpg",
-        "auto_image_div_1_div_1_div_3_a_0_img_0": "http://localhost:3002/images/vattenfall_logo.png",
-        "auto_image_div_1_div_1_div_4_a_0_img_0": "http://localhost:3002/images/velux-1.jpg"
+        "image_9": ""
       },
       "SnelleBetrouwbareLevering": {
         "description": "Diensten die resultaat opleveren",
@@ -2210,81 +2106,7 @@
         "subtitle_1": "Vertel ons over uw project",
         "text_2": "en we nemen snel contact met u op!",
         "image": "",
-        "auto_text_div_0_div_0_div_1_a_0": "Breng uw project naar een hoger niveau",
-        "auto_image_div_0_div_1_img_0": "http://localhost:3002/images/Briddge-kantoor.jpg"
-      },
-      "MediaSolutions": {
-        "title": "Media Solutions",
-        "description": "Our Core Services",
-        "auto_text_div_1_a_0": "Photography Photography Professional corporate event photography for conferences, business events and corporate gatherings. We capture keynote speakers, audience interaction, networking moments and brand presence with a consistent visual style that aligns with your company's identity. Read more >",
-        "auto_text_div_1_a_0_div_0_div_0_div_0_span_0": "Photography",
-        "image": "",
-        "subtitle_1": "Photography",
-        "text_1": "Professional corporate event photography for conferences, business events and corporate gatherings. We capture keynote speakers, audience interaction, networking moments and brand presence with a consistent visual style that aligns with your company's identity.",
-        "auto_text_div_1_a_1": "Corporate Video Production Corporate Video Production High-quality corporate video production for events, conferences, aftermovies and branded content. Our productions help companies communicate clearly through powerful visual storytelling designed for internal communication, marketing and LinkedIn. Read more >",
-        "auto_text_div_1_a_1_div_0_div_0_div_0_span_0": "Corporate Video Production",
-        "image_1": "",
-        "subtitle_2": "Corporate Video Production",
-        "text_2": "High-quality corporate video production for events, conferences, aftermovies and branded content. Our productions help companies communicate clearly through powerful visual storytelling designed for internal communication, marketing and LinkedIn.",
-        "auto_text_div_1_a_2": "Professional Headshots & Corporate Portraits Professional Headshots & Corporate Portraits Consistent, high-end professional headshots and corporate portraits for executives, leadership teams and employees. Strengthen your company's visual identity across websites, press releases, LinkedIn and internal platforms. Read more >",
-        "auto_text_div_1_a_2_div_0_div_0_div_0_span_0": "Professional Headshots & Corporate Portraits",
-        "image_2": "",
-        "subtitle_3": "Professional Headshots & Corporate Portraits",
-        "text_3": "Consistent, high-end professional headshots and corporate portraits for executives, leadership teams and employees. Strengthen your company's visual identity across websites, press releases, LinkedIn and internal platforms.",
-        "auto_text_div_1_a_3": "Corporate Interviews & Testimonials Corporate Interviews & Testimonials Professional corporate interview and testimonial video production for executives, employees and partners. Clean visuals, professional audio and structured storytelling optimized for internal communication, employer branding and LinkedIn visibility. Read more >",
-        "auto_text_div_1_a_3_div_0_div_0_div_0_span_0": "Corporate Interviews & Testimonials",
-        "image_3": "",
-        "subtitle_4": "Corporate Interviews & Testimonials",
-        "text_4": "Professional corporate interview and testimonial video production for executives, employees and partners. Clean visuals, professional audio and structured storytelling optimized for internal communication, employer branding and LinkedIn visibility.",
-        "auto_text_div_1_a_4": "Drone Video & Aerial Photography Drone Video & Aerial Photography Certified drone video production and aerial photography for corporate events, company locations and large-scale productions. Dynamic aerial perspectives that elevate storytelling and create visually impactful content for corporate communication. Read more >",
-        "auto_text_div_1_a_4_div_0_div_0_div_0_span_0": "Drone Video & Aerial Photography",
-        "image_4": "",
-        "subtitle_5": "Drone Video & Aerial Photography",
-        "text_5": "Certified drone video production and aerial photography for corporate events, company locations and large-scale productions. Dynamic aerial perspectives that elevate storytelling and create visually impactful content for corporate communication.",
-        "auto_text_div_1_a_5": "Elevate Your Event Elevate Your Event Comprehensive corporate event coverage combining photography, video production, interviews and drone services. A tailored production approach designed to deliver seamless, efficient and scalable coverage aligned with your event objectives and brand communication. Read more >",
-        "auto_text_div_1_a_5_div_0_div_0_div_0_span_0": "Elevate Your Event",
-        "image_5": "",
-        "subtitle_6": "Elevate Your Event",
-        "text_6": "Comprehensive corporate event coverage combining photography, video production, interviews and drone services. A tailored production approach designed to deliver seamless, efficient and scalable coverage aligned with your event objectives and brand communication.",
-        "auto_image_div_1_a_0_div_0_div_0_img_0": "http://localhost:3002/images/Joshua_Statie12.jpg",
-        "auto_image_div_1_a_1_div_0_div_0_img_0": "http://localhost:3002/images/Videography-Website-FEM.jpg",
-        "auto_image_div_1_a_2_div_0_div_0_img_0": "http://localhost:3002/images/Corporate-Website-FEM-grijs.jpg",
-        "auto_image_div_1_a_3_div_0_div_0_img_0": "http://localhost:3002/images/Interview-Website-FEM.jpg",
-        "auto_image_div_1_a_4_div_0_div_0_img_0": "http://localhost:3002/images/Drone-Website-FEM.jpg",
-        "auto_image_div_1_a_5_div_0_div_0_img_0": "http://localhost:3002/images/Elevate-Website-FEM.jpg"
-      },
-      "CompaniesThatTrusted": {
-        "title": "Companies that trusted our services",
-        "image": "",
-        "image_1": "",
-        "image_2": "",
-        "image_3": "",
-        "image_4": "",
-        "image_5": "",
-        "image_6": "",
-        "image_7": "",
-        "image_8": "",
-        "image_9": "",
-        "auto_image_div_1_div_0_div_0_a_0_img_0": "http://localhost:3002/images/abn-amro-logo-new-colors-1.png",
-        "auto_image_div_1_div_0_div_1_a_0_img_0": "http://localhost:3002/images/postnl-3.png",
-        "auto_image_div_1_div_0_div_2_a_0_img_0": "http://localhost:3002/images/klarna.jpg",
-        "auto_image_div_1_div_0_div_3_a_0_img_0": "http://localhost:3002/images/vattenfall_logo.png",
-        "auto_image_div_1_div_0_div_4_a_0_img_0": "http://localhost:3002/images/velux-1.jpg",
-        "auto_image_div_1_div_1_div_0_a_0_img_0": "http://localhost:3002/images/abn-amro-logo-new-colors-1.png",
-        "auto_image_div_1_div_1_div_1_a_0_img_0": "http://localhost:3002/images/postnl-3.png",
-        "auto_image_div_1_div_1_div_2_a_0_img_0": "http://localhost:3002/images/klarna.jpg",
-        "auto_image_div_1_div_1_div_3_a_0_img_0": "http://localhost:3002/images/vattenfall_logo.png",
-        "auto_image_div_1_div_1_div_4_a_0_img_0": "http://localhost:3002/images/velux-1.jpg"
-      },
-      "FastReliableDelivery": {
-        "description": "Services that drive results",
-        "title": "Fast, reliable delivery for corporate environments",
-        "text_1": "We work seamlessly within corporate environments, adapting quickly to internal teams, agencies and event organizers. Our focus is on speed, reliability, discretion and delivering high-quality visual content that strengthens your brand communication and supports your company's strategic objectives.",
-        "subtitle_1": "Tell us about your project",
-        "text_2": "and we'll get back to you quickly!",
-        "auto_text_div_0_div_0_div_1_a_0": "Elevate your project",
-        "image": "",
-        "auto_image_div_0_div_1_img_0": "http://localhost:3002/images/Briddge-kantoor.jpg"
+        "auto_text_div_0_div_0_div_1_a_0": "Breng uw project naar een hoger niveau"
       }
     },
     "pricing": {
@@ -2602,13 +2424,9 @@
       },
       "FaqSection": {
         "title": "FAQ – Zakelijke Headshots",
-        "button_1": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Hoe lang duurt het om de headshots te ontvangen?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "description": "De standaardlevering van bewerkte headshots is binnen vier werkdagen. Prioriteitsopties zijn op aanvraag beschikbaar.",
-        "button_2": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Kan de sessie op locatie bij ons op kantoor worden georganiseerd?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_1": "Ja. We kunnen een mobiele studio-opstelling inclusief achtergrond en verlichting direct naar uw kantoor brengen.",
-        "button_3": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Hoeveel tijd is er per medewerker nodig?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_2": "Meestal duurt een headshotsessie 5 tot 10 minuten per persoon. Hierdoor kunnen we tientallen medewerkers per dag fotograferen zonder de workflow aanzienlijk te verstoren.",
-        "button_4": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Bieden jullie professionele retouchering aan?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
         "text_3": "Ja. Alle geselecteerde portretten ontvangen professionele kleurcorrectie, belichtingsaanpassingen en subtiele retouchering (huidverzachting, het verwijderen van onzuiverheden, enz.) voor een verzorgde uitstraling."
       }
     },
