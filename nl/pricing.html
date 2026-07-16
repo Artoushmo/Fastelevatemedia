@@ -428,23 +428,102 @@
   <section class="pb-32 bg-[#121111] px-6 md:px-12 lg:px-24 relative z-10 animate-fade-in" data-vibe-section="SnelleLevering">
     <div class="max-w-7xl mx-auto">
       
-      <!-- Fast Delivery Highlights Bar -->
-      <div class="mb-12 p-6 md:p-8 rounded-2xl border border-primary/30 bg-primary/10 backdrop-blur-md flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-6 relative overflow-hidden">
-        <div class="absolute -right-20 -top-20 w-48 h-48 bg-primary/20 rounded-full blur-[60px] pointer-events-none"></div>
-        <div class="flex-shrink-0 w-12 h-12 rounded-xl bg-yellow-500/20 border border-yellow-500/30 flex items-center justify-center mt-1 shadow-lg" style="color: #f59e0b;">
-          <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path d="M11 21h-1l1-7H5l7-11h1l-1 7h6z"></path>
-          </svg>
-        </div>
-        <div class="space-y-2 text-center md:text-left">
-          <h3 class="text-lg font-black text-white flex flex-col sm:flex-row items-center gap-2" data-vibe-field="title">
-            <span>Snelle levering</span>
-            <span class="hidden sm:inline text-white/40">|</span>
-            <span class="text-primary-container text-sm sm:text-base font-semibold">Uw content hoeft niet te wachten.</span>
-          </h3>
-          <p class="text-sm text-gray-300 max-w-4xl leading-relaxed" data-vibe-field="description">
-            Onze standaardlevering voor de eerste versie is binnen 72 uur voor de meeste projecten. Sneller nodig? Kies voor onze 48-uurs, 24-uurs of Same Day Delivery opties (afhankelijk van de omvang en beschikbaarheid van het project).
-          </p>
+      <!-- Fast Delivery Motion Graphic -->
+      <style>
+        @keyframes fd-pulse {
+          0%, 100% { opacity: 1; transform: scale(1); }
+          50% { opacity: 0.7; transform: scale(1.15); }
+        }
+        @keyframes fd-shimmer {
+          0% { transform: translateX(-100%); }
+          100% { transform: translateX(400%); }
+        }
+        @keyframes fd-slide-in {
+          from { opacity: 0; transform: translateY(12px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fd-glow {
+          0%, 100% { box-shadow: 0 0 12px 2px rgba(245,158,11,0.3); }
+          50% { box-shadow: 0 0 28px 6px rgba(245,158,11,0.65); }
+        }
+        @keyframes fd-badge-pop {
+          0% { opacity: 0; transform: scale(0.8) translateY(6px); }
+          60% { transform: scale(1.05) translateY(-2px); }
+          100% { opacity: 1; transform: scale(1) translateY(0); }
+        }
+        @keyframes fd-bg-pan {
+          0% { background-position: 0% 50%; }
+          50% { background-position: 100% 50%; }
+          100% { background-position: 0% 50%; }
+        }
+        .fd-lightning { animation: fd-pulse 1.8s ease-in-out infinite, fd-glow 1.8s ease-in-out infinite; }
+        .fd-shimmer-bar::after {
+          content: '';
+          position: absolute;
+          inset: 0;
+          background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.06) 50%, transparent 100%);
+          animation: fd-shimmer 3s ease-in-out infinite;
+        }
+        .fd-badge-1 { animation: fd-badge-pop 0.5s ease-out 0.1s both; }
+        .fd-badge-2 { animation: fd-badge-pop 0.5s ease-out 0.25s both; }
+        .fd-badge-3 { animation: fd-badge-pop 0.5s ease-out 0.4s both; }
+        .fd-badge-4 { animation: fd-badge-pop 0.5s ease-out 0.55s both; }
+        .fd-title   { animation: fd-slide-in 0.6s ease-out 0.05s both; }
+        .fd-desc    { animation: fd-slide-in 0.6s ease-out 0.2s both; }
+      </style>
+
+      <div class="mb-12 rounded-2xl border border-yellow-500/20 relative overflow-hidden fd-shimmer-bar"
+           style="background: linear-gradient(135deg, #1a1a1a 0%, #1f1c10 50%, #1a1a1a 100%); background-size: 200% 200%; animation: fd-bg-pan 8s ease infinite;">
+        <!-- Ambient glow blobs -->
+        <div class="absolute -right-16 -top-16 w-56 h-56 rounded-full pointer-events-none" style="background: radial-gradient(circle, rgba(245,158,11,0.18) 0%, transparent 70%);"></div>
+        <div class="absolute -left-16 -bottom-16 w-48 h-48 rounded-full pointer-events-none" style="background: radial-gradient(circle, rgba(99,146,215,0.12) 0%, transparent 70%);"></div>
+
+        <div class="relative z-10 p-6 md:p-8 flex flex-col md:flex-row items-center md:items-start gap-6">
+
+          <!-- Animated lightning icon -->
+          <div class="fd-lightning flex-shrink-0 w-14 h-14 rounded-2xl flex items-center justify-center"
+               style="background: linear-gradient(135deg, rgba(245,158,11,0.25), rgba(245,158,11,0.1)); border: 1px solid rgba(245,158,11,0.4); color: #f59e0b;">
+            <svg class="w-7 h-7 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M11 21h-1l1-7H5l7-11h1l-1 7h6z"></path>
+            </svg>
+          </div>
+
+          <!-- Text content -->
+          <div class="flex-1 space-y-4 text-center md:text-left">
+            <div class="fd-title">
+              <h3 class="text-xl md:text-2xl font-black text-white tracking-tight" data-vibe-field="title">
+                Snelle Levering
+                <span class="ml-2 text-sm font-semibold" style="color: #f59e0b;">— Uw content hoeft niet te wachten.</span>
+              </h3>
+            </div>
+            <p class="fd-desc text-sm text-gray-400 max-w-3xl leading-relaxed" data-vibe-field="description">
+              Onze standaardlevering voor de eerste versie is binnen 72 uur voor de meeste projecten. Sneller nodig? Kies uit onze Express opties hieronder.
+            </p>
+
+            <!-- Animated speed badges -->
+            <div class="flex flex-wrap justify-center md:justify-start gap-3 pt-1">
+              <div class="fd-badge-1 flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider"
+                   style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); color: #d1d5db;">
+                <span class="w-2 h-2 rounded-full" style="background:#6b7280;"></span>
+                Standaard &mdash; 72u
+              </div>
+              <div class="fd-badge-2 flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider"
+                   style="background: rgba(99,146,215,0.12); border: 1px solid rgba(99,146,215,0.3); color: #93b4e8;">
+                <span class="w-2 h-2 rounded-full" style="background:#6292d7;"></span>
+                Express &mdash; 48u
+              </div>
+              <div class="fd-badge-3 flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider"
+                   style="background: rgba(245,158,11,0.12); border: 1px solid rgba(245,158,11,0.3); color: #fbbf24;">
+                <span class="w-2 h-2 rounded-full" style="background:#f59e0b; animation: fd-pulse 1.2s ease-in-out infinite;"></span>
+                Spoed &mdash; 24u
+              </div>
+              <div class="fd-badge-4 flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider"
+                   style="background: rgba(239,68,68,0.12); border: 1px solid rgba(239,68,68,0.35); color: #f87171;">
+                <span class="w-2 h-2 rounded-full" style="background:#ef4444; animation: fd-pulse 0.8s ease-in-out infinite;"></span>
+                Zelfde Dag
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
