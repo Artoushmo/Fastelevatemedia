@@ -138,6 +138,11 @@
       position: relative;
       gap: 8px;
       height: 80px;
+      mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+      -webkit-mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+    }
+    .logo-carousel-container:hover .logo-carousel {
+      animation-play-state: paused;
     }
     .logo-carousel {
       flex-shrink: 0;
