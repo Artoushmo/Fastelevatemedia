@@ -141,7 +141,7 @@
       overflow: hidden;
       user-select: none;
       position: relative;
-      gap: 8px;
+      gap: 32px;
       height: 80px;
       mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
       -webkit-mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
@@ -153,8 +153,8 @@
       flex-shrink: 0;
       display: flex;
       align-items: center;
-      justify-content: space-around;
-      gap: 8px;
+      justify-content: flex-start;
+      gap: 32px;
       min-width: 100%;
       animation: logo-marquee 25s linear infinite;
     }
@@ -165,7 +165,7 @@
     }
     @keyframes logo-marquee {
       0% { transform: translateX(0); }
-      100% { transform: translateX(calc(-100% - 8px)); }
+      100% { transform: translateX(calc(-100% - 32px)); }
     }
     .tl-line-legacy{}
     .tl-progress-legacy{}
