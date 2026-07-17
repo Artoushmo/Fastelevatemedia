@@ -136,7 +136,7 @@
       overflow: hidden;
       user-select: none;
       position: relative;
-      gap: 12px;
+      gap: 8px;
       height: 80px;
     }
     .logo-carousel {
@@ -144,18 +144,18 @@
       display: flex;
       align-items: center;
       justify-content: space-around;
-      gap: 12px;
+      gap: 8px;
       min-width: 100%;
       animation: logo-marquee 25s linear infinite;
     }
     .logo-carousel > div {
       height: 80px !important;
-      width: 100px !important;
+      width: 110px !important;
       flex-shrink: 0 !important;
     }
     @keyframes logo-marquee {
       0% { transform: translateX(0); }
-      100% { transform: translateX(calc(-100% - 12px)); }
+      100% { transform: translateX(calc(-100% - 8px)); }
     }
     .tl-line-legacy{}
     .tl-progress-legacy{}
