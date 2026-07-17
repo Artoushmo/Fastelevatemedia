@@ -125,7 +125,7 @@
       top: 40%;
       left: 50%;
       transform: translate(-50%, -50%);
-      min-width: 100%;
+      min-width: max-content;
       min-height: 120%;
       width: auto;
       height: auto;
@@ -155,7 +155,7 @@
       align-items: center;
       justify-content: flex-start;
       gap: 32px;
-      min-width: 100%;
+      min-width: max-content;
       animation: logo-marquee 25s linear infinite;
     }
     .logo-carousel > div {
@@ -878,7 +878,7 @@
     </div>
   </section>
 
-      <!-- 6. Logo Slider Section (Divider ID 366 / LogoList 623) -->
+        <!-- 6. Logo Slider Section (Divider ID 366 / LogoList 623) -->
   <section class="pt-16 pb-12 relative bg-white overflow-hidden border-y border-gray-100" data-vibe-section="BedrijvenDieHun">
     <div class="text-center mb-16 px-6 relative z-10">
       <h2 class="text-3xl font-bold text-[#121111] tracking-tight" data-vibe-field="title">Bedrijven die hun vertrouwen in ons hebben gesteld</h2>
@@ -890,35 +890,105 @@
         <div class="group relative h-20 w-[110px] bg-transparent border border-transparent hover:border-gray-200/60 transition-all duration-500 flex items-center justify-center p-0.5 rounded-xl overflow-hidden">
           <div class="absolute inset-0 scale-150 opacity-0 transition-all duration-700 ease-out group-hover:opacity-100 group-hover:scale-100 bg-gradient-to-br from-[#009586]/10 via-[#006f63]/5 to-transparent"></div>
           <a href="https://www.abnamro.nl" target="_blank" rel="noopener noreferrer" class="relative z-10 w-full h-full flex items-center justify-center">
-            <img alt="ABN AMRO" class="h-[30px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/abn-amro-logo-new-colors-1.png" data-vibe-field="image">
+            <img alt="ABN AMRO" class="h-[30px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/abn-amro-logo-new-colors-1.png">
           </a>
         </div>
         <!-- PostNL -->
         <div class="group relative h-20 w-[110px] bg-transparent border border-transparent hover:border-gray-200/60 transition-all duration-500 flex items-center justify-center p-0.5 rounded-xl overflow-hidden">
           <div class="absolute inset-0 scale-150 opacity-0 transition-all duration-700 ease-out group-hover:opacity-100 group-hover:scale-100 bg-gradient-to-br from-[#ed7000]/15 via-amber-500/5 to-transparent"></div>
           <a href="https://www.postnl.nl" target="_blank" rel="noopener noreferrer" class="relative z-10 w-full h-full flex items-center justify-center">
-            <img alt="PostNL" class="h-[38px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/postnl-3.png" data-vibe-field="image_1">
+            <img alt="PostNL" class="h-[38px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/postnl-3.png">
           </a>
         </div>
         <!-- Klarna -->
         <div class="group relative h-20 w-[110px] bg-transparent border border-transparent hover:border-gray-200/60 transition-all duration-500 flex items-center justify-center p-0.5 rounded-xl overflow-hidden">
           <div class="absolute inset-0 scale-150 opacity-0 transition-all duration-700 ease-out group-hover:opacity-100 group-hover:scale-100 bg-gradient-to-br from-[#ffb3c7]/20 via-[#ffccd5]/10 to-transparent"></div>
           <a href="https://www.klarna.com" target="_blank" rel="noopener noreferrer" class="relative z-10 w-full h-full flex items-center justify-center">
-            <img alt="Klarna" class="h-[36px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/klarna.jpg" data-vibe-field="image_2">
+            <img alt="Klarna" class="h-[36px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/klarna.jpg">
           </a>
         </div>
         <!-- Vattenfall -->
         <div class="group relative h-20 w-[110px] bg-transparent border border-transparent hover:border-gray-200/60 transition-all duration-500 flex items-center justify-center p-0.5 rounded-xl overflow-hidden">
           <div class="absolute inset-0 scale-150 opacity-0 transition-all duration-700 ease-out group-hover:opacity-100 group-hover:scale-100 bg-gradient-to-br from-[#005fa9]/10 via-[#ffcc00]/5 to-transparent"></div>
           <a href="https://www.vattenfall.nl" target="_blank" rel="noopener noreferrer" class="relative z-10 w-full h-full flex items-center justify-center">
-            <img alt="Vattenfall" class="h-[30px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/vattenfall_logo.png" data-vibe-field="image_3">
+            <img alt="Vattenfall" class="h-[30px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/vattenfall_logo.png">
           </a>
         </div>
         <!-- Velux -->
         <div class="group relative h-20 w-[110px] bg-transparent border border-transparent hover:border-gray-200/60 transition-all duration-500 flex items-center justify-center p-0.5 rounded-xl overflow-hidden">
           <div class="absolute inset-0 scale-150 opacity-0 transition-all duration-700 ease-out group-hover:opacity-100 group-hover:scale-100 bg-gradient-to-br from-[#e2001a]/15 via-red-500/5 to-transparent"></div>
           <a href="https://www.velux.nl" target="_blank" rel="noopener noreferrer" class="relative z-10 w-full h-full flex items-center justify-center">
-            <img alt="Velux" class="h-[26px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/velux-1.jpg" data-vibe-field="image_4">
+            <img alt="Velux" class="h-[26px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/velux-1.jpg">
+          </a>
+        </div>
+        <!-- ABN AMRO -->
+        <div class="group relative h-20 w-[110px] bg-transparent border border-transparent hover:border-gray-200/60 transition-all duration-500 flex items-center justify-center p-0.5 rounded-xl overflow-hidden">
+          <div class="absolute inset-0 scale-150 opacity-0 transition-all duration-700 ease-out group-hover:opacity-100 group-hover:scale-100 bg-gradient-to-br from-[#009586]/10 via-[#006f63]/5 to-transparent"></div>
+          <a href="https://www.abnamro.nl" target="_blank" rel="noopener noreferrer" class="relative z-10 w-full h-full flex items-center justify-center">
+            <img alt="ABN AMRO" class="h-[30px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/abn-amro-logo-new-colors-1.png">
+          </a>
+        </div>
+        <!-- PostNL -->
+        <div class="group relative h-20 w-[110px] bg-transparent border border-transparent hover:border-gray-200/60 transition-all duration-500 flex items-center justify-center p-0.5 rounded-xl overflow-hidden">
+          <div class="absolute inset-0 scale-150 opacity-0 transition-all duration-700 ease-out group-hover:opacity-100 group-hover:scale-100 bg-gradient-to-br from-[#ed7000]/15 via-amber-500/5 to-transparent"></div>
+          <a href="https://www.postnl.nl" target="_blank" rel="noopener noreferrer" class="relative z-10 w-full h-full flex items-center justify-center">
+            <img alt="PostNL" class="h-[38px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/postnl-3.png">
+          </a>
+        </div>
+        <!-- Klarna -->
+        <div class="group relative h-20 w-[110px] bg-transparent border border-transparent hover:border-gray-200/60 transition-all duration-500 flex items-center justify-center p-0.5 rounded-xl overflow-hidden">
+          <div class="absolute inset-0 scale-150 opacity-0 transition-all duration-700 ease-out group-hover:opacity-100 group-hover:scale-100 bg-gradient-to-br from-[#ffb3c7]/20 via-[#ffccd5]/10 to-transparent"></div>
+          <a href="https://www.klarna.com" target="_blank" rel="noopener noreferrer" class="relative z-10 w-full h-full flex items-center justify-center">
+            <img alt="Klarna" class="h-[36px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/klarna.jpg">
+          </a>
+        </div>
+        <!-- Vattenfall -->
+        <div class="group relative h-20 w-[110px] bg-transparent border border-transparent hover:border-gray-200/60 transition-all duration-500 flex items-center justify-center p-0.5 rounded-xl overflow-hidden">
+          <div class="absolute inset-0 scale-150 opacity-0 transition-all duration-700 ease-out group-hover:opacity-100 group-hover:scale-100 bg-gradient-to-br from-[#005fa9]/10 via-[#ffcc00]/5 to-transparent"></div>
+          <a href="https://www.vattenfall.nl" target="_blank" rel="noopener noreferrer" class="relative z-10 w-full h-full flex items-center justify-center">
+            <img alt="Vattenfall" class="h-[30px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/vattenfall_logo.png">
+          </a>
+        </div>
+        <!-- Velux -->
+        <div class="group relative h-20 w-[110px] bg-transparent border border-transparent hover:border-gray-200/60 transition-all duration-500 flex items-center justify-center p-0.5 rounded-xl overflow-hidden">
+          <div class="absolute inset-0 scale-150 opacity-0 transition-all duration-700 ease-out group-hover:opacity-100 group-hover:scale-100 bg-gradient-to-br from-[#e2001a]/15 via-red-500/5 to-transparent"></div>
+          <a href="https://www.velux.nl" target="_blank" rel="noopener noreferrer" class="relative z-10 w-full h-full flex items-center justify-center">
+            <img alt="Velux" class="h-[26px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/velux-1.jpg">
+          </a>
+        </div>
+        <!-- ABN AMRO -->
+        <div class="group relative h-20 w-[110px] bg-transparent border border-transparent hover:border-gray-200/60 transition-all duration-500 flex items-center justify-center p-0.5 rounded-xl overflow-hidden">
+          <div class="absolute inset-0 scale-150 opacity-0 transition-all duration-700 ease-out group-hover:opacity-100 group-hover:scale-100 bg-gradient-to-br from-[#009586]/10 via-[#006f63]/5 to-transparent"></div>
+          <a href="https://www.abnamro.nl" target="_blank" rel="noopener noreferrer" class="relative z-10 w-full h-full flex items-center justify-center">
+            <img alt="ABN AMRO" class="h-[30px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/abn-amro-logo-new-colors-1.png">
+          </a>
+        </div>
+        <!-- PostNL -->
+        <div class="group relative h-20 w-[110px] bg-transparent border border-transparent hover:border-gray-200/60 transition-all duration-500 flex items-center justify-center p-0.5 rounded-xl overflow-hidden">
+          <div class="absolute inset-0 scale-150 opacity-0 transition-all duration-700 ease-out group-hover:opacity-100 group-hover:scale-100 bg-gradient-to-br from-[#ed7000]/15 via-amber-500/5 to-transparent"></div>
+          <a href="https://www.postnl.nl" target="_blank" rel="noopener noreferrer" class="relative z-10 w-full h-full flex items-center justify-center">
+            <img alt="PostNL" class="h-[38px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/postnl-3.png">
+          </a>
+        </div>
+        <!-- Klarna -->
+        <div class="group relative h-20 w-[110px] bg-transparent border border-transparent hover:border-gray-200/60 transition-all duration-500 flex items-center justify-center p-0.5 rounded-xl overflow-hidden">
+          <div class="absolute inset-0 scale-150 opacity-0 transition-all duration-700 ease-out group-hover:opacity-100 group-hover:scale-100 bg-gradient-to-br from-[#ffb3c7]/20 via-[#ffccd5]/10 to-transparent"></div>
+          <a href="https://www.klarna.com" target="_blank" rel="noopener noreferrer" class="relative z-10 w-full h-full flex items-center justify-center">
+            <img alt="Klarna" class="h-[36px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/klarna.jpg">
+          </a>
+        </div>
+        <!-- Vattenfall -->
+        <div class="group relative h-20 w-[110px] bg-transparent border border-transparent hover:border-gray-200/60 transition-all duration-500 flex items-center justify-center p-0.5 rounded-xl overflow-hidden">
+          <div class="absolute inset-0 scale-150 opacity-0 transition-all duration-700 ease-out group-hover:opacity-100 group-hover:scale-100 bg-gradient-to-br from-[#005fa9]/10 via-[#ffcc00]/5 to-transparent"></div>
+          <a href="https://www.vattenfall.nl" target="_blank" rel="noopener noreferrer" class="relative z-10 w-full h-full flex items-center justify-center">
+            <img alt="Vattenfall" class="h-[30px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/vattenfall_logo.png">
+          </a>
+        </div>
+        <!-- Velux -->
+        <div class="group relative h-20 w-[110px] bg-transparent border border-transparent hover:border-gray-200/60 transition-all duration-500 flex items-center justify-center p-0.5 rounded-xl overflow-hidden">
+          <div class="absolute inset-0 scale-150 opacity-0 transition-all duration-700 ease-out group-hover:opacity-100 group-hover:scale-100 bg-gradient-to-br from-[#e2001a]/15 via-red-500/5 to-transparent"></div>
+          <a href="https://www.velux.nl" target="_blank" rel="noopener noreferrer" class="relative z-10 w-full h-full flex items-center justify-center">
+            <img alt="Velux" class="h-[26px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/velux-1.jpg">
           </a>
         </div>
       </div>
@@ -928,35 +998,105 @@
         <div class="group relative h-20 w-[110px] bg-transparent border border-transparent hover:border-gray-200/60 transition-all duration-500 flex items-center justify-center p-0.5 rounded-xl overflow-hidden">
           <div class="absolute inset-0 scale-150 opacity-0 transition-all duration-700 ease-out group-hover:opacity-100 group-hover:scale-100 bg-gradient-to-br from-[#009586]/10 via-[#006f63]/5 to-transparent"></div>
           <a href="https://www.abnamro.nl" target="_blank" rel="noopener noreferrer" class="relative z-10 w-full h-full flex items-center justify-center">
-            <img alt="ABN AMRO" class="h-[30px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/abn-amro-logo-new-colors-1.png" data-vibe-field="image_5">
+            <img alt="ABN AMRO" class="h-[30px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/abn-amro-logo-new-colors-1.png">
           </a>
         </div>
         <!-- PostNL -->
         <div class="group relative h-20 w-[110px] bg-transparent border border-transparent hover:border-gray-200/60 transition-all duration-500 flex items-center justify-center p-0.5 rounded-xl overflow-hidden">
           <div class="absolute inset-0 scale-150 opacity-0 transition-all duration-700 ease-out group-hover:opacity-100 group-hover:scale-100 bg-gradient-to-br from-[#ed7000]/15 via-amber-500/5 to-transparent"></div>
           <a href="https://www.postnl.nl" target="_blank" rel="noopener noreferrer" class="relative z-10 w-full h-full flex items-center justify-center">
-            <img alt="PostNL" class="h-[38px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/postnl-3.png" data-vibe-field="image_6">
+            <img alt="PostNL" class="h-[38px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/postnl-3.png">
           </a>
         </div>
         <!-- Klarna -->
         <div class="group relative h-20 w-[110px] bg-transparent border border-transparent hover:border-gray-200/60 transition-all duration-500 flex items-center justify-center p-0.5 rounded-xl overflow-hidden">
           <div class="absolute inset-0 scale-150 opacity-0 transition-all duration-700 ease-out group-hover:opacity-100 group-hover:scale-100 bg-gradient-to-br from-[#ffb3c7]/20 via-[#ffccd5]/10 to-transparent"></div>
           <a href="https://www.klarna.com" target="_blank" rel="noopener noreferrer" class="relative z-10 w-full h-full flex items-center justify-center">
-            <img alt="Klarna" class="h-[36px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/klarna.jpg" data-vibe-field="image_7">
+            <img alt="Klarna" class="h-[36px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/klarna.jpg">
           </a>
         </div>
         <!-- Vattenfall -->
         <div class="group relative h-20 w-[110px] bg-transparent border border-transparent hover:border-gray-200/60 transition-all duration-500 flex items-center justify-center p-0.5 rounded-xl overflow-hidden">
           <div class="absolute inset-0 scale-150 opacity-0 transition-all duration-700 ease-out group-hover:opacity-100 group-hover:scale-100 bg-gradient-to-br from-[#005fa9]/10 via-[#ffcc00]/5 to-transparent"></div>
           <a href="https://www.vattenfall.nl" target="_blank" rel="noopener noreferrer" class="relative z-10 w-full h-full flex items-center justify-center">
-            <img alt="Vattenfall" class="h-[30px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/vattenfall_logo.png" data-vibe-field="image_8">
+            <img alt="Vattenfall" class="h-[30px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/vattenfall_logo.png">
           </a>
         </div>
         <!-- Velux -->
         <div class="group relative h-20 w-[110px] bg-transparent border border-transparent hover:border-gray-200/60 transition-all duration-500 flex items-center justify-center p-0.5 rounded-xl overflow-hidden">
           <div class="absolute inset-0 scale-150 opacity-0 transition-all duration-700 ease-out group-hover:opacity-100 group-hover:scale-100 bg-gradient-to-br from-[#e2001a]/15 via-red-500/5 to-transparent"></div>
           <a href="https://www.velux.nl" target="_blank" rel="noopener noreferrer" class="relative z-10 w-full h-full flex items-center justify-center">
-            <img alt="Velux" class="h-[26px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/velux-1.jpg" data-vibe-field="image_9">
+            <img alt="Velux" class="h-[26px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/velux-1.jpg">
+          </a>
+        </div>
+        <!-- ABN AMRO -->
+        <div class="group relative h-20 w-[110px] bg-transparent border border-transparent hover:border-gray-200/60 transition-all duration-500 flex items-center justify-center p-0.5 rounded-xl overflow-hidden">
+          <div class="absolute inset-0 scale-150 opacity-0 transition-all duration-700 ease-out group-hover:opacity-100 group-hover:scale-100 bg-gradient-to-br from-[#009586]/10 via-[#006f63]/5 to-transparent"></div>
+          <a href="https://www.abnamro.nl" target="_blank" rel="noopener noreferrer" class="relative z-10 w-full h-full flex items-center justify-center">
+            <img alt="ABN AMRO" class="h-[30px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/abn-amro-logo-new-colors-1.png">
+          </a>
+        </div>
+        <!-- PostNL -->
+        <div class="group relative h-20 w-[110px] bg-transparent border border-transparent hover:border-gray-200/60 transition-all duration-500 flex items-center justify-center p-0.5 rounded-xl overflow-hidden">
+          <div class="absolute inset-0 scale-150 opacity-0 transition-all duration-700 ease-out group-hover:opacity-100 group-hover:scale-100 bg-gradient-to-br from-[#ed7000]/15 via-amber-500/5 to-transparent"></div>
+          <a href="https://www.postnl.nl" target="_blank" rel="noopener noreferrer" class="relative z-10 w-full h-full flex items-center justify-center">
+            <img alt="PostNL" class="h-[38px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/postnl-3.png">
+          </a>
+        </div>
+        <!-- Klarna -->
+        <div class="group relative h-20 w-[110px] bg-transparent border border-transparent hover:border-gray-200/60 transition-all duration-500 flex items-center justify-center p-0.5 rounded-xl overflow-hidden">
+          <div class="absolute inset-0 scale-150 opacity-0 transition-all duration-700 ease-out group-hover:opacity-100 group-hover:scale-100 bg-gradient-to-br from-[#ffb3c7]/20 via-[#ffccd5]/10 to-transparent"></div>
+          <a href="https://www.klarna.com" target="_blank" rel="noopener noreferrer" class="relative z-10 w-full h-full flex items-center justify-center">
+            <img alt="Klarna" class="h-[36px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/klarna.jpg">
+          </a>
+        </div>
+        <!-- Vattenfall -->
+        <div class="group relative h-20 w-[110px] bg-transparent border border-transparent hover:border-gray-200/60 transition-all duration-500 flex items-center justify-center p-0.5 rounded-xl overflow-hidden">
+          <div class="absolute inset-0 scale-150 opacity-0 transition-all duration-700 ease-out group-hover:opacity-100 group-hover:scale-100 bg-gradient-to-br from-[#005fa9]/10 via-[#ffcc00]/5 to-transparent"></div>
+          <a href="https://www.vattenfall.nl" target="_blank" rel="noopener noreferrer" class="relative z-10 w-full h-full flex items-center justify-center">
+            <img alt="Vattenfall" class="h-[30px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/vattenfall_logo.png">
+          </a>
+        </div>
+        <!-- Velux -->
+        <div class="group relative h-20 w-[110px] bg-transparent border border-transparent hover:border-gray-200/60 transition-all duration-500 flex items-center justify-center p-0.5 rounded-xl overflow-hidden">
+          <div class="absolute inset-0 scale-150 opacity-0 transition-all duration-700 ease-out group-hover:opacity-100 group-hover:scale-100 bg-gradient-to-br from-[#e2001a]/15 via-red-500/5 to-transparent"></div>
+          <a href="https://www.velux.nl" target="_blank" rel="noopener noreferrer" class="relative z-10 w-full h-full flex items-center justify-center">
+            <img alt="Velux" class="h-[26px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/velux-1.jpg">
+          </a>
+        </div>
+        <!-- ABN AMRO -->
+        <div class="group relative h-20 w-[110px] bg-transparent border border-transparent hover:border-gray-200/60 transition-all duration-500 flex items-center justify-center p-0.5 rounded-xl overflow-hidden">
+          <div class="absolute inset-0 scale-150 opacity-0 transition-all duration-700 ease-out group-hover:opacity-100 group-hover:scale-100 bg-gradient-to-br from-[#009586]/10 via-[#006f63]/5 to-transparent"></div>
+          <a href="https://www.abnamro.nl" target="_blank" rel="noopener noreferrer" class="relative z-10 w-full h-full flex items-center justify-center">
+            <img alt="ABN AMRO" class="h-[30px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/abn-amro-logo-new-colors-1.png">
+          </a>
+        </div>
+        <!-- PostNL -->
+        <div class="group relative h-20 w-[110px] bg-transparent border border-transparent hover:border-gray-200/60 transition-all duration-500 flex items-center justify-center p-0.5 rounded-xl overflow-hidden">
+          <div class="absolute inset-0 scale-150 opacity-0 transition-all duration-700 ease-out group-hover:opacity-100 group-hover:scale-100 bg-gradient-to-br from-[#ed7000]/15 via-amber-500/5 to-transparent"></div>
+          <a href="https://www.postnl.nl" target="_blank" rel="noopener noreferrer" class="relative z-10 w-full h-full flex items-center justify-center">
+            <img alt="PostNL" class="h-[38px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/postnl-3.png">
+          </a>
+        </div>
+        <!-- Klarna -->
+        <div class="group relative h-20 w-[110px] bg-transparent border border-transparent hover:border-gray-200/60 transition-all duration-500 flex items-center justify-center p-0.5 rounded-xl overflow-hidden">
+          <div class="absolute inset-0 scale-150 opacity-0 transition-all duration-700 ease-out group-hover:opacity-100 group-hover:scale-100 bg-gradient-to-br from-[#ffb3c7]/20 via-[#ffccd5]/10 to-transparent"></div>
+          <a href="https://www.klarna.com" target="_blank" rel="noopener noreferrer" class="relative z-10 w-full h-full flex items-center justify-center">
+            <img alt="Klarna" class="h-[36px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/klarna.jpg">
+          </a>
+        </div>
+        <!-- Vattenfall -->
+        <div class="group relative h-20 w-[110px] bg-transparent border border-transparent hover:border-gray-200/60 transition-all duration-500 flex items-center justify-center p-0.5 rounded-xl overflow-hidden">
+          <div class="absolute inset-0 scale-150 opacity-0 transition-all duration-700 ease-out group-hover:opacity-100 group-hover:scale-100 bg-gradient-to-br from-[#005fa9]/10 via-[#ffcc00]/5 to-transparent"></div>
+          <a href="https://www.vattenfall.nl" target="_blank" rel="noopener noreferrer" class="relative z-10 w-full h-full flex items-center justify-center">
+            <img alt="Vattenfall" class="h-[30px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/vattenfall_logo.png">
+          </a>
+        </div>
+        <!-- Velux -->
+        <div class="group relative h-20 w-[110px] bg-transparent border border-transparent hover:border-gray-200/60 transition-all duration-500 flex items-center justify-center p-0.5 rounded-xl overflow-hidden">
+          <div class="absolute inset-0 scale-150 opacity-0 transition-all duration-700 ease-out group-hover:opacity-100 group-hover:scale-100 bg-gradient-to-br from-[#e2001a]/15 via-red-500/5 to-transparent"></div>
+          <a href="https://www.velux.nl" target="_blank" rel="noopener noreferrer" class="relative z-10 w-full h-full flex items-center justify-center">
+            <img alt="Velux" class="h-[26px] max-w-full object-contain filter brightness-95 group-hover:brightness-100 transition-all" src="../images/velux-1.jpg">
           </a>
         </div>
       </div>
