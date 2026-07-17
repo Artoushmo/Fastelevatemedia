@@ -553,10 +553,7 @@
 
   <!-- 1. Hero Section -->
   <section class="relative h-[48vh] min-h-[340px] sm:h-[65vh] sm:min-h-[480px] overflow-hidden video-docker bg-[#121111]" id="hero-section" data-vibe-section="HeroSection">
-    <video id="hero-video" autoplay="" class="absolute z-0" loop="" muted="" playsinline="" preload="auto">
-      <source src="./Banner video FEM v3 mobiel.mp4" type="video/mp4" media="(max-width: 767px)">
-      <source src="./banner-video-fem-v3.mp4" type="video/mp4">
-    </video>
+    <video id="hero-video" autoplay="" class="absolute z-0" loop="" muted="" playsinline="" preload="auto"></video>
     <!-- Dark Gradient Overlay -->
     <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-black/30 z-[1]"></div>
     <!-- Mute/Unmute Toggle Button -->
@@ -574,6 +571,21 @@
     <script>
       (function() {
         var heroVid = document.getElementById('hero-video');
+        
+        // Dynamically load mobile/desktop video source to guarantee mobile asset is used on mobile screens
+        if (heroVid) {
+          var isMobile = window.innerWidth < 768;
+          var isNl = window.location.pathname.includes('/nl/');
+          var basePath = isNl ? '../' : './';
+          var videoSrc = basePath + (isMobile ? 'Banner video FEM v3 mobiel.mp4' : 'banner-video-fem-v3.mp4');
+          
+          var source = document.createElement('source');
+          source.src = videoSrc;
+          source.type = 'video/mp4';
+          heroVid.appendChild(source);
+          heroVid.load();
+        }
+        
         var heroBtn = document.getElementById('hero-mute-btn');
         var heroIconM = document.getElementById('icon-muted');
         var heroIconU = document.getElementById('icon-unmuted');
