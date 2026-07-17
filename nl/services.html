@@ -136,7 +136,7 @@
       overflow: hidden;
       user-select: none;
       position: relative;
-      gap: 32px;
+      gap: 48px;
       height: 80px;
       mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
       -webkit-mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
@@ -149,18 +149,18 @@
       display: flex;
       align-items: center;
       justify-content: flex-start;
-      gap: 32px;
+      gap: 48px;
       min-width: max-content;
       animation: logo-marquee 25s linear infinite;
     }
     .logo-carousel > div {
       height: 80px !important;
-      width: 110px !important;
+      width: 140px !important;
       flex-shrink: 0 !important;
     }
     @keyframes logo-marquee {
       0% { transform: translateX(0); }
-      100% { transform: translateX(calc(-100% - 32px)); }
+      100% { transform: translateX(calc(-100% - 48px)); }
     }
     .tl-line-legacy{}
     .tl-progress-legacy{}
