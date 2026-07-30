@@ -130,8 +130,9 @@
       },
       "Intro": {
         "title": "Cookie Policy",
-        "description": "This Cookie Policy explains how Fast Elevate Media (\"we\", \"us\", or \"our\") uses cookies and similar technologies when you visit our website. This policy should be read together with our <a href=\"./privacy.html\" class=\"text-primary underline hover:text-primary/80 transition-colors\">Privacy Policy</a>. By continuing to use our website, you may be asked to provide consent for certain categories of cookies through our cookie consent banner.",
+        "description": "<strong>Last updated: June 2026</strong>",
         "subtitle_1": "1. Introduction",
+        "description_2": "This Cookie Policy explains how Fast Elevate Media (\"we\", \"us\", or \"our\") uses cookies and similar technologies when you visit our website. This policy should be read together with our <a href=\"./privacy.html\" class=\"text-primary underline hover:text-primary/80 transition-colors\">Privacy Policy</a>. By continuing to use our website, you may be asked to provide consent for certain categories of cookies through our cookie consent banner.",
         "link_1": "Privacy Policy",
         "subtitle_2": "2. What Are Cookies?",
         "text_2": "Cookies are small text files stored on your device when you visit a website. Cookies help websites function properly, improve user experience, remember preferences, and provide information about website performance and visitor interactions. Cookies may be placed by Fast Elevate Media or by third-party service providers.",
@@ -1404,7 +1405,7 @@
         "text_1": "Explore package pricing for all services offered by Fast Elevate Media. Our structured workflow ensures clarity, speed, and consistent quality across Europe."
       },
       "FastDelivery": {
-        "title": "<span>Fast Delivery</span>\n            <span class=\"hidden sm:inline text-white/40\">|</span>\n            <span class=\"text-primary-container text-sm sm:text-base font-semibold\">Your content shouldn't have to wait.</span>",
+        "title": "Fast Delivery\n                <span class=\"ml-2 text-sm font-semibold\" style=\"color: #f59e0b;\">— Your content shouldn't have to wait.</span>",
         "description": "Our standard delivery for the first draft is within 72 hours for most projects. Need it sooner? Choose our 48-hour, 24-hour, or Same Day Delivery options (subject to project scope and availability).",
         "subtitle_1": "Corporate Event Photography",
         "text_1": "Professional event photography for conferences, business events, seminars, and networking gatherings.",
@@ -2249,7 +2250,7 @@
         "text_100": "Where AI-assisted editing substantially alters the nature of the agreed deliverable beyond standard post-production practices, this will only be performed where appropriate for the project or agreed with the Client.",
         "text_101": "AI-assisted tools shall never replace professional judgement, creative direction, or final editorial approval.",
         "subtitle_26": "26. Contact Information",
-        "text_102": "Unless otherwise agreed in writing, Fast Elevate Media reserves the right to use content created during assignments for:",
+        "text_102": "<strong>Fast Elevate Media</strong><br>\n            Amsterdam, The Netherlands<br>\n            Email: <a href=\"mailto:info@fastelevatemedia.com\" class=\"text-primary underline hover:text-primary/80 transition-colors\" data-vibe-field=\"link_3\" data-vibe-link=\"link_3_url\">info@fastelevatemedia.com</a><br>\n            Phone: <a href=\"tel:+31624821770\" class=\"text-primary underline hover:text-primary/80 transition-colors\" data-vibe-field=\"link_4\" data-vibe-link=\"link_4_url\">+31 6 24821770</a><br>\n            Website: <a href=\"https://fastelevatemedia.com\" class=\"text-primary underline hover:text-primary/80 transition-colors\" target=\"_blank\" data-vibe-field=\"link_5\" data-vibe-link=\"link_5_url\">www.fastelevatemedia.com</a>",
         "link_3": "info@fastelevatemedia.com",
         "link_4": "+31 6 24821770",
         "link_5": "www.fastelevatemedia.com",
@@ -2654,8 +2655,9 @@
       },
       "Intro": {
         "title": "Cookiebeleid",
-        "description": "Dit Cookiebeleid legt uit hoe Fast Elevate Media (\"we\", \"ons\" of \"onze\") cookies en vergelijkbare technologieën gebruikt wanneer u onze website bezoekt. Dit beleid moet in samenhang met ons <a href=\"./privacy.html\" class=\"text-primary underline hover:text-primary/80 transition-colors\">Privacybeleid</a> worden gelezen. Door onze website te blijven gebruiken, kan u worden gevraagd om toestemming te geven voor bepaalde categorieën cookies via onze cookie-toestemmingsbanner.",
+        "description": "<strong>Laatst bijgewerkt: juni 2026</strong>",
         "subtitle_1": "1. Inleiding",
+        "description_2": "Dit Cookiebeleid legt uit hoe Fast Elevate Media (\"we\", \"ons\" of \"onze\") cookies en vergelijkbare technologieën gebruikt wanneer u onze website bezoekt. Dit beleid moet in samenhang met ons <a href=\"./privacy.html\" class=\"text-primary underline hover:text-primary/80 transition-colors\">Privacybeleid</a> worden gelezen. Door onze website te blijven gebruiken, kan u worden gevraagd om toestemming te geven voor bepaalde categorieën cookies via onze cookie-toestemmingsbanner.",
         "link_1": "Privacybeleid",
         "subtitle_2": "2. Wat zijn cookies?",
         "text_2": "Cookies zijn kleine tekstbestanden die op uw apparaat worden opgeslagen wanneer u een website bezoekt. Cookies helpen websites om correct te functioneren, de gebruikerservaring te verbeteren, voorkeuren te onthouden en informatie te verstrekken over websiteprestaties en bezoekersinteracties. Cookies kunnen worden geplaatst door Fast Elevate Media of door externe serviceproviders.",
@@ -3888,10 +3890,10 @@
         "link_6_url": "./elevate-your-event.html"
       },
       "About": {
-        "title": "Krachtige contentWereldwijd Bereik",
+        "title": "Krachtige content<br><span class=\"text-primary\">Wereldwijd Bereik</span>",
         "description": "Bij Fast Elevate Media geloven we dat de beste resultaten voortkomen uit een sterke samenwerking. We richten ons op het opbouwen van een oprechte band met onze klanten en nemen de tijd om uw visie, uw verhaal en wat echt belangrijk is voor uw merk te begrijpen.",
         "text_1": "Duidelijke en open communicatie vormt de kern van onze werkwijze. We creëren een positieve en collegiale sfeer gedurende het hele proces, van het eerste contact tot de uiteindelijke oplevering. Samen met ons netwerk van ervaren creatieve freelancers zorgen we ervoor dat deze energie in elke productie voelbaar is.",
-        "text_2": "We werken snel en efficiënt, zonder concessies te doen aan kwaliteit of beleving. Ons doel is simpel: uw ideeën tot leven brengen en hoogwaardige visuele content leveren die uw visie weerspiegelt, geleverd met snelheid en precisie. Bekijk ook onze transparante tarieven en pakketten.",
+        "text_2": "We werken snel en efficiënt, zonder concessies te doen aan kwaliteit of beleving. Ons doel is simpel: uw ideeën tot leven brengen en hoogwaardige visuele content leveren die uw visie weerspiegelt, geleverd met snelheid en precisie. Bekijk ook onze transparante <a href=\"./pricing.html\" class=\"text-blue-400 hover:text-blue-300 underline font-semibold transition-colors\" data-vibe-field=\"link_1\" data-vibe-link=\"link_1_url\">tarieven en pakketten</a>.",
         "link_1": "tarieven en pakketten",
         "subtitle_1": "Gedreven door samenwerking",
         "text_3": "Sterke samenwerking en open communicatie vormen de kern van onze werkwijze, waardoor een ontspannen en professionele sfeer ontstaat die leidt tot betere en authentiekere resultaten.",
@@ -4152,7 +4154,7 @@
         "text_1": "Bekijk de pakketprijzen voor alle diensten van Fast Elevate Media. Onze gestructureerde workflow garandeert helderheid, snelheid en consistente kwaliteit in heel Europa."
       },
       "FastDelivery": {
-        "title": "<span>Snelle levering</span>\n            <span class=\"hidden sm:inline text-white/40\">|</span>\n            <span class=\"text-primary-container text-sm sm:text-base font-semibold\">Uw content hoeft niet te wachten.</span>",
+        "title": "Snelle Levering\n                <span class=\"ml-2 text-sm font-semibold\" style=\"color: #f59e0b;\">— Uw content hoeft niet te wachten.</span>",
         "description": "Onze standaardlevering voor de eerste versie is binnen 72 uur voor de meeste projecten. Sneller nodig? Kies voor onze 48-uurs, 24-uurs of Same Day Delivery opties (afhankelijk van de omvang en beschikbaarheid van het project).",
         "subtitle_1": "Zakelijke Evenementenfotografie",
         "text_1": "Professionele evenementenfotografie voor congressen, zakelijke bijeenkomsten, seminars en netwerkevenementen.",
