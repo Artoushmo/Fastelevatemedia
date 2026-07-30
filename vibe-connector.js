@@ -152,20 +152,46 @@
    * zodat de klant beide types kan toevoegen zonder dat classes,
    * verhoudingen of hover-effecten veranderen.
    */
+  /**
+   * Kiest de tegel die als sjabloon dient voor nieuwe items: de vorm die het
+   * vaakst voorkomt. Niet simpelweg de eerste — galerijen openen vaak met een
+   * bewust bredere tegel (md:col-span-2), en die klonen zou elke toegevoegde
+   * foto dubbelbreed maken.
+   */
+  function pickTemplate(children, wantVideo) {
+    var counts = {};
+    var byClass = {};
+    var best = null;
+
+    children.forEach(function (child) {
+      var media = mediaElementOf(child);
+      if (!media) return;
+      if ((media.tagName === "VIDEO") !== wantVideo) return;
+      var key = child.className || "";
+      counts[key] = (counts[key] || 0) + 1;
+      if (!byClass[key]) byClass[key] = child;
+      if (!best || counts[key] > counts[best]) best = key;
+    });
+
+    return best === null ? null : byClass[best].cloneNode(true);
+  }
+
   function setGallery(container, rawItems) {
-    if (!Array.isArray(rawItems) || rawItems.length === 0) return false;
-    var items = rawItems.map(normalizeGalleryItem).filter(Boolean);
+    if (!Array.isArray(rawItems)) return false;
+    // Tegels zonder beeld én zonder clip hebben niets te tonen; ze zouden als
+    // leeg grijs vlak op de site verschijnen. Ze blijven wel in content.json
+    // staan, zodat de klant ze in de editor kan afmaken.
+    var items = rawItems
+      .map(normalizeGalleryItem)
+      .filter(function (item) {
+        return item && (item.url || item.clip);
+      });
     if (!items.length || !container.firstElementChild) return false;
 
     // Sjablonen kiezen vóór er iets gewijzigd wordt.
-    var photoTemplate = null;
-    var videoTemplate = null;
-    Array.prototype.forEach.call(container.children, function (child) {
-      var media = mediaElementOf(child);
-      if (!media) return;
-      if (media.tagName === "VIDEO" && !videoTemplate) videoTemplate = child.cloneNode(true);
-      if (media.tagName === "IMG" && !photoTemplate) photoTemplate = child.cloneNode(true);
-    });
+    var children = Array.prototype.slice.call(container.children);
+    var photoTemplate = pickTemplate(children, false);
+    var videoTemplate = pickTemplate(children, true);
     var fallback = photoTemplate || videoTemplate;
     if (!fallback) return false;
 
@@ -190,6 +216,9 @@
         var source = wantVideo ? videoTemplate : photoTemplate;
         if (source) {
           var fresh = source.cloneNode(true);
+          // Deze plek in het raster houdt zijn eigen vorm — een bredere
+          // openingstegel blijft breed; alleen het mediatype verandert.
+          if (child.className) fresh.className = child.className;
           child.replaceWith(fresh);
           child = fresh;
         }
