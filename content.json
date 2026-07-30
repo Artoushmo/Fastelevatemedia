@@ -1153,7 +1153,7 @@
       "MediaSolutions": {
         "title": "Media Solutions",
         "description": "Our Core Services",
-        "image": "../images/Joshua_Statie12.jpg",
+        "image": "./images/Joshua_Statie12.jpg",
         "image_alt": "Photography",
         "subtitle_1": "Photography",
         "text_1": "Professional corporate event photography for conferences, business events and corporate gatherings. We capture keynote speakers, audience interaction, networking moments and brand presence with a consistent visual style that aligns with your company's identity.",
@@ -2746,49 +2746,59 @@
         "description": "Bekijk een momentopname van onze fotografieproducties",
         "gallery": [
           {
-            "url": "./images/DSC_4326-Verbeterd-NR-2.jpg",
-            "alt": "Corporate event photography production",
-            "videoUrl": ""
+            "url": "../images/DSC_4326-Verbeterd-NR-2.jpg",
+            "alt": "Corporate event fotografie productie",
+            "caption": "Executive Presentatie"
           },
           {
-            "url": "./images/DSC_4998-Verbeterd-NR.jpg",
-            "alt": "Audience engagement conference photography"
+            "url": "../images/DSC_4998-Verbeterd-NR.jpg",
+            "alt": "Publieksinteractie conferentiefotografie",
+            "caption": "Betrokkenheid van het Publiek"
           },
           {
-            "url": "./images/NZ3_9428-Verbeterd-NR.jpg",
-            "alt": "Corporate event photography summit"
+            "url": "../images/NZ3_9428-Verbeterd-NR.jpg",
+            "alt": "Corporate event fotografie summit",
+            "caption": "Netwerken tijdens Zakelijke Summit"
           },
           {
-            "url": "./images/Joshua_Statie03.jpg",
-            "alt": "Executive portrait photography"
+            "url": "../images/Joshua_Statie03.jpg",
+            "alt": "Executive portretfotografie",
+            "caption": "Executive Portretsessie"
           },
           {
-            "url": "./images/DSC_9147.jpg",
-            "alt": "Stage presentation keynote speaker photography"
+            "url": "../images/DSC_9147.jpg",
+            "alt": "Podiumpresentatie keynote spreker fotografie",
+            "caption": "Keynote Spreker op het Podium"
           },
           {
-            "url": "./images/DSC_0963.jpg",
-            "alt": "Corporate event panel discussion"
+            "url": "../images/DSC_0963.jpg",
+            "alt": "Corporate event paneldiscussie",
+            "caption": "Q&A Paneldiscussie"
           },
           {
-            "url": "./images/gallery-prosus-1.jpg",
-            "alt": "Business networking lounge atmosphere"
+            "url": "../images/gallery-prosus-1.jpg",
+            "alt": "Zakelijke netwerklounge sfeer",
+            "caption": "Sfeer in de Netwerklounge"
           },
           {
-            "url": "./images/2025-10-30-Architect-at-Work-by-Daan-Jeurens-Websized-21.jpg",
-            "alt": "Architect at Work event production"
+            "url": "../images/2025-10-30-Architect-at-Work-by-Daan-Jeurens-Websized-21.jpg",
+            "alt": "Architect at Work evenementenproductie",
+            "caption": "Architect at Work Productie"
           },
           {
-            "url": "./images/DSC_9824-Verbeterd-NR.jpg",
-            "alt": "Corporate exhibition event photography"
+            "url": "../images/DSC_9824-Verbeterd-NR.jpg",
+            "alt": "Zakelijke beurs eventfotografie",
+            "caption": "Interactie op de Beursvloer"
           },
           {
-            "url": "./images/gallery-prosus-2.jpg",
-            "alt": "Main stage panel discussion photography"
+            "url": "../images/gallery-prosus-2.jpg",
+            "alt": "Hoofdpodium paneldiscussie fotografie",
+            "caption": "Paneldiscussie op het Hoofdpodium"
           },
           {
-            "url": "./images/DSC_1964.jpg",
-            "alt": "Audience reaction event coverage"
+            "url": "../images/DSC_1964.jpg",
+            "alt": "Publieksreactie eventverslaglegging",
+            "caption": "Reactie van het Publiek"
           }
         ],
         "image": "../images/DSC_4326-Verbeterd-NR-2.jpg",
@@ -3189,34 +3199,34 @@
         "description": "Bekijk een selectie van onze recente producties",
         "gallery": [
           {
-            "clip": "./images/GBg-2020.mp4#t=5",
+            "clip": "../images/GBg-2020.mp4#t=5",
             "url": "",
             "videoUrl": "https://vimeo.com/1214376261?fl=tl&fe=ec",
-            "caption": "Corporate Aftermovie Production"
+            "caption": "Productie van zakelijke aftermovies"
           },
           {
-            "clip": "./images/Example-Edited-Footage-GGG.mp4#t=5",
+            "clip": "../images/Example-Edited-Footage-GGG.mp4#t=5",
             "url": "",
             "videoUrl": "https://vimeo.com/1203179052",
-            "caption": "Dynamic Event Highlight Video"
+            "caption": "Dynamische evenementenhoogtepunten"
           },
           {
-            "clip": "./images/Cebo.mp4#t=5",
+            "clip": "../images/Cebo.mp4#t=5",
             "url": "",
             "videoUrl": "https://vimeo.com/1203179007",
-            "caption": "Recruitment & Employer Branding Video"
+            "caption": "Wervings- & employer brandingvideo"
           },
           {
-            "clip": "./images/Cabaia-1.mp4#t=5",
+            "clip": "../images/Cabaia-1.mp4#t=5",
             "url": "",
             "videoUrl": "https://vimeo.com/1203179004",
-            "caption": "Commercial Brand Activation Video"
+            "caption": "Commerciële merkactivatievideo"
           },
           {
-            "clip": "./images/Planten-Kas.mp4#t=5",
+            "clip": "../images/Planten-Kas.mp4#t=5",
             "url": "",
             "videoUrl": "https://vimeo.com/1203179075",
-            "caption": "Corporate Location & Facility Tour"
+            "caption": "Rondleiding op zakelijke locaties & faciliteiten"
           }
         ],
         "video": "../images/GBg-2020.mp4#t=5",
@@ -3624,23 +3634,28 @@
         "gallery": [
           {
             "url": "../images/Elevate-Website-FEM.jpg",
-            "alt": "Keynote in Evenementenruimte"
+            "alt": "Keynote in Evenementenruimte",
+            "caption": "Keynote in Evenementenruimte"
           },
           {
             "url": "../images/Corporate-Website-FEM-grijs.jpg",
-            "alt": "Bijeenkomst van Directieleden"
+            "alt": "Bijeenkomst van Directieleden",
+            "caption": "Bijeenkomst van Directieleden"
           },
           {
             "url": "../images/zaal.jpg",
-            "alt": "Overzicht Evenementenhal"
+            "alt": "Overzicht Evenementenhal",
+            "caption": "Overzicht Evenementenhal"
           },
           {
             "url": "../images/Interview-Website-FEM.jpg",
-            "alt": "Interviewopstelling Directieleden"
+            "alt": "Interviewopstelling Directieleden",
+            "caption": "Interviewopstelling Directieleden"
           },
           {
             "url": "../images/Drone-Website-FEM.jpg",
-            "alt": "Luchtfoto van Locatie"
+            "alt": "Luchtfoto van Locatie",
+            "caption": "Luchtfoto van Locatie"
           }
         ],
         "image": "../images/Elevate-Website-FEM.jpg",
@@ -4443,47 +4458,58 @@
         "gallery": [
           {
             "url": "../images/abnamro-scaled-1.jpg",
-            "alt": "ABN AMRO portretten"
+            "alt": "ABN AMRO portretten",
+            "caption": "Zakelijke portretsessie voor ABN AMRO"
           },
           {
             "url": "../images/SQLI_Goedgekeurd_JPG_1-scaled-1.jpg",
-            "alt": "SQLI portretten"
+            "alt": "SQLI portretten",
+            "caption": "Professioneel zakelijk portret voor SQLI"
           },
           {
             "url": "../images/Leadinfo_Goedgekeurd_JPG-scaled-1.jpg",
-            "alt": "Leadinfo portretten"
+            "alt": "Leadinfo portretten",
+            "caption": "Zakelijk directieportret voor Leadinfo"
           },
           {
             "url": "../images/DSC_5726-scaled-1.jpg",
-            "alt": "Executive portretten"
+            "alt": "Executive portretten",
+            "caption": "Executive portretsessie"
           },
           {
             "url": "../images/Bleckmann_Goedgekeurd_JPG_1-scaled-1.jpg",
-            "alt": "Bleckmann portretten"
+            "alt": "Bleckmann portretten",
+            "caption": "Zakelijke portretsessie voor Bleckmann"
           },
           {
             "url": "../images/49A5231-scaled-1.jpg",
-            "alt": "Medewerkers portretten"
+            "alt": "Medewerkers portretten",
+            "caption": "Portretsessie voor medewerkers"
           },
           {
             "url": "../images/49A5825-scaled-1.jpg",
-            "alt": "Portretten op locatie"
+            "alt": "Portretten op locatie",
+            "caption": "Portret op locatie bij een bedrijfskantoor"
           },
           {
             "url": "../images/49A5601-scaled-1.jpg",
-            "alt": "Directie headshots"
+            "alt": "Directie headshots",
+            "caption": "Headshot van het directieteam"
           },
           {
             "url": "../images/Channable_Goedgekeurd_JPG_2-scaled-1.jpg",
-            "alt": "Channable portretten"
+            "alt": "Channable portretten",
+            "caption": "Zakelijke portretsessie voor Channable"
           },
           {
             "url": "../images/SparkOptimus_Goedgekeurd_JPG_1-scaled-1.jpg",
-            "alt": "SparkOptimus portretten"
+            "alt": "SparkOptimus portretten",
+            "caption": "Professioneel portret voor SparkOptimus"
           },
           {
             "url": "../images/Salesupply_Goedgekeurd_JPG_1-scaled-1.jpg",
-            "alt": "Salesupply portretten"
+            "alt": "Salesupply portretten",
+            "caption": "Zakelijk portret voor Salesupply"
           }
         ],
         "image": "../images/abnamro-scaled-1.jpg",
