@@ -269,7 +269,8 @@
         "gallery": [
           {
             "url": "./images/DSC_4326-Verbeterd-NR-2.jpg",
-            "alt": "Corporate event photography production"
+            "alt": "Corporate event photography production",
+            "videoUrl": "https://vimeo.com/1214376232?share=copy&fl=sv&fe=ci"
           },
           {
             "url": "./images/DSC_4998-Verbeterd-NR.jpg",
@@ -2745,48 +2746,49 @@
         "description": "Bekijk een momentopname van onze fotografieproducties",
         "gallery": [
           {
-            "url": "../images/DSC_4326-Verbeterd-NR-2.jpg",
-            "alt": "Corporate event fotografie productie"
+            "url": "./images/DSC_4326-Verbeterd-NR-2.jpg",
+            "alt": "Corporate event photography production",
+            "videoUrl": "https://vimeo.com/1214376232?share=copy&fl=sv&fe=ci"
           },
           {
-            "url": "../images/DSC_4998-Verbeterd-NR.jpg",
-            "alt": "Publieksinteractie conferentiefotografie"
+            "url": "./images/DSC_4998-Verbeterd-NR.jpg",
+            "alt": "Audience engagement conference photography"
           },
           {
-            "url": "../images/NZ3_9428-Verbeterd-NR.jpg",
-            "alt": "Corporate event fotografie summit"
+            "url": "./images/NZ3_9428-Verbeterd-NR.jpg",
+            "alt": "Corporate event photography summit"
           },
           {
-            "url": "../images/Joshua_Statie03.jpg",
-            "alt": "Executive portretfotografie"
+            "url": "./images/Joshua_Statie03.jpg",
+            "alt": "Executive portrait photography"
           },
           {
-            "url": "../images/DSC_9147.jpg",
-            "alt": "Podiumpresentatie keynote spreker fotografie"
+            "url": "./images/DSC_9147.jpg",
+            "alt": "Stage presentation keynote speaker photography"
           },
           {
-            "url": "../images/DSC_0963.jpg",
-            "alt": "Corporate event paneldiscussie"
+            "url": "./images/DSC_0963.jpg",
+            "alt": "Corporate event panel discussion"
           },
           {
-            "url": "../images/gallery-prosus-1.jpg",
-            "alt": "Zakelijke netwerklounge sfeer"
+            "url": "./images/gallery-prosus-1.jpg",
+            "alt": "Business networking lounge atmosphere"
           },
           {
-            "url": "../images/2025-10-30-Architect-at-Work-by-Daan-Jeurens-Websized-21.jpg",
-            "alt": "Architect at Work evenementenproductie"
+            "url": "./images/2025-10-30-Architect-at-Work-by-Daan-Jeurens-Websized-21.jpg",
+            "alt": "Architect at Work event production"
           },
           {
-            "url": "../images/DSC_9824-Verbeterd-NR.jpg",
-            "alt": "Zakelijke beurs eventfotografie"
+            "url": "./images/DSC_9824-Verbeterd-NR.jpg",
+            "alt": "Corporate exhibition event photography"
           },
           {
-            "url": "../images/gallery-prosus-2.jpg",
-            "alt": "Hoofdpodium paneldiscussie fotografie"
+            "url": "./images/gallery-prosus-2.jpg",
+            "alt": "Main stage panel discussion photography"
           },
           {
-            "url": "../images/DSC_1964.jpg",
-            "alt": "Publieksreactie eventverslaglegging"
+            "url": "./images/DSC_1964.jpg",
+            "alt": "Audience reaction event coverage"
           }
         ],
         "image": "../images/DSC_4326-Verbeterd-NR-2.jpg",
