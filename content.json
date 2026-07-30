@@ -3189,34 +3189,34 @@
         "description": "Bekijk een selectie van onze recente producties",
         "gallery": [
           {
-            "clip": "../images/GBg-2020.mp4#t=5",
+            "clip": "./images/GBg-2020.mp4#t=5",
             "url": "",
             "videoUrl": "https://vimeo.com/1203179059",
-            "caption": "Productie van zakelijke aftermovies"
+            "caption": "Corporate Aftermovie Production"
           },
           {
-            "clip": "../images/Example-Edited-Footage-GGG.mp4#t=5",
+            "clip": "./images/Example-Edited-Footage-GGG.mp4#t=5",
             "url": "",
             "videoUrl": "https://vimeo.com/1203179052",
-            "caption": "Dynamische evenementenhoogtepunten"
+            "caption": "Dynamic Event Highlight Video"
           },
           {
-            "clip": "../images/Cebo.mp4#t=5",
+            "clip": "./images/Cebo.mp4#t=5",
             "url": "",
             "videoUrl": "https://vimeo.com/1203179007",
-            "caption": "Wervings- & employer brandingvideo"
+            "caption": "Recruitment & Employer Branding Video"
           },
           {
-            "clip": "../images/Cabaia-1.mp4#t=5",
+            "clip": "./images/Cabaia-1.mp4#t=5",
             "url": "",
             "videoUrl": "https://vimeo.com/1203179004",
-            "caption": "Commerciële merkactivatievideo"
+            "caption": "Commercial Brand Activation Video"
           },
           {
-            "clip": "../images/Planten-Kas.mp4#t=5",
+            "clip": "./images/Planten-Kas.mp4#t=5",
             "url": "",
             "videoUrl": "https://vimeo.com/1203179075",
-            "caption": "Rondleiding op zakelijke locaties & faciliteiten"
+            "caption": "Corporate Location & Facility Tour"
           }
         ],
         "video": "../images/GBg-2020.mp4#t=5",
