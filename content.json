@@ -628,7 +628,7 @@
             "clip": "./images/GBg-2020.mp4#t=5",
             "url": "",
             "videoUrl": "https://vimeo.com/1214376261?fl=tl&fe=ec",
-            "caption": "Corporate Aftermovie Production"
+            "caption": "Corporate Aftermovie Production "
           },
           {
             "clip": "./images/Example-Edited-Footage-GGG.mp4#t=5",
@@ -655,9 +655,9 @@
             "caption": "Corporate Location & Facility Tour"
           },
           {
-            "url": "",
+            "url": "./images/video-thumbs/vimeo-1214376263.jpg",
             "caption": "test",
-            "videoUrl": "https://vimeo.com/1214376261?fl=tl&fe=ec"
+            "videoUrl": "https://vimeo.com/1214376263?share=copy&fl=sv&fe=ci"
           }
         ],
         "video": "./images/GBg-2020.mp4#t=5",
@@ -3235,9 +3235,9 @@
             "caption": "Rondleiding op zakelijke locaties & faciliteiten"
           },
           {
-            "url": "",
+            "url": "../images/video-thumbs/vimeo-1214376263.jpg",
             "caption": "test",
-            "videoUrl": "https://vimeo.com/1214376261?fl=tl&fe=ec"
+            "videoUrl": "https://vimeo.com/1214376263?share=copy&fl=sv&fe=ci"
           }
         ],
         "video": "../images/GBg-2020.mp4#t=5",
