@@ -467,6 +467,20 @@
       "ExploreOurWork": {
         "title": "Explore our work",
         "description": "See examples of our corporate interview and testimonial video productions",
+        "gallery": [
+          {
+            "clip": "./images/010724_CEBO-HOLLAND-Recruitment-video.mp4#t=5",
+            "url": "",
+            "videoUrl": "https://vimeo.com/1203179007",
+            "caption": "Corporate Recruitment Video"
+          },
+          {
+            "clip": "./images/GBG-x-RayBan.mp4#t=5",
+            "url": "",
+            "videoUrl": "https://vimeo.com/1203179064",
+            "caption": "Corporate Brand Collaboration Video"
+          }
+        ],
         "video": "./images/010724_CEBO-HOLLAND-Recruitment-video.mp4#t=5",
         "video_2": "./images/GBG-x-RayBan.mp4#t=5"
       },
@@ -608,6 +622,38 @@
       "ExploreOurWork": {
         "title": "Explore our work",
         "description": "See a snapshot of our recent productions",
+        "gallery": [
+          {
+            "clip": "./images/GBg-2020.mp4#t=5",
+            "url": "",
+            "videoUrl": "https://vimeo.com/1203179059",
+            "caption": "Corporate Aftermovie Production"
+          },
+          {
+            "clip": "./images/Example-Edited-Footage-GGG.mp4#t=5",
+            "url": "",
+            "videoUrl": "https://vimeo.com/1203179052",
+            "caption": "Dynamic Event Highlight Video"
+          },
+          {
+            "clip": "./images/Cebo.mp4#t=5",
+            "url": "",
+            "videoUrl": "https://vimeo.com/1203179007",
+            "caption": "Recruitment & Employer Branding Video"
+          },
+          {
+            "clip": "./images/Cabaia-1.mp4#t=5",
+            "url": "",
+            "videoUrl": "https://vimeo.com/1203179004",
+            "caption": "Commercial Brand Activation Video"
+          },
+          {
+            "clip": "./images/Planten-Kas.mp4#t=5",
+            "url": "",
+            "videoUrl": "https://vimeo.com/1203179075",
+            "caption": "Corporate Location & Facility Tour"
+          }
+        ],
         "video": "./images/GBg-2020.mp4#t=5",
         "video_2": "./images/Example-Edited-Footage-GGG.mp4#t=5",
         "video_3": "./images/Cebo.mp4#t=5",
@@ -760,6 +806,72 @@
       "ExploreOurWork": {
         "title": "Explore our work",
         "description": "Discover examples of our drone video production and aerial photography across corporate events, business locations and commercial properties.",
+        "gallery": [
+          {
+            "url": "./images/Drone-Amsterdam-Lowres.jpg",
+            "alt": "Amsterdam Aerial Scenery",
+            "caption": "Amsterdam Aerial Scenery"
+          },
+          {
+            "clip": "./images/05-02-25_-SolarPanels-3000_CEBO-HOLLAND.mp4#t=5",
+            "url": "",
+            "videoUrl": "https://vimeo.com/1203179006",
+            "caption": "Solar Panels - Cebo Holland"
+          },
+          {
+            "url": "./images/DJI_0271-Verbeterd-NR.jpg",
+            "alt": "Event Aerial Perspective",
+            "caption": "Event Aerial Perspective"
+          },
+          {
+            "clip": "./images/Utrecht-Woningen-shot-2.mp4#t=5",
+            "url": "",
+            "videoUrl": "https://vimeo.com/1203179080",
+            "caption": "Utrecht Residential Drone Coverage"
+          },
+          {
+            "clip": "./images/drone-olympisch-stadion-1.mp4#t=5",
+            "url": "",
+            "videoUrl": "https://vimeo.com/1203179051",
+            "caption": "Olympisch Stadion Amsterdam"
+          },
+          {
+            "url": "https://i.vimeocdn.com/video/2185295264-6af8a40be5be2387623a24d6c60495b33aadf99b0123e615d169902607f8a5be-d?region=us",
+            "alt": "Roadshow Rotterdam",
+            "videoUrl": "https://vimeo.com/1214376229",
+            "caption": "Roadshow Rotterdam"
+          },
+          {
+            "url": "https://i.vimeocdn.com/video/2185294002-3474a48d6bd686024e5ed7216c7639d976cdebca6c97fc7f638cb4b11e822a6e-d?region=us",
+            "alt": "Casa di David Amsterdam",
+            "videoUrl": "https://vimeo.com/1214376261",
+            "caption": "Casa di David Amsterdam"
+          },
+          {
+            "url": "https://i.vimeocdn.com/video/2185295495-252aaf098bfc5b8d844024d1414d8ca39f42a15abf3abed9d84fa6ae0bb1f1a8-d?region=us",
+            "alt": "War Room 2026 Drone",
+            "videoUrl": "https://vimeo.com/1214376263",
+            "caption": "War Room 2026 Drone"
+          },
+          {
+            "url": "https://i.vimeocdn.com/video/2185295707-c5322d03d66dfda5daf43c834a449a90c3bea4c871d97e4e2c771ad6488a4d57-d?region=us",
+            "alt": "Bar Lely Amsterdam",
+            "videoUrl": "https://vimeo.com/1214376227",
+            "caption": "Bar Lely Amsterdam"
+          },
+          {
+            "url": "https://i.vimeocdn.com/video/2185293956-995412b103cd5f66f95be8da4a9c5c2e257a85a30d8322b830ae8c87c4a64048-d?region=us",
+            "alt": "Roadshow Amsterdam",
+            "videoUrl": "https://vimeo.com/1214376228",
+            "caption": "Roadshow Amsterdam"
+          },
+          {
+            "url": "https://i.vimeocdn.com/video/2185293950-2d15add2e125417c5f972c984dab2ef905a2df8abb57688591a969b18c85772c-d?region=us",
+            "alt": "Roadshow Eindhoven",
+            "videoUrl": "https://vimeo.com/1214376232",
+            "caption": "Roadshow Eindhoven"
+          }
+        ],
         "image": "./images/Drone-Amsterdam-Lowres.jpg",
         "image_alt": "Amsterdam Aerial Scenery",
         "image_1": "./images/DJI_0271-Verbeterd-NR.jpg",
@@ -2875,6 +2987,20 @@
       "OntdekOnsWerk": {
         "title": "Ontdek ons werk",
         "description": "Bekijk voorbeelden van onze zakelijke interviews en testimonial-videoproducties",
+        "gallery": [
+          {
+            "clip": "../images/010724_CEBO-HOLLAND-Recruitment-video.mp4#t=5",
+            "url": "",
+            "videoUrl": "https://vimeo.com/1203179007",
+            "caption": "Zakelijke wervingsvideo"
+          },
+          {
+            "clip": "../images/GBG-x-RayBan.mp4#t=5",
+            "url": "",
+            "videoUrl": "https://vimeo.com/1203179064",
+            "caption": "Zakelijke merksamenwerkingsvideo"
+          }
+        ],
         "video": "../images/010724_CEBO-HOLLAND-Recruitment-video.mp4#t=5",
         "video_2": "../images/GBG-x-RayBan.mp4#t=5"
       },
@@ -3059,6 +3185,38 @@
       "OntdekOnsWerk": {
         "title": "Ontdek ons werk",
         "description": "Bekijk een selectie van onze recente producties",
+        "gallery": [
+          {
+            "clip": "../images/GBg-2020.mp4#t=5",
+            "url": "",
+            "videoUrl": "https://vimeo.com/1203179059",
+            "caption": "Productie van zakelijke aftermovies"
+          },
+          {
+            "clip": "../images/Example-Edited-Footage-GGG.mp4#t=5",
+            "url": "",
+            "videoUrl": "https://vimeo.com/1203179052",
+            "caption": "Dynamische evenementenhoogtepunten"
+          },
+          {
+            "clip": "../images/Cebo.mp4#t=5",
+            "url": "",
+            "videoUrl": "https://vimeo.com/1203179007",
+            "caption": "Wervings- & employer brandingvideo"
+          },
+          {
+            "clip": "../images/Cabaia-1.mp4#t=5",
+            "url": "",
+            "videoUrl": "https://vimeo.com/1203179004",
+            "caption": "Commerciële merkactivatievideo"
+          },
+          {
+            "clip": "../images/Planten-Kas.mp4#t=5",
+            "url": "",
+            "videoUrl": "https://vimeo.com/1203179075",
+            "caption": "Rondleiding op zakelijke locaties & faciliteiten"
+          }
+        ],
         "video": "../images/GBg-2020.mp4#t=5",
         "video_2": "../images/Example-Edited-Footage-GGG.mp4#t=5",
         "video_3": "../images/Cebo.mp4#t=5",
@@ -3254,6 +3412,72 @@
       "OntdekOnsWerk": {
         "title": "Ontdek ons werk",
         "description": "Ontdek voorbeelden van onze drone-videoproductie en luchtfotografie bij bedrijfsevenementen, bedrijfslocaties en commercieel vastgoed.",
+        "gallery": [
+          {
+            "url": "../images/Drone-Amsterdam-Lowres.jpg",
+            "alt": "Luchtbeelden van Amsterdam",
+            "caption": "Luchtbeelden van Amsterdam"
+          },
+          {
+            "clip": "../images/05-02-25_-SolarPanels-3000_CEBO-HOLLAND.mp4#t=5",
+            "url": "",
+            "videoUrl": "https://vimeo.com/1203179006",
+            "caption": "Zonnepanelen - Cebo Holland"
+          },
+          {
+            "url": "../images/DJI_0271-Verbeterd-NR.jpg",
+            "alt": "Luchtperspectief van Evenement",
+            "caption": "Luchtperspectief van Evenement"
+          },
+          {
+            "clip": "../images/Utrecht-Woningen-shot-2.mp4#t=5",
+            "url": "",
+            "videoUrl": "https://vimeo.com/1203179080",
+            "caption": "Drone-opnames van Woonwijk Utrecht"
+          },
+          {
+            "clip": "../images/drone-olympisch-stadion-1.mp4#t=5",
+            "url": "",
+            "videoUrl": "https://vimeo.com/1203179051",
+            "caption": "Olympisch Stadion Amsterdam"
+          },
+          {
+            "url": "https://i.vimeocdn.com/video/2185295264-6af8a40be5be2387623a24d6c60495b33aadf99b0123e615d169902607f8a5be-d?region=us",
+            "alt": "Roadshow Rotterdam",
+            "videoUrl": "https://vimeo.com/1214376229",
+            "caption": "Roadshow Rotterdam"
+          },
+          {
+            "url": "https://i.vimeocdn.com/video/2185294002-3474a48d6bd686024e5ed7216c7639d976cdebca6c97fc7f638cb4b11e822a6e-d?region=us",
+            "alt": "Casa di David Amsterdam",
+            "videoUrl": "https://vimeo.com/1214376261",
+            "caption": "Casa di David Amsterdam"
+          },
+          {
+            "url": "https://i.vimeocdn.com/video/2185295495-252aaf098bfc5b8d844024d1414d8ca39f42a15abf3abed9d84fa6ae0bb1f1a8-d?region=us",
+            "alt": "War Room 2026 Drone",
+            "videoUrl": "https://vimeo.com/1214376263",
+            "caption": "War Room 2026 Drone"
+          },
+          {
+            "url": "https://i.vimeocdn.com/video/2185295707-c5322d03d66dfda5daf43c834a449a90c3bea4c871d97e4e2c771ad6488a4d57-d?region=us",
+            "alt": "Bar Lely Amsterdam",
+            "videoUrl": "https://vimeo.com/1214376227",
+            "caption": "Bar Lely Amsterdam"
+          },
+          {
+            "url": "https://i.vimeocdn.com/video/2185293956-995412b103cd5f66f95be8da4a9c5c2e257a85a30d8322b830ae8c87c4a64048-d?region=us",
+            "alt": "Roadshow Amsterdam",
+            "videoUrl": "https://vimeo.com/1214376228",
+            "caption": "Roadshow Amsterdam"
+          },
+          {
+            "url": "https://i.vimeocdn.com/video/2185293950-2d15add2e125417c5f972c984dab2ef905a2df8abb57688591a969b18c85772c-d?region=us",
+            "alt": "Roadshow Eindhoven",
+            "videoUrl": "https://vimeo.com/1214376232",
+            "caption": "Roadshow Eindhoven"
+          }
+        ],
         "image": "../images/Drone-Amsterdam-Lowres.jpg",
         "image_alt": "Luchtbeelden van Amsterdam",
         "image_1": "../images/DJI_0271-Verbeterd-NR.jpg",

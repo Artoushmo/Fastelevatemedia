@@ -68,59 +68,155 @@
     node.style.backgroundImage = 'url("' + url + '")';
   }
 
+  /**
+   * Een #t=-fragment dat voorbij het einde van de clip ligt levert het zwarte
+   * eindframe op als stilstaand beeld. De bedoeling van zo'n fragment is juist
+   * om een intro over te slaan, dus vallen we terug op een frame vroeg in de
+   * clip. Zonder dit toont een te korte clip een zwarte tegel.
+   */
+  function fixOutOfRangeSeek(node, url) {
+    var fragment = /#t=(\d+(?:\.\d+)?)/.exec(url);
+    if (!fragment) return;
+    var wanted = parseFloat(fragment[1]);
+
+    var correct = function () {
+      if (!isFinite(node.duration) || node.duration === 0) return;
+      if (wanted < node.duration) return;
+      node.currentTime = Math.min(1, node.duration / 4);
+    };
+
+    if (node.readyState >= 1) {
+      correct();
+      return;
+    }
+    var onMeta = function () {
+      node.removeEventListener("loadedmetadata", onMeta);
+      correct();
+    };
+    node.addEventListener("loadedmetadata", onMeta);
+  }
+
   function setVideo(node, url) {
     if (!url) return;
     var source = node.querySelector("source");
-    if (source) {
-      if (source.getAttribute("src") === url) return;
-      source.setAttribute("src", url);
-    } else {
-      if (node.getAttribute("src") === url) return;
-      node.setAttribute("src", url);
+    var current = source ? source.getAttribute("src") : node.getAttribute("src");
+
+    if (current !== url) {
+      if (source) source.setAttribute("src", url);
+      else node.setAttribute("src", url);
+      // Zonder load() blijft de speler op de oude bron hangen.
+      if (typeof node.load === "function") node.load();
     }
-    // Zonder load() blijft de speler op de oude bron hangen.
-    if (typeof node.load === "function") node.load();
+
+    fixOutOfRangeSeek(node, url);
+  }
+
+  function mediaElementOf(child) {
+    if (child.tagName === "IMG" || child.tagName === "VIDEO") return child;
+    return child.querySelector("img, video");
   }
 
   /**
-   * Galleries: het aantal items volgt content.json, maar de opmaak komt uit
-   * het bestaande eerste item. Zo kan de klant foto's toevoegen of weghalen
-   * zonder dat classes, verhoudingen of hover-effecten veranderen.
+   * Zorgt dat een tegel het juiste mediatype toont. Alleen het blad-element
+   * (img of video) wordt verwisseld; de tegel zelf — met al zijn classes,
+   * verhoudingen en overlays — blijft ongemoeid. Dat is precies hoe de site
+   * het zelf ook doet: dezelfde wrapper, een ander mediabeeld erin.
    */
-  function setGallery(container, items) {
-    if (!Array.isArray(items) || items.length === 0) return false;
-    var first = container.firstElementChild;
-    if (!first) return false;
+  function ensureMediaType(child, wantVideo) {
+    var current = mediaElementOf(child);
+    if (!current) return null;
+    var wantTag = wantVideo ? "VIDEO" : "IMG";
+    if (current.tagName === wantTag) return current;
 
-    var template = first.cloneNode(true);
+    var replacement = document.createElement(wantVideo ? "video" : "img");
+    replacement.className = current.className;
+    if (wantVideo) {
+      replacement.muted = true;
+      replacement.loop = true;
+      replacement.playsInline = true;
+      replacement.setAttribute("preload", "auto");
+      replacement.appendChild(document.createElement("source"));
+    }
+    current.replaceWith(replacement);
+    return replacement;
+  }
+
+  function normalizeGalleryItem(item) {
+    if (typeof item === "string") return { url: item };
+    return item && typeof item === "object" ? item : null;
+  }
+
+  /**
+   * Galleries: het aantal tegels volgt content.json, maar de opmaak komt uit
+   * de bestaande tegels. Foto- en videotegels hebben elk hun eigen sjabloon,
+   * zodat de klant beide types kan toevoegen zonder dat classes,
+   * verhoudingen of hover-effecten veranderen.
+   */
+  function setGallery(container, rawItems) {
+    if (!Array.isArray(rawItems) || rawItems.length === 0) return false;
+    var items = rawItems.map(normalizeGalleryItem).filter(Boolean);
+    if (!items.length || !container.firstElementChild) return false;
+
+    // Sjablonen kiezen vóór er iets gewijzigd wordt.
+    var photoTemplate = null;
+    var videoTemplate = null;
+    Array.prototype.forEach.call(container.children, function (child) {
+      var media = mediaElementOf(child);
+      if (!media) return;
+      if (media.tagName === "VIDEO" && !videoTemplate) videoTemplate = child.cloneNode(true);
+      if (media.tagName === "IMG" && !photoTemplate) photoTemplate = child.cloneNode(true);
+    });
+    var fallback = photoTemplate || videoTemplate;
+    if (!fallback) return false;
 
     while (container.children.length > items.length) {
       container.removeChild(container.lastElementChild);
     }
     var grew = false;
     while (container.children.length < items.length) {
-      container.appendChild(template.cloneNode(true));
+      container.appendChild(fallback.cloneNode(true));
       grew = true;
     }
 
     Array.prototype.forEach.call(container.children, function (child, index) {
       var item = items[index];
-      var url = typeof item === "string" ? item : item && item.url;
-      var alt = item && typeof item === "object" ? item.alt || "" : "";
-      if (!url) return;
+      var wantVideo = Boolean(item.clip);
 
-      var img = child.tagName === "IMG" ? child : child.querySelector("img");
-      if (img) {
-        img.src = url;
-        if (alt) img.alt = alt;
+      // Wisselt de tegel van type, begin dan van het juiste sjabloon zodat
+      // ook overlay-iconen (vergrootglas versus play-knop) kloppen.
+      var current = mediaElementOf(child);
+      var isVideoNow = Boolean(current && current.tagName === "VIDEO");
+      if (wantVideo !== isVideoNow) {
+        var source = wantVideo ? videoTemplate : photoTemplate;
+        if (source) {
+          var fresh = source.cloneNode(true);
+          child.replaceWith(fresh);
+          child = fresh;
+        }
       }
-      // Lightboxes lezen de bron vaak van het item zelf; meelopen houdt ze kloppend.
-      if (child.hasAttribute && child.hasAttribute("data-img-url")) {
-        child.setAttribute("data-img-url", url);
+
+      var media = ensureMediaType(child, wantVideo);
+      if (media) {
+        if (wantVideo) {
+          setVideo(media, item.clip);
+          if (item.url) media.poster = item.url;
+        } else if (item.url) {
+          media.src = item.url;
+          // Een eigen alt-tekst wint; anders dient het bijschrift als
+          // beschrijving voor schermlezers en zoekmachines.
+          var altText = item.alt || item.caption;
+          if (altText) media.alt = altText;
+        }
       }
-      if (alt && child.hasAttribute && child.hasAttribute("data-caption")) {
-        child.setAttribute("data-caption", alt);
+
+      // De lightbox van de site leest deze attributen; meelopen houdt hem
+      // kloppend, ook voor pas toegevoegde tegels.
+      if (child.hasAttribute("data-img-url") || item.url) {
+        if (item.url) child.setAttribute("data-img-url", item.url);
       }
+      child.setAttribute("data-video-url", item.videoUrl || "");
+      var caption = item.caption || item.alt;
+      if (caption) child.setAttribute("data-caption", caption);
     });
 
     return grew;
@@ -181,6 +277,13 @@
         if (!ownedBy(node, sectionEl)) return;
         var href = fields[node.getAttribute("data-vibe-link")];
         if (href) node.setAttribute("href", href);
+      });
+
+      // Tegels die een Vimeo/YouTube-video openen via een data-attribuut.
+      sectionEl.querySelectorAll("[data-vibe-videolink]").forEach(function (node) {
+        if (!ownedBy(node, sectionEl)) return;
+        var url = fields[node.getAttribute("data-vibe-videolink")];
+        if (url != null) node.setAttribute("data-video-url", url);
       });
 
       sectionEl.querySelectorAll("[data-vibe-gallery]").forEach(function (node) {
@@ -295,9 +398,11 @@
   var EDITOR_STYLE =
     "[data-sbp-hl]{outline:2px solid #2563eb !important;outline-offset:2px;border-radius:3px}" +
     ".sbp-editor [data-vibe-field],.sbp-editor [data-vibe-gallery]," +
-    ".sbp-editor [data-vibe-video],.sbp-editor [data-vibe-embed]{cursor:pointer}" +
+    ".sbp-editor [data-vibe-video],.sbp-editor [data-vibe-embed]," +
+    ".sbp-editor [data-vibe-videolink]{cursor:pointer}" +
     ".sbp-editor [data-vibe-field]:hover,.sbp-editor [data-vibe-gallery]:hover," +
-    ".sbp-editor [data-vibe-video]:hover,.sbp-editor [data-vibe-embed]:hover" +
+    ".sbp-editor [data-vibe-video]:hover,.sbp-editor [data-vibe-embed]:hover," +
+    ".sbp-editor [data-vibe-videolink]:hover" +
     "{outline:2px dashed #93c5fd;outline-offset:2px}";
 
   function post(payload) {
@@ -321,7 +426,7 @@
     var node = section.querySelector(
       '[data-vibe-field="' + esc + '"],[data-vibe-gallery="' + esc + '"],' +
         '[data-vibe-video="' + esc + '"],[data-vibe-embed="' + esc + '"],' +
-        '[data-vibe-link="' + esc + '"]'
+        '[data-vibe-link="' + esc + '"],[data-vibe-videolink="' + esc + '"]'
     );
     if (!node) return;
     node.setAttribute("data-sbp-hl", "1");
@@ -341,7 +446,8 @@
       "click",
       function (event) {
         var node = event.target.closest(
-          "[data-vibe-field],[data-vibe-gallery],[data-vibe-video],[data-vibe-embed]"
+          "[data-vibe-field],[data-vibe-gallery],[data-vibe-video]," +
+            "[data-vibe-embed],[data-vibe-videolink]"
         );
         if (!node) return;
         event.preventDefault();
@@ -350,7 +456,8 @@
           node.getAttribute("data-vibe-field") ||
           node.getAttribute("data-vibe-gallery") ||
           node.getAttribute("data-vibe-video") ||
-          node.getAttribute("data-vibe-embed");
+          node.getAttribute("data-vibe-embed") ||
+          node.getAttribute("data-vibe-videolink");
         post({ type: "SBP_FIELD_CLICK", section: sectionNameOf(node), field: field });
       },
       true
