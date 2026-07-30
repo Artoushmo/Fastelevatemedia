@@ -268,13 +268,13 @@
         "description": "See a snapshot of our Photography productions",
         "gallery": [
           {
-            "url": "./images/DSC_4326-Verbeterd-NR-2.jpg",
-            "alt": "Corporate event photography production",
-            "videoUrl": "https://vimeo.com/1214376261?fl=tl&fe=ec"
-          },
-          {
             "url": "./images/DSC_4998-Verbeterd-NR.jpg",
             "alt": "Audience engagement conference photography"
+          },
+          {
+            "url": "./images/DSC_4326-Verbeterd-NR-2.jpg",
+            "alt": "Corporate event photography production",
+            "videoUrl": ""
           },
           {
             "url": "./images/NZ3_9428-Verbeterd-NR.jpg",
@@ -653,6 +653,11 @@
             "url": "",
             "videoUrl": "https://vimeo.com/1203179075",
             "caption": "Corporate Location & Facility Tour"
+          },
+          {
+            "url": "",
+            "caption": "test",
+            "videoUrl": "https://vimeo.com/1214376261?fl=tl&fe=ec"
           }
         ],
         "video": "./images/GBg-2020.mp4#t=5",
@@ -2746,15 +2751,15 @@
         "description": "Bekijk een momentopname van onze fotografieproducties",
         "gallery": [
           {
-            "url": "../images/DSC_4326-Verbeterd-NR-2.jpg",
-            "alt": "Corporate event fotografie productie",
-            "videoUrl": "https://vimeo.com/1214376261?fl=tl&fe=ec",
-            "caption": "Executive Presentatie"
-          },
-          {
             "url": "../images/DSC_4998-Verbeterd-NR.jpg",
             "alt": "Publieksinteractie conferentiefotografie",
             "caption": "Betrokkenheid van het Publiek"
+          },
+          {
+            "url": "../images/DSC_4326-Verbeterd-NR-2.jpg",
+            "alt": "Corporate event fotografie productie",
+            "videoUrl": "",
+            "caption": "Executive Presentatie"
           },
           {
             "url": "../images/NZ3_9428-Verbeterd-NR.jpg",
@@ -3228,6 +3233,11 @@
             "url": "",
             "videoUrl": "https://vimeo.com/1203179075",
             "caption": "Rondleiding op zakelijke locaties & faciliteiten"
+          },
+          {
+            "url": "",
+            "caption": "test",
+            "videoUrl": "https://vimeo.com/1214376261?fl=tl&fe=ec"
           }
         ],
         "video": "../images/GBg-2020.mp4#t=5",
