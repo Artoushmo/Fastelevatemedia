@@ -2435,14 +2435,14 @@
   },
   "nl": {
     "about": {
-      "KrachtigeContentWereldwijdBereik": {
+      "PowerfulContentGlobalReach": {
         "title": "Krachtige content.<br>Wereldwijd bereik.",
         "description": "Fast Elevate Media is een zakelijk fotografie- en videoproductiebureau gevestigd in Amsterdam. We helpen bedrijven bij het vastleggen van congressen, zakelijke evenementen en zakelijke communicatie door middel van hoogwaardige visuele media.<br><br>Ons team werkt met organisaties in heel Nederland en Europa aan zakelijke evenementenfotografie, executive interviews, videoproductie en professionele portretfoto's op maat voor moderne zakelijke communicatie.<br><br>Door creatieve expertise te combineren met een gestructureerde productiewerkstroom, zorgen we voor een betrouwbare uitvoering, snelle levering en visuele content die direct klaar is voor bedrijfswebsites, interne communicatie en wereldwijde marketingteams.",
         "link_1": "Aan de slag",
         "video": "../banner-video-fem-v3-about.mp4",
         "link_1_url": "./start.html"
       },
-      "DeskundigeZakelijkeMediaproductie": {
+      "ExpertCorporateMedia": {
         "title": "Deskundige zakelijke mediaproductie voor moderne organisaties",
         "description": "Fast Elevate Media is gespecialiseerd in zakelijke fotografie en videoproductie voor bedrijven die behoefte hebben aan betrouwbare visuele communicatie.<br>Wij ondersteunen marketingteams, communicatieafdelingen en evenementenorganisatoren met professionele mediaproductie voor congressen, zakelijke evenementen, executive interviews en branded content.<br><br>Onze gestructureerde aanpak stelt organisaties in staat om samen te werken met één productiepartner voor fotografie, videoproductie, drone-opnamen en interviewproductie. Via ons vertrouwde netwerk van fotografen, videografen en productiespecialisten schalen we efficiënt op basis van de omvang en complexiteit van elk project.<br><br>Gevestigd in Amsterdam werken we met bedrijven in heel Nederland en Europa om consistente, hoogwaardige visuele content te leveren voor zakelijke communicatie.",
         "subtitle_1": "Eén partner voor fotografie, video, interviews en drone.",
@@ -2455,7 +2455,7 @@
         "video": "../images/IMG_8773-2.mp4",
         "link_1_url": "./start.html"
       },
-      "OnsDreamTeam": {
+      "OurDreamTeam": {
         "title": "Ons Dream Team",
         "description": "Fast Elevate Media werkt met een zorgvuldig samengesteld netwerk van ervaren fotografen, videografen en productiespecialisten.<br><br>Voor elk project stellen we het juiste team samen op basis van de omvang en vereisten van het evenement of de productie. Dankzij deze flexibele structuur kunnen we zowel gerichte executive producties als grote internationale congressen met meerdere crews ondersteunen.<br><br>Onze aanpak combineert creatieve expertise met efficiënte coördinatie, wat zorgt voor een consistente kwaliteit over verschillende projecten en locaties heen.",
         "image": "../images/Schermafbeelding-2026-03-15-om-17.39.23.jpg",
@@ -2516,7 +2516,7 @@
         "subtitle_9": "Feedback &amp; Opvolging",
         "text_19": "We staan open voor feedback om ons productieproces continu te verbeteren. Na oplevering nemen we contact op om te controleren of alles aan de verwachtingen voldoet en om toekomstige samenwerkingsmogelijkheden te bespreken."
       },
-      "ZakelijkeMediaproductieIn": {
+      "CorporateMediaProduction": {
         "title": "Zakelijke Mediaproductie in Amsterdam &amp; in heel Europa",
         "description": "Gevestigd in Amsterdam ondersteunen we bedrijven in heel Nederland en Europa met schaalbare fotografie- en videoproductiediensten voor zakelijke evenementen en zakelijke communicatie.",
         "subtitle_1": "Breng uw project naar een hoger niveau",
@@ -2572,7 +2572,7 @@
       }
     },
     "contact": {
-      "Contact": {
+      "ContactUs": {
         "title": "Contact",
         "subtitle_1": "Hoe u ons kunt bereiken",
         "description": "Wij waarderen uw inbreng! Als u vragen of feedback heeft, of gewoon hallo wilt zeggen, staat ons team voor u klaar. Aarzel niet om contact met ons op te nemen via de onderstaande contactgegevens. Voor details over onze servicepakketten en tarieven kunt u terecht op onze <a href=\"./pricing.html\" class=\"text-blue-600 hover:text-blue-800 underline font-semibold transition-colors\">Tarievenpagina</a>.",
@@ -2640,7 +2640,7 @@
       "Hero": {
         "title": "Cookies"
       },
-      "Cookiebeleid": {
+      "CookiePolicy": {
         "subtitle_14": "Heeft u nog vragen?",
         "text_33": "Laat het ons weten als u vragen of feedback heeft.",
         "link_8": "Contact",
@@ -2715,10 +2715,10 @@
       }
     },
     "corporate-event-photography": {
-      "CorporateEventFotografie": {
+      "CorporateEventPhotography": {
         "title": "Corporate Event Fotografie"
       },
-      "CorporateEventFotografie2": {
+      "CorporateEventPhotography2": {
         "image": "../images/Photography-page-1.jpg",
         "image_alt": "Corporate event fotografie verslaglegging",
         "title": "Corporate Event Fotografie in Amsterdam en heel Europa",
@@ -2740,7 +2740,7 @@
         "link_1_url": "./start.html",
         "link_2_url": "./pricing.html"
       },
-      "OntdekOnsWerk": {
+      "ExploreOurWork": {
         "title": "Ontdek ons werk",
         "description": "Bekijk een momentopname van onze fotografieproducties",
         "gallery": [
@@ -2801,7 +2801,7 @@
         "image_9": "../images/gallery-prosus-2.jpg",
         "image_10": "../images/DSC_1964.jpg"
       },
-      "WaaromZakelijkeKlanten": {
+      "WhyCorporateClients": {
         "title": "Waarom zakelijke klanten kiezen voor <br>Fast Elevate Media",
         "image": "../images/3D-logo-F.jpg",
         "image_alt": "Zakelijke fotografie betrouwbaarheid",
@@ -2844,10 +2844,10 @@
         "subtitle_9": "Feedback &amp; Nazorg",
         "text_19": "We staan altijd open voor feedback om ons productieproces continu te verbeteren. Na de levering nemen we contact op om te controleren of alles aan de verwachtingen voldoet en om toekomstige samenwerkingsmogelijkheden te bespreken."
       },
-      "FotosWordenGeleverd": {
+      "PhotosAreDelivered": {
         "title": "Foto's worden geleverd via een besloten galerij- of downloadlink, klaar voor:"
       },
-      "SectorenDieWij": {
+      "IndustriesWeSupport": {
         "image": "../images/DSC_9147.jpg",
         "image_alt": "Sectoren die we ondersteunen",
         "title": "Sectoren die wij ondersteunen",
@@ -2861,7 +2861,7 @@
         "link_1": "Aan de slag",
         "link_1_url": "./start.html"
       },
-      "SchaalbareOplossingenVoor": {
+      "ScalableEventPhotography": {
         "title": "Schaalbare oplossingen voor eventfotografie",
         "description": "Elk evenement is anders.",
         "text_1": "Wij bieden:",
@@ -2881,7 +2881,7 @@
         "link_3_url": "./elevate-your-event.html",
         "link_4_url": "./start.html"
       },
-      "SoortenEvenementenDie": {
+      "CorporateEventsWe": {
         "image": "../images/zaal.jpg",
         "image_alt": "Bedrijfsevenementen die we verslaan",
         "title": "Soorten evenementen die we fotograferen",
@@ -2895,7 +2895,7 @@
         "link_1": "Aan de slag",
         "link_1_url": "./start.html"
       },
-      "CorporateMediaproductieIn": {
+      "CorporateMediaProduction": {
         "title": "Corporate Mediaproductie in Amsterdam en heel Europa",
         "description": "Gevestigd in Amsterdam ondersteunen we bedrijven in heel Nederland en Europa met schaalbare fotografie- en videoproductiediensten voor bedrijfsevenementen en zakelijke communicatie.",
         "subtitle_1": "Breng uw project naar een hoger niveau",
@@ -2959,10 +2959,10 @@
       }
     },
     "corporate-interviews-testimonials": {
-      "ZakelijkeInterviews": {
+      "CorporateInterviews": {
         "title": "Zakelijke Interviews &amp; Getuigenissen"
       },
-      "ZakelijkeInterviewsEn": {
+      "CorporateInterviewsAnd": {
         "image": "../images/IMG_7737.jpg",
         "image_alt": "Opname van een zakelijk interview",
         "title": "Zakelijke Interviews en Testimonial-Videoproductie in Amsterdam en heel Europa",
@@ -2984,7 +2984,7 @@
         "link_1_url": "./start.html",
         "link_2_url": "./pricing.html"
       },
-      "OntdekOnsWerk": {
+      "ExploreOurWork": {
         "title": "Ontdek ons werk",
         "description": "Bekijk voorbeelden van onze zakelijke interviews en testimonial-videoproducties",
         "gallery": [
@@ -3004,7 +3004,7 @@
         "video": "../images/010724_CEBO-HOLLAND-Recruitment-video.mp4#t=5",
         "video_2": "../images/GBG-x-RayBan.mp4#t=5"
       },
-      "WaaromZakelijkeKlanten": {
+      "WhyCorporateClients": {
         "title": "Waarom zakelijke klanten kiezen voor <br>Fast Elevate Media",
         "image": "../images/3D-logo-F.jpg",
         "image_alt": "Betrouwbaarheid zakelijke video",
@@ -3046,10 +3046,10 @@
         "subtitle_9": "Feedback &amp; Opvolging",
         "text_19": "We blijven openstaan voor feedback om ons productieproces continu te verbeteren. Na de oplevering nemen we contact met u op om te controleren of alles aan de verwachtingen voldoet en om toekomstige samenwerkingsmogelijkheden te verkennen."
       },
-      "VideosWordenGeleverd": {
+      "VideosAreDelivered": {
         "title": "Video's worden geleverd via een privégalerij of downloadlink, klaar voor:"
       },
-      "ZakelijkeInterviewsVoor": {
+      "CorporateInterviewsFor": {
         "image": "../images/Interview-Website-FEM.jpg",
         "image_alt": "Zakelijke Interviews & Testimonials voor Teams & Directie",
         "title": "Zakelijke Interviews voor Teams &amp; Directie",
@@ -3062,7 +3062,7 @@
         "link_1": "Aan de slag",
         "link_1_url": "./start.html"
       },
-      "SchaalbareZakelijkeInterviewsessies": {
+      "ScalableCorporateInterview": {
         "title": "Schaalbare Zakelijke Interviewsessies",
         "description": "We passen ons aan de omvang van uw productie aan.",
         "text_1": "Wij bieden:",
@@ -3082,7 +3082,7 @@
         "link_3_url": "./elevate-your-event.html",
         "link_4_url": "./start.html"
       },
-      "SectorenDieWe": {
+      "IndustriesWeSupport": {
         "image": "../images/Briddge-kantoor.jpg",
         "image_alt": "Sectoren die we ondersteunen",
         "title": "Sectoren die we ondersteunen",
@@ -3096,7 +3096,7 @@
         "link_1": "Aan de slag",
         "link_1_url": "./start.html"
       },
-      "ZakelijkeMediaproductieIn": {
+      "CorporateMediaProduction": {
         "title": "Zakelijke Mediaproductie in Amsterdam en heel Europa",
         "description": "Gevestigd in Amsterdam ondersteunen we bedrijven in heel Nederland en Europa met schaalbare fotografie- en videoproductiediensten voor bedrijfsevenementen en zakelijke communicatie.",
         "subtitle_1": "Breng uw project naar een hoger niveau",
@@ -3156,10 +3156,10 @@
       }
     },
     "corporate-video-production": {
-      "Bedrijfsvideoproductie": {
+      "CorporateVideoProduction": {
         "title": "Bedrijfsvideoproductie"
       },
-      "UwBedrijfPositioneren": {
+      "PositioningYourBusiness": {
         "image": "../images/Joshua_Statie02-1.jpg",
         "image_alt": "Corporate video positioning",
         "title": "Uw bedrijf positioneren met bedrijfsvideo",
@@ -3182,7 +3182,7 @@
         "link_1_url": "./start.html",
         "link_2_url": "./pricing.html"
       },
-      "OntdekOnsWerk": {
+      "ExploreOurWork": {
         "title": "Ontdek ons werk",
         "description": "Bekijk een selectie van onze recente producties",
         "gallery": [
@@ -3223,7 +3223,7 @@
         "video_4": "../images/Cabaia-1.mp4#t=5",
         "video_5": "../images/Planten-Kas.mp4#t=5"
       },
-      "WaaromZakelijkeKlanten": {
+      "WhyCorporateClients": {
         "title": "Waarom zakelijke klanten kiezen voor <br>Fast Elevate Media",
         "image": "../images/3D-logo-F.jpg",
         "image_alt": "Corporate video reliability",
@@ -3265,10 +3265,10 @@
         "subtitle_9": "Feedback &amp; Opvolging",
         "text_19": "We blijven openstaan voor feedback om ons productieproces continu te verbeteren. Na de oplevering nemen we contact met u op om te controleren of alles aan de verwachtingen voldoet en om toekomstige samenwerkingsmogelijkheden te bespreken."
       },
-      "VideosWordenGeleverd": {
+      "VideosAreDelivered": {
         "title": "Video's worden geleverd via een beveiligde galerij of downloadlink, klaar voor:"
       },
-      "SectorenDieWe": {
+      "IndustriesWeSupport": {
         "image": "../images/DSC_9147.jpg",
         "image_alt": "Industries we support",
         "title": "Sectoren die we ondersteunen",
@@ -3282,7 +3282,7 @@
         "link_1": "Aan de slag",
         "link_1_url": "./start.html"
       },
-      "SchaalbareOplossingenVoor": {
+      "ScalableVideoProduction": {
         "title": "Schaalbare oplossingen voor bedrijfsvideo",
         "description": "Elke video is anders.",
         "text_1": "Wij bieden:",
@@ -3302,7 +3302,7 @@
         "link_3_url": "./elevate-your-event.html",
         "link_4_url": "./start.html"
       },
-      "ZakelijkeEvenementenDie": {
+      "CorporateEventsWe": {
         "image": "../images/zaal.jpg",
         "image_alt": "Corporate Events we cover",
         "title": "Zakelijke evenementen die we verslaan",
@@ -3316,7 +3316,7 @@
         "link_1": "Aan de slag",
         "link_1_url": "./start.html"
       },
-      "ZakelijkeMediaproductieIn": {
+      "CorporateMediaProduction": {
         "title": "Zakelijke mediaproductie in Amsterdam en heel Europa",
         "description": "Gevestigd in Amsterdam ondersteunen we bedrijven in heel Nederland en Europa met schaalbare diensten voor fotografie en videoproductie voor zakelijke evenementen en zakelijke communicatie.",
         "subtitle_1": "Breng uw project naar een hoger niveau",
@@ -3383,7 +3383,7 @@
       "DroneVideo": {
         "title": "Drone Video &amp; Luchtfotografie"
       },
-      "ZakelijkeDroneVideo": {
+      "CorporateDroneVideo": {
         "image": "../images/Capital-C-2.jpg",
         "image_alt": "Opname-opstelling met drone",
         "title": "Zakelijke Drone Video &amp; Luchtfotografie in Amsterdam &amp; heel Europa",
@@ -3409,7 +3409,7 @@
         "link_3_url": "./start.html",
         "link_4_url": "./pricing.html"
       },
-      "OntdekOnsWerk": {
+      "ExploreOurWork": {
         "title": "Ontdek ons werk",
         "description": "Ontdek voorbeelden van onze drone-videoproductie en luchtfotografie bij bedrijfsevenementen, bedrijfslocaties en commercieel vastgoed.",
         "gallery": [
@@ -3486,7 +3486,7 @@
         "video_2": "../images/Utrecht-Woningen-shot-2.mp4#t=5",
         "video_3": "../images/drone-olympisch-stadion-1.mp4#t=5"
       },
-      "WaaromZakelijkeKlanten": {
+      "WhyCorporateClients": {
         "title": "Waarom zakelijke klanten kiezen voor <br>Fast Elevate Media",
         "image": "../images/3D-logo-F.jpg",
         "image_alt": "Gecertificeerde drone-operator",
@@ -3528,7 +3528,7 @@
         "subtitle_9": "Feedback &amp; Opvolging",
         "text_19": "We blijven openstaan voor feedback om ons productieproces continu te verbeteren. Na de oplevering nemen we contact met u op om te controleren of alles aan de verwachtingen voldoet en om toekomstige samenwerkingsmogelijkheden te verkennen."
       },
-      "VideosWordenGeleverd": {
+      "VideosAreDelivered": {
         "title": "Video's worden geleverd via een privégalerij of downloadlink, klaar voor:"
       },
       "FaqSection": {
@@ -3583,10 +3583,10 @@
       }
     },
     "elevate-your-event": {
-      "BrengUwEvenement": {
+      "ElevateYourEvent": {
         "title": "Breng uw evenement naar een hoger niveau"
       },
-      "ZakelijkeEvenementenmediaproductieOp": {
+      "TailoredCorporateEvent": {
         "image": "../images/Elevate-Website-FEM.jpg",
         "image_alt": "Mediaproductie voor bedrijfsevenementen",
         "title": "Zakelijke evenementenmediaproductie op maat voor conferenties, topontmoetingen en zakelijke bijeenkomsten in heel Europa",
@@ -3616,7 +3616,7 @@
         "link_5_url": "./start.html",
         "link_6_url": "./pricing.html"
       },
-      "OntdekOnzeFotografie": {
+      "ExploreOurCorporate": {
         "title": "Ontdek onze fotografie &amp; videoproductie voor bedrijfsevenementen",
         "description": "Bekijk voorbeelden van onze evenementenverslaggeving, waaronder conferentiefotografie, interviews met leidinggevenden, netwerkmomenten en grootschalige zakelijke evenementen in heel Europa.",
         "gallery": [
@@ -3647,7 +3647,7 @@
         "image_3": "../images/Interview-Website-FEM.jpg",
         "image_4": "../images/Drone-Website-FEM.jpg"
       },
-      "WaaromZakelijkeKlanten": {
+      "WhyCorporateClients": {
         "title": "Waarom zakelijke klanten kiezen voor <br>Fast Elevate Media",
         "image": "../images/Joshua_Statie12.jpg",
         "image_alt": "Eén aanspreekpunt",
@@ -3689,7 +3689,7 @@
         "subtitle_9": "Feedback &amp; Opvolging",
         "text_19": "We blijven openstaan voor feedback om ons productieproces continu te verbeteren. Na de oplevering nemen we contact met u op om te controleren of alles aan de verwachtingen voldoet en om toekomstige samenwerkingsmogelijkheden te verkennen."
       },
-      "VideosWordenGeleverd": {
+      "VideosAreDelivered": {
         "title": "Video's worden geleverd via een privégalerij of downloadlink, klaar voor:"
       },
       "FaqSection": {
@@ -3744,10 +3744,10 @@
       }
     },
     "faq": {
-      "VeelgesteldeVragen": {
+      "FrequentlyAskedQuestions": {
         "title": "Veelgestelde vragen"
       },
-      "AlgemeneVragen": {
+      "GeneralQuestions": {
         "title": "Algemene vragen",
         "description": "U kunt beginnen door ons projectintakeformulier in te vullen op de <a href=\"./start.html\" class=\"text-primary hover:underline font-semibold\">Aan de slag</a>-pagina. We zullen uw wensen beoordelen en een afstemmingsgesprek inplannen om de omvang en logistiek te finaliseren.",
         "link_1": "Aan de slag",
@@ -3825,7 +3825,7 @@
         "description": "Snelle, hoogwaardige bedrijfsfotografie en videoproductie voor bedrijven in heel Europa. Wij zijn gespecialiseerd in bedrijfsevenementen, congressen, executive interviews en professionele portretten; uitgevoerd met snelheid, helderheid en consistente visuele standaarden.",
         "auto_text_div_0_h2_0_span_0": "Zakelijk Mediabureau"
       },
-      "Mediaoplossingen": {
+      "MediaSolutions": {
         "title": "Mediaoplossingen",
         "description": "Onze Diensten",
         "image": "../images/Joshua_Statie12.jpg",
@@ -3921,7 +3921,7 @@
         "auto_text_div_1_div_2_div_7_div_1_div_0_p_0": "AFRONDING",
         "auto_text_div_1_div_2_div_8_div_1_div_0_p_0": "EVALUATIE"
       },
-      "BedrijvenDieHun": {
+      "CompaniesThatTrusted": {
         "title": "Bedrijven die hun vertrouwen in ons hebben gesteld",
         "gallery": [
           {
@@ -4058,7 +4058,7 @@
         "image_8": "../images/vattenfall_logo.png",
         "image_9": "../images/velux-1.jpg"
       },
-      "SnelleBetrouwbareLevering": {
+      "FastReliableDelivery": {
         "description": "Diensten die resultaat opleveren",
         "title": "Snelle, betrouwbare levering voor zakelijke omgevingen",
         "text_1": "We werken naadloos binnen zakelijke omgevingen en passen ons snel aan interne teams, bureaus en evenementenorganisatoren aan. Onze focus ligt op snelheid, betrouwbaarheid, discretie en het leveren van hoogwaardige visuele content die uw merkcommunicatie versterkt en de strategische doelstellingen van uw bedrijf ondersteunt.",
@@ -4118,12 +4118,12 @@
       }
     },
     "pricing": {
-      "WeHebbenEen": {
+      "WeveGotA": {
         "description": "Transparante &amp; gestructureerde pakketten",
         "title": "We hebben een pakket dat perfect bij u past",
         "text_1": "Bekijk de pakketprijzen voor alle diensten van Fast Elevate Media. Onze gestructureerde workflow garandeert helderheid, snelheid en consistente kwaliteit in heel Europa."
       },
-      "SnelleLevering": {
+      "FastDelivery": {
         "title": "<span>Snelle levering</span>\n            <span class=\"hidden sm:inline text-white/40\">|</span>\n            <span class=\"text-primary-container text-sm sm:text-base font-semibold\">Uw content hoeft niet te wachten.</span>",
         "description": "Onze standaardlevering voor de eerste versie is binnen 72 uur voor de meeste projecten. Sneller nodig? Kies voor onze 48-uurs, 24-uurs of Same Day Delivery opties (afhankelijk van de omvang en beschikbaarheid van het project).",
         "subtitle_1": "Zakelijke Evenementenfotografie",
@@ -4288,10 +4288,10 @@
       }
     },
     "privacy": {
-      "Privacybeleid": {
+      "Privacy": {
         "title": "Privacybeleid"
       },
-      "Privacybeleid2": {
+      "PrivacyPolicy": {
         "title": "Privacybeleid",
         "description": "<strong>Laatst bijgewerkt: juni 2026</strong>",
         "subtitle_1": "1. Inleiding",
@@ -4410,10 +4410,10 @@
       }
     },
     "professional-headshots-corporate-portraits": {
-      "ProfessioneleHeadshots": {
+      "ProfessionalHeadshots": {
         "title": "Professionele Headshots &amp; Zakelijke Portretten"
       },
-      "ZakelijkeHeadshotsEn": {
+      "CorporateHeadshotsAnd": {
         "image": "../images/corporate-headshots-amsterdam-europe.jpg",
         "image_alt": "Zakelijke teamsessie voor headshots",
         "title": "Zakelijke Headshots en Portretten in Amsterdam en heel Europa",
@@ -4435,7 +4435,7 @@
         "link_1_url": "./start.html",
         "link_2_url": "./pricing.html"
       },
-      "OntdekOnsWerk": {
+      "ExploreOurWork": {
         "title": "Ontdek ons werk",
         "description": "Bekijk een selectie van onze recente zakelijke portretten",
         "gallery": [
@@ -4496,7 +4496,7 @@
         "image_9": "../images/SparkOptimus_Goedgekeurd_JPG_1-scaled-1.jpg",
         "image_10": "../images/Salesupply_Goedgekeurd_JPG_1-scaled-1.jpg"
       },
-      "WaaromZakelijkeKlanten": {
+      "WhyCorporateClients": {
         "title": "Waarom zakelijke klanten kiezen voor <br>Fast Elevate Media",
         "image": "../images/3D-logo-F.jpg",
         "image_alt": "Kwaliteit zakelijke headshots",
@@ -4538,10 +4538,10 @@
         "subtitle_9": "Feedback &amp; Opvolging",
         "text_19": "We blijven openstaan voor feedback om ons productieproces continu te verbeteren. Na de oplevering nemen we contact met u op om te controleren of alles aan de verwachtingen voldoet en om toekomstige samenwerkingsmogelijkheden te verkennen."
       },
-      "SnelleEnGestructureerde": {
+      "FastAndStructured": {
         "title": "Snelle en gestructureerde levering"
       },
-      "ZakelijkeHeadshotsVoor": {
+      "CorporateHeadshotsFor": {
         "image": "../images/corporate-headshots-amsterdam-europe.jpg",
         "image_alt": "Zakelijke headshots voor teams & directie",
         "title": "Zakelijke Headshots voor Teams &amp; Directie",
@@ -4554,7 +4554,7 @@
         "link_1": "Aan de slag",
         "link_1_url": "./start.html"
       },
-      "SchaalbareZakelijkeHeadshotsessies": {
+      "ScalableCorporateHeadshot": {
         "title": "Schaalbare Zakelijke Headshotsessies",
         "description": "We passen ons aan de omvang van uw productie aan.",
         "text_1": "Wij bieden:",
@@ -4576,7 +4576,7 @@
         "link_4_url": "./elevate-your-event.html",
         "link_5_url": "./start.html"
       },
-      "SectorenDieWe": {
+      "IndustriesWeSupport": {
         "image": "../images/Briddge-kantoor.jpg",
         "image_alt": "Sectoren die we ondersteunen",
         "title": "Sectoren die we ondersteunen",
@@ -4590,7 +4590,7 @@
         "link_1": "Aan de slag",
         "link_1_url": "./start.html"
       },
-      "ZakelijkeMediaproductieIn": {
+      "CorporateMediaProduction": {
         "title": "Zakelijke Mediaproductie in Amsterdam en heel Europa",
         "description": "Gevestigd in Amsterdam ondersteunen we bedrijven in heel Nederland en Europa met schaalbare fotografie- en videoproductiediensten voor bedrijfsevenementen en zakelijke communicatie.",
         "subtitle_1": "Breng uw project naar een hoger niveau",
@@ -4681,10 +4681,10 @@
         "link_12_url": "./contact.html",
         "link_15_url": "./start.html"
       },
-      "ServiceOverzicht": {
+      "ServiceOverview": {
         "title": "Service Overzicht"
       },
-      "CorporateEventFotografie": {
+      "CorporateEventPhotography": {
         "title": "Corporate Event Fotografie",
         "description": "Professionele corporate event fotografie voor congressen, zakelijke evenementen en interne bedrijfsbijeenkomsten in heel Amsterdam en Europa.<br><br>We leggen keynote sprekers, interactie met het publiek, netwerkmomenten en merkacties vast in een consistente visuele stijl die aansluit bij de identiteit van uw bedrijf.<br><br>Onze fotografie ondersteunt marketingteams, communicatieafdelingen en organisatoren van evenementen die behoefte hebben aan betrouwbare visuele documentatie en hoogwaardige zakelijke beelden.",
         "feature_1": "Congres- en conferentiefotografie",
@@ -4755,7 +4755,7 @@
         "link_5_url": "./drone-video-aerial-photography.html",
         "link_6_url": "./elevate-your-event.html"
       },
-      "DuidelijkeTransparanteTarieven": {
+      "ClearTransparentPricing": {
         "title": "Duidelijke, transparante tarieven voor elk project",
         "description": "Of u nu zakelijke fotografie, drone-opnames of een complete videoproductie nodig heeft, wij bieden duidelijke en gestructureerde prijsopties die passen bij de vereisten van uw project.",
         "link_1": "Bekijk Prijzen &amp; Pakketten",
@@ -4809,11 +4809,11 @@
       }
     },
     "start": {
-      "VertelOnsOver": {
+      "TellUsAbout": {
         "title": "Vertel ons over uw project",
         "description": "Op zoek naar gestructureerde, professionele fotografie en videoproductie voor bedrijfsevenementen met een snelle oplevering en vlekkeloze uitvoering?"
       },
-      "StuurUwGegevens": {
+      "SendInYour": {
         "title": "Stuur uw gegevens in",
         "description": "Vul het formulier in en we nemen contact op met een voorstel op maat.",
         "text_1": "Welke services heeft u nodig?",
@@ -4871,10 +4871,10 @@
       }
     },
     "terms": {
-      "AlgemeneVoorwaarden": {
+      "Terms": {
         "title": "Algemene voorwaarden"
       },
-      "AlgemeneVoorwaarden2": {
+      "TermsConditions": {
         "title": "Algemene Voorwaarden",
         "description": "<strong>Laatst bijgewerkt: juni 2026</strong>",
         "subtitle_1": "1. Inleiding",
