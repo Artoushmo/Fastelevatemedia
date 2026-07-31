@@ -313,18 +313,7 @@
             "url": "./images/DSC_1964.jpg",
             "alt": "Audience reaction event coverage"
           }
-        ],
-        "image": "./images/DSC_4326-Verbeterd-NR-2.jpg",
-        "image_1": "./images/DSC_4998-Verbeterd-NR.jpg",
-        "image_2": "./images/NZ3_9428-Verbeterd-NR.jpg",
-        "image_3": "./images/Joshua_Statie03.jpg",
-        "image_4": "./images/DSC_9147.jpg",
-        "image_5": "./images/DSC_0963.jpg",
-        "image_6": "./images/gallery-prosus-1.jpg",
-        "image_7": "./images/2025-10-30-Architect-at-Work-by-Daan-Jeurens-Websized-21.jpg",
-        "image_8": "./images/DSC_9824-Verbeterd-NR.jpg",
-        "image_9": "./images/gallery-prosus-2.jpg",
-        "image_10": "./images/DSC_1964.jpg"
+        ]
       },
       "WhyCorporateClients": {
         "title": "Why Corporate Clients Choose <br>Fast Elevate Media",
@@ -482,9 +471,7 @@
             "videoUrl": "https://vimeo.com/1203179064",
             "caption": "Corporate Brand Collaboration Video"
           }
-        ],
-        "video": "./images/010724_CEBO-HOLLAND-Recruitment-video.mp4#t=5",
-        "video_2": "./images/GBG-x-RayBan.mp4#t=5"
+        ]
       },
       "WhyCorporateClients": {
         "title": "Why Corporate Clients Choose <br>Fast Elevate Media",
@@ -660,12 +647,7 @@
             "videoUrl": "https://vimeo.com/1214376229?share=copy&fl=sv&fe=ci",
             "url": "./images/video-thumbs/vimeo-1214376229.jpg"
           }
-        ],
-        "video": "./images/GBg-2020.mp4#t=5",
-        "video_2": "./images/Example-Edited-Footage-GGG.mp4#t=5",
-        "video_3": "./images/Cebo.mp4#t=5",
-        "video_4": "./images/Cabaia-1.mp4#t=5",
-        "video_5": "./images/Planten-Kas.mp4#t=5"
+        ]
       },
       "WhyCorporateClients": {
         "title": "Why Corporate Clients Choose <br>Fast Elevate Media",
@@ -878,14 +860,7 @@
             "videoUrl": "https://vimeo.com/1214376232",
             "caption": "Roadshow Eindhoven"
           }
-        ],
-        "image": "./images/Drone-Amsterdam-Lowres.jpg",
-        "image_alt": "Amsterdam Aerial Scenery",
-        "image_1": "./images/DJI_0271-Verbeterd-NR.jpg",
-        "image_1_alt": "Event Aerial Perspective",
-        "video": "./images/05-02-25_-SolarPanels-3000_CEBO-HOLLAND.mp4#t=5",
-        "video_2": "./images/Utrecht-Woningen-shot-2.mp4#t=5",
-        "video_3": "./images/drone-olympisch-stadion-1.mp4#t=5"
+        ]
       },
       "WhyCorporateClients": {
         "title": "Why Corporate Clients Choose <br>Fast Elevate Media",
@@ -998,12 +973,7 @@
             "url": "./images/Drone-Website-FEM.jpg",
             "alt": "Aerial Venue Shot"
           }
-        ],
-        "image": "./images/Elevate-Website-FEM.jpg",
-        "image_1": "./images/Corporate-Website-FEM-grijs.jpg",
-        "image_2": "./images/zaal.jpg",
-        "image_3": "./images/Interview-Website-FEM.jpg",
-        "image_4": "./images/Drone-Website-FEM.jpg"
+        ]
       },
       "WhyCorporateClients": {
         "title": "Why Corporate Clients Choose <br>Fast Elevate Media",
@@ -1214,9 +1184,7 @@
             "url": "./images/drone-skyline.jpg",
             "alt": "Drone skyline"
           }
-        ],
-        "image": "./images/zaal.jpg",
-        "image_1": "./images/drone-skyline.jpg"
+        ]
       },
       "TimelineSection": {
         "title": "How We Work",
@@ -1370,17 +1338,7 @@
             "url": "./images/velux-1.jpg",
             "alt": "Velux"
           }
-        ],
-        "image": "./images/abn-amro-logo-new-colors-1.png",
-        "image_1": "./images/postnl-3.png",
-        "image_2": "./images/klarna.jpg",
-        "image_3": "./images/vattenfall_logo.png",
-        "image_4": "./images/velux-1.jpg",
-        "image_5": "./images/abn-amro-logo-new-colors-1.png",
-        "image_6": "./images/postnl-3.png",
-        "image_7": "./images/klarna.jpg",
-        "image_8": "./images/vattenfall_logo.png",
-        "image_9": "./images/velux-1.jpg"
+        ]
       },
       "FastReliableDelivery": {
         "description": "Services that drive results",
@@ -1805,18 +1763,7 @@
             "url": "./images/Salesupply_Goedgekeurd_JPG_1-scaled-1.jpg",
             "alt": "Salesupply portraits"
           }
-        ],
-        "image": "./images/abnamro-scaled-1.jpg",
-        "image_1": "./images/SQLI_Goedgekeurd_JPG_1-scaled-1.jpg",
-        "image_2": "./images/Leadinfo_Goedgekeurd_JPG-scaled-1.jpg",
-        "image_3": "./images/DSC_5726-scaled-1.jpg",
-        "image_4": "./images/Bleckmann_Goedgekeurd_JPG_1-scaled-1.jpg",
-        "image_5": "./images/49A5231-scaled-1.jpg",
-        "image_6": "./images/49A5825-scaled-1.jpg",
-        "image_7": "./images/49A5601-scaled-1.jpg",
-        "image_8": "./images/Channable_Goedgekeurd_JPG_2-scaled-1.jpg",
-        "image_9": "./images/SparkOptimus_Goedgekeurd_JPG_1-scaled-1.jpg",
-        "image_10": "./images/Salesupply_Goedgekeurd_JPG_1-scaled-1.jpg"
+        ]
       },
       "WhyCorporateClients": {
         "title": "Why Corporate Clients Choose <br>Fast Elevate Media",
@@ -2262,63 +2209,7 @@
         "link_3_url": "mailto:info@fastelevatemedia.com",
         "link_4_url": "tel:+31624821770",
         "link_5_url": "https://fastelevatemedia.com",
-        "link_6_url": "./contact.html",
-        "text_103": "Portfolio purposes",
-        "text_104": "Website publication",
-        "text_105": "Social media",
-        "text_106": "Marketing materials",
-        "text_107": "Promotional campaigns",
-        "text_108": "Award submissions",
-        "text_109": "Business development activities",
-        "text_110": "This includes the right to display completed work on Fast Elevate Media’s website, social media channels, presentations and showreels.",
-        "text_111": "This clause applies only to content created by Fast Elevate Media. Materials submitted through contact forms or supplied by prospective clients shall never be used for promotional purposes without explicit written permission.",
-        "text_112": "Where confidentiality agreements, non-disclosure agreements, or written restrictions apply, Fast Elevate Media shall respect such restrictions.",
-        "text_113": "Fast Elevate Media shall never use Client-submitted materials or AI-generated working files originating from Client materials for portfolio or promotional purposes unless explicit written permission has been obtained.",
-        "text_114": "Fast Elevate Media shall treat all confidential information received from the Client with appropriate care.",
-        "text_115": "Project documentation, presentations, schedules, internal communications, event details, business information, and other confidential materials supplied by the Client shall not be disclosed to third parties except:",
-        "text_116": "where necessary for the execution of the agreed services;",
-        "text_117": "where disclosure is required by applicable law; or",
-        "text_118": "where the Client has provided prior written consent.",
-        "text_119": "Fast Elevate Media shall ensure that any employees, freelancers, or subcontractors engaged in the performance of the services are subject to appropriate confidentiality obligations.",
-        "text_120": "Drone operations are subject to:",
-        "text_121": "Weather conditions",
-        "text_122": "Airspace restrictions",
-        "text_123": "Local regulations",
-        "text_124": "Government restrictions",
-        "text_125": "Safety considerations",
-        "text_126": "Fast Elevate Media cannot guarantee that drone footage can be obtained at every location. Where drone operations are prohibited, restricted, or deemed unsafe, alternative filming methods may be used where possible.",
-        "text_127": "Unless otherwise agreed in writing, cancellations are subject to the following fees:",
-        "text_128": "More than 30 days before the assignment: no cancellation fee",
-        "text_129": "Between 14 and 30 days before the assignment: 50% of the agreed project fee",
-        "text_130": "Less than 14 days before the assignment: 100% of the agreed project fee",
-        "text_131": "Deposits are non-refundable except where cancellation results directly from Fast Elevate Media’s inability to perform the agreed services. Any non-refundable expenses already incurred shall remain payable by the client.",
-        "text_132": "Fast Elevate Media shall not be liable for failure or delay in performing its obligations due to circumstances beyond its reasonable control. Such circumstances include, but are not limited to:",
-        "text_135": "Extreme weather",
-        "text_136": "Natural disasters",
-        "text_137": "Travel disruptions",
-        "text_138": "Technical failures",
-        "text_139": "Internet outages",
-        "text_140": "Government restrictions",
-        "text_141": "Venue closures",
-        "text_142": "Fast Elevate Media shall not be liable for indirect, incidental, special, or consequential damages.",
-        "text_143": "To the maximum extent permitted by law, Fast Elevate Media’s total liability shall be limited to the total amount invoiced for the relevant assignment.",
-        "text_144": "Nothing in these Terms excludes liability where such exclusion is prohibited by applicable law.",
-        "text_145": "The content on this website is provided for general informational purposes only. Fast Elevate Media reserves the right to modify, suspend, or discontinue any aspect of the website at any time without prior notice.",
-        "text_146": "Users may not use the website in any unlawful manner or in any way that interferes with its operation.",
-        "text_147": "The content on this website may not be copied, reproduced, distributed or otherwise used without prior written permission from Fast Elevate Media unless permitted by applicable law.",
-        "text_148": "This website may contain links to third-party websites. Fast Elevate Media accepts no responsibility for the content, privacy practices, or policies of third-party websites.",
-        "text_149": "The collection and processing of personal data are governed by our <a href=\"./privacy.html\" class=\"text-primary underline hover:text-primary/80 transition-colors\">Privacy Policy</a> and <a href=\"./cookies.html\" class=\"text-primary underline hover:text-primary/80 transition-colors\">Cookie Policy</a>.",
-        "text_150": "Where AI-assisted software is used during editing or production workflows involving Client materials, Fast Elevate Media shall take reasonable measures to ensure that personal data is processed in accordance with applicable privacy legislation, including the General Data Protection Regulation (GDPR).",
-        "text_151": "AI tools are used solely to support creative production and administrative efficiency and do not replace human review or decision-making.",
-        "text_152": "Visitors may review or modify their cookie preferences at any time through the cookie settings available on the website.",
-        "text_153": "Where the Client is a consumer within the meaning of applicable law, statutory rights of withdrawal may apply.",
-        "text_154": "However, the statutory right of withdrawal may expire where:",
-        "text_155": "the Client expressly requests Fast Elevate Media to commence the performance of the services during the withdrawal period; and",
-        "text_156": "acknowledges that the right of withdrawal may be lost once the services have been fully performed.",
-        "text_157": "Custom photography, videography, editing, creative productions and other personalised services are generally exempt from return or exchange once work has commenced.",
-        "text_158": "These Terms &amp; Conditions shall be governed by and interpreted in accordance with the laws of the Netherlands.",
-        "text_159": "Any disputes arising under these Terms shall be submitted to the competent courts of Amsterdam, The Netherlands.",
-        "text_160": "<strong>Fast Elevate Media</strong><br>\n            Amsterdam, The Netherlands<br>\n            Email: <a href=\"mailto:info@fastelevatemedia.com\" class=\"text-primary underline hover:text-primary/80 transition-colors\">info@fastelevatemedia.com</a><br>\n            Phone: <a href=\"tel:+31628460837\" class=\"text-primary underline hover:text-primary/80 transition-colors\">+316 2846 0837</a><br>\n            Website: <a href=\"https://fastelevatemedia.com\" class=\"text-primary underline hover:text-primary/80 transition-colors\" target=\"_blank\">www.fastelevatemedia.com</a>"
+        "link_6_url": "./contact.html"
       },
       "Footer": {
         "title": "Get started on your project!",
@@ -2808,18 +2699,7 @@
             "alt": "Publieksreactie eventverslaglegging",
             "caption": "Reactie van het Publiek"
           }
-        ],
-        "image": "../images/DSC_4326-Verbeterd-NR-2.jpg",
-        "image_1": "../images/DSC_4998-Verbeterd-NR.jpg",
-        "image_2": "../images/NZ3_9428-Verbeterd-NR.jpg",
-        "image_3": "../images/Joshua_Statie03.jpg",
-        "image_4": "../images/DSC_9147.jpg",
-        "image_5": "../images/DSC_0963.jpg",
-        "image_6": "../images/gallery-prosus-1.jpg",
-        "image_7": "../images/2025-10-30-Architect-at-Work-by-Daan-Jeurens-Websized-21.jpg",
-        "image_8": "../images/DSC_9824-Verbeterd-NR.jpg",
-        "image_9": "../images/gallery-prosus-2.jpg",
-        "image_10": "../images/DSC_1964.jpg"
+        ]
       },
       "WhyCorporateClients": {
         "title": "Waarom zakelijke klanten kiezen voor <br>Fast Elevate Media",
@@ -3020,9 +2900,7 @@
             "videoUrl": "https://vimeo.com/1203179064",
             "caption": "Zakelijke merksamenwerkingsvideo"
           }
-        ],
-        "video": "../images/010724_CEBO-HOLLAND-Recruitment-video.mp4#t=5",
-        "video_2": "../images/GBG-x-RayBan.mp4#t=5"
+        ]
       },
       "WhyCorporateClients": {
         "title": "Waarom zakelijke klanten kiezen voor <br>Fast Elevate Media",
@@ -3241,12 +3119,7 @@
             "videoUrl": "https://vimeo.com/1214376229?share=copy&fl=sv&fe=ci",
             "url": "../images/video-thumbs/vimeo-1214376229.jpg"
           }
-        ],
-        "video": "../images/GBg-2020.mp4#t=5",
-        "video_2": "../images/Example-Edited-Footage-GGG.mp4#t=5",
-        "video_3": "../images/Cebo.mp4#t=5",
-        "video_4": "../images/Cabaia-1.mp4#t=5",
-        "video_5": "../images/Planten-Kas.mp4#t=5"
+        ]
       },
       "WhyCorporateClients": {
         "title": "Waarom zakelijke klanten kiezen voor <br>Fast Elevate Media",
@@ -3502,14 +3375,7 @@
             "videoUrl": "https://vimeo.com/1214376232",
             "caption": "Roadshow Eindhoven"
           }
-        ],
-        "image": "../images/Drone-Amsterdam-Lowres.jpg",
-        "image_alt": "Luchtbeelden van Amsterdam",
-        "image_1": "../images/DJI_0271-Verbeterd-NR.jpg",
-        "image_1_alt": "Luchtperspectief van Evenement",
-        "video": "../images/05-02-25_-SolarPanels-3000_CEBO-HOLLAND.mp4#t=5",
-        "video_2": "../images/Utrecht-Woningen-shot-2.mp4#t=5",
-        "video_3": "../images/drone-olympisch-stadion-1.mp4#t=5"
+        ]
       },
       "WhyCorporateClients": {
         "title": "Waarom zakelijke klanten kiezen voor <br>Fast Elevate Media",
@@ -3670,12 +3536,7 @@
             "alt": "Luchtfoto van Locatie",
             "caption": "Luchtfoto van Locatie"
           }
-        ],
-        "image": "../images/Elevate-Website-FEM.jpg",
-        "image_1": "../images/Corporate-Website-FEM-grijs.jpg",
-        "image_2": "../images/zaal.jpg",
-        "image_3": "../images/Interview-Website-FEM.jpg",
-        "image_4": "../images/Drone-Website-FEM.jpg"
+        ]
       },
       "WhyCorporateClients": {
         "title": "Waarom zakelijke klanten kiezen voor <br>Fast Elevate Media",
@@ -3852,8 +3713,7 @@
       },
       "Intro": {
         "title": "Fast Elevate Media is een<br class=\"hidden sm:inline\" /> <span class=\"text-primary\">Zakelijk Mediabureau</span>",
-        "description": "Snelle, hoogwaardige bedrijfsfotografie en videoproductie voor bedrijven in heel Europa. Wij zijn gespecialiseerd in bedrijfsevenementen, congressen, executive interviews en professionele portretten; uitgevoerd met snelheid, helderheid en consistente visuele standaarden.",
-        "auto_text_div_0_h2_0_span_0": "Zakelijk Mediabureau"
+        "description": "Snelle, hoogwaardige bedrijfsfotografie en videoproductie voor bedrijven in heel Europa. Wij zijn gespecialiseerd in bedrijfsevenementen, congressen, executive interviews en professionele portretten; uitgevoerd met snelheid, helderheid en consistente visuele standaarden."
       },
       "MediaSolutions": {
         "title": "Mediaoplossingen",
@@ -3913,11 +3773,7 @@
             "url": "../images/drone-skyline.jpg",
             "alt": "Drone skyline"
           }
-        ],
-        "image": "../images/zaal.jpg",
-        "image_1": "../images/drone-skyline.jpg",
-        "auto_text_div_1_div_0_h2_0_span_0": "Wereldwijd Bereik",
-        "auto_text_div_1_div_0_div_0_p_2_a_0": "tarieven en pakketten"
+        ]
       },
       "TimelineSection": {
         "title": "Hoe Wij Werken",
@@ -3944,12 +3800,7 @@
         "subtitle_8": "Uiteindelijke oplevering",
         "text_17": "Na definitieve goedkeuring worden de voltooide zakelijke foto's en videocontent geleverd in gebruiksklare formaten, geoptimaliseerd voor internet, sociale media en interne platforms. De resterende investering wordt gefactureerd op het moment van de uiteindelijke oplevering.",
         "subtitle_9": "Feedback & Opvolging",
-        "text_19": "We staan open voor feedback om ons productieproces continu te verbeteren. Na oplevering nemen we contact op om te controleren of alles aan de verwachtingen voldoet en om toekomstige samenwerkingsmogelijkheden te bespreken.",
-        "auto_text_div_1_div_2_div_0_div_1_div_0_p_0": "ONTDEKKING",
-        "auto_text_div_1_div_2_div_4_div_1_div_0_p_0": "PRODUCTIE",
-        "auto_text_div_1_div_2_div_6_div_1_div_0_p_0": "VERFIJNING",
-        "auto_text_div_1_div_2_div_7_div_1_div_0_p_0": "AFRONDING",
-        "auto_text_div_1_div_2_div_8_div_1_div_0_p_0": "EVALUATIE"
+        "text_19": "We staan open voor feedback om ons productieproces continu te verbeteren. Na oplevering nemen we contact op om te controleren of alles aan de verwachtingen voldoet en om toekomstige samenwerkingsmogelijkheden te bespreken."
       },
       "CompaniesThatTrusted": {
         "title": "Bedrijven die hun vertrouwen in ons hebben gesteld",
@@ -4076,17 +3927,7 @@
             "url": "../images/velux-1.jpg",
             "alt": "Velux"
           }
-        ],
-        "image": "../images/abn-amro-logo-new-colors-1.png",
-        "image_1": "../images/postnl-3.png",
-        "image_2": "../images/klarna.jpg",
-        "image_3": "../images/vattenfall_logo.png",
-        "image_4": "../images/velux-1.jpg",
-        "image_5": "../images/abn-amro-logo-new-colors-1.png",
-        "image_6": "../images/postnl-3.png",
-        "image_7": "../images/klarna.jpg",
-        "image_8": "../images/vattenfall_logo.png",
-        "image_9": "../images/velux-1.jpg"
+        ]
       },
       "FastReliableDelivery": {
         "description": "Diensten die resultaat opleveren",
@@ -4097,8 +3938,7 @@
         "link_1": "Breng uw project naar een hoger niveau",
         "image": "../images/Briddge-kantoor.jpg",
         "image_alt": "Kantoorindeling Briddge",
-        "link_1_url": "./start.html",
-        "auto_text_div_0_div_0_div_1_a_0": "Breng uw project naar een hoger niveau"
+        "link_1_url": "./start.html"
       },
       "Footer": {
         "title": "Ga aan de slag met uw project!",
@@ -4524,18 +4364,7 @@
             "alt": "Salesupply portretten",
             "caption": "Zakelijk portret voor Salesupply"
           }
-        ],
-        "image": "../images/abnamro-scaled-1.jpg",
-        "image_1": "../images/SQLI_Goedgekeurd_JPG_1-scaled-1.jpg",
-        "image_2": "../images/Leadinfo_Goedgekeurd_JPG-scaled-1.jpg",
-        "image_3": "../images/DSC_5726-scaled-1.jpg",
-        "image_4": "../images/Bleckmann_Goedgekeurd_JPG_1-scaled-1.jpg",
-        "image_5": "../images/49A5231-scaled-1.jpg",
-        "image_6": "../images/49A5825-scaled-1.jpg",
-        "image_7": "../images/49A5601-scaled-1.jpg",
-        "image_8": "../images/Channable_Goedgekeurd_JPG_2-scaled-1.jpg",
-        "image_9": "../images/SparkOptimus_Goedgekeurd_JPG_1-scaled-1.jpg",
-        "image_10": "../images/Salesupply_Goedgekeurd_JPG_1-scaled-1.jpg"
+        ]
       },
       "WhyCorporateClients": {
         "title": "Waarom zakelijke klanten kiezen voor <br>Fast Elevate Media",
