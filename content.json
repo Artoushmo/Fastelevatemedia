@@ -877,11 +877,6 @@
             "alt": "Roadshow Eindhoven",
             "videoUrl": "https://vimeo.com/1214376232",
             "caption": "Roadshow Eindhoven"
-          },
-          {
-            "caption": "test 4",
-            "videoUrl": "https://vimeo.com/1203179059",
-            "url": "https://rqvmjtdgwaizlgnfhptn.supabase.co/storage/v1/object/public/portfolio-media/sites/1bd48132-1f8a-401a-8699-7e529491c30b/media/1785475140596-4vm7wxl0nuw.png"
           }
         ],
         "image": "./images/Drone-Amsterdam-Lowres.jpg",
@@ -3506,11 +3501,6 @@
             "alt": "Roadshow Eindhoven",
             "videoUrl": "https://vimeo.com/1214376232",
             "caption": "Roadshow Eindhoven"
-          },
-          {
-            "caption": "test 4",
-            "videoUrl": "https://vimeo.com/1203179059",
-            "url": "https://rqvmjtdgwaizlgnfhptn.supabase.co/storage/v1/object/public/portfolio-media/sites/1bd48132-1f8a-401a-8699-7e529491c30b/media/1785475140596-4vm7wxl0nuw.png"
           }
         ],
         "image": "../images/Drone-Amsterdam-Lowres.jpg",
