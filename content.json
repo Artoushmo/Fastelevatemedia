@@ -656,9 +656,9 @@
             "caption": "Corporate Location & Facility Tour"
           },
           {
-            "url": "./images/video-thumbs/vimeo-1214376263.jpg",
-            "caption": "test",
-            "videoUrl": "https://vimeo.com/1214376263?share=copy&fl=sv&fe=ci"
+            "caption": "test 2 ",
+            "videoUrl": "https://vimeo.com/1214376229?share=copy&fl=sv&fe=ci",
+            "url": "./images/video-thumbs/vimeo-1214376229.jpg"
           }
         ],
         "video": "./images/GBg-2020.mp4#t=5",
@@ -3237,9 +3237,9 @@
             "caption": "Rondleiding op zakelijke locaties & faciliteiten"
           },
           {
-            "url": "../images/video-thumbs/vimeo-1214376263.jpg",
-            "caption": "test",
-            "videoUrl": "https://vimeo.com/1214376263?share=copy&fl=sv&fe=ci"
+            "caption": "test 2 ",
+            "videoUrl": "https://vimeo.com/1214376229?share=copy&fl=sv&fe=ci",
+            "url": "../images/video-thumbs/vimeo-1214376229.jpg"
           }
         ],
         "video": "../images/GBg-2020.mp4#t=5",
