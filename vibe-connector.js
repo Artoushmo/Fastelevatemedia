@@ -477,6 +477,28 @@
     node.scrollIntoView({ behavior: "smooth", block: "center" });
   }
 
+  var TAGGED_SELECTOR =
+    "[data-vibe-field],[data-vibe-gallery],[data-vibe-video],[data-vibe-embed],[data-vibe-videolink]";
+
+  /**
+   * Zoekt het bewerkbare element op de klikpositie zelf, niet alleen bij de
+   * voorouders van het geklikte element. Een hover-overlay of een omhullende
+   * link die visueel boven een getagde foto ligt is vaak geen voorouder van
+   * die foto in de DOM — closest() zou hem dan mislopen. elementsFromPoint
+   * doorloopt de hele stapel elementen op die plek, dus vindt de foto er wél
+   * onder, ook al ligt er iets overheen.
+   */
+  function findTaggedAtPoint(x, y) {
+    var stack =
+      typeof document.elementsFromPoint === "function" ? document.elementsFromPoint(x, y) : [];
+    for (var i = 0; i < stack.length; i++) {
+      var el = stack[i];
+      var match = el.matches && el.matches(TAGGED_SELECTOR) ? el : el.closest(TAGGED_SELECTOR);
+      if (match) return match;
+    }
+    return null;
+  }
+
   function initEditorBridge() {
     if (!IS_EDITOR_MODE) return;
 
@@ -485,15 +507,23 @@
     style.textContent = EDITOR_STYLE;
     document.head.appendChild(style);
 
-    // Klik in de preview → het portaal springt naar het bijbehorende veld.
+    // In bewerkmodus mag niets in de preview ooit wegnavigeren — de klant
+    // wisselt van pagina uitsluitend via de paginakiezer in het portaal.
+    // Een klik onderschept daarom altijd eerst de standaardactie van links en
+    // knoppen; is er een bewerkbaar element op die plek, dan springt het
+    // portaal ernaartoe. Zonder match gebeurt er verder niets — de klik is
+    // simpelweg onschadelijk gemaakt.
     document.addEventListener(
       "click",
       function (event) {
-        var node = event.target.closest(
-          "[data-vibe-field],[data-vibe-gallery],[data-vibe-video]," +
-            "[data-vibe-embed],[data-vibe-videolink]"
-        );
+        var link = event.target.closest("a[href], button[type='submit'], form");
+        if (link) {
+          event.preventDefault();
+        }
+
+        var node = findTaggedAtPoint(event.clientX, event.clientY);
         if (!node) return;
+
         event.preventDefault();
         event.stopPropagation();
         var field =
@@ -503,6 +533,18 @@
           node.getAttribute("data-vibe-embed") ||
           node.getAttribute("data-vibe-videolink");
         post({ type: "SBP_FIELD_CLICK", section: sectionNameOf(node), field: field });
+      },
+      true
+    );
+
+    // Sommige sites navigeren via JavaScript in plaats van een <a href> (bv.
+    // window.location.href in een klik-handler). Die weg is met click-events
+    // niet af te vangen; deze twee vangnetten dekken de rest af zonder de
+    // normale werking van de site elders te raken.
+    window.addEventListener(
+      "submit",
+      function (event) {
+        event.preventDefault();
       },
       true
     );
