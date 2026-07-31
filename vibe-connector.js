@@ -449,6 +449,18 @@
     ".sbp-editor [data-vibe-videolink]:hover" +
     "{outline:2px dashed #93c5fd;outline-offset:2px}";
 
+  // Cookiebanners van de site zelf horen niet in de weg te zitten tijdens het
+  // bewerken — vooral niet als de toestemming van de klant niet blijft hangen
+  // in een cross-origin preview-iframe (browsers isoleren opslag daar vaak
+  // per herkomst) en de banner dus telkens terugkomt. Puur zichtbaarheid: de
+  // regels gelden alleen binnen .sbp-editor, dus nooit voor echte bezoekers.
+  var COOKIE_BANNER_STYLE =
+    '.sbp-editor [id*="cookie-banner" i],.sbp-editor [id*="cookie-consent" i],' +
+    '.sbp-editor [id*="cookie-overlay" i],.sbp-editor [id*="cookiebanner" i],' +
+    '.sbp-editor [id*="cookieconsent" i],.sbp-editor [class*="cookie-banner" i],' +
+    '.sbp-editor [class*="cookie-consent" i],.sbp-editor [class*="cookiebanner" i],' +
+    '.sbp-editor [class*="cookieconsent" i]{display:none !important}';
+
   function post(payload) {
     if (!IS_EDITOR_MODE) return;
     window.parent.postMessage(payload, PARENT_ORIGIN);
@@ -504,7 +516,7 @@
 
     document.documentElement.classList.add("sbp-editor");
     var style = document.createElement("style");
-    style.textContent = EDITOR_STYLE;
+    style.textContent = EDITOR_STYLE + COOKIE_BANNER_STYLE;
     document.head.appendChild(style);
 
     // In bewerkmodus mag niets in de preview ooit wegnavigeren — de klant
