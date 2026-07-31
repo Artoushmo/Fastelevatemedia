@@ -122,6 +122,21 @@
    * verhoudingen en overlays — blijft ongemoeid. Dat is precies hoe de site
    * het zelf ook doet: dezelfde wrapper, een ander mediabeeld erin.
    */
+  /**
+   * Classes die naar het mediatype verwijzen mogen niet meeverhuizen. Sites
+   * zoeken elementen op zulke classes op — een <img> met `gallery-video` krijgt
+   * dan `.play()` aangeroepen, wat een fout geeft. Opmaakclasses blijven wel.
+   */
+  function stripTypeClasses(className, wantVideo) {
+    return String(className || "")
+      .split(/\s+/)
+      .filter(Boolean)
+      .filter(function (token) {
+        return wantVideo ? !/(img|image|photo|foto)/i.test(token) : !/video/i.test(token);
+      })
+      .join(" ");
+  }
+
   function ensureMediaType(child, wantVideo) {
     var current = mediaElementOf(child);
     if (!current) return null;
@@ -129,7 +144,7 @@
     if (current.tagName === wantTag) return current;
 
     var replacement = document.createElement(wantVideo ? "video" : "img");
-    replacement.className = current.className;
+    replacement.className = stripTypeClasses(current.className, wantVideo);
     if (wantVideo) {
       replacement.muted = true;
       replacement.loop = true;
