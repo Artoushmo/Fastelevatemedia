@@ -3706,7 +3706,7 @@
     },
     "home": {
       "HeroSection": {
-        "link_1": "Breng uw project naar een hoger niveau",
+        "link_1": "Breng uw project naar een hoger niveau aangepast",
         "link_2": "Neem contact op",
         "link_1_url": "./start.html",
         "link_2_url": "./contact.html"
