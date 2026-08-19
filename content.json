@@ -434,14 +434,14 @@
         "image_alt": "Corporate photography reliability",
         "subtitle_1": "Corporate events require more than just photography",
         "description": "They require reliability, experience and smooth collaboration with corporate teams and event organizers. Fast Elevate Media is trusted by corporate clients across Amsterdam and Europe for our structured workflow, professional execution and clear communication.",
-        "image_1": "./images/services/event-photography-2.jpg",
-        "image_1_alt": "Easy collaboration",
-        "subtitle_2": "We are easy to work with",
-        "text_1": "We are known for being easy to work with, adaptable to corporate environments and responsive to the fast pace of live events.<br><br>Our experienced photographers understand how to operate discreetly while capturing impactful visuals aligned with your brand and communication objectives.",
-        "image_2": "./images/services/event-photography-3.jpg",
-        "image_2_alt": "Scalable team coverage",
-        "subtitle_3": "Scalable solutions",
-        "text_2": "From single-operator coverage to coordinated multi-photographer productions, we scale according to the size and complexity of your event. Combined with fast and structured delivery timelines, this ensures your media is ready when your team needs it."
+        "image_1": "./images/services/event-photography-3.jpg",
+        "image_1_alt": "Scalable team coverage",
+        "subtitle_2": "Scalable solutions",
+        "text_1": "From single-operator coverage to coordinated multi-photographer productions, we scale according to the size and complexity of your event. Combined with fast and structured delivery timelines, this ensures your media is ready when your team needs it.",
+        "image_2": "./images/services/event-photography-2.jpg",
+        "image_2_alt": "Easy collaboration",
+        "subtitle_3": "We are easy to work with",
+        "text_2": "We are known for being easy to work with, adaptable to corporate environments and responsive to the fast pace of live events.<br><br>Our experienced photographers understand how to operate discreetly while capturing impactful visuals aligned with your brand and communication objectives."
       },
       "TimelineSection": {
         "title": "Our Corporate Event Photography Approach",
@@ -815,14 +815,14 @@
         "image_alt": "Corporate video reliability",
         "subtitle_1": "Experienced and Reliable Production",
         "description": "Corporate video production requires more than strong visuals. It requires experience, planning and structured execution. Fast Elevate Media is trusted by corporate clients across Amsterdam and Europe for professional production, clear communication and consistent results. Our team works discreetly within conferences, corporate offices and professional business environments.",
-        "image_1": "./images/services/video-production-2.jpg",
-        "image_1_alt": "Easy collaboration",
-        "subtitle_2": "Easy and Efficient Collaboration",
-        "text_1": "We are known for being easy to work with and adaptable to corporate environments. Our team collaborates closely with communication teams, marketing departments and event organizers to ensure an efficient production process and clear coordination from planning to delivery.",
-        "image_2": "./images/services/video-production-3.jpg",
-        "image_2_alt": "Scalable team coverage",
-        "subtitle_3": "Scalable Production and Fast Delivery",
-        "text_2": "From single-camera productions to coordinated multi-videographer setups, we scale according to the size and complexity of your project. Standard delivery is within four working days. Priority delivery options are also available, including selected clips delivered within 8 to 12 hours after your event."
+        "image_1": "./images/services/video-production-3.jpg",
+        "image_1_alt": "Scalable team coverage",
+        "subtitle_2": "Scalable Production and Fast Delivery",
+        "text_1": "From single-camera productions to coordinated multi-videographer setups, we scale according to the size and complexity of your project. Standard delivery is within four working days. Priority delivery options are also available, including selected clips delivered within 8 to 12 hours after your event.",
+        "image_2": "./images/services/video-production-2.jpg",
+        "image_2_alt": "Easy collaboration",
+        "subtitle_3": "Easy and Efficient Collaboration",
+        "text_2": "We are known for being easy to work with and adaptable to corporate environments. Our team collaborates closely with communication teams, marketing departments and event organizers to ensure an efficient production process and clear coordination from planning to delivery."
       },
       "TimelineSection": {
         "title": "Our Corporate Video Production Process",
@@ -3598,13 +3598,13 @@
         "title": "Waarom zakelijke klanten kiezen voor <br>Fast Elevate Media",
         "subtitle_1": "Bedrijfsevenementen vereisen meer dan alleen fotografie",
         "description": "Ze vereisen betrouwbaarheid, ervaring en een soepele samenwerking met bedrijfsteams en organisatoren. Fast Elevate Media wordt vertrouwd door zakelijke klanten in Amsterdam en heel Europa vanwege onze gestructureerde workflow, professionele uitvoering en duidelijke communicatie.",
-        "subtitle_2": "Wij zijn makkelijk om mee te werken",
-        "text_1": "We staan erom bekend dat we prettig in de omgang zijn, ons snel aanpassen aan zakelijke omgevingen en flexibel inspelen op het snelle tempo van live evenementen.<br><br>Onze ervaren fotografen begrijpen hoe ze discreet moeten werken terwijl ze impactvolle beelden vastleggen die aansluiten bij uw merk- en communicatiedoelstellingen.",
-        "subtitle_3": "Schaalbare oplossingen",
-        "text_2": "Van een enkele fotograaf tot geco\u00f6rdineerde producties met meerdere fotografen, we schalen op basis van de omvang en complexiteit van uw evenement. Gecombineerd met snelle en gestructureerde leveringstermijnen zorgt dit ervoor dat uw media klaar is wanneer uw team het nodig heeft.",
+        "subtitle_2": "Schaalbare oplossingen",
+        "text_1": "Van een enkele fotograaf tot geco\u00f6rdineerde producties met meerdere fotografen, we schalen op basis van de omvang en complexiteit van uw evenement. Gecombineerd met snelle en gestructureerde leveringstermijnen zorgt dit ervoor dat uw media klaar is wanneer uw team het nodig heeft.",
+        "subtitle_3": "Wij zijn makkelijk om mee te werken",
+        "text_2": "We staan erom bekend dat we prettig in de omgang zijn, ons snel aanpassen aan zakelijke omgevingen en flexibel inspelen op het snelle tempo van live evenementen.<br><br>Onze ervaren fotografen begrijpen hoe ze discreet moeten werken terwijl ze impactvolle beelden vastleggen die aansluiten bij uw merk- en communicatiedoelstellingen.",
         "image": "../images/services/event-photography-1.jpg",
-        "image_1": "../images/services/event-photography-2.jpg",
-        "image_2": "../images/services/event-photography-3.jpg"
+        "image_1": "../images/services/event-photography-3.jpg",
+        "image_2": "../images/services/event-photography-2.jpg"
       },
       "PhotosAreDelivered": {
         "title": "Foto's worden geleverd via een besloten galerij- of downloadlink, klaar voor:"
@@ -4168,13 +4168,13 @@
         "title": "Waarom zakelijke klanten kiezen voor <br>Fast Elevate Media",
         "subtitle_1": "Ervaren en betrouwbare productie",
         "description": "Bedrijfsvideoproductie vereist meer dan alleen sterke beelden. Het vereist ervaring, planning en een gestructureerde uitvoering. Fast Elevate Media wordt vertrouwd door zakelijke klanten in Amsterdam en heel Europa voor professionele productie, duidelijke communicatie en consistente resultaten. Ons team werkt discreet binnen conferenties, bedrijfskantoren en professionele zakelijke omgevingen.",
-        "subtitle_2": "Eenvoudige en effici\u00ebnte samenwerking",
-        "text_1": "We staan erom bekend dat we makkelijk zijn om mee te werken en ons eenvoudig aanpassen aan zakelijke omgevingen. Ons team werkt nauw samen met communicatieteams, marketingafdelingen en organisatoren van evenementen om te zorgen voor een effici\u00ebnt productieproces en duidelijke co\u00f6rdinatie van planning tot oplevering.",
-        "subtitle_3": "Schaalbare productie en snelle levering",
-        "text_2": "Van producties met \u00e9\u00e9n camera tot geco\u00f6rdineerde opstellingen met meerdere videografen: we schalen op basis van de omvang en complexiteit van uw project. De standaardlevering is binnen vier werkdagen. Prioritaire leveringsopties zijn ook beschikbaar, inclusief geselecteerde clips die binnen 8 to 12 uur na uw evenement worden geleverd.",
+        "subtitle_2": "Schaalbare productie en snelle levering",
+        "text_1": "Van producties met \u00e9\u00e9n camera tot geco\u00f6rdineerde opstellingen met meerdere videografen: we schalen op basis van de omvang en complexiteit van uw project. De standaardlevering is binnen vier werkdagen. Prioritaire leveringsopties zijn ook beschikbaar, inclusief geselecteerde clips die binnen 8 to 12 uur na uw evenement worden geleverd.",
+        "subtitle_3": "Eenvoudige en effici\u00ebnte samenwerking",
+        "text_2": "We staan erom bekend dat we makkelijk zijn om mee te werken en ons eenvoudig aanpassen aan zakelijke omgevingen. Ons team werkt nauw samen met communicatieteams, marketingafdelingen en organisatoren van evenementen om te zorgen voor een effici\u00ebnt productieproces en duidelijke co\u00f6rdinatie van planning tot oplevering.",
         "image": "../images/services/video-production-1.jpg",
-        "image_1": "../images/services/video-production-2.jpg",
-        "image_2": "../images/services/video-production-3.jpg"
+        "image_1": "../images/services/video-production-3.jpg",
+        "image_2": "../images/services/video-production-2.jpg"
       },
       "VideosAreDelivered": {
         "title": "Video's worden geleverd via een beveiligde galerij of downloadlink, klaar voor:"
