@@ -971,7 +971,7 @@
     "drone-video-aerial-photography": {
       "DroneVideo": {
         "title": "Drone Video &amp; Aerial Photography",
-        "embed_1": "https://player.vimeo.com/video/1219603348?autoplay=1&loop=1&muted=1&background=1"
+        "embed_1": "https://player.vimeo.com/video/1219603348?background=1&autoplay=1&loop=1&muted=1&autopause=0&playsinline=1"
       },
       "CorporateDroneVideo": {
         "image_alt": "Corporate drone videography set",
@@ -996,7 +996,7 @@
         "link_2_url": "./corporate-event-photography.html",
         "link_3_url": "./start.html",
         "link_4_url": "./pricing.html",
-        "embed_1": "https://player.vimeo.com/video/1219603348?autoplay=1&loop=1&muted=1&background=1"
+        "embed_1": "https://player.vimeo.com/video/1219603348?background=1&autoplay=1&loop=1&muted=1&autopause=0&playsinline=1"
       },
       "ExploreOurWork": {
         "title": "Explore our work",
@@ -1066,7 +1066,7 @@
       "__meta": {
         "title": "Drone Video & Aerial Photography | Fast Elevate Media",
         "description": "Certified corporate drone video production and aerial photography across Amsterdam and Europe. Showcase your venues, buildings, and events safely and professionally.",
-        "embed_1": "https://player.vimeo.com/video/1219603348?autoplay=1&loop=1&muted=1&background=1"
+        "embed_1": "https://player.vimeo.com/video/1219603348?background=1&autoplay=1&loop=1&muted=1&autopause=0&playsinline=1"
       },
       "Header": {
         "link_2": "Home",
@@ -4248,7 +4248,7 @@
         "link_2_url": "./corporate-event-photography.html",
         "link_3_url": "./start.html",
         "link_4_url": "./pricing.html",
-        "embed_1": "https://player.vimeo.com/video/1219603348?autoplay=1&loop=1&muted=1&background=1"
+        "embed_1": "https://player.vimeo.com/video/1219603348?background=1&autoplay=1&loop=1&muted=1&autopause=0&playsinline=1"
       },
       "OntdekOnsWerk": {
         "title": "Ontdek ons werk",
@@ -4360,7 +4360,7 @@
       "__meta": {
         "title": "Drone Video & Luchtfotografie | Fast Elevate Media",
         "description": "Gecertificeerde zakelijke drone-videoproductie en luchtfotografie in Amsterdam en Europa. Presenteer uw locaties, gebouwen en evenementen veilig en professioneel.",
-        "embed_1": "https://player.vimeo.com/video/1219603348?autoplay=1&loop=1&muted=1&background=1"
+        "embed_1": "https://player.vimeo.com/video/1219603348?background=1&autoplay=1&loop=1&muted=1&autopause=0&playsinline=1"
       },
       "Header": {
         "link_2": "Home",
@@ -4392,7 +4392,7 @@
         "feature_5": "Merkvideo's en promotiecampagnes",
         "link_3": "Aan de slag",
         "link_4": "Tarieven bekijken",
-        "embed_1": "https://player.vimeo.com/video/1219603348?autoplay=1&loop=1&muted=1&background=1"
+        "embed_1": "https://player.vimeo.com/video/1219603348?background=1&autoplay=1&loop=1&muted=1&autopause=0&playsinline=1"
       },
       "ExploreOurWork": {
         "title": "Ontdek ons werk",
