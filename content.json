@@ -6,7 +6,8 @@
         "description": "Fast Elevate Media is a corporate photography and video production agency based in Amsterdam. We help companies capture conferences, business events and corporate communication through high quality visual media.<br><br>Our team works with organizations across the Netherlands and Europe, producing corporate event photography, executive interviews, video production and professional headshots tailored to modern business communication.<br><br>By combining creative expertise with a structured production workflow, we ensure reliable execution, fast delivery and visual content ready for corporate websites, internal communication and global marketing teams. lets go test",
         "link_1": "Get Started",
         "video": "./banner-video-fem-v3-about.mp4",
-        "link_1_url": "./start.html"
+        "link_1_url": "./start.html",
+        "button_1": "<svg class=\"w-4 h-4 fill-current\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path d=\"M8 5v14l11-7z\"></path>\n            </svg>\n            View showreel"
       },
       "ExpertCorporateMedia": {
         "title": "Expert corporate media production for modern organizations",
@@ -93,6 +94,47 @@
       "__meta": {
         "title": "About Us | Fast Elevate Media",
         "description": "Fast Elevate Media is a corporate photography and video production agency based in Amsterdam. We help companies capture conferences and corporate events across Europe."
+      },
+      "Header": {
+        "link_2": "Home",
+        "button_1": "Services\n          <span class=\"inline-flex items-center justify-center w-4 h-4 rounded-full bg-white text-gray-800 ml-0.5\">\n            <svg class=\"w-2.5 h-2.5 stroke-current\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>\n          </span>",
+        "feature_1": "Service Overview",
+        "feature_2": "Corporate Event Photography",
+        "feature_3": "Corporate Video Production",
+        "feature_4": "Professional Headshots &amp; Portraits",
+        "feature_5": "Corporate Interviews &amp; Testimonials",
+        "feature_6": "Drone Video &amp; Aerial Photography",
+        "feature_7": "Elevate Your Event",
+        "link_10": "About",
+        "link_11": "Pricing",
+        "link_12": "Contact",
+        "button_2": "<svg class=\"w-5 h-3.5 rounded-sm object-cover shrink-0\" width=\"20\" height=\"14\" style=\"width:20px; height:14px; display:inline-block; vertical-align:middle; flex-shrink:0;\" viewBox=\"0 0 7410 3900\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n            <rect width=\"7410\" height=\"3900\" fill=\"#B22234\"></rect>\n            <path d=\"M0 300H7410M0 900H7410M0 1500H7410M0 2100H7410M0 2700H7410M0 3300H7410\" stroke=\"white\" stroke-width=\"300\"></path>\n            <rect width=\"2964\" height=\"2100\" fill=\"#3C3B6E\"></rect>\n            <g fill=\"white\">\n              <circle cx=\"494\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1750\" r=\"50\"></circle>\n            </g>\n          </svg>\n          <span class=\"text-xs font-bold uppercase tracking-wider\">EN</span>\n          <svg class=\"w-2.5 h-2.5 stroke-current opacity-60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n          </svg>",
+        "link_15": "Get Started",
+        "button_3": "<svg class=\"w-6 h-6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4 6h16M4 12h16M4 18h16\"></path>\n        </svg>"
+      },
+      "Footer": {
+        "title": "Get started on your project!",
+        "description": "We deliver high-quality photography and video production for companies across Europe. From corporate events and conferences to interviews and professional portraits.",
+        "link_1": "Get started",
+        "link_2": "View Pricing",
+        "link_3": "Chat with us",
+        "subtitle_1": "Services",
+        "link_4": "Services overview",
+        "link_5": "Corporate Event Photography",
+        "link_6": "Corporate Video Production",
+        "link_7": "Professional Headshots &amp; Corporate Portraits",
+        "link_8": "Drone Video &amp; Aerial Photography",
+        "link_9": "Elevate Your Event",
+        "subtitle_2": "Info",
+        "link_10": "FAQ",
+        "link_11": "About",
+        "link_12": "Pricing",
+        "link_13": "Contact",
+        "text_1": "\u00a92026 Fast Elevate Media. All Rights Reserved.",
+        "text_2": "Chamber of Commerce: 56193203",
+        "link_14": "Privacy",
+        "link_15": "Terms &amp; conditions",
+        "link_16": "Cookies"
       }
     },
     "contact": {
@@ -116,6 +158,47 @@
       "__meta": {
         "title": "Contact us | Fast Elevate Media",
         "description": "Get in touch with Fast Elevate Media. We are based in Amsterdam and operate across Europe for corporate photography and video production."
+      },
+      "Header": {
+        "link_2": "Home",
+        "button_1": "Services\n          <span class=\"inline-flex items-center justify-center w-4 h-4 rounded-full bg-white text-gray-800 ml-0.5\">\n            <svg class=\"w-2.5 h-2.5 stroke-current\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>\n          </span>",
+        "feature_1": "Service Overview",
+        "feature_2": "Corporate Event Photography",
+        "feature_3": "Corporate Video Production",
+        "feature_4": "Professional Headshots &amp; Portraits",
+        "feature_5": "Corporate Interviews &amp; Testimonials",
+        "feature_6": "Drone Video &amp; Aerial Photography",
+        "feature_7": "Elevate Your Event",
+        "link_10": "About",
+        "link_11": "Pricing",
+        "link_12": "Contact",
+        "button_2": "<svg class=\"w-5 h-3.5 rounded-sm object-cover shrink-0\" width=\"20\" height=\"14\" style=\"width:20px; height:14px; display:inline-block; vertical-align:middle; flex-shrink:0;\" viewBox=\"0 0 7410 3900\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n            <rect width=\"7410\" height=\"3900\" fill=\"#B22234\"></rect>\n            <path d=\"M0 300H7410M0 900H7410M0 1500H7410M0 2100H7410M0 2700H7410M0 3300H7410\" stroke=\"white\" stroke-width=\"300\"></path>\n            <rect width=\"2964\" height=\"2100\" fill=\"#3C3B6E\"></rect>\n            <g fill=\"white\">\n              <circle cx=\"494\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1750\" r=\"50\"></circle>\n            </g>\n          </svg>\n          <span class=\"text-xs font-bold uppercase tracking-wider\">EN</span>\n          <svg class=\"w-2.5 h-2.5 stroke-current opacity-60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n          </svg>",
+        "link_15": "Get Started",
+        "button_3": "<svg class=\"w-6 h-6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4 6h16M4 12h16M4 18h16\"></path>\n        </svg>"
+      },
+      "Footer": {
+        "title": "Get started on your project!",
+        "description": "We deliver high-quality photography and video production for companies across Europe. From corporate events and conferences to interviews and professional portraits.",
+        "link_1": "Get started",
+        "link_2": "View Pricing",
+        "link_3": "Chat with us",
+        "subtitle_1": "Services",
+        "link_4": "Services overview",
+        "link_5": "Corporate Event Photography",
+        "link_6": "Corporate Video Production",
+        "link_7": "Professional Headshots &amp; Corporate Portraits",
+        "link_8": "Drone Video &amp; Aerial Photography",
+        "link_9": "Elevate Your Event",
+        "subtitle_2": "Info",
+        "link_10": "FAQ",
+        "link_11": "About",
+        "link_12": "Pricing",
+        "link_13": "Contact",
+        "text_1": "\u00a92026 Fast Elevate Media. All Rights Reserved.",
+        "text_2": "Chamber of Commerce: 56193203",
+        "link_14": "Privacy",
+        "link_15": "Terms &amp; conditions",
+        "link_16": "Cookies"
       }
     },
     "cookies": {
@@ -130,7 +213,7 @@
       },
       "Intro": {
         "title": "Cookie Policy",
-        "description": "This Cookie Policy explains how Fast Elevate Media (\"we\", \"us\", or \"our\") uses cookies and similar technologies when you visit our website. This policy should be read together with our <a href=\"./privacy.html\" class=\"text-primary underline hover:text-primary/80 transition-colors\">Privacy Policy</a>. By continuing to use our website, you may be asked to provide consent for certain categories of cookies through our cookie consent banner.",
+        "description": "<strong>Last updated: June 2026</strong>",
         "subtitle_1": "1. Introduction",
         "link_1": "Privacy Policy",
         "subtitle_2": "2. What Are Cookies?",
@@ -189,7 +272,11 @@
         "link_4_url": "https://support.apple.com/guide/safari/sfri11471/mac",
         "link_5_url": "https://support.microsoft.com/microsoft-edge/delete-and-manage-cookies-168dab11-0753-043d-7c16-ede5947fc64d",
         "link_6_url": "mailto:info@fastelevatemedia.com",
-        "link_7_url": "tel:+31628460837"
+        "link_7_url": "tel:+31628460837",
+        "description_2": "This Cookie Policy explains how Fast Elevate Media (\"we\", \"us\", or \"our\") uses cookies and similar technologies when you visit our website. This policy should be read together with our <a href=\"./privacy.html\" class=\"text-primary underline hover:text-primary/80 transition-colors\">Privacy Policy</a>. By continuing to use our website, you may be asked to provide consent for certain categories of cookies through our cookie consent banner.",
+        "subtitle_14": "Got any questions?",
+        "text_33": "If you have any questions, feedback just let us know.",
+        "link_8": "Contact us"
       },
       "Footer": {
         "title": "Get started on your project!",
@@ -236,6 +323,23 @@
       "__meta": {
         "title": "Cookie Policy | Fast Elevate Media",
         "description": "Cookie Policy of Fast Elevate Media. Learn how we use cookies on fastelevatemedia.com."
+      },
+      "Header": {
+        "link_2": "Home",
+        "button_1": "Services\n          <span class=\"inline-flex items-center justify-center w-4 h-4 rounded-full bg-white text-gray-800 ml-0.5\">\n            <svg class=\"w-2.5 h-2.5 stroke-current\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>\n          </span>",
+        "feature_1": "Service Overview",
+        "feature_2": "Corporate Event Photography",
+        "feature_3": "Corporate Video Production",
+        "feature_4": "Professional Headshots &amp; Portraits",
+        "feature_5": "Corporate Interviews &amp; Testimonials",
+        "feature_6": "Drone Video &amp; Aerial Photography",
+        "feature_7": "Elevate Your Event",
+        "link_10": "About",
+        "link_11": "Pricing",
+        "link_12": "Contact",
+        "button_2": "<svg class=\"w-5 h-3.5 rounded-sm object-cover shrink-0\" width=\"20\" height=\"14\" style=\"width:20px; height:14px; display:inline-block; vertical-align:middle; flex-shrink:0;\" viewBox=\"0 0 7410 3900\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n            <rect width=\"7410\" height=\"3900\" fill=\"#B22234\"></rect>\n            <path d=\"M0 300H7410M0 900H7410M0 1500H7410M0 2100H7410M0 2700H7410M0 3300H7410\" stroke=\"white\" stroke-width=\"300\"></path>\n            <rect width=\"2964\" height=\"2100\" fill=\"#3C3B6E\"></rect>\n            <g fill=\"white\">\n              <circle cx=\"494\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1750\" r=\"50\"></circle>\n            </g>\n          </svg>\n          <span class=\"text-xs font-bold uppercase tracking-wider\">EN</span>\n          <svg class=\"w-2.5 h-2.5 stroke-current opacity-60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n          </svg>",
+        "link_15": "Get Started",
+        "button_3": "<svg class=\"w-6 h-6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4 6h16M4 12h16M4 18h16\"></path>\n        </svg>"
       }
     },
     "corporate-event-photography": {
@@ -431,11 +535,56 @@
         "text_1": "Yes. We scale our team from a single photographer to a coordinated multi-photographer crew to cover large-scale conferences or cover multiple locations simultaneously.",
         "text_2": "Yes. We offer integrated event coverage combining video, photography and drone services.",
         "text_3": "Yes. Based in Amsterdam, we capture corporate events and business conferences across the Netherlands and throughout Europe.",
-        "link_1_url": "./faq.html"
+        "link_1_url": "./faq.html",
+        "button_1": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">How long does corporate event photography take?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
+        "button_2": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Do you offer multi-photographer event coverage?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
+        "button_3": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Can photography be combined with video production?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
+        "button_4": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Do you work outside Amsterdam?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>"
       },
       "__meta": {
         "title": "Corporate Event Photography | Fast Elevate Media",
         "description": "Professional corporate event photography for conferences, summits, product launches, and business events across Amsterdam and Europe. High-quality visual assets delivered quickly."
+      },
+      "Header": {
+        "link_2": "Home",
+        "button_1": "Services\n          <span class=\"inline-flex items-center justify-center w-4 h-4 rounded-full bg-white text-gray-800 ml-0.5\">\n            <svg class=\"w-2.5 h-2.5 stroke-current\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>\n          </span>",
+        "feature_1": "Service Overview",
+        "feature_2": "Corporate Event Photography",
+        "feature_3": "Corporate Video Production",
+        "feature_4": "Professional Headshots &amp; Portraits",
+        "feature_5": "Corporate Interviews &amp; Testimonials",
+        "feature_6": "Drone Video &amp; Aerial Photography",
+        "feature_7": "Elevate Your Event",
+        "link_10": "About",
+        "link_11": "Pricing",
+        "link_12": "Contact",
+        "button_2": "<svg class=\"w-5 h-3.5 rounded-sm object-cover shrink-0\" width=\"20\" height=\"14\" style=\"width:20px; height:14px; display:inline-block; vertical-align:middle; flex-shrink:0;\" viewBox=\"0 0 7410 3900\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n            <rect width=\"7410\" height=\"3900\" fill=\"#B22234\"></rect>\n            <path d=\"M0 300H7410M0 900H7410M0 1500H7410M0 2100H7410M0 2700H7410M0 3300H7410\" stroke=\"white\" stroke-width=\"300\"></path>\n            <rect width=\"2964\" height=\"2100\" fill=\"#3C3B6E\"></rect>\n            <g fill=\"white\">\n              <circle cx=\"494\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1750\" r=\"50\"></circle>\n            </g>\n          </svg>\n          <span class=\"text-xs font-bold uppercase tracking-wider\">EN</span>\n          <svg class=\"w-2.5 h-2.5 stroke-current opacity-60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n          </svg>",
+        "link_15": "Get Started",
+        "button_3": "<svg class=\"w-6 h-6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4 6h16M4 12h16M4 18h16\"></path>\n        </svg>"
+      },
+      "Footer": {
+        "title": "Get started on your project!",
+        "description": "We deliver high-quality photography and video production for companies across Europe. From corporate events and conferences to interviews and professional portraits.",
+        "link_1": "Get started",
+        "link_2": "View Pricing",
+        "link_3": "Chat with us",
+        "subtitle_1": "Services",
+        "link_4": "Services overview",
+        "link_5": "Corporate Event Photography",
+        "link_6": "Corporate Video Production",
+        "link_7": "Professional Headshots &amp; Corporate Portraits",
+        "link_8": "Drone Video &amp; Aerial Photography",
+        "link_9": "Elevate Your Event",
+        "subtitle_2": "Info",
+        "link_10": "FAQ",
+        "link_11": "About",
+        "link_12": "Pricing",
+        "link_13": "Contact",
+        "text_1": "\u00a92026 Fast Elevate Media. All Rights Reserved.",
+        "text_2": "Chamber of Commerce: 56193203",
+        "link_14": "Privacy",
+        "link_15": "Terms &amp; conditions",
+        "link_16": "Cookies"
       }
     },
     "corporate-interviews-testimonials": {
@@ -572,11 +721,57 @@
       },
       "FaqSection": {
         "title": "Frequently Asked Questions",
-        "description": "Interviews &amp; Testimonials FAQs"
+        "description": "Interviews &amp; Testimonials FAQs",
+        "button_1": "<span>Where do we shoot corporate interviews and testimonials?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
+        "button_2": "<span>How long does a typical interview session take?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
+        "button_3": "<span>How do you handle audio quality in noisy environments?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
+        "button_4": "<span>Can we supply our own questions or do you help structure them?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
+        "button_5": "<span>How are the final interview videos delivered?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>"
       },
       "__meta": {
         "title": "Corporate Interviews & Testimonials | Fast Elevate Media",
         "description": "Professional corporate interview and testimonial video production for executives, leadership teams, and partners across Amsterdam and Europe."
+      },
+      "Header": {
+        "link_2": "Home",
+        "button_1": "Services\n          <span class=\"inline-flex items-center justify-center w-4 h-4 rounded-full bg-white text-gray-800 ml-0.5\">\n            <svg class=\"w-2.5 h-2.5 stroke-current\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>\n          </span>",
+        "feature_1": "Service Overview",
+        "feature_2": "Corporate Event Photography",
+        "feature_3": "Corporate Video Production",
+        "feature_4": "Professional Headshots &amp; Portraits",
+        "feature_5": "Corporate Interviews &amp; Testimonials",
+        "feature_6": "Drone Video &amp; Aerial Photography",
+        "feature_7": "Elevate Your Event",
+        "link_10": "About",
+        "link_11": "Pricing",
+        "link_12": "Contact",
+        "button_2": "<svg class=\"w-5 h-3.5 rounded-sm object-cover shrink-0\" width=\"20\" height=\"14\" style=\"width:20px; height:14px; display:inline-block; vertical-align:middle; flex-shrink:0;\" viewBox=\"0 0 7410 3900\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n            <rect width=\"7410\" height=\"3900\" fill=\"#B22234\"></rect>\n            <path d=\"M0 300H7410M0 900H7410M0 1500H7410M0 2100H7410M0 2700H7410M0 3300H7410\" stroke=\"white\" stroke-width=\"300\"></path>\n            <rect width=\"2964\" height=\"2100\" fill=\"#3C3B6E\"></rect>\n            <g fill=\"white\">\n              <circle cx=\"494\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1750\" r=\"50\"></circle>\n            </g>\n          </svg>\n          <span class=\"text-xs font-bold uppercase tracking-wider\">EN</span>\n          <svg class=\"w-2.5 h-2.5 stroke-current opacity-60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n          </svg>",
+        "link_15": "Get Started",
+        "button_3": "<svg class=\"w-6 h-6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4 6h16M4 12h16M4 18h16\"></path>\n        </svg>"
+      },
+      "Footer": {
+        "title": "Get started on your project!",
+        "description": "We deliver high-quality photography and video production for companies across Europe. From corporate events and conferences to interviews and professional portraits.",
+        "link_1": "Get started",
+        "link_2": "View Pricing",
+        "link_3": "Chat with us",
+        "subtitle_1": "Services",
+        "link_4": "Services overview",
+        "link_5": "Corporate Event Photography",
+        "link_6": "Corporate Video Production",
+        "link_7": "Professional Headshots &amp; Corporate Portraits",
+        "link_8": "Drone Video &amp; Aerial Photography",
+        "link_9": "Elevate Your Event",
+        "subtitle_2": "Info",
+        "link_10": "FAQ",
+        "link_11": "About",
+        "link_12": "Pricing",
+        "link_13": "Contact",
+        "text_1": "\u00a92026 Fast Elevate Media. All Rights Reserved.",
+        "text_2": "Chamber of Commerce: 56193203",
+        "link_14": "Privacy",
+        "link_15": "Terms &amp; conditions",
+        "link_16": "Cookies"
       }
     },
     "corporate-video-production": {
@@ -721,11 +916,56 @@
         "text_1": "Yes. We scale from single-camera setups to multi-camera productions depending on event complexity.",
         "text_2": "Yes. We offer integrated event coverage combining video, photography and drone services.",
         "text_3": "Yes. Based in Amsterdam, we support corporate video productions across Europe.",
-        "link_1_url": "./faq.html"
+        "link_1_url": "./faq.html",
+        "button_1": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">How long does corporate video production take?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
+        "button_2": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Do you offer multi-camera conference filming?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
+        "button_3": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Can video production be combined with photography?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
+        "button_4": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Do you work outside Amsterdam?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>"
       },
       "__meta": {
         "title": "Corporate Video Production | Fast Elevate Media",
         "description": "Professional corporate video production for conferences, aftermovies, recruitment, interviews, and corporate communication across Amsterdam and Europe."
+      },
+      "Header": {
+        "link_2": "Home",
+        "button_1": "Services\n          <span class=\"inline-flex items-center justify-center w-4 h-4 rounded-full bg-white text-gray-800 ml-0.5\">\n            <svg class=\"w-2.5 h-2.5 stroke-current\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>\n          </span>",
+        "feature_1": "Service Overview",
+        "feature_2": "Corporate Event Photography",
+        "feature_3": "Corporate Video Production",
+        "feature_4": "Professional Headshots &amp; Portraits",
+        "feature_5": "Corporate Interviews &amp; Testimonials",
+        "feature_6": "Drone Video &amp; Aerial Photography",
+        "feature_7": "Elevate Your Event",
+        "link_10": "About",
+        "link_11": "Pricing",
+        "link_12": "Contact",
+        "button_2": "<svg class=\"w-5 h-3.5 rounded-sm object-cover shrink-0\" width=\"20\" height=\"14\" style=\"width:20px; height:14px; display:inline-block; vertical-align:middle; flex-shrink:0;\" viewBox=\"0 0 7410 3900\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n            <rect width=\"7410\" height=\"3900\" fill=\"#B22234\"></rect>\n            <path d=\"M0 300H7410M0 900H7410M0 1500H7410M0 2100H7410M0 2700H7410M0 3300H7410\" stroke=\"white\" stroke-width=\"300\"></path>\n            <rect width=\"2964\" height=\"2100\" fill=\"#3C3B6E\"></rect>\n            <g fill=\"white\">\n              <circle cx=\"494\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1750\" r=\"50\"></circle>\n            </g>\n          </svg>\n          <span class=\"text-xs font-bold uppercase tracking-wider\">EN</span>\n          <svg class=\"w-2.5 h-2.5 stroke-current opacity-60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n          </svg>",
+        "link_15": "Get Started",
+        "button_3": "<svg class=\"w-6 h-6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4 6h16M4 12h16M4 18h16\"></path>\n        </svg>"
+      },
+      "Footer": {
+        "title": "Get started on your project!",
+        "description": "We deliver high-quality photography and video production for companies across Europe. From corporate events and conferences to interviews and professional portraits.",
+        "link_1": "Get started",
+        "link_2": "View Pricing",
+        "link_3": "Chat with us",
+        "subtitle_1": "Services",
+        "link_4": "Services overview",
+        "link_5": "Corporate Event Photography",
+        "link_6": "Corporate Video Production",
+        "link_7": "Professional Headshots &amp; Corporate Portraits",
+        "link_8": "Drone Video &amp; Aerial Photography",
+        "link_9": "Elevate Your Event",
+        "subtitle_2": "Info",
+        "link_10": "FAQ",
+        "link_11": "About",
+        "link_12": "Pricing",
+        "link_13": "Contact",
+        "text_1": "\u00a92026 Fast Elevate Media. All Rights Reserved.",
+        "text_2": "Chamber of Commerce: 56193203",
+        "link_14": "Privacy",
+        "link_15": "Terms &amp; conditions",
+        "link_16": "Cookies"
       }
     },
     "drone-video-aerial-photography": {
@@ -815,11 +1055,57 @@
       },
       "FaqSection": {
         "title": "Frequently Asked Questions",
-        "description": "Drone Video &amp; Aerial Photography FAQs"
+        "description": "Drone Video &amp; Aerial Photography FAQs",
+        "button_1": "<span>Do you have certified drone pilots?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
+        "button_2": "<span>What regulations and permits are required?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
+        "button_3": "<span>Can drone operations be done in bad weather?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
+        "button_4": "<span>Can drone footage be integrated into event videos?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
+        "button_5": "<span>How quickly can you deliver the final footage?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>"
       },
       "__meta": {
         "title": "Drone Video & Aerial Photography | Fast Elevate Media",
         "description": "Certified corporate drone video production and aerial photography across Amsterdam and Europe. Showcase your venues, buildings, and events safely and professionally."
+      },
+      "Header": {
+        "link_2": "Home",
+        "button_1": "Services\n          <span class=\"inline-flex items-center justify-center w-4 h-4 rounded-full bg-white text-gray-800 ml-0.5\">\n            <svg class=\"w-2.5 h-2.5 stroke-current\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>\n          </span>",
+        "feature_1": "Service Overview",
+        "feature_2": "Corporate Event Photography",
+        "feature_3": "Corporate Video Production",
+        "feature_4": "Professional Headshots &amp; Portraits",
+        "feature_5": "Corporate Interviews &amp; Testimonials",
+        "feature_6": "Drone Video &amp; Aerial Photography",
+        "feature_7": "Elevate Your Event",
+        "link_10": "About",
+        "link_11": "Pricing",
+        "link_12": "Contact",
+        "button_2": "<svg class=\"w-5 h-3.5 rounded-sm object-cover shrink-0\" width=\"20\" height=\"14\" style=\"width:20px; height:14px; display:inline-block; vertical-align:middle; flex-shrink:0;\" viewBox=\"0 0 7410 3900\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n            <rect width=\"7410\" height=\"3900\" fill=\"#B22234\"></rect>\n            <path d=\"M0 300H7410M0 900H7410M0 1500H7410M0 2100H7410M0 2700H7410M0 3300H7410\" stroke=\"white\" stroke-width=\"300\"></path>\n            <rect width=\"2964\" height=\"2100\" fill=\"#3C3B6E\"></rect>\n            <g fill=\"white\">\n              <circle cx=\"494\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1750\" r=\"50\"></circle>\n            </g>\n          </svg>\n          <span class=\"text-xs font-bold uppercase tracking-wider\">EN</span>\n          <svg class=\"w-2.5 h-2.5 stroke-current opacity-60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n          </svg>",
+        "link_15": "Get Started",
+        "button_3": "<svg class=\"w-6 h-6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4 6h16M4 12h16M4 18h16\"></path>\n        </svg>"
+      },
+      "Footer": {
+        "title": "Get started on your project!",
+        "description": "We deliver high-quality photography and video production for companies across Europe. From corporate events and conferences to interviews and professional portraits.",
+        "link_1": "Get started",
+        "link_2": "View Pricing",
+        "link_3": "Chat with us",
+        "subtitle_1": "Services",
+        "link_4": "Services overview",
+        "link_5": "Corporate Event Photography",
+        "link_6": "Corporate Video Production",
+        "link_7": "Professional Headshots &amp; Corporate Portraits",
+        "link_8": "Drone Video &amp; Aerial Photography",
+        "link_9": "Elevate Your Event",
+        "subtitle_2": "Info",
+        "link_10": "FAQ",
+        "link_11": "About",
+        "link_12": "Pricing",
+        "link_13": "Contact",
+        "text_1": "\u00a92026 Fast Elevate Media. All Rights Reserved.",
+        "text_2": "Chamber of Commerce: 56193203",
+        "link_14": "Privacy",
+        "link_15": "Terms &amp; conditions",
+        "link_16": "Cookies"
       }
     },
     "elevate-your-event": {
@@ -933,11 +1219,56 @@
       },
       "FaqSection": {
         "title": "Frequently Asked Questions",
-        "description": "Elevate Your Event FAQs"
+        "description": "Elevate Your Event FAQs",
+        "button_1": "<span>What event production services do you provide?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
+        "button_2": "<span>Do we have a dedicated point of contact?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
+        "button_3": "<span>Can you support large-scale conferences with multiple stages?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>",
+        "button_4": "<span>Do you offer express delivery of media during the event?</span>\n            <svg class=\"faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>"
       },
       "__meta": {
         "title": "Elevate Your Event | Fast Elevate Media",
         "description": "Integrated corporate event media production across Amsterdam and Europe. Coordinated photography, video, interviews, and drone coverage for summits and conferences."
+      },
+      "Header": {
+        "link_2": "Home",
+        "button_1": "Services\n          <span class=\"inline-flex items-center justify-center w-4 h-4 rounded-full bg-white text-gray-800 ml-0.5\">\n            <svg class=\"w-2.5 h-2.5 stroke-current\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>\n          </span>",
+        "feature_1": "Service Overview",
+        "feature_2": "Corporate Event Photography",
+        "feature_3": "Corporate Video Production",
+        "feature_4": "Professional Headshots &amp; Portraits",
+        "feature_5": "Corporate Interviews &amp; Testimonials",
+        "feature_6": "Drone Video &amp; Aerial Photography",
+        "feature_7": "Elevate Your Event",
+        "link_10": "About",
+        "link_11": "Pricing",
+        "link_12": "Contact",
+        "button_2": "<svg class=\"w-5 h-3.5 rounded-sm object-cover shrink-0\" width=\"20\" height=\"14\" style=\"width:20px; height:14px; display:inline-block; vertical-align:middle; flex-shrink:0;\" viewBox=\"0 0 7410 3900\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n            <rect width=\"7410\" height=\"3900\" fill=\"#B22234\"></rect>\n            <path d=\"M0 300H7410M0 900H7410M0 1500H7410M0 2100H7410M0 2700H7410M0 3300H7410\" stroke=\"white\" stroke-width=\"300\"></path>\n            <rect width=\"2964\" height=\"2100\" fill=\"#3C3B6E\"></rect>\n            <g fill=\"white\">\n              <circle cx=\"494\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1750\" r=\"50\"></circle>\n            </g>\n          </svg>\n          <span class=\"text-xs font-bold uppercase tracking-wider\">EN</span>\n          <svg class=\"w-2.5 h-2.5 stroke-current opacity-60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n          </svg>",
+        "link_15": "Get Started",
+        "button_3": "<svg class=\"w-6 h-6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4 6h16M4 12h16M4 18h16\"></path>\n        </svg>"
+      },
+      "Footer": {
+        "title": "Get started on your project!",
+        "description": "We deliver high-quality photography and video production for companies across Europe. From corporate events and conferences to interviews and professional portraits.",
+        "link_1": "Get started",
+        "link_2": "View Pricing",
+        "link_3": "Chat with us",
+        "subtitle_1": "Services",
+        "link_4": "Services overview",
+        "link_5": "Corporate Event Photography",
+        "link_6": "Corporate Video Production",
+        "link_7": "Professional Headshots &amp; Corporate Portraits",
+        "link_8": "Drone Video &amp; Aerial Photography",
+        "link_9": "Elevate Your Event",
+        "subtitle_2": "Info",
+        "link_10": "FAQ",
+        "link_11": "About",
+        "link_12": "Pricing",
+        "link_13": "Contact",
+        "text_1": "\u00a92026 Fast Elevate Media. All Rights Reserved.",
+        "text_2": "Chamber of Commerce: 56193203",
+        "link_14": "Privacy",
+        "link_15": "Terms &amp; conditions",
+        "link_16": "Cookies"
       }
     },
     "faq": {
@@ -977,7 +1308,27 @@
         "text_20": "Leave the questions here, we will answer you soon.",
         "link_2": "Contact us",
         "link_1_url": "./start.html",
-        "link_2_url": "./contact.html"
+        "link_2_url": "./contact.html",
+        "button_1": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">How do I book a project?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
+        "button_2": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Do you work outside of Amsterdam?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
+        "button_3": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">What is your standard turnaround time?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
+        "button_4": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">How long does corporate video production take?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
+        "button_5": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Do you offer multi-camera conference filming?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
+        "button_6": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Can video production be combined with photography?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
+        "button_7": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">How long does corporate event photography take?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
+        "button_8": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Do you offer multi-photographer event coverage?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
+        "button_9": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">How long does a headshot session take?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
+        "button_10": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Can you photograph an entire team in one day?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
+        "button_11": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">What background styles are available?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
+        "button_12": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Can interviews be recorded at our office?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
+        "button_13": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">How many interviews can be recorded in one day?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
+        "button_14": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Are subtitles or captions included?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
+        "button_15": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Are your drone operators certified?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
+        "button_16": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Can drone footage be combined with ground-level filming?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
+        "button_17": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Are there location restrictions for drone flights?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
+        "button_18": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">What does the Elevate Your Event package include?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
+        "button_19": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Can same-day delivery be arranged for event content?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
+        "button_20": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Is the Elevate Your Event package suitable for multi-day events?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>"
       },
       "Footer": {
         "title": "Get started on your project!",
@@ -1024,6 +1375,23 @@
       "__meta": {
         "title": "Frequently Asked Questions | Fast Elevate Media",
         "description": "Frequently Asked Questions about our corporate event photography, video production, and media solutions across Amsterdam and Europe."
+      },
+      "Header": {
+        "link_2": "Home",
+        "button_1": "Services\n          <span class=\"inline-flex items-center justify-center w-4 h-4 rounded-full bg-white text-gray-800 ml-0.5\">\n            <svg class=\"w-2.5 h-2.5 stroke-current\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>\n          </span>",
+        "feature_1": "Service Overview",
+        "feature_2": "Corporate Event Photography",
+        "feature_3": "Corporate Video Production",
+        "feature_4": "Professional Headshots &amp; Portraits",
+        "feature_5": "Corporate Interviews &amp; Testimonials",
+        "feature_6": "Drone Video &amp; Aerial Photography",
+        "feature_7": "Elevate Your Event",
+        "link_10": "About",
+        "link_11": "Pricing",
+        "link_12": "Contact",
+        "button_2": "<svg class=\"w-5 h-3.5 rounded-sm object-cover shrink-0\" width=\"20\" height=\"14\" style=\"width:20px; height:14px; display:inline-block; vertical-align:middle; flex-shrink:0;\" viewBox=\"0 0 7410 3900\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n            <rect width=\"7410\" height=\"3900\" fill=\"#B22234\"></rect>\n            <path d=\"M0 300H7410M0 900H7410M0 1500H7410M0 2100H7410M0 2700H7410M0 3300H7410\" stroke=\"white\" stroke-width=\"300\"></path>\n            <rect width=\"2964\" height=\"2100\" fill=\"#3C3B6E\"></rect>\n            <g fill=\"white\">\n              <circle cx=\"494\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1750\" r=\"50\"></circle>\n            </g>\n          </svg>\n          <span class=\"text-xs font-bold uppercase tracking-wider\">EN</span>\n          <svg class=\"w-2.5 h-2.5 stroke-current opacity-60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n          </svg>",
+        "link_15": "Get Started",
+        "button_3": "<svg class=\"w-6 h-6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4 6h16M4 12h16M4 18h16\"></path>\n        </svg>"
       }
     },
     "home": {
@@ -1031,10 +1399,11 @@
         "link_1": "Elevate your project",
         "link_2": "Contact us",
         "link_1_url": "./start.html",
-        "link_2_url": "./contact.html"
+        "link_2_url": "./contact.html",
+        "button_1": "<!-- Muted icon (shown by default since video starts muted) -->\n      <svg id=\"icon-muted\" xmlns=\"http://www.w3.org/2000/svg\" class=\"w-4 h-4\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\">\n        <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z\"></path>\n        <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M17 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2\"></path>\n      </svg>\n      <!-- Unmuted icon (hidden by default) -->\n      <svg id=\"icon-unmuted\" xmlns=\"http://www.w3.org/2000/svg\" class=\"w-4 h-4 hidden\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\">\n        <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15.536 8.464a5 5 0 010 7.072M12 6v12M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z\"></path>\n      </svg>"
       },
       "Intro": {
-        "title": "Fast Elevate Media is a<br class=\"hidden sm:inline\" /> <span class=\"text-primary\">Corporate Focused Media Agency</span> ",
+        "title": "Fast Elevate Media is test <br class=\"hidden sm:inline\"> <span class=\"text-primary\">Corporate Focused Media Agency</span>",
         "description": "Fast, high-quality corporate photography and video production for companies across Europe. We specialize in corporate events, conferences, executive interviews and professional portraits; executed with speed, clarity and consistent visual standards."
       },
       "MediaSolutions": {
@@ -1277,6 +1646,47 @@
       "__meta": {
         "title": "Fast Elevate Media | Corporate-Focused Media Solutions",
         "description": "Fast Elevate Media is a premium corporate photography and video production agency in Amsterdam. Specializing in corporate events, executive interviews, and drone footage."
+      },
+      "Header": {
+        "link_2": "Home",
+        "button_1": "Services\n          <span class=\"inline-flex items-center justify-center w-4 h-4 rounded-full bg-white text-gray-800 ml-0.5\">\n            <svg class=\"w-2.5 h-2.5 stroke-current\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>\n          </span>",
+        "feature_1": "Service Overview",
+        "feature_2": "Corporate Event Photography",
+        "feature_3": "Corporate Video Production",
+        "feature_4": "Professional Headshots &amp; Portraits",
+        "feature_5": "Corporate Interviews &amp; Testimonials",
+        "feature_6": "Drone Video &amp; Aerial Photography",
+        "feature_7": "Elevate Your Event",
+        "link_10": "About",
+        "link_11": "Pricing",
+        "link_12": "Contact",
+        "button_2": "<svg class=\"w-5 h-3.5 rounded-sm object-cover shrink-0\" width=\"20\" height=\"14\" style=\"width:20px; height:14px; display:inline-block; vertical-align:middle; flex-shrink:0;\" viewBox=\"0 0 7410 3900\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n            <rect width=\"7410\" height=\"3900\" fill=\"#B22234\"></rect>\n            <path d=\"M0 300H7410M0 900H7410M0 1500H7410M0 2100H7410M0 2700H7410M0 3300H7410\" stroke=\"white\" stroke-width=\"300\"></path>\n            <rect width=\"2964\" height=\"2100\" fill=\"#3C3B6E\"></rect>\n            <g fill=\"white\">\n              <circle cx=\"494\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1750\" r=\"50\"></circle>\n            </g>\n          </svg>\n          <span class=\"text-xs font-bold uppercase tracking-wider\">EN</span>\n          <svg class=\"w-2.5 h-2.5 stroke-current opacity-60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n          </svg>",
+        "link_15": "Get Started",
+        "button_3": "<svg class=\"w-6 h-6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4 6h16M4 12h16M4 18h16\"></path>\n        </svg>"
+      },
+      "Footer": {
+        "title": "Get started on your project!",
+        "description": "We deliver high-quality photography and video production for companies across Europe. From corporate events and conferences to interviews and professional portraits.",
+        "link_1": "Get started",
+        "link_2": "View Pricing",
+        "link_3": "Chat with us",
+        "subtitle_1": "Services",
+        "link_4": "Services overview",
+        "link_5": "Corporate Event Photography",
+        "link_6": "Corporate Video Production",
+        "link_7": "Professional Headshots &amp; Corporate Portraits",
+        "link_8": "Drone Video &amp; Aerial Photography",
+        "link_9": "Elevate Your Event",
+        "subtitle_2": "Info",
+        "link_10": "FAQ",
+        "link_11": "About",
+        "link_12": "Pricing",
+        "link_13": "Contact",
+        "text_1": "\u00a92026 Fast Elevate Media. All Rights Reserved.",
+        "text_2": "Chamber of Commerce: 56193203",
+        "link_14": "Privacy",
+        "link_15": "Terms &amp; conditions",
+        "link_16": "Cookies"
       }
     },
     "pricing": {
@@ -1286,11 +1696,11 @@
         "text_1": "Explore package pricing for all services offered by Fast Elevate Media. Our structured workflow ensures clarity, speed, and consistent quality across Europe."
       },
       "FastDelivery": {
-        "title": "<span>Fast Delivery</span>\n            <span class=\"hidden sm:inline text-white/40\">|</span>\n            <span class=\"text-primary-container text-sm sm:text-base font-semibold\">Your content shouldn't have to wait.</span>",
+        "title": "Fast Delivery\n                <span class=\"ml-2 text-sm font-semibold\" style=\"color: #f59e0b;\">\u2014 Your content shouldn't have to wait.</span>",
         "description": "Our standard delivery for the first draft is within 72 hours for most projects. Need it sooner? Choose our 48-hour, 24-hour, or Same Day Delivery options (subject to project scope and availability).",
         "subtitle_1": "Corporate Event Photography",
         "text_1": "Professional event photography for conferences, business events, seminars, and networking gatherings.",
-        "price_1": "\u20ac850",
+        "price_1": "\u20ac950",
         "link_1": "Get your quote",
         "subtitle_2": "Included features:",
         "feature_1": "Up to 4 hours of on-site coverage",
@@ -1301,7 +1711,7 @@
         "feature_6": "Commercial usage rights included",
         "subtitle_3": "Corporate Video Production",
         "text_2": "High-quality video production for corporate aftermovies, company promos, and brand communication.",
-        "price_2": "\u20ac1,450",
+        "price_2": "\u20ac1,850",
         "link_2": "Get your quote",
         "subtitle_4": "Included features:",
         "feature_7": "Up to 4 hours of on-site filming",
@@ -1313,7 +1723,7 @@
         "feature_13": "Commercial usage rights included",
         "subtitle_5": "Event Photography &amp; Video",
         "text_3": "Complete media coverage combining on-site photography and videography for full coverage.",
-        "price_3": "\u20ac1,950",
+        "price_3": "\u20ac2,500",
         "link_3": "Get your quote",
         "subtitle_6": "Included features:",
         "feature_14": "Up to 4 hours of on-site photography &amp; videography",
@@ -1327,7 +1737,7 @@
         "feature_22": "Commercial usage rights included",
         "subtitle_7": "Professional Headshots",
         "text_4": "Cohesive, high-end corporate headshots and team portraits on location or in studio.",
-        "price_4": "\u20ac650",
+        "price_4": "\u20ac750",
         "link_4": "Get your quote",
         "subtitle_8": "Included features:",
         "feature_23": "Up to 2 hours of on-site photography",
@@ -1339,7 +1749,7 @@
         "feature_29": "Commercial usage rights included",
         "subtitle_9": "Interviews &amp; Testimonials",
         "text_5": "Executive interviews, customer stories, and client testimonial video production.",
-        "price_5": "\u20ac1,650",
+        "price_5": "\u20ac1,850",
         "link_5": "Get your quote",
         "subtitle_10": "Included features:",
         "feature_30": "Up to 4 hours of on-site production",
@@ -1353,7 +1763,7 @@
         "feature_38": "Commercial usage rights included",
         "subtitle_11": "Drone Video &amp; Aerials",
         "text_6": "Certified and safe drone videography and photography for company venues and events.",
-        "price_6": "\u20ac850",
+        "price_6": "\u20ac950",
         "link_6": "Get your quote",
         "subtitle_12": "Included features:",
         "feature_39": "Up to 2 hours of on-site drone operation",
@@ -1447,6 +1857,43 @@
       "__meta": {
         "title": "Fast Elevate Media | Pricing & Packages",
         "description": "Fast Elevate Media is a premium corporate photography and video production agency in Amsterdam. Specializing in corporate events, executive interviews, and drone footage."
+      },
+      "Header": {
+        "link_2": "Home",
+        "button_1": "Services\n          <span class=\"inline-flex items-center justify-center w-4 h-4 rounded-full bg-white text-gray-800 ml-0.5\">\n            <svg class=\"w-2.5 h-2.5 stroke-current\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>\n          </span>",
+        "feature_1": "Service Overview",
+        "feature_2": "Corporate Event Photography",
+        "feature_3": "Corporate Video Production",
+        "feature_4": "Professional Headshots &amp; Portraits",
+        "feature_5": "Corporate Interviews &amp; Testimonials",
+        "feature_6": "Drone Video &amp; Aerial Photography",
+        "feature_7": "Elevate Your Event",
+        "link_10": "About",
+        "link_11": "Pricing",
+        "link_12": "Contact",
+        "button_2": "<svg class=\"w-5 h-3.5 rounded-sm object-cover shrink-0\" width=\"20\" height=\"14\" style=\"width:20px; height:14px; display:inline-block; vertical-align:middle; flex-shrink:0;\" viewBox=\"0 0 7410 3900\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n            <rect width=\"7410\" height=\"3900\" fill=\"#B22234\"></rect>\n            <path d=\"M0 300H7410M0 900H7410M0 1500H7410M0 2100H7410M0 2700H7410M0 3300H7410\" stroke=\"white\" stroke-width=\"300\"></path>\n            <rect width=\"2964\" height=\"2100\" fill=\"#3C3B6E\"></rect>\n            <g fill=\"white\">\n              <circle cx=\"494\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1750\" r=\"50\"></circle>\n            </g>\n          </svg>\n          <span class=\"text-xs font-bold uppercase tracking-wider\">EN</span>\n          <svg class=\"w-2.5 h-2.5 stroke-current opacity-60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n          </svg>",
+        "link_15": "Get Started",
+        "button_3": "<svg class=\"w-6 h-6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4 6h16M4 12h16M4 18h16\"></path>\n        </svg>"
+      },
+      "ExtraRates": {
+        "subtitle_1": "Add-ons",
+        "title": "Extra Rates",
+        "th_1": "Service",
+        "th_2": "Price",
+        "td_1": "Extra hour photography",
+        "td_2": "\u20ac175",
+        "td_3": "Extra hour videography",
+        "td_4": "\u20ac200",
+        "td_5": "Extra photographer",
+        "td_6": "From \u20ac500",
+        "td_7": "Extra videographer",
+        "td_8": "From \u20ac600",
+        "td_9": "Drone operator",
+        "td_10": "From \u20ac500",
+        "td_11": "Same Day Delivery",
+        "td_12": "On request",
+        "td_13": "Express Delivery (24/48 hours)",
+        "td_14": "On request"
       }
     },
     "privacy": {
@@ -1610,6 +2057,23 @@
       "__meta": {
         "title": "Privacy Policy | Fast Elevate Media",
         "description": "Privacy policy of Fast Elevate Media. Learn how we collect, use and protect your personal data."
+      },
+      "Header": {
+        "link_2": "Home",
+        "button_1": "Services\n          <span class=\"inline-flex items-center justify-center w-4 h-4 rounded-full bg-white text-gray-800 ml-0.5\">\n            <svg class=\"w-2.5 h-2.5 stroke-current\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>\n          </span>",
+        "feature_1": "Service Overview",
+        "feature_2": "Corporate Event Photography",
+        "feature_3": "Corporate Video Production",
+        "feature_4": "Professional Headshots &amp; Portraits",
+        "feature_5": "Corporate Interviews &amp; Testimonials",
+        "feature_6": "Drone Video &amp; Aerial Photography",
+        "feature_7": "Elevate Your Event",
+        "link_10": "About",
+        "link_11": "Pricing",
+        "link_12": "Contact",
+        "button_2": "<svg class=\"w-5 h-3.5 rounded-sm object-cover shrink-0\" width=\"20\" height=\"14\" style=\"width:20px; height:14px; display:inline-block; vertical-align:middle; flex-shrink:0;\" viewBox=\"0 0 7410 3900\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n            <rect width=\"7410\" height=\"3900\" fill=\"#B22234\"></rect>\n            <path d=\"M0 300H7410M0 900H7410M0 1500H7410M0 2100H7410M0 2700H7410M0 3300H7410\" stroke=\"white\" stroke-width=\"300\"></path>\n            <rect width=\"2964\" height=\"2100\" fill=\"#3C3B6E\"></rect>\n            <g fill=\"white\">\n              <circle cx=\"494\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1750\" r=\"50\"></circle>\n            </g>\n          </svg>\n          <span class=\"text-xs font-bold uppercase tracking-wider\">EN</span>\n          <svg class=\"w-2.5 h-2.5 stroke-current opacity-60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n          </svg>",
+        "link_15": "Get Started",
+        "button_3": "<svg class=\"w-6 h-6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4 6h16M4 12h16M4 18h16\"></path>\n        </svg>"
       }
     },
     "professional-headshots-corporate-portraits": {
@@ -1809,7 +2273,11 @@
         "text_1": "Yes. We can bring a mobile studio setup including background and lighting equipment directly to your office.",
         "text_2": "Typically, a clean headshot session takes 5 to 10 minutes per person. This allows us to cover dozens of employees per day without significant workflow disruption.",
         "text_3": "Yes. All selected portraits receive professional color correction, exposure adjustments, and subtle retouching (skin smoothing, blemish removal, etc.) for a polished look.",
-        "link_1_url": "./faq.html"
+        "link_1_url": "./faq.html",
+        "button_1": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">How long does it take to get the headshots?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
+        "button_2": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Can the session be organized on-site at our office?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
+        "button_3": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">How much time is required per employee?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>",
+        "button_4": "<span class=\"font-bold text-[#121111] text-base md:text-lg\">Do you provide professional retouching?</span>\n              <svg class=\"faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n              </svg>"
       },
       "Footer": {
         "title": "Get started on your project!",
@@ -1856,6 +2324,23 @@
       "__meta": {
         "title": "Professional Headshots & Corporate Portraits | Fast Elevate Media",
         "description": "Consistent, high-end corporate headshots and professional portraits for leadership teams and employees across Amsterdam and Europe."
+      },
+      "Header": {
+        "link_2": "Home",
+        "button_1": "Services\n          <span class=\"inline-flex items-center justify-center w-4 h-4 rounded-full bg-white text-gray-800 ml-0.5\">\n            <svg class=\"w-2.5 h-2.5 stroke-current\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>\n          </span>",
+        "feature_1": "Service Overview",
+        "feature_2": "Corporate Event Photography",
+        "feature_3": "Corporate Video Production",
+        "feature_4": "Professional Headshots &amp; Portraits",
+        "feature_5": "Corporate Interviews &amp; Testimonials",
+        "feature_6": "Drone Video &amp; Aerial Photography",
+        "feature_7": "Elevate Your Event",
+        "link_10": "About",
+        "link_11": "Pricing",
+        "link_12": "Contact",
+        "button_2": "<svg class=\"w-5 h-3.5 rounded-sm object-cover shrink-0\" width=\"20\" height=\"14\" style=\"width:20px; height:14px; display:inline-block; vertical-align:middle; flex-shrink:0;\" viewBox=\"0 0 7410 3900\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n            <rect width=\"7410\" height=\"3900\" fill=\"#B22234\"></rect>\n            <path d=\"M0 300H7410M0 900H7410M0 1500H7410M0 2100H7410M0 2700H7410M0 3300H7410\" stroke=\"white\" stroke-width=\"300\"></path>\n            <rect width=\"2964\" height=\"2100\" fill=\"#3C3B6E\"></rect>\n            <g fill=\"white\">\n              <circle cx=\"494\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1750\" r=\"50\"></circle>\n            </g>\n          </svg>\n          <span class=\"text-xs font-bold uppercase tracking-wider\">EN</span>\n          <svg class=\"w-2.5 h-2.5 stroke-current opacity-60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n          </svg>",
+        "link_15": "Get Started",
+        "button_3": "<svg class=\"w-6 h-6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4 6h16M4 12h16M4 18h16\"></path>\n        </svg>"
       }
     },
     "services": {
@@ -1884,7 +2369,10 @@
         "link_10_url": "./about.html",
         "link_11_url": "./pricing.html",
         "link_12_url": "./contact.html",
-        "link_15_url": "./start.html"
+        "link_15_url": "./start.html",
+        "button_1": "Services\n          <span class=\"inline-flex items-center justify-center w-4 h-4 rounded-full bg-white text-gray-800 ml-0.5\">\n            <svg class=\"w-2.5 h-2.5 stroke-current\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>\n          </span>",
+        "button_2": "<svg class=\"w-5 h-3.5 rounded-sm object-cover shrink-0\" width=\"20\" height=\"14\" style=\"width:20px; height:14px; display:inline-block; vertical-align:middle; flex-shrink:0;\" viewBox=\"0 0 7410 3900\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n            <rect width=\"7410\" height=\"3900\" fill=\"#B22234\"></rect>\n            <path d=\"M0 300H7410M0 900H7410M0 1500H7410M0 2100H7410M0 2700H7410M0 3300H7410\" stroke=\"white\" stroke-width=\"300\"></path>\n            <rect width=\"2964\" height=\"2100\" fill=\"#3C3B6E\"></rect>\n            <g fill=\"white\">\n              <circle cx=\"494\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1750\" r=\"50\"></circle>\n            </g>\n          </svg>\n          <span class=\"text-xs font-bold uppercase tracking-wider\">EN</span>\n          <svg class=\"w-2.5 h-2.5 stroke-current opacity-60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n          </svg>",
+        "button_3": "<svg class=\"w-6 h-6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4 6h16M4 12h16M4 18h16\"></path>\n        </svg>"
       },
       "ServiceOverview": {
         "title": "Service Overview"
@@ -1967,6 +2455,30 @@
       "__meta": {
         "title": "Service Overview | Fast Elevate Media",
         "description": "Fast Elevate Media is a premium corporate photography and video production agency in Amsterdam. Specializing in corporate events, executive interviews, and drone footage."
+      },
+      "Footer": {
+        "title": "Get started on your project!",
+        "description": "We deliver high-quality photography and video production for companies across Europe. From corporate events and conferences to interviews and professional portraits.",
+        "link_1": "Get started",
+        "link_2": "View Pricing",
+        "link_3": "Chat with us",
+        "subtitle_1": "Services",
+        "link_4": "Services overview",
+        "link_5": "Corporate Event Photography",
+        "link_6": "Corporate Video Production",
+        "link_7": "Professional Headshots &amp; Corporate Portraits",
+        "link_8": "Drone Video &amp; Aerial Photography",
+        "link_9": "Elevate Your Event",
+        "subtitle_2": "Info",
+        "link_10": "FAQ",
+        "link_11": "About",
+        "link_12": "Pricing",
+        "link_13": "Contact",
+        "text_1": "\u00a92026 Fast Elevate Media. All Rights Reserved.",
+        "text_2": "Chamber of Commerce: 56193203",
+        "link_14": "Privacy",
+        "link_15": "Terms &amp; conditions",
+        "link_16": "Cookies"
       }
     },
     "start": {
@@ -1987,6 +2499,47 @@
       "__meta": {
         "title": "Start your project | Fast Elevate Media",
         "description": "Fast Elevate Media is a premium corporate photography and video production agency in Amsterdam. Specializing in corporate events, executive interviews, and drone footage."
+      },
+      "Header": {
+        "link_2": "Home",
+        "button_1": "Services\n          <span class=\"inline-flex items-center justify-center w-4 h-4 rounded-full bg-white text-gray-800 ml-0.5\">\n            <svg class=\"w-2.5 h-2.5 stroke-current\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>\n          </span>",
+        "feature_1": "Service Overview",
+        "feature_2": "Corporate Event Photography",
+        "feature_3": "Corporate Video Production",
+        "feature_4": "Professional Headshots &amp; Portraits",
+        "feature_5": "Corporate Interviews &amp; Testimonials",
+        "feature_6": "Drone Video &amp; Aerial Photography",
+        "feature_7": "Elevate Your Event",
+        "link_10": "About",
+        "link_11": "Pricing",
+        "link_12": "Contact",
+        "button_2": "<svg class=\"w-5 h-3.5 rounded-sm object-cover shrink-0\" width=\"20\" height=\"14\" style=\"width:20px; height:14px; display:inline-block; vertical-align:middle; flex-shrink:0;\" viewBox=\"0 0 7410 3900\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n            <rect width=\"7410\" height=\"3900\" fill=\"#B22234\"></rect>\n            <path d=\"M0 300H7410M0 900H7410M0 1500H7410M0 2100H7410M0 2700H7410M0 3300H7410\" stroke=\"white\" stroke-width=\"300\"></path>\n            <rect width=\"2964\" height=\"2100\" fill=\"#3C3B6E\"></rect>\n            <g fill=\"white\">\n              <circle cx=\"494\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1750\" r=\"50\"></circle>\n            </g>\n          </svg>\n          <span class=\"text-xs font-bold uppercase tracking-wider\">EN</span>\n          <svg class=\"w-2.5 h-2.5 stroke-current opacity-60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n          </svg>",
+        "link_15": "Get Started",
+        "button_3": "<svg class=\"w-6 h-6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4 6h16M4 12h16M4 18h16\"></path>\n        </svg>"
+      },
+      "Footer": {
+        "title": "Get started on your project!",
+        "description": "We deliver high-quality photography and video production for companies across Europe. From corporate events and conferences to interviews and professional portraits.",
+        "link_1": "Get started",
+        "link_2": "View Pricing",
+        "link_3": "Chat with us",
+        "subtitle_1": "Services",
+        "link_4": "Services overview",
+        "link_5": "Corporate Event Photography",
+        "link_6": "Corporate Video Production",
+        "link_7": "Professional Headshots &amp; Corporate Portraits",
+        "link_8": "Drone Video &amp; Aerial Photography",
+        "link_9": "Elevate Your Event",
+        "subtitle_2": "Info",
+        "link_10": "FAQ",
+        "link_11": "About",
+        "link_12": "Pricing",
+        "link_13": "Contact",
+        "text_1": "\u00a92026 Fast Elevate Media. All Rights Reserved.",
+        "text_2": "Chamber of Commerce: 56193203",
+        "link_14": "Privacy",
+        "link_15": "Terms &amp; conditions",
+        "link_16": "Cookies"
       }
     },
     "terms": {
@@ -2131,7 +2684,7 @@
         "text_100": "Where AI-assisted editing substantially alters the nature of the agreed deliverable beyond standard post-production practices, this will only be performed where appropriate for the project or agreed with the Client.",
         "text_101": "AI-assisted tools shall never replace professional judgement, creative direction, or final editorial approval.",
         "subtitle_26": "26. Contact Information",
-        "text_102": "Unless otherwise agreed in writing, Fast Elevate Media reserves the right to use content created during assignments for:",
+        "text_102": "<strong>Fast Elevate Media</strong><br>\n            Amsterdam, The Netherlands<br>\n            Email: <a href=\"mailto:info@fastelevatemedia.com\" class=\"text-primary underline hover:text-primary/80 transition-colors\" data-vibe-field=\"link_3\" data-vibe-link=\"link_3_url\">info@fastelevatemedia.com</a><br>\n            Phone: <a href=\"tel:+31624821770\" class=\"text-primary underline hover:text-primary/80 transition-colors\" data-vibe-field=\"link_4\" data-vibe-link=\"link_4_url\">+31 6 24821770</a><br>\n            Website: <a href=\"https://fastelevatemedia.com\" class=\"text-primary underline hover:text-primary/80 transition-colors\" target=\"_blank\" data-vibe-field=\"link_5\" data-vibe-link=\"link_5_url\">www.fastelevatemedia.com</a>",
         "link_3": "info@fastelevatemedia.com",
         "link_4": "+31 6 24821770",
         "link_5": "www.fastelevatemedia.com",
@@ -2246,6 +2799,23 @@
       "__meta": {
         "title": "Terms & Conditions | Fast Elevate Media",
         "description": "Terms and Conditions of Fast Elevate Media. Read our rules for using fastelevatemedia.com and our services."
+      },
+      "Header": {
+        "link_2": "Home",
+        "button_1": "Services\n          <span class=\"inline-flex items-center justify-center w-4 h-4 rounded-full bg-white text-gray-800 ml-0.5\">\n            <svg class=\"w-2.5 h-2.5 stroke-current\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n            </svg>\n          </span>",
+        "feature_1": "Service Overview",
+        "feature_2": "Corporate Event Photography",
+        "feature_3": "Corporate Video Production",
+        "feature_4": "Professional Headshots &amp; Portraits",
+        "feature_5": "Corporate Interviews &amp; Testimonials",
+        "feature_6": "Drone Video &amp; Aerial Photography",
+        "feature_7": "Elevate Your Event",
+        "link_10": "About",
+        "link_11": "Pricing",
+        "link_12": "Contact",
+        "button_2": "<svg class=\"w-5 h-3.5 rounded-sm object-cover shrink-0\" width=\"20\" height=\"14\" style=\"width:20px; height:14px; display:inline-block; vertical-align:middle; flex-shrink:0;\" viewBox=\"0 0 7410 3900\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n            <rect width=\"7410\" height=\"3900\" fill=\"#B22234\"></rect>\n            <path d=\"M0 300H7410M0 900H7410M0 1500H7410M0 2100H7410M0 2700H7410M0 3300H7410\" stroke=\"white\" stroke-width=\"300\"></path>\n            <rect width=\"2964\" height=\"2100\" fill=\"#3C3B6E\"></rect>\n            <g fill=\"white\">\n              <circle cx=\"494\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"350\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"700\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1050\" r=\"50\"></circle>\n              <circle cx=\"988\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"1976\" cy=\"1400\" r=\"50\"></circle>\n              <circle cx=\"494\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"1482\" cy=\"1750\" r=\"50\"></circle>\n              <circle cx=\"2470\" cy=\"1750\" r=\"50\"></circle>\n            </g>\n          </svg>\n          <span class=\"text-xs font-bold uppercase tracking-wider\">EN</span>\n          <svg class=\"w-2.5 h-2.5 stroke-current opacity-60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 8.25l-7.5 7.5-7.5-7.5\"></path>\n          </svg>",
+        "link_15": "Get Started",
+        "button_3": "<svg class=\"w-6 h-6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4 6h16M4 12h16M4 18h16\"></path>\n        </svg>"
       }
     },
     "__global": {
@@ -4702,7 +5272,7 @@
         "description": "Onze standaardlevering voor de eerste versie is binnen 72 uur voor de meeste projecten. Sneller nodig? Kies voor onze 48-uurs, 24-uurs of Same Day Delivery opties (afhankelijk van de omvang en beschikbaarheid van het project).",
         "subtitle_1": "Zakelijke Evenementenfotografie",
         "text_1": "Professionele evenementenfotografie voor congressen, zakelijke bijeenkomsten, seminars en netwerkevenementen.",
-        "price_1": "\u20ac850",
+        "price_1": "\u20ac950",
         "link_1": "Vraag een offerte aan",
         "subtitle_2": "Inbegrepen functies:",
         "feature_1": "Tot 4 uur aanwezigheid op locatie",
@@ -4713,7 +5283,7 @@
         "feature_6": "Commerci\u00eble gebruiksrechten inbegrepen",
         "subtitle_3": "Zakelijke Videoproductie",
         "text_2": "Hoogwaardige videoproductie voor zakelijke aftermovies, bedrijfspromoties en merkcommunicatie.",
-        "price_2": "\u20ac1.450",
+        "price_2": "\u20ac1.850",
         "link_2": "Vraag een offerte aan",
         "subtitle_4": "Inbegrepen functies:",
         "feature_7": "Tot 4 uur filmen op locatie",
@@ -4725,7 +5295,7 @@
         "feature_13": "Commerci\u00eble gebruiksrechten inbegrepen",
         "subtitle_5": "Evenementenfotografie &amp; Video",
         "text_3": "Complete mediaverslaglegging die evenementenfotografie en videografie combineert op locatie.",
-        "price_3": "\u20ac1.950",
+        "price_3": "\u20ac2.500",
         "link_3": "Vraag een offerte aan",
         "subtitle_6": "Inbegrepen functies:",
         "feature_14": "Tot 4 uur fotografie &amp; videografie op locatie",
@@ -4739,7 +5309,7 @@
         "feature_22": "Commerci\u00eble gebruiksrechten inbegrepen",
         "subtitle_7": "Professionele portretfoto's",
         "text_4": "Consistente, hoogwaardige zakelijke portretfoto's en teamportretten op locatie of in de studio.",
-        "price_4": "\u20ac650",
+        "price_4": "\u20ac750",
         "link_4": "Vraag een offerte aan",
         "subtitle_8": "Inbegrepen functies:",
         "feature_23": "Tot 2 uur fotografie op locatie",
@@ -4751,7 +5321,7 @@
         "feature_29": "Commerci\u00eble gebruiksrechten inbegrepen",
         "subtitle_9": "Interviews &amp; Testimonials",
         "text_5": "Videoproductie voor executive interviews, klantverhalen en testimonials.",
-        "price_5": "\u20ac1.650",
+        "price_5": "\u20ac1.850",
         "link_5": "Vraag een offerte aan",
         "subtitle_10": "Inbegrepen functies:",
         "feature_30": "Tot 4 uur productie op locatie",
@@ -4765,7 +5335,7 @@
         "feature_38": "Commerci\u00eble gebruiksrechten inbegrepen",
         "subtitle_11": "Dronevideo &amp; Luchtfoto's",
         "text_6": "Gecertificeerde en veilige dronevideografie en -fotografie voor bedrijfslocaties en evenementen.",
-        "price_6": "\u20ac850",
+        "price_6": "\u20ac950",
         "link_6": "Vraag een offerte aan",
         "subtitle_12": "Inbegrepen functies:",
         "feature_39": "Tot 2 uur drone-operatie op locatie",
@@ -4805,6 +5375,26 @@
         "feature_64": "Contentoptimalisatie voor websitevisuals",
         "feature_65": "Ondersteuning bij websitelancering",
         "feature_66": "Commerci\u00eble gebruiksrechten inbegrepen"
+      },
+      "ExtraRates": {
+        "subtitle_1": "Add-ons",
+        "title": "Extra tarieven",
+        "th_1": "Dienst",
+        "th_2": "Prijs",
+        "td_1": "Extra uur fotografie",
+        "td_2": "\u20ac175",
+        "td_3": "Extra uur videografie",
+        "td_4": "\u20ac200",
+        "td_5": "Extra fotograaf",
+        "td_6": "Vanaf \u20ac500",
+        "td_7": "Extra videograaf",
+        "td_8": "Vanaf \u20ac600",
+        "td_9": "Drone operator",
+        "td_10": "Vanaf \u20ac500",
+        "td_11": "Same Day Delivery",
+        "td_12": "Op aanvraag",
+        "td_13": "Express Delivery (24/48 uur)",
+        "td_14": "Op aanvraag"
       }
     },
     "privacy": {
