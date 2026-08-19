@@ -430,15 +430,15 @@
       },
       "WhyCorporateClients": {
         "title": "Why Corporate Clients Choose <br>Fast Elevate Media",
-        "image": "./images/3D-logo-F.jpg",
+        "image": "./images/services/event-photography-1.jpg",
         "image_alt": "Corporate photography reliability",
         "subtitle_1": "Corporate events require more than just photography",
         "description": "They require reliability, experience and smooth collaboration with corporate teams and event organizers. Fast Elevate Media is trusted by corporate clients across Amsterdam and Europe for our structured workflow, professional execution and clear communication.",
-        "image_1": "./images/3D-logo-F.jpg",
+        "image_1": "./images/services/event-photography-2.jpg",
         "image_1_alt": "Easy collaboration",
         "subtitle_2": "We are easy to work with",
         "text_1": "We are known for being easy to work with, adaptable to corporate environments and responsive to the fast pace of live events.<br><br>Our experienced photographers understand how to operate discreetly while capturing impactful visuals aligned with your brand and communication objectives.",
-        "image_2": "./images/3D-logo-F.jpg",
+        "image_2": "./images/services/event-photography-3.jpg",
         "image_2_alt": "Scalable team coverage",
         "subtitle_3": "Scalable solutions",
         "text_2": "From single-operator coverage to coordinated multi-photographer productions, we scale according to the size and complexity of your event. Combined with fast and structured delivery timelines, this ensures your media is ready when your team needs it."
@@ -621,15 +621,15 @@
       },
       "WhyCorporateClients": {
         "title": "Why Corporate Clients Choose <br>Fast Elevate Media",
-        "image": "./images/3D-logo-F.jpg",
+        "image": "./images/services/interviews-1.jpg",
         "image_alt": "Corporate video reliability",
         "subtitle_1": "Professional Corporate Interview Production",
         "description": "Corporate interview production requires more than a camera setup. It requires experience, discretion and structured execution. Fast Elevate Media works seamlessly within corporate environments, capturing executive interviews and testimonial content without disrupting daily operations.",
-        "image_1": "./images/3D-logo-F.jpg",
+        "image_1": "./images/services/interviews-2.jpg",
         "image_1_alt": "Easy collaboration",
         "subtitle_2": "Easy Collaboration for Corporate Interview Projects",
         "text_1": "Clients choose Fast Elevate Media for our seamless collaboration and professional presence. We are easy to work with, adaptable to corporate schedules and responsive to changing circumstances during live events or busy executive environments.",
-        "image_2": "./images/3D-logo-F.jpg",
+        "image_2": "./images/services/interviews-3.jpg",
         "image_2_alt": "Scalable team coverage",
         "subtitle_3": "Fast Delivery for Corporate Interview &amp; Testimonial Videos",
         "text_2": "Our structured editing workflow ensures your interview content is ready when your organization needs it. Standard delivery is within four working days. Priority delivery options are available, including selected clips delivered within 8 to 12 hours for urgent corporate communication."
@@ -811,15 +811,15 @@
       },
       "WhyCorporateClients": {
         "title": "Why Corporate Clients Choose <br>Fast Elevate Media",
-        "image": "./images/3D-logo-F.jpg",
+        "image": "./images/services/video-production-1.jpg",
         "image_alt": "Corporate video reliability",
         "subtitle_1": "Experienced and Reliable Production",
         "description": "Corporate video production requires more than strong visuals. It requires experience, planning and structured execution. Fast Elevate Media is trusted by corporate clients across Amsterdam and Europe for professional production, clear communication and consistent results. Our team works discreetly within conferences, corporate offices and professional business environments.",
-        "image_1": "./images/3D-logo-F.jpg",
+        "image_1": "./images/services/video-production-2.jpg",
         "image_1_alt": "Easy collaboration",
         "subtitle_2": "Easy and Efficient Collaboration",
         "text_1": "We are known for being easy to work with and adaptable to corporate environments. Our team collaborates closely with communication teams, marketing departments and event organizers to ensure an efficient production process and clear coordination from planning to delivery.",
-        "image_2": "./images/3D-logo-F.jpg",
+        "image_2": "./images/services/video-production-3.jpg",
         "image_2_alt": "Scalable team coverage",
         "subtitle_3": "Scalable Production and Fast Delivery",
         "text_2": "From single-camera productions to coordinated multi-videographer setups, we scale according to the size and complexity of your project. Standard delivery is within four working days. Priority delivery options are also available, including selected clips delivered within 8 to 12 hours after your event."
@@ -970,10 +970,10 @@
     },
     "drone-video-aerial-photography": {
       "DroneVideo": {
-        "title": "Drone Video &amp; Aerial Photography"
+        "title": "Drone Video &amp; Aerial Photography",
+        "embed_1": "https://player.vimeo.com/video/1219603348?autoplay=1&loop=1&muted=1&background=1"
       },
       "CorporateDroneVideo": {
-        "image": "./images/Capital-C-2.jpg",
         "image_alt": "Corporate drone videography set",
         "title": "Corporate Drone Video &amp; Aerial Photography in Amsterdam &amp; Across Europe",
         "description": "Based in Amsterdam, Fast Elevate Media provides professional corporate drone video production and aerial photography for corporate events, company locations and commercial environments across the Netherlands and Europe.<br><br>Fast Elevate Media provides certified drone filming services for corporate communication, marketing and event coverage. Aerial perspectives help companies showcase venues, office buildings, large conferences and business environments with clarity, scale and visual impact.<br><br>Our certified drone operators work fully in compliance with European aviation regulations, ensuring safe and professional drone operations. Drone footage can be integrated into corporate videos, event aftermovies or delivered as standalone aerial photography and cinematic drone video.",
@@ -995,7 +995,8 @@
         "link_1_url": "./corporate-video-production.html",
         "link_2_url": "./corporate-event-photography.html",
         "link_3_url": "./start.html",
-        "link_4_url": "./pricing.html"
+        "link_4_url": "./pricing.html",
+        "embed_1": "https://player.vimeo.com/video/1219603348?autoplay=1&loop=1&muted=1&background=1"
       },
       "ExploreOurWork": {
         "title": "Explore our work",
@@ -1010,15 +1011,15 @@
       },
       "WhyCorporateClients": {
         "title": "Why Corporate Clients Choose <br>Fast Elevate Media",
-        "image": "./images/3D-logo-F.jpg",
+        "image": "./images/services/drone-certified.png",
         "image_alt": "Certified drone operator pilot",
         "subtitle_1": "Certified Drone Operators",
         "description": "Professional drone filming requires licensed pilots and compliance with aviation regulations. Our drone operators are certified and experienced in flying safely within corporate environments, event venues and urban locations.",
-        "image_1": "./images/3D-logo-F.jpg",
+        "image_1": "./images/services/drone-coordination.png",
         "image_1_alt": "Drone project coordination",
         "subtitle_2": "Easy Coordination for Corporate Productions",
         "text_1": "Drone filming is coordinated seamlessly with event schedules, venue restrictions and production timelines. Our team works efficiently with event organizers, production teams and corporate communication departments.",
-        "image_2": "./images/3D-logo-F.jpg",
+        "image_2": "./images/services/drone-delivery.png",
         "image_2_alt": "Fast delivery drone footage",
         "subtitle_3": "Fast Delivery for Corporate Projects",
         "text_2": "Our structured editing workflow ensures that drone footage is delivered quickly and ready for use in marketing campaigns, corporate videos and event coverage. Standard delivery is within four working days, with faster options available when required."
@@ -1064,7 +1065,8 @@
       },
       "__meta": {
         "title": "Drone Video & Aerial Photography | Fast Elevate Media",
-        "description": "Certified corporate drone video production and aerial photography across Amsterdam and Europe. Showcase your venues, buildings, and events safely and professionally."
+        "description": "Certified corporate drone video production and aerial photography across Amsterdam and Europe. Showcase your venues, buildings, and events safely and professionally.",
+        "embed_1": "https://player.vimeo.com/video/1219603348?autoplay=1&loop=1&muted=1&background=1"
       },
       "Header": {
         "link_2": "Home",
@@ -2165,15 +2167,15 @@
       },
       "WhyCorporateClients": {
         "title": "Why Corporate Clients Choose <br>Fast Elevate Media",
-        "image": "./images/3D-logo-F.jpg",
+        "image": "./images/services/headshots-1.jpg",
         "image_alt": "Corporate headshots quality",
         "subtitle_1": "Professional Corporate Headshot Production",
         "description": "Professional corporate headshots require more than a camera. They require experience, structured lighting and an approach that ensures every team member is presented consistently and professionally. Fast Elevate Media creates high-quality headshots and corporate portraits that strengthen your company\u2019s visual identity across teams, departments and offices.",
-        "image_1": "./images/3D-logo-F.jpg",
+        "image_1": "./images/services/headshots-2.jpg",
         "image_1_alt": "Efficient sessions",
         "subtitle_2": "Easy and Efficient Team Sessions",
         "text_1": "We are known for being easy to work with and adaptable to corporate environments. Headshot sessions can be organized efficiently at your office, during corporate events or in a controlled studio environment. Most employees can be photographed in approximately 5 to 10 minutes, allowing dozens of team members to be photographed during a single session while minimizing disruption to your organization\u2019s schedule.",
-        "image_2": "./images/3D-logo-F.jpg",
+        "image_2": "./images/services/headshots-3.jpg",
         "image_2_alt": "Consistent fast delivery",
         "subtitle_3": "Consistent Results and Fast Delivery",
         "text_2": "Our structured portrait workflow ensures consistent results across leadership teams and employees. Images are delivered in clearly organized formats optimized for company websites, LinkedIn profiles, press kits and internal directories. Standard delivery is within four working days. Priority delivery options are available when required."
@@ -3599,7 +3601,10 @@
         "subtitle_2": "Wij zijn makkelijk om mee te werken",
         "text_1": "We staan erom bekend dat we prettig in de omgang zijn, ons snel aanpassen aan zakelijke omgevingen en flexibel inspelen op het snelle tempo van live evenementen.<br><br>Onze ervaren fotografen begrijpen hoe ze discreet moeten werken terwijl ze impactvolle beelden vastleggen die aansluiten bij uw merk- en communicatiedoelstellingen.",
         "subtitle_3": "Schaalbare oplossingen",
-        "text_2": "Van een enkele fotograaf tot geco\u00f6rdineerde producties met meerdere fotografen, we schalen op basis van de omvang en complexiteit van uw evenement. Gecombineerd met snelle en gestructureerde leveringstermijnen zorgt dit ervoor dat uw media klaar is wanneer uw team het nodig heeft."
+        "text_2": "Van een enkele fotograaf tot geco\u00f6rdineerde producties met meerdere fotografen, we schalen op basis van de omvang en complexiteit van uw evenement. Gecombineerd met snelle en gestructureerde leveringstermijnen zorgt dit ervoor dat uw media klaar is wanneer uw team het nodig heeft.",
+        "image": "../images/services/event-photography-1.jpg",
+        "image_1": "../images/services/event-photography-2.jpg",
+        "image_2": "../images/services/event-photography-3.jpg"
       },
       "PhotosAreDelivered": {
         "title": "Foto's worden geleverd via een besloten galerij- of downloadlink, klaar voor:"
@@ -3877,7 +3882,10 @@
         "subtitle_2": "Eenvoudige samenwerking voor interviewprojecten",
         "text_1": "Klanten kiezen voor Fast Elevate Media vanwege onze naadloze samenwerking en professionele uitstraling. We zijn makkelijk om mee te werken, passen ons aan zakelijke agenda's aan en reageren flexibel op veranderende omstandigheden tijdens live-evenementen of in drukke directieomgevingen.",
         "subtitle_3": "Snelle levering van zakelijke interview- &amp; testimonialvideo's",
-        "text_2": "Onze gestructureerde bewerkingsworkflow zorgt ervoor dat uw interviewcontent klaar is wanneer uw organisatie deze nodig heeft. De standaardlevering is binnen vier werkdagen. Prioriteitsleveringsopties zijn beschikbaar, inclusief geselecteerde clips die binnen 8 to 12 uur worden geleverd voor dringende bedrijfscommunicatie."
+        "text_2": "Onze gestructureerde bewerkingsworkflow zorgt ervoor dat uw interviewcontent klaar is wanneer uw organisatie deze nodig heeft. De standaardlevering is binnen vier werkdagen. Prioriteitsleveringsopties zijn beschikbaar, inclusief geselecteerde clips die binnen 8 to 12 uur worden geleverd voor dringende bedrijfscommunicatie.",
+        "image": "../images/services/interviews-1.jpg",
+        "image_1": "../images/services/interviews-2.jpg",
+        "image_2": "../images/services/interviews-3.jpg"
       },
       "VideosAreDelivered": {
         "title": "Video's worden geleverd via een priv\u00e9galerij of downloadlink, klaar voor:"
@@ -4163,7 +4171,10 @@
         "subtitle_2": "Eenvoudige en effici\u00ebnte samenwerking",
         "text_1": "We staan erom bekend dat we makkelijk zijn om mee te werken en ons eenvoudig aanpassen aan zakelijke omgevingen. Ons team werkt nauw samen met communicatieteams, marketingafdelingen en organisatoren van evenementen om te zorgen voor een effici\u00ebnt productieproces en duidelijke co\u00f6rdinatie van planning tot oplevering.",
         "subtitle_3": "Schaalbare productie en snelle levering",
-        "text_2": "Van producties met \u00e9\u00e9n camera tot geco\u00f6rdineerde opstellingen met meerdere videografen: we schalen op basis van de omvang en complexiteit van uw project. De standaardlevering is binnen vier werkdagen. Prioritaire leveringsopties zijn ook beschikbaar, inclusief geselecteerde clips die binnen 8 to 12 uur na uw evenement worden geleverd."
+        "text_2": "Van producties met \u00e9\u00e9n camera tot geco\u00f6rdineerde opstellingen met meerdere videografen: we schalen op basis van de omvang en complexiteit van uw project. De standaardlevering is binnen vier werkdagen. Prioritaire leveringsopties zijn ook beschikbaar, inclusief geselecteerde clips die binnen 8 to 12 uur na uw evenement worden geleverd.",
+        "image": "../images/services/video-production-1.jpg",
+        "image_1": "../images/services/video-production-2.jpg",
+        "image_2": "../images/services/video-production-3.jpg"
       },
       "VideosAreDelivered": {
         "title": "Video's worden geleverd via een beveiligde galerij of downloadlink, klaar voor:"
@@ -4214,7 +4225,6 @@
         "title": "Dronefotografie & Dronevideo"
       },
       "ZakelijkeDroneVideo": {
-        "image": "../images/Capital-C-2.jpg",
         "image_alt": "Opname-opstelling met drone",
         "title": "Zakelijke Drone Video &amp; Luchtfotografie in Amsterdam &amp; heel Europa",
         "description": "Gevestigd in Amsterdam biedt Fast Elevate Media professionele zakelijke drone-videoproductie en luchtfotografie voor bedrijfsevenementen, bedrijfslocaties en commerci\u00eble omgevingen in heel Nederland en Europa.<br><br>Fast Elevate Media levert gecertificeerde drone-filmdiensten voor bedrijfscommunicatie, marketing en evenementenverslaggeving. Luchtfoto's en -video's helpen bedrijven om locaties, kantoorgebouwen, grote conferenties en zakelijke omgevingen met helderheid, schaal en visuele impact te presenteren.<br><br>Onze gecertificeerde drone-operators werken volledig in overeenstemming met de Europese luchtvaartregelgeving, wat zorgt voor veilige en professionele drone-vluchten. Drone-opnames kunnen worden ge\u00efntegreerd in bedrijfsvideo's, aftermovies van evenementen of worden geleverd als op zichzelf staande luchtfotografie en cinematografische drone-video.",
@@ -4237,7 +4247,8 @@
         "link_1_url": "./corporate-video-production.html",
         "link_2_url": "./corporate-event-photography.html",
         "link_3_url": "./start.html",
-        "link_4_url": "./pricing.html"
+        "link_4_url": "./pricing.html",
+        "embed_1": "https://player.vimeo.com/video/1219603348?autoplay=1&loop=1&muted=1&background=1"
       },
       "OntdekOnsWerk": {
         "title": "Ontdek ons werk",
@@ -4348,7 +4359,8 @@
       },
       "__meta": {
         "title": "Drone Video & Luchtfotografie | Fast Elevate Media",
-        "description": "Gecertificeerde zakelijke drone-videoproductie en luchtfotografie in Amsterdam en Europa. Presenteer uw locaties, gebouwen en evenementen veilig en professioneel."
+        "description": "Gecertificeerde zakelijke drone-videoproductie en luchtfotografie in Amsterdam en Europa. Presenteer uw locaties, gebouwen en evenementen veilig en professioneel.",
+        "embed_1": "https://player.vimeo.com/video/1219603348?autoplay=1&loop=1&muted=1&background=1"
       },
       "Header": {
         "link_2": "Home",
@@ -4379,7 +4391,8 @@
         "feature_4": "Grote conferenties en tentoonstellingslocaties",
         "feature_5": "Merkvideo's en promotiecampagnes",
         "link_3": "Aan de slag",
-        "link_4": "Tarieven bekijken"
+        "link_4": "Tarieven bekijken",
+        "embed_1": "https://player.vimeo.com/video/1219603348?autoplay=1&loop=1&muted=1&background=1"
       },
       "ExploreOurWork": {
         "title": "Ontdek ons werk",
@@ -4392,7 +4405,10 @@
         "subtitle_2": "Eenvoudige co\u00f6rdinatie voor zakelijke producties",
         "text_1": "Drone-opnames worden naadloos geco\u00f6rdineerd met evenementenprogramma's, locatiebeperkingen en productietijdlijnen. Ons team werkt effici\u00ebnt samen met evenementenorganisatoren, productieteams en corporate communicatieafdelingen.",
         "subtitle_3": "Snelle levering van zakelijke projecten",
-        "text_2": "Onze gestructureerde bewerkingsworkflow zorgt ervoor dat drone-opnames snel worden geleverd en klaar zijn voor gebruik in marketingcampagnes, bedrijfsvideo's en evenementenverslagen. De standaardlevering is binnen vier werkdagen, met snellere opties beschikbaar indien nodig."
+        "text_2": "Onze gestructureerde bewerkingsworkflow zorgt ervoor dat drone-opnames snel worden geleverd en klaar zijn voor gebruik in marketingcampagnes, bedrijfsvideo's en evenementenverslagen. De standaardlevering is binnen vier werkdagen, met snellere opties beschikbaar indien nodig.",
+        "image": "../images/services/drone-certified.png",
+        "image_1": "../images/services/drone-coordination.png",
+        "image_2": "../images/services/drone-delivery.png"
       },
       "VideosAreDelivered": {
         "title": "Video's worden geleverd via een priv\u00e9galerij of downloadlink, klaar voor:"
@@ -5957,7 +5973,10 @@
         "subtitle_2": "Eenvoudige en effici\u00ebnte teamsessies",
         "text_1": "We staan erom bekend dat we makkelijk zijn om mee te werken en ons eenvoudig aanpassen aan zakelijke omgevingen. Headshotsessies kunnen effici\u00ebnt worden georganiseerd bij u op kantoor, tijdens bedrijfsevenementen of in een gecontroleerde studio-omgeving. De meeste medewerkers kunnen in ongeveer 5 tot 10 minuten worden gefotografeerd, waardoor tientallen teamleden tijdens \u00e9\u00e9n sessie kunnen worden gefotografeerd met minimale verstoring van de agenda van uw organisatie.",
         "subtitle_3": "Consistente resultaten en snelle levering",
-        "text_2": "Onze gestructureerde productieworkflow zorgt voor consistente resultaten bij directieteams en medewerkers. Beelden worden geleverd in overzichtelijk georganiseerde formaten, geoptimaliseerd voor bedrijfswebsites, LinkedIn-profielen, perskits en interne registers. De standaardlevering is binnen vier werkdagen. Prioritaire leveringsopties zijn op aanvraag beschikbaar."
+        "text_2": "Onze gestructureerde productieworkflow zorgt voor consistente resultaten bij directieteams en medewerkers. Beelden worden geleverd in overzichtelijk georganiseerde formaten, geoptimaliseerd voor bedrijfswebsites, LinkedIn-profielen, perskits en interne registers. De standaardlevering is binnen vier werkdagen. Prioritaire leveringsopties zijn op aanvraag beschikbaar.",
+        "image": "../images/services/headshots-1.jpg",
+        "image_1": "../images/services/headshots-2.jpg",
+        "image_2": "../images/services/headshots-3.jpg"
       },
       "FastAndStructured": {
         "title": "Snelle en gestructureerde levering"
