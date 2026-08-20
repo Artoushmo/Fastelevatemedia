@@ -552,7 +552,7 @@
 
   <!-- 1. Hero Section -->
   <section class="relative h-[48vh] min-h-[340px] sm:h-[65vh] sm:min-h-[480px] overflow-hidden video-docker bg-[#121111]" id="hero-section" data-vibe-section="HeroSection">
-    <video id="hero-video" autoplay="" class="absolute z-0" loop="" muted="" playsinline="" preload="auto" data-vibe-video="video"></video>
+    <video id="hero-video" autoplay="" class="absolute z-0" loop="" muted="" playsinline="" preload="auto" data-vibe-video="video" data-vibe-video-mobile="video_mobiel" data-desktop-src="./banner-video-fem-v3.mp4" data-mobile-src="./Banner video FEM v3 mobiel.mp4"></video>
     <!-- Dark Gradient Overlay -->
     <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-black/30 z-[1]"></div>
     <!-- Mute/Unmute Toggle Button -->
@@ -568,21 +568,40 @@
     <script>
       (function() {
         var heroVid = document.getElementById('hero-video');
-        
-        // Dynamically load mobile/desktop video source to guarantee mobile asset is used on mobile screens
+
+        // Kiest desktop- of mobielvideo op basis van schermbreedte. De paden
+        // komen uit data-desktop-src/data-mobile-src op het video-element
+        // zelf (bewerkbaar via het Snap Build Portal); een MutationObserver
+        // zorgt dat een wijziging daar — ook live tijdens het bewerken —
+        // meteen de juiste bron laadt, zonder dat dit scriptje iets hoeft te
+        // weten van hoe de portal-editor werkt.
         if (heroVid) {
           var isMobile = window.innerWidth < 768;
-          var isNl = window.location.pathname.includes('/nl/');
-          var basePath = isNl ? '../' : './';
-          var videoSrc = basePath + (isMobile ? 'Banner video FEM v3 mobiel.mp4' : 'banner-video-fem-v3.mp4');
-          
-          var source = document.createElement('source');
-          source.src = videoSrc;
-          source.type = 'video/mp4';
-          heroVid.appendChild(source);
-          heroVid.load();
+
+          var syncHeroVideo = function() {
+            var videoSrc = heroVid.getAttribute(isMobile ? 'data-mobile-src' : 'data-desktop-src');
+            if (!videoSrc) return;
+            var source = heroVid.querySelector('source');
+            if (!source) {
+              source = document.createElement('source');
+              source.type = 'video/mp4';
+              heroVid.appendChild(source);
+            }
+            if (source.getAttribute('src') !== videoSrc) {
+              source.setAttribute('src', videoSrc);
+              heroVid.load();
+            }
+          };
+
+          syncHeroVideo();
+          if (window.MutationObserver) {
+            new MutationObserver(syncHeroVideo).observe(heroVid, {
+              attributes: true,
+              attributeFilter: ['data-desktop-src', 'data-mobile-src'],
+            });
+          }
         }
-        
+
         var heroBtn = document.getElementById('hero-mute-btn');
         var heroIconM = document.getElementById('icon-muted');
         var heroIconU = document.getElementById('icon-unmuted');

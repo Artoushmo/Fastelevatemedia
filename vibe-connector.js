@@ -11,6 +11,11 @@
  *   data-vibe-section="Naam"   sectie
  *   data-vibe-field="veld"     tekst of afbeelding
  *   data-vibe-video="veld"     <video>-bron
+ *   data-vibe-video-mobile="veld"  mobiele <video>-bron (naast data-vibe-video
+ *                              op hetzelfde element) — schrijft alleen naar
+ *                              data-mobile-src, het scriptje van de site kiest
+ *                              zelf desktop vs. mobiel via data-desktop-src /
+ *                              data-mobile-src op basis van schermbreedte.
  *   data-vibe-embed="veld"     iframe-embed (YouTube/Vimeo)
  *   data-vibe-link="veld"      href van een link
  *   data-vibe-gallery="veld"   gallery/portfolio-container
@@ -308,7 +313,22 @@
 
       sectionEl.querySelectorAll("[data-vibe-video]").forEach(function (node) {
         if (!ownedBy(node, sectionEl)) return;
-        setVideo(node, fields[node.getAttribute("data-vibe-video")]);
+        var value = fields[node.getAttribute("data-vibe-video")];
+        if (value == null) return;
+        // Video's met een apart mobiel-veld sturen niet rechtstreeks de
+        // <source> aan (dat doet het eigen scriptje van de site, per
+        // schermbreedte) — alleen het databestand-attribuut wordt bijgewerkt.
+        if (node.hasAttribute("data-vibe-video-mobile")) {
+          node.setAttribute("data-desktop-src", value);
+        } else {
+          setVideo(node, value);
+        }
+      });
+
+      sectionEl.querySelectorAll("[data-vibe-video-mobile]").forEach(function (node) {
+        if (!ownedBy(node, sectionEl)) return;
+        var mobileValue = fields[node.getAttribute("data-vibe-video-mobile")];
+        if (mobileValue != null) node.setAttribute("data-mobile-src", mobileValue);
       });
 
       sectionEl.querySelectorAll("[data-vibe-embed]").forEach(function (node) {
@@ -481,7 +501,8 @@
     var esc = CSS.escape(field);
     var node = section.querySelector(
       '[data-vibe-field="' + esc + '"],[data-vibe-gallery="' + esc + '"],' +
-        '[data-vibe-video="' + esc + '"],[data-vibe-embed="' + esc + '"],' +
+        '[data-vibe-video="' + esc + '"],[data-vibe-video-mobile="' + esc + '"],' +
+        '[data-vibe-embed="' + esc + '"],' +
         '[data-vibe-link="' + esc + '"],[data-vibe-videolink="' + esc + '"]'
     );
     if (!node) return;
