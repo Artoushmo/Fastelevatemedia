@@ -16,12 +16,14 @@
   <title>Corporate Video Production | Fast Elevate Media</title>
   <meta name="description" content="Professional corporate video production for conferences, aftermovies, recruitment, interviews, and corporate communication across Amsterdam and Europe.">
   <!-- Load Lexend Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
   <!-- Tailwind CSS v3 with Plugins -->
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   <!-- GSAP for Animations -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
   <script id="tailwind-config">
     tailwind.config = {
       darkMode: "class",
@@ -192,20 +194,18 @@
   <header class="bg-[#555555] text-white py-4 px-6 md:px-12 flex items-center justify-between sticky top-0 z-[100] shadow-md" data-vibe-section="Header">
     <div class="flex items-center gap-2" data-purpose="logo-container">
       <a href="./index.html">
-        <img alt="Fast Elevate Media Logo" class="h-10 object-contain" src="./logo.png" data-vibe-field="image">
+        <img alt="Fast Elevate Media Logo" class="h-10 object-contain" src="./logo.png" data-vibe-field="image" loading="lazy" decoding="async">
       </a>
     </div>
     <nav class="hidden md:flex items-center gap-8 font-semibold text-xs uppercase tracking-widest">
       <a class="hover:text-primary transition-colors " href="./index.html" data-vibe-field="link_2" data-vibe-link="link_2_url">Home</a>
       <div class="relative group">
-        <button class="flex items-center gap-1.5 hover:text-primary transition-colors uppercase font-semibold" data-vibe-field="button_1">
-          Services
+        <button class="flex items-center gap-1.5 hover:text-primary transition-colors uppercase font-semibold" data-vibe-field="button_1">Services
           <span class="inline-flex items-center justify-center w-4 h-4 rounded-full bg-white text-gray-800 ml-0.5">
             <svg class="w-2.5 h-2.5 stroke-current" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
             </svg>
-          </span>
-        </button>
+          </span></button>
         <div class="absolute top-full left-0 mt-4 w-[340px] bg-[#555555] text-white shadow-2xl rounded-2xl border border-white/10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 py-3 z-50">
           <ul class="text-sm">
                         <li>
@@ -285,8 +285,7 @@
     <div class="flex items-center gap-4">
       <!-- Language Selector Dropdown -->
       <div class="relative group hidden md:block">
-        <button class="flex items-center gap-1.5 hover:text-primary transition-colors focus:outline-none py-1" data-vibe-field="button_2">
-          <svg class="w-5 h-3.5 rounded-sm object-cover shrink-0" width="20" height="14" style="width:20px; height:14px; display:inline-block; vertical-align:middle; flex-shrink:0;" viewBox="0 0 7410 3900" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <button class="flex items-center gap-1.5 hover:text-primary transition-colors focus:outline-none py-1" data-vibe-field="button_2"><svg class="w-5 h-3.5 rounded-sm object-cover shrink-0" width="20" height="14" style="width:20px; height:14px; display:inline-block; vertical-align:middle; flex-shrink:0;" viewBox="0 0 7410 3900" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="7410" height="3900" fill="#B22234"></rect>
             <path d="M0 300H7410M0 900H7410M0 1500H7410M0 2100H7410M0 2700H7410M0 3300H7410" stroke="white" stroke-width="300"></path>
             <rect width="2964" height="2100" fill="#3C3B6E"></rect>
@@ -309,8 +308,7 @@
           <span class="text-xs font-bold uppercase tracking-wider">EN</span>
           <svg class="w-2.5 h-2.5 stroke-current opacity-60" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
-          </svg>
-        </button>
+          </svg></button>
         <div class="absolute right-0 top-full mt-2 w-40 bg-[#555555] text-white shadow-2xl rounded-xl border border-white/10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 py-1.5 z-[150]">
           <a href="#" class="px-4 py-2 flex items-center gap-3 hover:bg-white/5 transition-colors text-xs font-semibold text-primary">
             <svg class="w-5 h-3.5 rounded-sm object-cover shrink-0" width="20" height="14" style="width:20px; height:14px; display:inline-block; vertical-align:middle; flex-shrink:0;" viewBox="0 0 7410 3900" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -348,11 +346,9 @@
       <a href="./start.html" class="bg-primary text-white hover:bg-primary/95 transition-all px-6 py-2 rounded-full font-bold text-sm hidden md:inline-block" data-vibe-field="link_15" data-vibe-link="link_15_url">Get Started</a>
       
       <!-- Hamburger Menu Button -->
-      <button id="mobile-menu-toggle" class="md:hidden text-white p-2 focus:outline-none" aria-label="Open menu" data-vibe-field="button_3">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <button id="mobile-menu-toggle" class="md:hidden text-white p-2 focus:outline-none" aria-label="Open menu" data-vibe-field="button_3"><svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
-        </svg>
-      </button>
+        </svg></button>
     </div>
   </header>
   <!-- END: MainHeader -->
@@ -361,7 +357,7 @@
     <!-- Header inside Drawer -->
     <div class="flex items-center justify-between">
       <a href="./index.html">
-        <img alt="Fast Elevate Media Logo" class="h-10 object-contain" src="./logo.png">
+        <img alt="Fast Elevate Media Logo" class="h-10 object-contain" src="./logo.png" loading="lazy" decoding="async">
       </a>
       <button id="mobile-menu-close" class="text-white p-2 focus:outline-none" aria-label="Close menu">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -476,7 +472,7 @@
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-start">
         <!-- Row 1: Image Left, Text Right -->
         <div class="order-2 lg:order-1">
-          <img alt="Corporate video positioning" class="w-full h-[25rem] object-cover rounded-[1.5rem] shadow-xl" src="./images/Joshua_Statie02-1.jpg" data-vibe-field="image">
+          <img alt="Corporate video positioning" class="w-full h-[25rem] object-cover rounded-[1.5rem] shadow-xl" src="./images/Joshua_Statie02-1.jpg" data-vibe-field="image" loading="lazy" decoding="async">
         </div>
         <div class="order-1 lg:order-2 space-y-4">
           <h2 class="text-2xl md:text-3xl font-extrabold text-[#121111] leading-tight" data-vibe-field="title">Positioning Your Business Through Corporate Video</h2>
@@ -489,12 +485,12 @@
           <p class="leading-relaxed" data-vibe-field="text_1">High-quality corporate video production for conferences, corporate events and business communication. We produce event aftermovies, conference recordings, executive interviews and internal communication videos created for professional and corporate audiences. We also produce recruitment and employer branding videos that help companies attract talent and communicate their company culture.<br><br>From pre-event planning to on-site filming and post-production editing, our structured workflow ensures consistent quality, clear communication and strong brand alignment. Video content can be adapted for websites, LinkedIn, internal platforms and broader corporate communication strategies.<br><br>Whether you require single-camera coverage or multi-camera event production, we scale according to the complexity and scope of your project. This ranges from focused productions to coordinated multi-crew productions across Europe.</p>
         </div>
         <div class="order-4 lg:order-4">
-          <img alt="Corporate video production Amsterdam" class="w-full h-[25rem] object-cover rounded-[1.5rem] shadow-xl" src="./images/SP8_4107-Enhanced-NR.jpg" data-vibe-field="image_1">
+          <img alt="Corporate video production Amsterdam" class="w-full h-[25rem] object-cover rounded-[1.5rem] shadow-xl" src="./images/SP8_4107-Enhanced-NR.jpg" data-vibe-field="image_1" loading="lazy" decoding="async">
         </div>
 
         <!-- Row 3: Image Left, Checkmark List & CTA Right -->
         <div class="order-6 lg:order-5">
-          <img alt="Corporate video production set" class="w-full h-[25rem] object-cover rounded-[1.5rem] shadow-xl" src="./images/SP6_7737-Enhanced-NR.jpg" data-vibe-field="image_2">
+          <img alt="Corporate video production set" class="w-full h-[25rem] object-cover rounded-[1.5rem] shadow-xl" src="./images/SP6_7737-Enhanced-NR.jpg" data-vibe-field="image_2" loading="lazy" decoding="async">
         </div>
         <div class="order-5 lg:order-6 space-y-6 lg:pl-6">
           <p class="font-bold text-[#121111] text-lg">Ideal for:</p>
@@ -638,16 +634,7 @@
             </span>
           </div>
         </div>
-      <div class="gallery-item relative group overflow-hidden rounded-2xl border-4 border-white shadow-md cursor-pointer aspect-[3/2]" data-video-url="https://vimeo.com/1214376229?share=copy&amp;fl=sv&amp;fe=ci" data-caption="test 2 " data-img-url="./images/video-thumbs/vimeo-1214376229.jpg">
-          <img class="w-full h-full object-cover pointer-events-none" src="./images/video-thumbs/vimeo-1214376229.jpg" alt="test 2 ">
-          <div class="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors flex items-center justify-center z-10">
-            <span class="w-14 h-14 rounded-full bg-white/20 text-white flex items-center justify-center backdrop-blur-sm group-hover:scale-110 transition-transform">
-              <svg class="w-6 h-6 fill-current translate-x-[2px]" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M8 5v14l11-7z"></path>
-              </svg>
-            </span>
-          </div>
-        </div></div>
+      </div>
     </div>
   </section>
 
@@ -662,7 +649,7 @@
         <!-- Card 1 -->
         <div class="flex flex-col space-y-6">
           <div class="w-full aspect-[378/325] overflow-hidden rounded-2xl shadow-md border border-gray-100">
-            <img alt="Corporate video reliability" class="w-full h-full object-cover" src="./images/services/video-production-1.jpg" data-vibe-field="image">
+            <img alt="Corporate video reliability" class="w-full h-full object-cover" src="./images/services/video-production-1.jpg" data-vibe-field="image" loading="lazy" decoding="async">
           </div>
           <h3 class="text-xl font-bold text-[#121111]" data-vibe-field="subtitle_1">Experienced and Reliable Production</h3>
           <p class="text-sm text-gray-600 leading-relaxed" data-vibe-field="description">Corporate video production requires more than strong visuals. It requires experience, planning and structured execution. Fast Elevate Media is trusted by corporate clients across Amsterdam and Europe for professional production, clear communication and consistent results. Our team works discreetly within conferences, corporate offices and professional business environments.</p>
@@ -671,7 +658,7 @@
         <!-- Card 2 -->
         <div class="flex flex-col space-y-6">
           <div class="w-full aspect-[378/325] overflow-hidden rounded-2xl shadow-md border border-gray-100">
-            <img alt="Scalable team coverage" class="w-full h-full object-cover" src="./images/services/video-production-3.jpg" data-vibe-field="image_1">
+            <img alt="Scalable team coverage" class="w-full h-full object-cover" src="./images/services/video-production-3.jpg" data-vibe-field="image_1" loading="lazy" decoding="async">
           </div>
           <h3 class="text-xl font-bold text-[#121111]" data-vibe-field="subtitle_2">Scalable Production and Fast Delivery</h3>
           <p class="text-sm text-gray-600 leading-relaxed" data-vibe-field="text_1">From single-camera productions to coordinated multi-videographer setups, we scale according to the size and complexity of your project. Standard delivery is within four working days. Priority delivery options are also available, including selected clips delivered within 8 to 12 hours after your event.</p>
@@ -680,7 +667,7 @@
         <!-- Card 3 -->
         <div class="flex flex-col space-y-6">
           <div class="w-full aspect-[378/325] overflow-hidden rounded-2xl shadow-md border border-gray-100">
-            <img alt="Easy collaboration" class="w-full h-full object-cover" src="./images/services/video-production-2.jpg" data-vibe-field="image_2">
+            <img alt="Easy collaboration" class="w-full h-full object-cover" src="./images/services/video-production-2.jpg" data-vibe-field="image_2" loading="lazy" decoding="async">
           </div>
           <h3 class="text-xl font-bold text-[#121111]" data-vibe-field="subtitle_3">Easy and Efficient Collaboration</h3>
           <p class="text-sm text-gray-600 leading-relaxed" data-vibe-field="text_2">We are known for being easy to work with and adaptable to corporate environments. Our team collaborates closely with communication teams, marketing departments and event organizers to ensure an efficient production process and clear coordination from planning to delivery.</p>
@@ -867,7 +854,7 @@
     <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
       <!-- Left Column: Image -->
       <div class="w-full">
-        <img alt="Industries we support" class="w-full h-[18rem] md:h-[20rem] rounded-[1.5rem] object-cover shadow-lg" src="./images/DSC_9147.jpg" data-vibe-field="image">
+        <img alt="Industries we support" class="w-full h-[18rem] md:h-[20rem] rounded-[1.5rem] object-cover shadow-lg" src="./images/DSC_9147.jpg" data-vibe-field="image" loading="lazy" decoding="async">
       </div>
       <!-- Right Column: Content -->
       <div class="space-y-6">
@@ -971,7 +958,7 @@
       </div>
       <!-- Right Column: Image -->
       <div class="w-full order-1 md:order-2">
-        <img alt="Scalable Video Production" class="w-full h-[18rem] md:h-[20rem] rounded-[1.5rem] object-cover shadow-lg" src="./images/SP8_4107-Enhanced-NR.jpg" data-vibe-field="image">
+        <img alt="Scalable Video Production" class="w-full h-[18rem] md:h-[20rem] rounded-[1.5rem] object-cover shadow-lg" src="./images/SP8_4107-Enhanced-NR.jpg" data-vibe-field="image" loading="lazy" decoding="async">
       </div>
     </div>
   </section>
@@ -981,7 +968,7 @@
     <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
       <!-- Left Column: Image -->
       <div class="w-full">
-        <img alt="Corporate Events we cover" class="w-full h-[18rem] md:h-[20rem] rounded-[1.5rem] object-cover shadow-lg" src="./images/zaal.jpg" data-vibe-field="image">
+        <img alt="Corporate Events we cover" class="w-full h-[18rem] md:h-[20rem] rounded-[1.5rem] object-cover shadow-lg" src="./images/zaal.jpg" data-vibe-field="image" loading="lazy" decoding="async">
       </div>
       <!-- Right Column: Content -->
       <div class="space-y-6">
@@ -1104,12 +1091,10 @@
         <div class="lg:col-span-7 space-y-4">
           <!-- Accordion Item 1 -->
           <div class="faq-item bg-white border border-gray-200 rounded-xl transition-all duration-300 shadow-sm overflow-hidden">
-            <button class="faq-button w-full text-left py-6 px-6 flex justify-between items-center cursor-pointer select-none gap-4" data-vibe-field="button_1">
-              <span class="font-bold text-[#121111] text-base md:text-lg">How long does corporate video production take?</span>
+            <button class="faq-button w-full text-left py-6 px-6 flex justify-between items-center cursor-pointer select-none gap-4" data-vibe-field="button_1"><span class="font-bold text-[#121111] text-base md:text-lg">How long does corporate video production take?</span>
               <svg class="faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
-              </svg>
-            </button>
+              </svg></button>
             <div class="faq-content max-h-0 transition-all duration-350 ease-in-out">
               <p class="px-6 pb-6 text-gray-600 text-sm md:text-base leading-relaxed" data-vibe-field="description">Standard delivery is within four working days. Expedited delivery options are available upon request.</p>
             </div>
@@ -1117,12 +1102,10 @@
 
           <!-- Accordion Item 2 -->
           <div class="faq-item bg-white border border-gray-200 rounded-xl transition-all duration-300 shadow-sm overflow-hidden">
-            <button class="faq-button w-full text-left py-6 px-6 flex justify-between items-center cursor-pointer select-none gap-4" data-vibe-field="button_2">
-              <span class="font-bold text-[#121111] text-base md:text-lg">Do you offer multi-camera conference filming?</span>
+            <button class="faq-button w-full text-left py-6 px-6 flex justify-between items-center cursor-pointer select-none gap-4" data-vibe-field="button_2"><span class="font-bold text-[#121111] text-base md:text-lg">Do you offer multi-camera conference filming?</span>
               <svg class="faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
-              </svg>
-            </button>
+              </svg></button>
             <div class="faq-content max-h-0 transition-all duration-350 ease-in-out">
               <p class="px-6 pb-6 text-gray-600 text-sm md:text-base leading-relaxed" data-vibe-field="text_1">Yes. We scale from single-camera setups to multi-camera productions depending on event complexity.</p>
             </div>
@@ -1130,12 +1113,10 @@
 
           <!-- Accordion Item 3 -->
           <div class="faq-item bg-white border border-gray-200 rounded-xl transition-all duration-300 shadow-sm overflow-hidden">
-            <button class="faq-button w-full text-left py-6 px-6 flex justify-between items-center cursor-pointer select-none gap-4" data-vibe-field="button_3">
-              <span class="font-bold text-[#121111] text-base md:text-lg">Can video production be combined with photography?</span>
+            <button class="faq-button w-full text-left py-6 px-6 flex justify-between items-center cursor-pointer select-none gap-4" data-vibe-field="button_3"><span class="font-bold text-[#121111] text-base md:text-lg">Can video production be combined with photography?</span>
               <svg class="faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
-              </svg>
-            </button>
+              </svg></button>
             <div class="faq-content max-h-0 transition-all duration-350 ease-in-out">
               <p class="px-6 pb-6 text-gray-600 text-sm md:text-base leading-relaxed" data-vibe-field="text_2">Yes. We offer integrated event coverage combining video, photography and drone services.</p>
             </div>
@@ -1143,12 +1124,10 @@
 
           <!-- Accordion Item 4 -->
           <div class="faq-item bg-white border border-gray-200 rounded-xl transition-all duration-300 shadow-sm overflow-hidden">
-            <button class="faq-button w-full text-left py-6 px-6 flex justify-between items-center cursor-pointer select-none gap-4" data-vibe-field="button_4">
-              <span class="font-bold text-[#121111] text-base md:text-lg">Do you work outside Amsterdam?</span>
+            <button class="faq-button w-full text-left py-6 px-6 flex justify-between items-center cursor-pointer select-none gap-4" data-vibe-field="button_4"><span class="font-bold text-[#121111] text-base md:text-lg">Do you work outside Amsterdam?</span>
               <svg class="faq-chevron w-5 h-5 text-gray-500 transition-transform duration-300 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
-              </svg>
-            </button>
+              </svg></button>
             <div class="faq-content max-h-0 transition-all duration-350 ease-in-out">
               <p class="px-6 pb-6 text-gray-600 text-sm md:text-base leading-relaxed" data-vibe-field="text_3">Yes. Based in Amsterdam, we support corporate video productions across Europe.</p>
             </div>
@@ -1244,7 +1223,7 @@
           </div>
           <!-- Logo -->
           <a href="./index.html" class="shrink-0 block">
-            <img alt="Fast Elevate Media Logo" class="h-6 object-contain opacity-90" src="./logo.png" data-vibe-field="image">
+            <img alt="Fast Elevate Media Logo" class="h-6 object-contain opacity-90" src="./logo.png" data-vibe-field="image" loading="lazy" decoding="async">
           </a>
         </div>
         
@@ -1269,7 +1248,7 @@
     </button>
     <!-- Centered Video Container -->
     <div class="max-w-5xl max-h-[85vh] w-full flex flex-col items-center justify-center relative">
-      <video id="lightbox-video" class="max-w-full max-h-[80vh] w-full object-contain rounded-lg border-2 border-white/10 shadow-2xl transition-all duration-300" controls="" autoplay="">
+      <video preload="metadata" id="lightbox-video" class="max-w-full max-h-[80vh] w-full object-contain rounded-lg border-2 border-white/10 shadow-2xl transition-all duration-300" controls="" autoplay="">
         <source src="" type="video/mp4">
       </video>
       <iframe id="lightbox-iframe" class="max-w-full max-h-[80vh] w-full aspect-video rounded-lg border-2 border-white/10 shadow-2xl hidden" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>

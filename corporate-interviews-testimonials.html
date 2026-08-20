@@ -16,12 +16,14 @@
   <title>Corporate Interviews &amp; Testimonials | Fast Elevate Media</title>
   <meta name="description" content="Professional corporate interview and testimonial video production for executives, leadership teams, and partners across Amsterdam and Europe.">
   <!-- Load Lexend Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
   <!-- Tailwind CSS v3 with Plugins -->
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   <!-- GSAP for Animations -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
   <script id="tailwind-config">
     tailwind.config = {
       darkMode: "class",
@@ -198,20 +200,18 @@
   <header class="bg-[#555555] text-white py-4 px-6 md:px-12 flex items-center justify-between sticky top-0 z-[100] shadow-md" data-vibe-section="Header">
     <div class="flex items-center gap-2" data-purpose="logo-container">
       <a href="./index.html">
-        <img alt="Fast Elevate Media Logo" class="h-10 object-contain" src="./logo.png" data-vibe-field="image">
+        <img alt="Fast Elevate Media Logo" class="h-10 object-contain" src="./logo.png" data-vibe-field="image" loading="lazy" decoding="async">
       </a>
     </div>
     <nav class="hidden md:flex items-center gap-8 font-semibold text-xs uppercase tracking-widest">
       <a class="hover:text-primary transition-colors " href="./index.html" data-vibe-field="link_2" data-vibe-link="link_2_url">Home</a>
       <div class="relative group">
-        <button class="flex items-center gap-1.5 hover:text-primary transition-colors uppercase font-semibold" data-vibe-field="button_1">
-          Services
+        <button class="flex items-center gap-1.5 hover:text-primary transition-colors uppercase font-semibold" data-vibe-field="button_1">Services
           <span class="inline-flex items-center justify-center w-4 h-4 rounded-full bg-white text-gray-800 ml-0.5">
             <svg class="w-2.5 h-2.5 stroke-current" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
             </svg>
-          </span>
-        </button>
+          </span></button>
         <div class="absolute top-full left-0 mt-4 w-[340px] bg-[#555555] text-white shadow-2xl rounded-2xl border border-white/10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 py-3 z-50">
           <ul class="text-sm">
                         <li>
@@ -291,8 +291,7 @@
     <div class="flex items-center gap-4">
       <!-- Language Selector Dropdown -->
       <div class="relative group hidden md:block">
-        <button class="flex items-center gap-1.5 hover:text-primary transition-colors focus:outline-none py-1" data-vibe-field="button_2">
-          <svg class="w-5 h-3.5 rounded-sm object-cover shrink-0" width="20" height="14" style="width:20px; height:14px; display:inline-block; vertical-align:middle; flex-shrink:0;" viewBox="0 0 7410 3900" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <button class="flex items-center gap-1.5 hover:text-primary transition-colors focus:outline-none py-1" data-vibe-field="button_2"><svg class="w-5 h-3.5 rounded-sm object-cover shrink-0" width="20" height="14" style="width:20px; height:14px; display:inline-block; vertical-align:middle; flex-shrink:0;" viewBox="0 0 7410 3900" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="7410" height="3900" fill="#B22234"></rect>
             <path d="M0 300H7410M0 900H7410M0 1500H7410M0 2100H7410M0 2700H7410M0 3300H7410" stroke="white" stroke-width="300"></path>
             <rect width="2964" height="2100" fill="#3C3B6E"></rect>
@@ -315,8 +314,7 @@
           <span class="text-xs font-bold uppercase tracking-wider">EN</span>
           <svg class="w-2.5 h-2.5 stroke-current opacity-60" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
-          </svg>
-        </button>
+          </svg></button>
         <div class="absolute right-0 top-full mt-2 w-40 bg-[#555555] text-white shadow-2xl rounded-xl border border-white/10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 py-1.5 z-[150]">
           <a href="#" class="px-4 py-2 flex items-center gap-3 hover:bg-white/5 transition-colors text-xs font-semibold text-primary">
             <svg class="w-5 h-3.5 rounded-sm object-cover shrink-0" width="20" height="14" style="width:20px; height:14px; display:inline-block; vertical-align:middle; flex-shrink:0;" viewBox="0 0 7410 3900" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -354,11 +352,9 @@
       <a href="./start.html" class="bg-primary text-white hover:bg-primary/95 transition-all px-6 py-2 rounded-full font-bold text-sm hidden md:inline-block" data-vibe-field="link_15" data-vibe-link="link_15_url">Get Started</a>
       
       <!-- Hamburger Menu Button -->
-      <button id="mobile-menu-toggle" class="md:hidden text-white p-2 focus:outline-none" aria-label="Open menu" data-vibe-field="button_3">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <button id="mobile-menu-toggle" class="md:hidden text-white p-2 focus:outline-none" aria-label="Open menu" data-vibe-field="button_3"><svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
-        </svg>
-      </button>
+        </svg></button>
     </div>
   </header>
   <!-- END: MainHeader -->
@@ -367,7 +363,7 @@
     <!-- Header inside Drawer -->
     <div class="flex items-center justify-between">
       <a href="./index.html">
-        <img alt="Fast Elevate Media Logo" class="h-10 object-contain" src="./logo.png">
+        <img alt="Fast Elevate Media Logo" class="h-10 object-contain" src="./logo.png" loading="lazy" decoding="async">
       </a>
       <button id="mobile-menu-close" class="text-white p-2 focus:outline-none" aria-label="Close menu">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -482,7 +478,7 @@
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-start">
         <!-- Row 1: Image Left, Text Right -->
         <div class="order-2 lg:order-1">
-          <img alt="Corporate interview filming" class="w-full h-[25rem] object-cover rounded-[1.5rem] shadow-xl" src="./images/IMG_7737.jpg" data-vibe-field="image">
+          <img alt="Corporate interview filming" class="w-full h-[25rem] object-cover rounded-[1.5rem] shadow-xl" src="./images/IMG_7737.jpg" data-vibe-field="image" loading="lazy" decoding="async">
         </div>
         <div class="order-1 lg:order-2 space-y-4">
           <h2 class="text-2xl md:text-4xl font-black text-[#121111] leading-tight" data-vibe-field="title">Corporate Interviews and Testimonial Video Production in Amsterdam and across Europe</h2>
@@ -495,12 +491,12 @@
           <p class="leading-relaxed" data-vibe-field="text_1">Interview content is optimized for corporate communication, employer branding, thought leadership and LinkedIn distribution. We ensure clean visuals and clear sound while maintaining a discreet and efficient presence within corporate environments.<br><br>Whether recorded during a conference, corporate event or in a controlled office setting, each interview is aligned with your messaging and communication objectives.</p>
         </div>
         <div class="order-4 lg:order-4">
-          <img alt="Professional camera and microphone setup" class="w-full h-[25rem] object-cover rounded-[1.5rem] shadow-xl" src="./images/cam-en-mic.jpg" data-vibe-field="image_1">
+          <img alt="Professional camera and microphone setup" class="w-full h-[25rem] object-cover rounded-[1.5rem] shadow-xl" src="./images/cam-en-mic.jpg" data-vibe-field="image_1" loading="lazy" decoding="async">
         </div>
 
         <!-- Row 3: Image Left, Checkmark List & CTA Right -->
         <div class="order-6 lg:order-5">
-          <img alt="Corporate video filming interview set" class="w-full h-[25rem] object-cover rounded-[1.5rem] shadow-xl" src="./images/IMG_7721.jpg" data-vibe-field="image_2">
+          <img alt="Corporate video filming interview set" class="w-full h-[25rem] object-cover rounded-[1.5rem] shadow-xl" src="./images/IMG_7721.jpg" data-vibe-field="image_2" loading="lazy" decoding="async">
         </div>
         <div class="order-5 lg:order-6 space-y-6 lg:pl-6">
           <p class="font-bold text-[#121111] text-lg" data-vibe-field="text_2">Suitable for:</p>
@@ -614,7 +610,7 @@
         <!-- Card 1 -->
         <div class="flex flex-col space-y-6">
           <div class="w-full aspect-[378/325] overflow-hidden rounded-2xl shadow-md border border-gray-100">
-            <img alt="Corporate video reliability" class="w-full h-full object-cover" src="./images/CapitcalC_Content_FastElevateMedia_2026-3896.jpg" data-vibe-field="image">
+            <img alt="Corporate video reliability" class="w-full h-full object-cover" src="./images/CapitcalC_Content_FastElevateMedia_2026-3896.jpg" data-vibe-field="image" loading="lazy" decoding="async">
           </div>
           <h3 class="text-xl font-bold text-[#121111]" data-vibe-field="subtitle_1">Professional Corporate Interview Production</h3>
           <p class="text-sm text-gray-600 leading-relaxed" data-vibe-field="description">Corporate interview production requires more than a camera setup. It requires experience, discretion and structured execution. Fast Elevate Media works seamlessly within corporate environments, capturing executive interviews and testimonial content without disrupting daily operations.</p>
@@ -623,7 +619,7 @@
         <!-- Card 2 -->
         <div class="flex flex-col space-y-6">
           <div class="w-full aspect-[378/325] overflow-hidden rounded-2xl shadow-md border border-gray-100">
-            <img alt="Easy collaboration" class="w-full h-full object-cover" src="./images/services/interviews-2.jpg" data-vibe-field="image_1">
+            <img alt="Easy collaboration" class="w-full h-full object-cover" src="./images/services/interviews-2.jpg" data-vibe-field="image_1" loading="lazy" decoding="async">
           </div>
           <h3 class="text-xl font-bold text-[#121111]" data-vibe-field="subtitle_2">Easy Collaboration for Corporate Interview Projects</h3>
           <p class="text-sm text-gray-600 leading-relaxed" data-vibe-field="text_1">Clients choose Fast Elevate Media for our seamless collaboration and professional presence. We are easy to work with, adaptable to corporate schedules and responsive to changing circumstances during live events or busy executive environments.</p>
@@ -632,7 +628,7 @@
         <!-- Card 3 -->
         <div class="flex flex-col space-y-6">
           <div class="w-full aspect-[378/325] overflow-hidden rounded-2xl shadow-md border border-gray-100">
-            <img alt="Scalable team coverage" class="w-full h-full object-cover" src="./images/services/interviews-3.jpg" data-vibe-field="image_2">
+            <img alt="Scalable team coverage" class="w-full h-full object-cover" src="./images/services/interviews-3.jpg" data-vibe-field="image_2" loading="lazy" decoding="async">
           </div>
           <h3 class="text-xl font-bold text-[#121111]" data-vibe-field="subtitle_3">Fast Delivery for Corporate Interview &amp; Testimonial Videos</h3>
           <p class="text-sm text-gray-600 leading-relaxed" data-vibe-field="text_2">Our structured editing workflow ensures your interview content is ready when your organization needs it. Standard delivery is within four working days. Priority delivery options are available, including selected clips delivered within 8 to 12 hours for urgent corporate communication.</p>
@@ -818,7 +814,7 @@
     <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
       <!-- Left Column: Image -->
       <div class="w-full">
-        <img alt="Corporate Interviews &amp; Testimonials for Teams &amp; Executives" class="w-full h-[18rem] md:h-[20rem] rounded-[1.5rem] object-cover shadow-lg" src="./images/Interview-Website-FEM.jpg" data-vibe-field="image">
+        <img alt="Corporate Interviews &amp; Testimonials for Teams &amp; Executives" class="w-full h-[18rem] md:h-[20rem] rounded-[1.5rem] object-cover shadow-lg" src="./images/Interview-Website-FEM.jpg" data-vibe-field="image" loading="lazy" decoding="async">
       </div>
       <!-- Right Column: Content -->
       <div class="space-y-6">
@@ -933,7 +929,7 @@
       </div>
       <!-- Right Column: Image -->
       <div class="w-full order-1 md:order-2">
-        <img alt="Scalable Corporate Interview Sessions" class="w-full h-[18rem] md:h-[20rem] rounded-[1.5rem] object-cover shadow-lg" src="./images/SP8_4107-Enhanced-NR.jpg" data-vibe-field="image">
+        <img alt="Scalable Corporate Interview Sessions" class="w-full h-[18rem] md:h-[20rem] rounded-[1.5rem] object-cover shadow-lg" src="./images/SP8_4107-Enhanced-NR.jpg" data-vibe-field="image" loading="lazy" decoding="async">
       </div>
     </div>
   </section>
@@ -943,7 +939,7 @@
     <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
       <!-- Left Column: Image -->
       <div class="w-full">
-        <img alt="Industries we support" class="w-full h-[18rem] md:h-[20rem] rounded-[1.5rem] object-cover shadow-lg" src="./images/Briddge-kantoor.jpg" data-vibe-field="image">
+        <img alt="Industries we support" class="w-full h-[18rem] md:h-[20rem] rounded-[1.5rem] object-cover shadow-lg" src="./images/Briddge-kantoor.jpg" data-vibe-field="image" loading="lazy" decoding="async">
       </div>
       <!-- Right Column: Content -->
       <div class="space-y-6">
@@ -1035,12 +1031,10 @@
       <div class="space-y-4">
         <!-- FAQ 1 -->
         <div class="faq-item border border-gray-150 rounded-2xl bg-white overflow-hidden transition-all duration-300">
-          <button class="faq-button w-full px-6 py-5 flex items-center justify-between gap-4 text-left font-bold text-gray-800 text-lg hover:bg-gray-50 transition-colors" data-vibe-field="button_1">
-            <span>Where do we shoot corporate interviews and testimonials?</span>
+          <button class="faq-button w-full px-6 py-5 flex items-center justify-between gap-4 text-left font-bold text-gray-800 text-lg hover:bg-gray-50 transition-colors" data-vibe-field="button_1"><span>Where do we shoot corporate interviews and testimonials?</span>
             <svg class="faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
-            </svg>
-          </button>
+            </svg></button>
           <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
             <div class="px-6 pb-6 text-sm text-gray-600 leading-relaxed pt-2">
               We shoot interviews and testimonials on-site at your offices, at event venues during conferences, or in controlled studio environments depending on the project requirement. We handle all logistics and setup.
@@ -1050,12 +1044,10 @@
 
         <!-- FAQ 2 -->
         <div class="faq-item border border-gray-150 rounded-2xl bg-white overflow-hidden transition-all duration-300">
-          <button class="faq-button w-full px-6 py-5 flex items-center justify-between gap-4 text-left font-bold text-gray-800 text-lg hover:bg-gray-50 transition-colors" data-vibe-field="button_2">
-            <span>How long does a typical interview session take?</span>
+          <button class="faq-button w-full px-6 py-5 flex items-center justify-between gap-4 text-left font-bold text-gray-800 text-lg hover:bg-gray-50 transition-colors" data-vibe-field="button_2"><span>How long does a typical interview session take?</span>
             <svg class="faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
-            </svg>
-          </button>
+            </svg></button>
           <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
             <div class="px-6 pb-6 text-sm text-gray-600 leading-relaxed pt-2">
               Setup of cameras, audio, and lighting takes about 30 to 45 minutes. The actual interview conversation typically takes between 15 to 30 minutes per speaker.
@@ -1065,12 +1057,10 @@
 
         <!-- FAQ 3 -->
         <div class="faq-item border border-gray-150 rounded-2xl bg-white overflow-hidden transition-all duration-300">
-          <button class="faq-button w-full px-6 py-5 flex items-center justify-between gap-4 text-left font-bold text-gray-800 text-lg hover:bg-gray-50 transition-colors" data-vibe-field="button_3">
-            <span>How do you handle audio quality in noisy environments?</span>
+          <button class="faq-button w-full px-6 py-5 flex items-center justify-between gap-4 text-left font-bold text-gray-800 text-lg hover:bg-gray-50 transition-colors" data-vibe-field="button_3"><span>How do you handle audio quality in noisy environments?</span>
             <svg class="faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
-            </svg>
-          </button>
+            </svg></button>
           <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
             <div class="px-6 pb-6 text-sm text-gray-600 leading-relaxed pt-2">
               We use professional wireless lavalier (lapel) microphones and directional shotgun microphones. For noisy settings, we select the best microphones and apply advanced noise isolation in post-production.
@@ -1080,12 +1070,10 @@
 
         <!-- FAQ 4 -->
         <div class="faq-item border border-gray-150 rounded-2xl bg-white overflow-hidden transition-all duration-300">
-          <button class="faq-button w-full px-6 py-5 flex items-center justify-between gap-4 text-left font-bold text-gray-800 text-lg hover:bg-gray-50 transition-colors" data-vibe-field="button_4">
-            <span>Can we supply our own questions or do you help structure them?</span>
+          <button class="faq-button w-full px-6 py-5 flex items-center justify-between gap-4 text-left font-bold text-gray-800 text-lg hover:bg-gray-50 transition-colors" data-vibe-field="button_4"><span>Can we supply our own questions or do you help structure them?</span>
             <svg class="faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
-            </svg>
-          </button>
+            </svg></button>
           <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
             <div class="px-6 pb-6 text-sm text-gray-600 leading-relaxed pt-2">
               We collaborate with you to structure the interview flow. We can draft or refine questions beforehand to ensure the speaker answers align with your core business messaging.
@@ -1095,12 +1083,10 @@
 
         <!-- FAQ 5 -->
         <div class="faq-item border border-gray-150 rounded-2xl bg-white overflow-hidden transition-all duration-300">
-          <button class="faq-button w-full px-6 py-5 flex items-center justify-between gap-4 text-left font-bold text-gray-800 text-lg hover:bg-gray-50 transition-colors" data-vibe-field="button_5">
-            <span>How are the final interview videos delivered?</span>
+          <button class="faq-button w-full px-6 py-5 flex items-center justify-between gap-4 text-left font-bold text-gray-800 text-lg hover:bg-gray-50 transition-colors" data-vibe-field="button_5"><span>How are the final interview videos delivered?</span>
             <svg class="faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
-            </svg>
-          </button>
+            </svg></button>
           <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
             <div class="px-6 pb-6 text-sm text-gray-600 leading-relaxed pt-2">
               Videos are delivered via a private, secure gallery or download link in ready-to-use formats. Standard delivery is 4 working days, and priority delivery is available if needed.
@@ -1196,7 +1182,7 @@
           </div>
           <!-- Logo -->
           <a href="./index.html" class="shrink-0 block">
-            <img alt="Fast Elevate Media Logo" class="h-6 object-contain opacity-90" src="./logo.png" data-vibe-field="image">
+            <img alt="Fast Elevate Media Logo" class="h-6 object-contain opacity-90" src="./logo.png" data-vibe-field="image" loading="lazy" decoding="async">
           </a>
         </div>
         
@@ -1222,7 +1208,7 @@
     </button>
     <!-- Centered Video Container -->
     <div class="max-w-5xl max-h-[85vh] w-full flex flex-col items-center justify-center relative">
-      <video id="lightbox-video" class="max-w-full max-h-[80vh] w-full object-contain rounded-lg border-2 border-white/10 shadow-2xl transition-all duration-300" controls="" autoplay="">
+      <video preload="metadata" id="lightbox-video" class="max-w-full max-h-[80vh] w-full object-contain rounded-lg border-2 border-white/10 shadow-2xl transition-all duration-300" controls="" autoplay="">
         <source src="" type="video/mp4">
       </video>
       <iframe id="lightbox-iframe" class="max-w-full max-h-[80vh] w-full aspect-video rounded-lg border-2 border-white/10 shadow-2xl hidden" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>

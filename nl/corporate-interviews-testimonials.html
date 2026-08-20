@@ -16,12 +16,14 @@
   <title>Zakelijke Interviews &amp; Testimonials | Fast Elevate Media</title>
   <meta name="description" content="Professionele video-productie van zakelijke interviews en testimonials voor leidinggevenden, managementteams en partners in Amsterdam en Europa.">
   <!-- Load Lexend Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
   <!-- Tailwind CSS v3 with Plugins -->
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   <!-- GSAP for Animations -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
   <script id="tailwind-config">
     tailwind.config = {
       darkMode: "class",
@@ -198,20 +200,18 @@
   <header class="bg-[#555555] text-white py-4 px-6 md:px-12 flex items-center justify-between sticky top-0 z-[100] shadow-md" data-vibe-section="Header">
     <div class="flex items-center gap-2" data-purpose="logo-container">
       <a href="./index.html">
-        <img alt="Fast Elevate Media Logo" class="h-10 object-contain" src="../logo.png" data-vibe-field="image">
+        <img alt="Fast Elevate Media Logo" class="h-10 object-contain" src="../logo.png" data-vibe-field="image" loading="lazy" decoding="async">
       </a>
     </div>
     <nav class="hidden md:flex items-center gap-8 font-semibold text-xs uppercase tracking-widest">
       <a class="hover:text-primary transition-colors " href="./index.html" data-vibe-field="link_2" data-vibe-link="link_2_url">Home</a>
       <div class="relative group">
-        <button class="flex items-center gap-1.5 hover:text-primary transition-colors uppercase font-semibold" data-vibe-field="button_1">
-          Diensten
+        <button class="flex items-center gap-1.5 hover:text-primary transition-colors uppercase font-semibold" data-vibe-field="button_1">Diensten
           <span class="inline-flex items-center justify-center w-4 h-4 rounded-full bg-white text-gray-800 ml-0.5">
             <svg class="w-2.5 h-2.5 stroke-current" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
             </svg>
-          </span>
-        </button>
+          </span></button>
         <div class="absolute top-full left-0 mt-4 w-[340px] bg-[#555555] text-white shadow-2xl rounded-2xl border border-white/10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 py-3 z-50">
           <ul class="text-sm">
                         <li>
@@ -288,8 +288,7 @@
     <div class="flex items-center gap-4">
       <!-- Language Selector Dropdown -->
       <div class="relative group hidden md:block">
-        <button class="flex items-center gap-1.5 hover:text-primary transition-colors focus:outline-none py-1" data-vibe-field="button_2">
-          <svg class="w-5 h-3.5 rounded-sm object-cover shrink-0" width="20" height="14" style="width:20px; height:14px; display:inline-block; vertical-align:middle; flex-shrink:0;" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <button class="flex items-center gap-1.5 hover:text-primary transition-colors focus:outline-none py-1" data-vibe-field="button_2"><svg class="w-5 h-3.5 rounded-sm object-cover shrink-0" width="20" height="14" style="width:20px; height:14px; display:inline-block; vertical-align:middle; flex-shrink:0;" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="9" height="2" fill="#AE1C28"></rect>
             <rect y="2" width="9" height="2" fill="#FFFFFF"></rect>
             <rect y="4" width="9" height="2" fill="#21468B"></rect>
@@ -297,8 +296,7 @@
           <span class="text-xs font-bold uppercase tracking-wider">NL</span>
           <svg class="w-2.5 h-2.5 stroke-current opacity-60" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
-          </svg>
-        </button>
+          </svg></button>
         <div class="absolute right-0 top-full mt-2 w-40 bg-[#555555] text-white shadow-2xl rounded-xl border border-white/10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 py-1.5 z-[150]">
           <a href="../corporate-interviews-testimonials.html" class="px-4 py-2 flex items-center gap-3 hover:bg-white/5 transition-colors text-xs font-semibold text-white">
             <svg class="w-5 h-3.5 rounded-sm object-cover shrink-0" width="20" height="14" style="width:20px; height:14px; display:inline-block; vertical-align:middle; flex-shrink:0;" viewBox="0 0 7410 3900" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -336,11 +334,9 @@
       <a href="./start.html" class="bg-primary text-white hover:bg-primary/95 transition-all px-6 py-2 rounded-full font-bold text-sm hidden md:inline-block" data-vibe-field="link_15" data-vibe-link="link_15_url">Aan de slag</a>
       
       <!-- Hamburger Menu Button -->
-      <button id="mobile-menu-toggle" class="md:hidden text-white p-2 focus:outline-none animate-pulse-subtle" aria-label="Menu openen" data-vibe-field="button_3">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <button id="mobile-menu-toggle" class="md:hidden text-white p-2 focus:outline-none animate-pulse-subtle" aria-label="Menu openen" data-vibe-field="button_3"><svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
-        </svg>
-      </button>
+        </svg></button>
     </div>
   </header>
   <!-- END: MainHeader -->
@@ -349,7 +345,7 @@
     <!-- Header inside Drawer -->
     <div class="flex items-center justify-between">
       <a href="./index.html">
-        <img alt="Fast Elevate Media Logo" class="h-10 object-contain" src="../logo.png">
+        <img alt="Fast Elevate Media Logo" class="h-10 object-contain" src="../logo.png" loading="lazy" decoding="async">
       </a>
       <button id="mobile-menu-close" class="text-white p-2 focus:outline-none" aria-label="Menu sluiten">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -447,7 +443,7 @@
   <!-- 1. Hero / Title Section -->
   <section class="relative bg-[#121111] pt-32 pb-20" data-vibe-section="CorporateInterviews">
     <div class="max-w-7xl mx-auto px-6 md:px-12 lg:px-24 text-center">
-      <h1 class="text-2xl md:text-4xl font-black text-white leading-tight" data-vibe-field="title">Zakelijke Videointerviews & Testimonials</h1>
+      <h1 class="text-2xl md:text-4xl font-black text-white leading-tight" data-vibe-field="title">Zakelijke Videointerviews &amp; Testimonials</h1>
     </div>
   </section>
 
@@ -464,7 +460,7 @@
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-start">
         <!-- Row 1: Image Left, Text Right -->
         <div class="order-2 lg:order-1">
-          <img alt="Opname van een zakelijk interview" class="w-full h-[25rem] object-cover rounded-[1.5rem] shadow-xl" src="../images/IMG_7737.jpg" data-vibe-field="image">
+          <img alt="Opname van een zakelijk interview" class="w-full h-[25rem] object-cover rounded-[1.5rem] shadow-xl" src="../images/IMG_7737.jpg" data-vibe-field="image" loading="lazy" decoding="async">
         </div>
         <div class="order-1 lg:order-2 space-y-4">
           <h2 class="text-2xl md:text-4xl font-black text-[#121111] leading-tight" data-vibe-field="title">Zakelijke Interviews en Testimonial-Videoproductie in Amsterdam en heel Europa</h2>
@@ -477,12 +473,12 @@
           <p class="leading-relaxed" data-vibe-field="text_1">Interviewcontent is geoptimaliseerd voor bedrijfscommunicatie, employer branding, thought leadership en LinkedIn-distributie. Wij zorgen voor heldere beelden en zuiver geluid, terwijl we discreet en efficiënt te werk gaan binnen zakelijke omgevingen.<br><br>Of ze nu worden opgenomen tijdens een conferentie, bedrijfsevenement of in een gecontroleerde kantooromgeving, elk interview wordt afgestemd op uw boodschap en communicatiedoelen.</p>
         </div>
         <div class="order-4 lg:order-4">
-          <img alt="Professionele camera en microfoon opstelling" class="w-full h-[25rem] object-cover rounded-[1.5rem] shadow-xl" src="../images/cam-en-mic.jpg" data-vibe-field="image_1">
+          <img alt="Professionele camera en microfoon opstelling" class="w-full h-[25rem] object-cover rounded-[1.5rem] shadow-xl" src="../images/cam-en-mic.jpg" data-vibe-field="image_1" loading="lazy" decoding="async">
         </div>
 
         <!-- Row 3: Image Left, Checkmark List & CTA Right -->
         <div class="order-6 lg:order-5">
-          <img alt="Videoproductieset voor zakelijk interview" class="w-full h-[25rem] object-cover rounded-[1.5rem] shadow-xl" src="../images/IMG_7721.jpg" data-vibe-field="image_2">
+          <img alt="Videoproductieset voor zakelijk interview" class="w-full h-[25rem] object-cover rounded-[1.5rem] shadow-xl" src="../images/IMG_7721.jpg" data-vibe-field="image_2" loading="lazy" decoding="async">
         </div>
         <div class="order-5 lg:order-6 space-y-6 lg:pl-6">
           <p class="font-bold text-[#121111] text-lg" data-vibe-field="text_2">Geschikt voor:</p>
@@ -596,7 +592,7 @@
         <!-- Card 1 -->
         <div class="flex flex-col space-y-6">
           <div class="w-full aspect-[378/325] overflow-hidden rounded-2xl shadow-md border border-gray-100">
-            <img alt="Betrouwbaarheid zakelijke video" class="w-full h-full object-cover" src="../images/CapitcalC_Content_FastElevateMedia_2026-3896.jpg" data-vibe-field="image">
+            <img alt="Betrouwbaarheid zakelijke video" class="w-full h-full object-cover" src="../images/CapitcalC_Content_FastElevateMedia_2026-3896.jpg" data-vibe-field="image" loading="lazy" decoding="async">
           </div>
           <h3 class="text-xl font-bold text-[#121111]" data-vibe-field="subtitle_1">Professionele zakelijke interviewproductie</h3>
           <p class="text-sm text-gray-600 leading-relaxed" data-vibe-field="description">De productie van zakelijke interviews vereiset meer dan alleen een camera. Het vereist ervaring, discretie en een gestructureerde uitvoering. Fast Elevate Media werkt naadloos binnen zakelijke omgevingen en legt directie-interviews en getuigenissen vast zonder uw dagelijkse activiteiten te verstoren.</p>
@@ -605,7 +601,7 @@
         <!-- Card 2 -->
         <div class="flex flex-col space-y-6">
           <div class="w-full aspect-[378/325] overflow-hidden rounded-2xl shadow-md border border-gray-100">
-            <img alt="Eenvoudige samenwerking" class="w-full h-full object-cover" src="../images/services/interviews-2.jpg" data-vibe-field="image_1">
+            <img alt="Eenvoudige samenwerking" class="w-full h-full object-cover" src="../images/services/interviews-2.jpg" data-vibe-field="image_1" loading="lazy" decoding="async">
           </div>
           <h3 class="text-xl font-bold text-[#121111]" data-vibe-field="subtitle_2">Eenvoudige samenwerking voor interviewprojecten</h3>
           <p class="text-sm text-gray-600 leading-relaxed" data-vibe-field="text_1">Klanten kiezen voor Fast Elevate Media vanwege onze naadloze samenwerking en professionele uitstraling. We zijn makkelijk om mee te werken, passen ons aan zakelijke agenda's aan en reageren flexibel op veranderende omstandigheden tijdens live-evenementen of in drukke directieomgevingen.</p>
@@ -614,7 +610,7 @@
         <!-- Card 3 -->
         <div class="flex flex-col space-y-6">
           <div class="w-full aspect-[378/325] overflow-hidden rounded-2xl shadow-md border border-gray-100">
-            <img alt="Schaalbare dekking" class="w-full h-full object-cover" src="../images/services/interviews-3.jpg" data-vibe-field="image_2">
+            <img alt="Schaalbare dekking" class="w-full h-full object-cover" src="../images/services/interviews-3.jpg" data-vibe-field="image_2" loading="lazy" decoding="async">
           </div>
           <h3 class="text-xl font-bold text-[#121111]" data-vibe-field="subtitle_3">Snelle levering van zakelijke interview- &amp; testimonialvideo's</h3>
           <p class="text-sm text-gray-600 leading-relaxed" data-vibe-field="text_2">Onze gestructureerde bewerkingsworkflow zorgt ervoor dat uw interviewcontent klaar is wanneer uw organisatie deze nodig heeft. De standaardlevering is binnen vier werkdagen. Prioriteitsleveringsopties zijn beschikbaar, inclusief geselecteerde clips die binnen 8 to 12 uur worden geleverd voor dringende bedrijfscommunicatie.</p>
@@ -800,7 +796,7 @@
     <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
       <!-- Left Column: Image -->
       <div class="w-full">
-        <img alt="Zakelijke Interviews &amp; Testimonials voor Teams &amp; Directie" class="w-full h-[18rem] md:h-[20rem] rounded-[1.5rem] object-cover shadow-lg" src="../images/Interview-Website-FEM.jpg" data-vibe-field="image">
+        <img alt="Zakelijke Interviews &amp; Testimonials voor Teams &amp; Directie" class="w-full h-[18rem] md:h-[20rem] rounded-[1.5rem] object-cover shadow-lg" src="../images/Interview-Website-FEM.jpg" data-vibe-field="image" loading="lazy" decoding="async">
       </div>
       <!-- Right Column: Content -->
       <div class="space-y-6">
@@ -915,7 +911,7 @@
       </div>
       <!-- Right Column: Image -->
       <div class="w-full order-1 md:order-2">
-        <img alt="Schaalbare zakelijke interviewsessies" class="w-full h-[18rem] md:h-[20rem] rounded-[1.5rem] object-cover shadow-lg" src="../images/SP8_4107-Enhanced-NR.jpg" data-vibe-field="image">
+        <img alt="Schaalbare zakelijke interviewsessies" class="w-full h-[18rem] md:h-[20rem] rounded-[1.5rem] object-cover shadow-lg" src="../images/SP8_4107-Enhanced-NR.jpg" data-vibe-field="image" loading="lazy" decoding="async">
       </div>
     </div>
   </section>
@@ -925,7 +921,7 @@
     <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
       <!-- Left Column: Image -->
       <div class="w-full">
-        <img alt="Sectoren die we ondersteunen" class="w-full h-[18rem] md:h-[20rem] rounded-[1.5rem] object-cover shadow-lg" src="../images/Briddge-kantoor.jpg" data-vibe-field="image">
+        <img alt="Sectoren die we ondersteunen" class="w-full h-[18rem] md:h-[20rem] rounded-[1.5rem] object-cover shadow-lg" src="../images/Briddge-kantoor.jpg" data-vibe-field="image" loading="lazy" decoding="async">
       </div>
       <!-- Right Column: Content -->
       <div class="space-y-6">
@@ -1017,12 +1013,10 @@
       <div class="space-y-4">
         <!-- FAQ 1 -->
         <div class="faq-item border border-gray-150 rounded-2xl bg-white overflow-hidden transition-all duration-300">
-          <button class="faq-button w-full px-6 py-5 flex items-center justify-between gap-4 text-left font-bold text-gray-800 text-lg hover:bg-gray-50 transition-colors" data-vibe-field="button_1">
-            <span>Waar nemen we zakelijke interviews en testimonials op?</span>
+          <button class="faq-button w-full px-6 py-5 flex items-center justify-between gap-4 text-left font-bold text-gray-800 text-lg hover:bg-gray-50 transition-colors" data-vibe-field="button_1"><span>Waar nemen we zakelijke interviews en testimonials op?</span>
             <svg class="faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
-            </svg>
-          </button>
+            </svg></button>
           <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
             <div class="px-6 pb-6 text-sm text-gray-600 leading-relaxed pt-2">
               We nemen interviews en testimonials op locatie op bij u op kantoor, op evenementenlocaties tijdens conferenties, of in gecontroleerde studio-omgevingen, afhankelijk van de projecteisen. Wij regelen alle logistiek en de opstelling.
@@ -1032,12 +1026,10 @@
 
         <!-- FAQ 2 -->
         <div class="faq-item border border-gray-150 rounded-2xl bg-white overflow-hidden transition-all duration-300">
-          <button class="faq-button w-full px-6 py-5 flex items-center justify-between gap-4 text-left font-bold text-gray-800 text-lg hover:bg-gray-50 transition-colors" data-vibe-field="button_2">
-            <span>Hoe lang duurt een typische interviewsessie?</span>
+          <button class="faq-button w-full px-6 py-5 flex items-center justify-between gap-4 text-left font-bold text-gray-800 text-lg hover:bg-gray-50 transition-colors" data-vibe-field="button_2"><span>Hoe lang duurt een typische interviewsessie?</span>
             <svg class="faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
-            </svg>
-          </button>
+            </svg></button>
           <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
             <div class="px-6 pb-6 text-sm text-gray-600 leading-relaxed pt-2">
               De opstelling van camera's, audio en belichting duurt ongeveer 30 tot 45 minuten. Het daadwerkelijke interviewgesprek duurt meestal tussen de 15 en 30 minuten per spreker.
@@ -1047,12 +1039,10 @@
 
         <!-- FAQ 3 -->
         <div class="faq-item border border-gray-150 rounded-2xl bg-white overflow-hidden transition-all duration-300">
-          <button class="faq-button w-full px-6 py-5 flex items-center justify-between gap-4 text-left font-bold text-gray-800 text-lg hover:bg-gray-50 transition-colors" data-vibe-field="button_3">
-            <span>Hoe gaan jullie om met de audiokwaliteit in luidruchtige omgevingen?</span>
+          <button class="faq-button w-full px-6 py-5 flex items-center justify-between gap-4 text-left font-bold text-gray-800 text-lg hover:bg-gray-50 transition-colors" data-vibe-field="button_3"><span>Hoe gaan jullie om met de audiokwaliteit in luidruchtige omgevingen?</span>
             <svg class="faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
-            </svg>
-          </button>
+            </svg></button>
           <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
             <div class="px-6 pb-6 text-sm text-gray-600 leading-relaxed pt-2">
               We maken gebruik van professionele draadloze dasspeldmicrofoons (lavalier) en directionele shotgun-microfoons. Voor luidruchtige omgevingen selecteren we de beste microfoons en passen we geavanceerde ruisonderdrukking toe in de post-productie.
@@ -1062,12 +1052,10 @@
 
         <!-- FAQ 4 -->
         <div class="faq-item border border-gray-150 rounded-2xl bg-white overflow-hidden transition-all duration-300">
-          <button class="faq-button w-full px-6 py-5 flex items-center justify-between gap-4 text-left font-bold text-gray-800 text-lg hover:bg-gray-50 transition-colors" data-vibe-field="button_4">
-            <span>Kunnen we onze eigen vragen aanleveren of helpen jullie deze te structureren?</span>
+          <button class="faq-button w-full px-6 py-5 flex items-center justify-between gap-4 text-left font-bold text-gray-800 text-lg hover:bg-gray-50 transition-colors" data-vibe-field="button_4"><span>Kunnen we onze eigen vragen aanleveren of helpen jullie deze te structureren?</span>
             <svg class="faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
-            </svg>
-          </button>
+            </svg></button>
           <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
             <div class="px-6 pb-6 text-sm text-gray-600 leading-relaxed pt-2">
               We werken met u samen om het verloop van het interview te structureren. We kunnen vooraf vragen opstellen of verfijnen om ervoor te zorgen dat de antwoorden van de spreker aansluiten bij uw belangrijkste bedrijfsboodschap.
@@ -1077,12 +1065,10 @@
 
         <!-- FAQ 5 -->
         <div class="faq-item border border-gray-150 rounded-2xl bg-white overflow-hidden transition-all duration-300">
-          <button class="faq-button w-full px-6 py-5 flex items-center justify-between gap-4 text-left font-bold text-gray-800 text-lg hover:bg-gray-50 transition-colors" data-vibe-field="button_5">
-            <span>Hoe worden de definitieve interviewvideo's geleverd?</span>
+          <button class="faq-button w-full px-6 py-5 flex items-center justify-between gap-4 text-left font-bold text-gray-800 text-lg hover:bg-gray-50 transition-colors" data-vibe-field="button_5"><span>Hoe worden de definitieve interviewvideo's geleverd?</span>
             <svg class="faq-chevron w-5 h-5 text-gray-500 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
-            </svg>
-          </button>
+            </svg></button>
           <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
             <div class="px-6 pb-6 text-sm text-gray-600 leading-relaxed pt-2">
               Video's worden geleverd via een privé, beveiligde galerij of downloadlink in gebruiksklare formaten. De standaardlevering is binnen 4 werkdagen en indien nodig is een prioritaire levering beschikbaar.
@@ -1177,7 +1163,7 @@
           </div>
           <!-- Logo -->
           <a href="./index.html" class="shrink-0 block">
-            <img alt="Fast Elevate Media Logo" class="h-6 object-contain opacity-90" src="../logo.png" data-vibe-field="image">
+            <img alt="Fast Elevate Media Logo" class="h-6 object-contain opacity-90" src="../logo.png" data-vibe-field="image" loading="lazy" decoding="async">
           </a>
         </div>
         
@@ -1203,7 +1189,7 @@
     </button>
     <!-- Centered Video Container -->
     <div class="max-w-5xl max-h-[85vh] w-full flex flex-col items-center justify-center relative">
-      <video id="lightbox-video" class="max-w-full max-h-[80vh] w-full object-contain rounded-lg border-2 border-white/10 shadow-2xl transition-all duration-300" controls="" autoplay="">
+      <video preload="metadata" id="lightbox-video" class="max-w-full max-h-[80vh] w-full object-contain rounded-lg border-2 border-white/10 shadow-2xl transition-all duration-300" controls="" autoplay="">
         <source src="" type="video/mp4">
       </video>
       <iframe id="lightbox-iframe" class="max-w-full max-h-[80vh] w-full aspect-video rounded-lg border-2 border-white/10 shadow-2xl hidden" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>

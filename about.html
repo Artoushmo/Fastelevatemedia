@@ -15,14 +15,15 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>About Us | Fast Elevate Media</title>
   <meta name="description" content="Fast Elevate Media is a corporate photography and video production agency based in Amsterdam. We help companies capture conferences and corporate events across Europe.">
-  <link rel="preload" href="./banner-video-fem-v3-about.mp4" as="video" type="video/mp4">
   <!-- Load Lexend Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
   <!-- Tailwind CSS v3 with Plugins -->
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   <!-- GSAP for Animations -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
   <script id="tailwind-config">
     tailwind.config = {
       darkMode: "class",
@@ -193,20 +194,18 @@
   <header class="bg-[#555555] text-white py-4 px-6 md:px-12 flex items-center justify-between sticky top-0 z-[100] shadow-md" data-vibe-section="Header">
     <div class="flex items-center gap-2" data-purpose="logo-container">
       <a href="./index.html">
-        <img alt="Fast Elevate Media Logo" class="h-10 object-contain" src="./logo.png" data-vibe-field="image">
+        <img alt="Fast Elevate Media Logo" class="h-10 object-contain" src="./logo.png" data-vibe-field="image" loading="lazy" decoding="async">
       </a>
     </div>
     <nav class="hidden md:flex items-center gap-8 font-semibold text-xs uppercase tracking-widest">
       <a class="hover:text-primary transition-colors " href="./index.html" data-vibe-field="link_2" data-vibe-link="link_2_url">Home</a>
       <div class="relative group">
-        <button class="flex items-center gap-1.5 hover:text-primary transition-colors uppercase font-semibold" data-vibe-field="button_1">
-          Services
+        <button class="flex items-center gap-1.5 hover:text-primary transition-colors uppercase font-semibold" data-vibe-field="button_1">Services
           <span class="inline-flex items-center justify-center w-4 h-4 rounded-full bg-white text-gray-800 ml-0.5">
             <svg class="w-2.5 h-2.5 stroke-current" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
             </svg>
-          </span>
-        </button>
+          </span></button>
         <div class="absolute top-full left-0 mt-4 w-[340px] bg-[#555555] text-white shadow-2xl rounded-2xl border border-white/10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 py-3 z-50">
           <ul class="text-sm">
                         <li>
@@ -286,8 +285,7 @@
     <div class="flex items-center gap-4">
       <!-- Language Selector Dropdown -->
       <div class="relative group hidden md:block">
-        <button class="flex items-center gap-1.5 hover:text-primary transition-colors focus:outline-none py-1" data-vibe-field="button_2">
-          <svg class="w-5 h-3.5 rounded-sm object-cover shrink-0" width="20" height="14" style="width:20px; height:14px; display:inline-block; vertical-align:middle; flex-shrink:0;" viewBox="0 0 7410 3900" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <button class="flex items-center gap-1.5 hover:text-primary transition-colors focus:outline-none py-1" data-vibe-field="button_2"><svg class="w-5 h-3.5 rounded-sm object-cover shrink-0" width="20" height="14" style="width:20px; height:14px; display:inline-block; vertical-align:middle; flex-shrink:0;" viewBox="0 0 7410 3900" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="7410" height="3900" fill="#B22234"></rect>
             <path d="M0 300H7410M0 900H7410M0 1500H7410M0 2100H7410M0 2700H7410M0 3300H7410" stroke="white" stroke-width="300"></path>
             <rect width="2964" height="2100" fill="#3C3B6E"></rect>
@@ -310,8 +308,7 @@
           <span class="text-xs font-bold uppercase tracking-wider">EN</span>
           <svg class="w-2.5 h-2.5 stroke-current opacity-60" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
-          </svg>
-        </button>
+          </svg></button>
         <div class="absolute right-0 top-full mt-2 w-40 bg-[#555555] text-white shadow-2xl rounded-xl border border-white/10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 py-1.5 z-[150]">
           <a href="#" class="px-4 py-2 flex items-center gap-3 hover:bg-white/5 transition-colors text-xs font-semibold text-primary">
             <svg class="w-5 h-3.5 rounded-sm object-cover shrink-0" width="20" height="14" style="width:20px; height:14px; display:inline-block; vertical-align:middle; flex-shrink:0;" viewBox="0 0 7410 3900" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -349,11 +346,9 @@
       <a href="./start.html" class="bg-primary text-white hover:bg-primary/95 transition-all px-6 py-2 rounded-full font-bold text-sm hidden md:inline-block" data-vibe-field="link_15" data-vibe-link="link_15_url">Get Started</a>
       
       <!-- Hamburger Menu Button -->
-      <button id="mobile-menu-toggle" class="md:hidden text-white p-2 focus:outline-none" aria-label="Open menu" data-vibe-field="button_3">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <button id="mobile-menu-toggle" class="md:hidden text-white p-2 focus:outline-none" aria-label="Open menu" data-vibe-field="button_3"><svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
-        </svg>
-      </button>
+        </svg></button>
     </div>
   </header>
   <!-- END: MainHeader -->
@@ -362,7 +357,7 @@
     <!-- Header inside Drawer -->
     <div class="flex items-center justify-between">
       <a href="./index.html">
-        <img alt="Fast Elevate Media Logo" class="h-10 object-contain" src="./logo.png">
+        <img alt="Fast Elevate Media Logo" class="h-10 object-contain" src="./logo.png" loading="lazy" decoding="async">
       </a>
       <button id="mobile-menu-close" class="text-white p-2 focus:outline-none" aria-label="Close menu">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -473,12 +468,10 @@
         <p class="text-sm md:text-base text-white/90 leading-relaxed max-w-[520px]" data-vibe-field="description">Fast Elevate Media is a corporate photography and video production agency based in Amsterdam. We help companies capture conferences, business events and corporate communication through high quality visual media.<br><br>Our team works with organizations across the Netherlands and Europe, producing corporate event photography, executive interviews, video production and professional headshots tailored to modern business communication.<br><br>By combining creative expertise with a structured production workflow, we ensure reliable execution, fast delivery and visual content ready for corporate websites, internal communication and global marketing teams. lets go test</p>
         <div class="flex flex-wrap gap-4 pt-4 justify-start">
           <a href="./start.html" class="bg-primary hover:bg-primary/95 text-white rounded-full px-8 py-3.5 font-bold text-sm transition-all shadow-lg hover:scale-105" data-vibe-field="link_1" data-vibe-link="link_1_url">Get Started</a>
-          <button id="showreel-trigger" class="border border-white hover:bg-white/10 text-white rounded-full px-8 py-3.5 font-bold text-sm transition-all flex items-center gap-2" data-vibe-field="button_1">
-            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <button id="showreel-trigger" class="border border-white hover:bg-white/10 text-white rounded-full px-8 py-3.5 font-bold text-sm transition-all flex items-center gap-2" data-vibe-field="button_1"><svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path d="M8 5v14l11-7z"></path>
             </svg>
-            View showreel
-          </button>
+            View showreel</button>
         </div>
       </div>
     </div>
@@ -550,7 +543,7 @@
         </div>
 
         <div class="w-full">
-          <img alt="Joshua Lach production photography" class="w-full h-[25rem] object-cover rounded-2xl shadow-xl border border-white/5" src="./images/Joshua-Lach.jpg" data-vibe-field="image">
+          <img alt="Joshua Lach production photography" class="w-full h-[25rem] object-cover rounded-2xl shadow-xl border border-white/5" src="./images/Joshua-Lach.jpg" data-vibe-field="image" loading="lazy" decoding="async">
         </div>
       </div>
     </div>
@@ -570,7 +563,7 @@
         
         <!-- Member 1 -->
         <div class="flex flex-col bg-gray-50 border border-gray-100 rounded-2xl overflow-hidden p-6 gap-6 shadow-sm">
-          <img alt="Charles Poorter" class="w-full aspect-[4/3] object-cover rounded-xl shadow-md" src="./images/Schermafbeelding-2026-03-15-om-17.39.23.jpg" data-vibe-field="image">
+          <img alt="Charles Poorter" class="w-full aspect-[4/3] object-cover rounded-xl shadow-md" src="./images/Schermafbeelding-2026-03-15-om-17.39.23.jpg" data-vibe-field="image" loading="lazy" decoding="async">
           <div class="space-y-1">
             <h4 class="text-lg font-bold text-[#121111]" data-vibe-field="subtitle_1">Charles Poorter</h4>
             <p class="text-xs text-primary font-semibold uppercase tracking-wider" data-vibe-field="text_1">Founder - Fast Elevate Media</p>
@@ -582,7 +575,7 @@
 
         <!-- Member 2 -->
         <div class="flex flex-col bg-gray-50 border border-gray-100 rounded-2xl overflow-hidden p-6 gap-6 shadow-sm">
-          <img alt="Laurien" class="w-full aspect-[4/3] object-cover rounded-xl shadow-md" src="./images/laurien-executive-assistant-fast-elevate-media.jpg" data-vibe-field="image_1">
+          <img alt="Laurien" class="w-full aspect-[4/3] object-cover rounded-xl shadow-md" src="./images/laurien-executive-assistant-fast-elevate-media.jpg" data-vibe-field="image_1" loading="lazy" decoding="async">
           <div class="space-y-1">
             <h4 class="text-lg font-bold text-[#121111]" data-vibe-field="subtitle_2">Laurien</h4>
             <p class="text-xs text-primary font-semibold uppercase tracking-wider" data-vibe-field="text_3">Executive Assistant - Fast Elevate Media</p>
@@ -595,7 +588,7 @@
         <!-- Member 3 -->
         <div class="flex flex-col bg-gray-50 border border-gray-100 rounded-2xl overflow-hidden p-6 gap-6 shadow-sm">
           <div class="w-full aspect-[4/3] rounded-xl overflow-hidden shadow-md">
-            <img alt="Kores" class="w-full h-full object-cover" style="transform: scale(1.3); transform-origin: 50% 85%;" src="./images/kores-developer-fast-elevate-media.jpg" data-vibe-field="image_2">
+            <img alt="Kores" class="w-full h-full object-cover" style="transform: scale(1.3); transform-origin: 50% 85%;" src="./images/kores-developer-fast-elevate-media.jpg" data-vibe-field="image_2" loading="lazy" decoding="async">
           </div>
           <div class="space-y-1">
             <h4 class="text-lg font-bold text-[#121111]" data-vibe-field="subtitle_3">Kores</h4>
@@ -608,7 +601,7 @@
 
         <!-- Member 4 -->
         <div class="flex flex-col bg-gray-50 border border-gray-100 rounded-2xl overflow-hidden p-6 gap-6 shadow-sm">
-          <img alt="Giuseppe" class="w-full aspect-[4/3] object-cover rounded-xl shadow-md" src="./giuseppe.png" data-vibe-field="image_3">
+          <img alt="Giuseppe" class="w-full aspect-[4/3] object-cover rounded-xl shadow-md" src="./giuseppe.png" data-vibe-field="image_3" loading="lazy" decoding="async">
           <div class="space-y-1">
             <h4 class="text-lg font-bold text-[#121111]" data-vibe-field="subtitle_4">Giuseppe</h4>
             <p class="text-xs text-primary font-semibold uppercase tracking-wider" data-vibe-field="text_7">Photo/Videographer - Fast Elevate Media Network</p>
@@ -620,7 +613,7 @@
 
         <!-- Member 5 -->
         <div class="flex flex-col bg-gray-50 border border-gray-100 rounded-2xl overflow-hidden p-6 gap-6 shadow-sm">
-          <img alt="Joshua" class="w-full aspect-[4/3] object-cover rounded-xl shadow-md" src="./images/SP9_20.jpg" data-vibe-field="image_4">
+          <img alt="Joshua" class="w-full aspect-[4/3] object-cover rounded-xl shadow-md" src="./images/SP9_20.jpg" data-vibe-field="image_4" loading="lazy" decoding="async">
           <div class="space-y-1">
             <h4 class="text-lg font-bold text-[#121111]" data-vibe-field="subtitle_5">Joshua</h4>
             <p class="text-xs text-primary font-semibold uppercase tracking-wider" data-vibe-field="text_9">Photo/Videographer - Fast Elevate Media Network</p>
@@ -632,7 +625,7 @@
 
         <!-- Member 6 -->
         <div class="flex flex-col bg-gray-50 border border-gray-100 rounded-2xl overflow-hidden p-6 gap-6 shadow-sm">
-          <img alt="Julian" class="w-full aspect-[4/3] object-cover rounded-xl shadow-md" style="object-position: center 15%;" src="./images/Julian.jpg" data-vibe-field="image_5">
+          <img alt="Julian" class="w-full aspect-[4/3] object-cover rounded-xl shadow-md" style="object-position: center 15%;" src="./images/Julian.jpg" data-vibe-field="image_5" loading="lazy" decoding="async">
           <div class="space-y-1">
             <h4 class="text-lg font-bold text-[#121111]" data-vibe-field="subtitle_6">Julian</h4>
             <p class="text-xs text-primary font-semibold uppercase tracking-wider" data-vibe-field="text_11">Videographer - Fast Elevate Media Network</p>
@@ -875,7 +868,7 @@
           </div>
           <!-- Logo -->
           <a href="./index.html" class="shrink-0 block">
-            <img alt="Fast Elevate Media Logo" class="h-6 object-contain opacity-90" src="./logo.png" data-vibe-field="image">
+            <img alt="Fast Elevate Media Logo" class="h-6 object-contain opacity-90" src="./logo.png" data-vibe-field="image" loading="lazy" decoding="async">
           </a>
         </div>
         
@@ -893,7 +886,7 @@
     </button>
     <!-- Centered Video Container -->
     <div class="max-w-5xl max-h-[85vh] w-full flex flex-col items-center justify-center relative">
-      <video id="lightbox-video" class="max-w-full max-h-[80vh] w-full object-contain rounded-lg border-2 border-white/10 shadow-2xl transition-all duration-300" controls="" autoplay="">
+      <video preload="metadata" id="lightbox-video" class="max-w-full max-h-[80vh] w-full object-contain rounded-lg border-2 border-white/10 shadow-2xl transition-all duration-300" controls="" autoplay="">
         <source src="" type="video/mp4">
       </video>
       <p id="lightbox-caption" class="text-white/60 text-xs mt-4 uppercase tracking-widest font-semibold"></p>
