@@ -414,6 +414,7 @@
     var pixel = String(a.metaPixelId || "").trim();
     var linkedIn = String(a.linkedInPartnerId || "").trim();
     var plausible = String(a.plausibleDomain || "").trim();
+    var clarity = String(a.clarityProjectId || "").trim();
 
     if (ga4) {
       window.dataLayer = window.dataLayer || [];
@@ -454,6 +455,14 @@
       script.setAttribute("data-domain", plausible);
       script.setAttribute("data-sbp-analytics", "plausible");
       document.head.appendChild(script);
+    }
+    if (clarity) {
+      // Officiële Clarity-snippet: de wachtrij-functie moet al bestaan vóór
+      // het echte script laadt, anders gaan de eerste paar events verloren.
+      window.clarity = window.clarity || function () {
+        (window.clarity.q = window.clarity.q || []).push(arguments);
+      };
+      injectScriptOnce("clarity", "https://www.clarity.ms/tag/" + encodeURIComponent(clarity));
     }
   }
 
