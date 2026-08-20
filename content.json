@@ -7021,11 +7021,13 @@
   },
   "__config": {
     "analytics": {
-      "ga4MeasurementId": "",
       "gtmId": "",
       "metaPixelId": "",
+      "plausibleDomain": "",
+      "clarityProjectId": "y5imsi4l3n",
+      "ga4MeasurementId": "",
       "linkedInPartnerId": "",
-      "plausibleDomain": ""
+      "searchConsoleProperty": "sc-domain:fastelevatemedia.com"
     }
   }
 }
