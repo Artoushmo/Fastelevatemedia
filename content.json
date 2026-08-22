@@ -7020,13 +7020,12 @@
   },
   "__config": {
     "analytics": {
+      "ga4MeasurementId": "",
       "gtmId": "",
       "metaPixelId": "",
-      "plausibleDomain": "",
-      "clarityProjectId": "y5imsi4l3n",
-      "ga4MeasurementId": "",
       "linkedInPartnerId": "",
-      "searchConsoleProperty": "sc-domain:fastelevatemedia.com"
+      "plausibleDomain": "",
+      "clarityProjectId": "y5imsi4l3n"
     }
   }
 }
