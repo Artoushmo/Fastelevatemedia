@@ -729,14 +729,20 @@
           }
 
           const formData = new FormData(form);
+          formData.append('_subject', 'New Project Request - Fast Elevate Media');
+          formData.append('_template', 'table');
+          formData.append('_captcha', 'false');
 
-          // Send data to Netlify via AJAX (automatically handles multipart/form-data for file upload)
-          fetch(window.location.pathname, {
+          fetch("https://formsubmit.co/ajax/info@fastelevatemedia.com", {
             method: "POST",
+            headers: {
+              "Accept": "application/json"
+            },
             body: formData
           })
-          .then(response => {
-            if (response.ok) {
+          .then(response => response.json())
+          .then(data => {
+            if (data.success === "true" || data.success === true || (data.message && data.message.includes("Activation"))) {
               errorMsg.classList.add('hidden');
               successMsg.classList.remove('hidden');
               form.reset();
@@ -750,11 +756,12 @@
                 successMsg.classList.add('hidden');
               }, 10000);
             } else {
-              throw new Error(`Server responded with status ${response.status}`);
+              throw new Error(data.message || "Form submission failed");
             }
           })
           .catch(error => {
             console.error("Form submission error:", error);
+            errorMsg.textContent = "Something went wrong. Please check the fields and try again or contact us directly at info@fastelevatemedia.com.";
             errorMsg.classList.remove('hidden');
             successMsg.classList.add('hidden');
           })
