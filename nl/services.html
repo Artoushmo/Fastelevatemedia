@@ -23,8 +23,24 @@
   <!-- Tailwind CSS v3 with Plugins -->
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   <!-- GSAP for Animations -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer=""></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer=""></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" ></script>
+  <script>
+    /* SBP gsap-terugval — zonder dit sleept een wegvallende gsap de
+       galerij-lightbox mee: die staat in hetzelfde script-blok, dat dan op
+       zijn eerste regel afbreekt. De animaties vervallen, de kliks niet. */
+    if (!window.gsap) {
+      var sbpNoop = function () { return sbpNoop; };
+      var sbpTween = { to: sbpNoop, from: sbpNoop, fromTo: sbpNoop, set: sbpNoop, add: sbpNoop };
+      window.gsap = {
+        registerPlugin: sbpNoop, to: sbpNoop, from: sbpNoop, fromTo: sbpNoop,
+        set: sbpNoop, killTweensOf: sbpNoop, getProperty: sbpNoop,
+        timeline: function () { return sbpTween; },
+        utils: { toArray: function (v) { return Array.prototype.slice.call(document.querySelectorAll(v)); } }
+      };
+      window.ScrollTrigger = window.ScrollTrigger || { refresh: sbpNoop, create: sbpNoop, getAll: function () { return []; } };
+    }
+  </script>
   <script id="tailwind-config">
     tailwind.config = {
       darkMode: "class",
