@@ -17,12 +17,13 @@
   'use strict';
 
   // ─── CONFIG — Active Google Tracking IDs ────────────────────────────────────
-  var GA4_ID              = 'G-3TLEN3QWQQ';   // Google Analytics 4 Measurement ID
-  var GTM_ID              = 'GTM-5NLRP86C';   // Google Tag ID
-  var GADS_ID             = 'AW-XXXXXXXXXX';  // Optional direct Google Ads ID (or linked via GA4/GTM)
-  var GADS_LEAD_LABEL     = 'XXXXXXXXXXXX';   // Conversion label for Project Intake / Start Form
-  var GADS_CONTACT_LABEL  = 'YYYYYYYYYYYY';   // Conversion label for Contact Form
-  var GADS_WHATSAPP_LABEL = 'ZZZZZZZZZZZZ';   // Conversion label for WhatsApp / Phone Clicks
+  var GA4_ID              = 'G-3TLEN3QWQQ';     // Google Analytics 4 Measurement ID
+  var GTM_ID              = 'GTM-5NLRP86C';     // Google Tag Manager Container ID
+  var GT_ID               = 'GT-K5LB3GKF';      // Google Tag ID
+  var GADS_ID             = 'AW-18444604940';   // Google Ads Conversion ID
+  var GADS_LEAD_LABEL     = 'XXXXXXXXXXXX';     // Optional Conversion label for Project Intake / Start Form
+  var GADS_CONTACT_LABEL  = 'YYYYYYYYYYYY';     // Optional Conversion label for Contact Form
+  var GADS_WHATSAPP_LABEL = 'ZZZZZZZZZZZZ';     // Optional Conversion label for WhatsApp / Phone Clicks
   // ────────────────────────────────────────────────────────────────────────────
 
   var STORAGE_KEY = 'fem_cookie_consent';
@@ -107,6 +108,10 @@
       document.head.appendChild(s);
       gtag('js', new Date());
       gtag('config', GA4_ID, { anonymize_ip: true });
+      if (GT_ID) gtag('config', GT_ID);
+      if (GADS_ID && GADS_ID.indexOf('XXXXXXXXXX') === -1) {
+        gtag('config', GADS_ID, { allow_enhanced_conversions: true });
+      }
     }
     if (!document.getElementById('fem-gtm-base') && GTM_ID && GTM_ID.indexOf('XXXXXXXXXX') === -1) {
       var gtmScript = document.createElement('script');
