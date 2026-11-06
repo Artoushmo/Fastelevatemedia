@@ -17,11 +17,15 @@
   'use strict';
 
   // ─── CONFIG — Replace with real tracking IDs ────────────────────────────────
-  var GA4_ID  = 'G-XXXXXXXXXX';   // Replace with your Google Analytics 4 ID
-  var GADS_ID = 'AW-XXXXXXXXXX';  // Replace with your Google Ads Conversion ID
+  var GA4_ID              = 'G-XXXXXXXXXX';   // Replace with your Google Analytics 4 ID
+  var GADS_ID             = 'AW-XXXXXXXXXX';  // Replace with your Google Ads Conversion ID
+  var GADS_LEAD_LABEL     = 'XXXXXXXXXXXX';   // Conversion label for Project Intake / Start Form
+  var GADS_CONTACT_LABEL  = 'YYYYYYYYYYYY';   // Conversion label for Contact Form
+  var GADS_WHATSAPP_LABEL = 'ZZZZZZZZZZZZ';   // Conversion label for WhatsApp / Phone Clicks
   // ────────────────────────────────────────────────────────────────────────────
 
   var STORAGE_KEY = 'fem_cookie_consent';
+  var ATTR_KEY    = 'fem_ad_attribution';
   var COOKIE_POLICY_URL = (window.location.pathname.indexOf('/nl/') === 0)
     ? './cookies.html'
     : (window.location.pathname.indexOf('/nl') === 0 && window.location.pathname.length <= 4)
@@ -77,6 +81,49 @@
 
   var t = isNL ? labels.nl : labels.en;
 
+  // ─── Initialize Google Consent Mode v2 (Default Denied) ─────────────────────
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { window.dataLayer.push(arguments); }
+  window.gtag = window.gtag || gtag;
+
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied',
+    'wait_for_update': 500
+  });
+  gtag('set', 'ads_data_redaction', true);
+  gtag('set', 'url_passthrough', true);
+
+  // ─── Capture Ad Attribution (GCLID & UTM parameters) ────────────────────────
+  function captureAttribution() {
+    try {
+      var params = new URLSearchParams(window.location.search);
+      var keys = ['gclid', 'gbraid', 'wbraid', 'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'];
+      var stored = JSON.parse(sessionStorage.getItem(ATTR_KEY) || '{}');
+      var updated = false;
+      keys.forEach(function (k) {
+        if (params.get(k)) {
+          stored[k] = params.get(k);
+          updated = true;
+        }
+      });
+      if (!stored.landing_page) {
+        stored.landing_page = window.location.pathname;
+        updated = true;
+      }
+      if (updated) {
+        sessionStorage.setItem(ATTR_KEY, JSON.stringify(stored));
+      }
+    } catch (e) {}
+  }
+  captureAttribution();
+
+  window.getFemAttribution = function () {
+    try { return JSON.parse(sessionStorage.getItem(ATTR_KEY) || '{}'); } catch (e) { return {}; }
+  };
+
   // ─── Consent storage helpers ─────────────────────────────────────────────────
   function getConsent() {
     try { return JSON.parse(localStorage.getItem(STORAGE_KEY)); } catch (e) { return null; }
@@ -88,34 +135,92 @@
     return consent;
   }
 
-  // ─── Load Google tracking scripts ────────────────────────────────────────────
-  function loadGA4() {
-    if (document.getElementById('fem-ga4-script')) return;
+  // ─── Load Google tracking scripts & Update Consent Mode v2 ──────────────────
+  function ensureGtagScript(id) {
+    if (!id || id.indexOf('XXXXXXXXXX') !== -1) return;
+    if (document.getElementById('fem-gtag-base')) return;
     var s = document.createElement('script');
-    s.id = 'fem-ga4-script';
+    s.id = 'fem-gtag-base';
     s.async = true;
-    s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA4_ID;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=' + id;
     document.head.appendChild(s);
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { window.dataLayer.push(arguments); }
-    window.gtag = gtag;
     gtag('js', new Date());
-    gtag('config', GA4_ID, { anonymize_ip: true });
-  }
-
-  function loadGAds() {
-    if (document.getElementById('fem-gads-script')) return;
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { window.dataLayer.push(arguments); }
-    window.gtag = gtag;
-    gtag('config', GADS_ID);
-    gtag('event', 'conversion', { send_to: GADS_ID });
   }
 
   function applyConsent(consent) {
-    if (consent.analytics)    loadGA4();
-    if (consent.advertising)  loadGAds();
+    gtag('consent', 'update', {
+      'analytics_storage': consent.analytics ? 'granted' : 'denied',
+      'ad_storage': consent.advertising ? 'granted' : 'denied',
+      'ad_user_data': consent.advertising ? 'granted' : 'denied',
+      'ad_personalization': consent.advertising ? 'granted' : 'denied'
+    });
+
+    if (consent.analytics && GA4_ID.indexOf('XXXXXXXXXX') === -1) {
+      ensureGtagScript(GA4_ID);
+      gtag('config', GA4_ID, { anonymize_ip: true });
+    }
+
+    if (consent.advertising && GADS_ID.indexOf('XXXXXXXXXX') === -1) {
+      ensureGtagScript(GADS_ID);
+      gtag('config', GADS_ID, { allow_enhanced_conversions: true });
+    }
   }
+
+  // ─── Global Conversion Tracking Helper (Forms, WhatsApp, Tel, Mailto) ───────
+  window.trackFemConversion = function (type, meta) {
+    meta = meta || {};
+    try {
+      // Push to dataLayer for Google Tag Manager / GA4
+      window.dataLayer.push({
+        event: 'fem_conversion',
+        conversion_type: type,
+        page_path: window.location.pathname,
+        page_lang: isNL ? 'nl' : 'en',
+        user_email: meta.email || undefined,
+        user_phone: meta.phone || undefined
+      });
+
+      // Fire GA4 Event
+      if (typeof window.gtag === 'function') {
+        var eventName = type === 'intake_form' ? 'generate_lead' : (type === 'contact_form' ? 'contact_lead' : 'click_' + type);
+        window.gtag('event', eventName, {
+          event_category: 'engagement',
+          event_label: window.location.pathname,
+          value: type === 'intake_form' ? 150 : (type === 'contact_form' ? 50 : 10),
+          currency: 'EUR'
+        });
+
+        // Fire Google Ads Conversion if configured
+        if (GADS_ID.indexOf('XXXXXXXXXX') === -1) {
+          var label = type === 'intake_form' ? GADS_LEAD_LABEL : (type === 'contact_form' ? GADS_CONTACT_LABEL : GADS_WHATSAPP_LABEL);
+          if (label && label.indexOf('XXXX') === -1 && label.indexOf('YYYY') === -1 && label.indexOf('ZZZZ') === -1) {
+            if (meta.email) {
+              window.gtag('set', 'user_data', { email: meta.email, phone_number: meta.phone || undefined });
+            }
+            window.gtag('event', 'conversion', {
+              'send_to': GADS_ID + '/' + label,
+              'value': type === 'intake_form' ? 150.0 : 50.0,
+              'currency': 'EUR'
+            });
+          }
+        }
+      }
+    } catch (e) {}
+  };
+
+  // Auto-track clicks on WhatsApp, telephone, and email links across all pages
+  document.addEventListener('click', function (e) {
+    var link = e.target && e.target.closest ? e.target.closest('a[href]') : null;
+    if (!link) return;
+    var href = link.getAttribute('href') || '';
+    if (href.indexOf('whatsapp.com') !== -1 || href.indexOf('wa.me') !== -1) {
+      window.trackFemConversion('whatsapp');
+    } else if (href.indexOf('tel:') === 0) {
+      window.trackFemConversion('phone');
+    } else if (href.indexOf('mailto:') === 0) {
+      window.trackFemConversion('email');
+    }
+  });
 
   // ─── CSS styles ──────────────────────────────────────────────────────────────
   var css = `

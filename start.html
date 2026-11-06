@@ -733,6 +733,14 @@
           formData.append('_template', 'table');
           formData.append('_captcha', 'false');
 
+          if (window.getFemAttribution) {
+            const attr = window.getFemAttribution();
+            Object.keys(attr).forEach(k => formData.append('ad_' + k, attr[k]));
+          }
+
+          const leadEmail = (document.getElementById('email') || {}).value || '';
+          const leadPhone = (document.getElementById('phone') || {}).value || '';
+
           fetch("https://formsubmit.co/ajax/info@fastelevatemedia.com", {
             method: "POST",
             headers: {
@@ -743,6 +751,9 @@
           .then(response => response.json())
           .then(data => {
             if (data.success === "true" || data.success === true || (data.message && data.message.includes("Activation"))) {
+              if (window.trackFemConversion) {
+                window.trackFemConversion('intake_form', { email: leadEmail.trim(), phone: leadPhone.trim() });
+              }
               errorMsg.classList.add('hidden');
               successMsg.classList.remove('hidden');
               form.reset();
