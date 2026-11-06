@@ -16,9 +16,10 @@
 (function () {
   'use strict';
 
-  // ─── CONFIG — Replace with real tracking IDs ────────────────────────────────
-  var GA4_ID              = 'G-XXXXXXXXXX';   // Replace with your Google Analytics 4 ID
-  var GADS_ID             = 'AW-XXXXXXXXXX';  // Replace with your Google Ads Conversion ID
+  // ─── CONFIG — Active Google Tracking IDs ────────────────────────────────────
+  var GA4_ID              = 'G-3TLEN3QWQQ';   // Google Analytics 4 Measurement ID
+  var GTM_ID              = 'GTM-5NLRP86C';   // Google Tag ID
+  var GADS_ID             = 'AW-XXXXXXXXXX';  // Optional direct Google Ads ID (or linked via GA4/GTM)
   var GADS_LEAD_LABEL     = 'XXXXXXXXXXXX';   // Conversion label for Project Intake / Start Form
   var GADS_CONTACT_LABEL  = 'YYYYYYYYYYYY';   // Conversion label for Contact Form
   var GADS_WHATSAPP_LABEL = 'ZZZZZZZZZZZZ';   // Conversion label for WhatsApp / Phone Clicks
@@ -95,6 +96,27 @@
   });
   gtag('set', 'ads_data_redaction', true);
   gtag('set', 'url_passthrough', true);
+
+  // Load Google Tag / GTM container with Consent Mode v2 active
+  function initGoogleBaseTags() {
+    if (!document.getElementById('fem-gtag-base') && GA4_ID && GA4_ID.indexOf('XXXXXXXXXX') === -1) {
+      var s = document.createElement('script');
+      s.id = 'fem-gtag-base';
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA4_ID;
+      document.head.appendChild(s);
+      gtag('js', new Date());
+      gtag('config', GA4_ID, { anonymize_ip: true });
+    }
+    if (!document.getElementById('fem-gtm-base') && GTM_ID && GTM_ID.indexOf('XXXXXXXXXX') === -1) {
+      var gtmScript = document.createElement('script');
+      gtmScript.id = 'fem-gtm-base';
+      gtmScript.async = true;
+      gtmScript.src = 'https://www.googletagmanager.com/gtm.js?id=' + GTM_ID;
+      document.head.appendChild(gtmScript);
+    }
+  }
+  initGoogleBaseTags();
 
   // ─── Capture Ad Attribution (GCLID & UTM parameters) ────────────────────────
   function captureAttribution() {
