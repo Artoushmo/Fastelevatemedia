@@ -373,19 +373,23 @@
         "gallery": [
           {
             "url": "./images/DSC_4326-Verbeterd-NR-2.jpg",
-            "alt": "Corporate event photography production"
+            "alt": "Corporate event photography production",
+            "caption": "GBG Rai Amsterdam"
           },
           {
             "url": "./images/DSC_4998-Verbeterd-NR.jpg",
-            "alt": "Audience engagement conference photography"
+            "alt": "Audience engagement conference photography",
+            "caption": "GBG Magician"
           },
           {
             "url": "./images/NZ3_9428-Verbeterd-NR.jpg",
-            "alt": "Corporate event photography summit"
+            "alt": "Corporate event photography summit",
+            "caption": "War Room event"
           },
           {
             "url": "./images/Joshua_Statie03.jpg",
-            "alt": "Executive portrait photography"
+            "alt": "Executive portrait photography",
+            "caption": "Oracle Event"
           },
           {
             "url": "./images/DSC_9147.jpg",
@@ -393,7 +397,8 @@
           },
           {
             "url": "./images/DSC_0963.jpg",
-            "alt": "Corporate event panel discussion"
+            "alt": "Corporate event panel discussion",
+            "caption": "Rb2 Event"
           },
           {
             "url": "./images/gallery-prosus-1.jpg",
@@ -401,19 +406,27 @@
           },
           {
             "url": "./images/2025-10-30-Architect-at-Work-by-Daan-Jeurens-Websized-21.jpg",
-            "alt": "Architect at Work event production"
+            "alt": "Architect at Work event production",
+            "caption": "GBG Venue Amsterdam Rai"
           },
           {
             "url": "./images/DSC_9824-Verbeterd-NR.jpg",
-            "alt": "Corporate exhibition event photography"
+            "alt": "Corporate exhibition event photography",
+            "caption": "Prince Willem Alexander"
           },
           {
             "url": "./images/gallery-prosus-2.jpg",
-            "alt": "Main stage panel discussion photography"
+            "alt": "Main stage panel discussion photography",
+            "caption": "Last Mile Leaders Speaker Portrait"
           },
           {
             "url": "./images/DSC_1964.jpg",
-            "alt": "Audience reaction event coverage"
+            "alt": "Audience reaction event coverage",
+            "caption": "Last Mile Leaders "
+          },
+          {
+            "url": "https://rqvmjtdgwaizlgnfhptn.supabase.co/storage/v1/object/public/portfolio-media/sites/1bd48132-1f8a-401a-8699-7e529491c30b/media/1793994253493-50jlttimdul.jpg",
+            "caption": "ING Event "
           }
         ],
         "image": "./images/DSC_4326-Verbeterd-NR-2.jpg",
@@ -626,6 +639,10 @@
             "clip": "./images/GBG-x-RayBan.mp4#t=5",
             "videoUrl": "https://vimeo.com/1203179064",
             "caption": "Corporate Brand Collaboration Video"
+          },
+          {
+            "caption": "",
+            "videoUrl": "https://vimeo.com/1244383265"
           }
         ]
       },
