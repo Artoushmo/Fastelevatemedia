@@ -3,5 +3,15 @@ Thumbs.db
 node_modules/
 dist/
 .env
+.env.*
 *.log
 .vercel
+.local_private_backup/
+scratch/
+images/Financieel/
+wordpress.json
+query_details.txt
+structure_summary.txt
+extracted_styles.json
+nl_text_replacements_raw.md
+image_urls.txt

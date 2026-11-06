@@ -29,7 +29,15 @@
 
   var params = new URLSearchParams(window.location.search);
   var IS_EDITOR_MODE = params.get("vibeEditor") === "1" || params.get("sbpEditor") === "1";
-  var PARENT_ORIGIN = params.get("vibeOrigin") || params.get("sbpOrigin") || "*";
+  var RAW_ORIGIN = params.get("vibeOrigin") || params.get("sbpOrigin") || "";
+
+  function isTrustedEditorOrigin(origin) {
+    if (!origin || typeof origin !== "string") return false;
+    return /^https:\/\/([a-z0-9-]+\.)*(snapbuildstudio\.com|fastelevatemedia\.com|vercel\.app)$/i.test(origin) ||
+           /^http:\/\/localhost(:\d+)?$/i.test(origin);
+  }
+
+  var PARENT_ORIGIN = isTrustedEditorOrigin(RAW_ORIGIN) ? RAW_ORIGIN : "https://portal.snapbuildstudio.com";
 
   // --- Pagina en taal bepalen --------------------------------------------
 
@@ -49,18 +57,33 @@
 
   // --- Waarden toepassen -------------------------------------------------
 
+  function sanitizeHtml(raw) {
+    return String(raw)
+      .replace(/<\s*(script|iframe|object|embed|applet|meta|link|base)\b[^>]*>[\s\S]*?<\s*\/\s*\1\s*>/gi, "")
+      .replace(/<\s*(script|iframe|object|embed|applet|meta|link|base)\b[^>]*\/?>/gi, "")
+      .replace(/\son[a-z]+\s*=\s*(?:"[^"]*"|'[^']*'|[^\s>]+)/gi, "")
+      .replace(/(href|src|action)\s*=\s*(?:"\s*javascript:[^"]*"|'\s*javascript:[^']*'|javascript:[^\s>]+)/gi, "");
+  }
+
+  function isSafeUrl(url) {
+    if (!url || typeof url !== "string") return false;
+    var trimmed = url.trim();
+    if (/^(javascript|data|vbscript):/i.test(trimmed)) return false;
+    return true;
+  }
+
   function setText(node, value) {
     if (value == null) return;
     if (node instanceof HTMLInputElement || node instanceof HTMLTextAreaElement) {
       node.value = String(value);
       return;
     }
-    node.innerHTML = String(value);
+    node.innerHTML = sanitizeHtml(value);
   }
 
   function setImage(node, value) {
     var url = typeof value === "string" ? value : value && value.url;
-    if (!url) return;
+    if (!url || !isSafeUrl(url)) return;
     if (node instanceof HTMLImageElement) {
       node.src = url;
       return;
@@ -70,7 +93,7 @@
       nested.src = url;
       return;
     }
-    node.style.backgroundImage = 'url("' + url + '")';
+    node.style.backgroundImage = 'url("' + url.replace(/["\\]/g, "") + '")';
   }
 
   /**
@@ -593,7 +616,7 @@
 
     window.addEventListener("message", function (event) {
       if (event.source !== window.parent) return;
-      if (PARENT_ORIGIN !== "*" && event.origin !== PARENT_ORIGIN) return;
+      if (!isTrustedEditorOrigin(event.origin)) return;
       var msg = event.data;
       if (!msg || typeof msg !== "object") return;
 
