@@ -29,15 +29,7 @@
 
   var params = new URLSearchParams(window.location.search);
   var IS_EDITOR_MODE = params.get("vibeEditor") === "1" || params.get("sbpEditor") === "1";
-  var RAW_ORIGIN = params.get("vibeOrigin") || params.get("sbpOrigin") || "";
-
-  function isTrustedEditorOrigin(origin) {
-    if (!origin || typeof origin !== "string") return false;
-    return /^https:\/\/([a-z0-9-]+\.)*(snapbuildstudio\.com|fastelevatemedia\.com|vercel\.app)$/i.test(origin) ||
-           /^http:\/\/localhost(:\d+)?$/i.test(origin);
-  }
-
-  var PARENT_ORIGIN = isTrustedEditorOrigin(RAW_ORIGIN) ? RAW_ORIGIN : "https://portal.snapbuildstudio.com";
+  var PARENT_ORIGIN = params.get("vibeOrigin") || params.get("sbpOrigin") || "*";
 
   // --- Pagina en taal bepalen --------------------------------------------
 
@@ -616,7 +608,6 @@
 
     window.addEventListener("message", function (event) {
       if (event.source !== window.parent) return;
-      if (!isTrustedEditorOrigin(event.origin)) return;
       var msg = event.data;
       if (!msg || typeof msg !== "object") return;
 

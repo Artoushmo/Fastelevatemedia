@@ -649,8 +649,19 @@
             "caption": "Corporate Brand Collaboration Video"
           },
           {
-            "caption": "",
-            "videoUrl": "https://vimeo.com/1244383265"
+            "url": "./images/video-thumbs/vimeo-1244383265.jpg",
+            "videoUrl": "https://vimeo.com/1244383265",
+            "caption": "Fusion Forward Corporate Event Interviews"
+          },
+          {
+            "url": "./images/video-thumbs/vimeo-1244384958.jpg",
+            "videoUrl": "https://vimeo.com/1244384958",
+            "caption": "Executive Conference Interview – BCi Digital"
+          },
+          {
+            "url": "./images/video-thumbs/vimeo-1244385829.jpg",
+            "videoUrl": "https://vimeo.com/1244385829",
+            "caption": "Specsavers Clinical Conference Highlights & Interviews"
           }
         ]
       },
@@ -3780,6 +3791,21 @@
             "clip": "../images/GBG-x-RayBan.mp4#t=5",
             "videoUrl": "https://vimeo.com/1203179064",
             "caption": "Zakelijke merksamenwerkingsvideo"
+          },
+          {
+            "url": "../images/video-thumbs/vimeo-1244383265.jpg",
+            "videoUrl": "https://vimeo.com/1244383265",
+            "caption": "Fusion Forward Zakelijke Evenementinterviews"
+          },
+          {
+            "url": "../images/video-thumbs/vimeo-1244384958.jpg",
+            "videoUrl": "https://vimeo.com/1244384958",
+            "caption": "Zakelijk Congresinterview – BCi Digital"
+          },
+          {
+            "url": "../images/video-thumbs/vimeo-1244385829.jpg",
+            "videoUrl": "https://vimeo.com/1244385829",
+            "caption": "Specsavers Clinical Conference Highlights & Interviews"
           }
         ]
       },
